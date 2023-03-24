@@ -1,0 +1,16 @@
+{
+  "title": "Market Makers",
+  "description": "An introduction for Market Makers",
+  "slug": "/category/market-makers-1",
+  "permalink": "/docs/category/market-makers-1",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/market-makers/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/market-makers copy/intro"
+    }
+  }
+}

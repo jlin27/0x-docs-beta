@@ -1,0 +1,168 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "welcome/intro",
+          "docs": [
+            {
+              "id": "0x-limit-orders/intro",
+              "path": "/docs/0x-limit-orders/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/0x-swap-api-references/intro",
+              "path": "/docs/0x-swap-api/0x-swap-api-references/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/intro",
+              "path": "/docs/0x-swap-api/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-resources/intro",
+              "path": "/docs/developer-resources/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/intro",
+              "path": "/docs/governance/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "market-makers/intro",
+              "path": "/docs/market-makers/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nft-support/intro",
+              "path": "/docs/nft-support/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "protocol/intro",
+              "path": "/docs/protocol/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "welcome/intro",
+              "path": "/docs/welcome/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/welcome",
+              "path": "/docs/category/welcome",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/0x-swap-api",
+              "path": "/docs/category/0x-swap-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/0x-swap-api-references",
+              "path": "/docs/category/0x-swap-api-references",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/0x-limit-orders",
+              "path": "/docs/category/0x-limit-orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/market-makers",
+              "path": "/docs/category/market-makers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/nft-support",
+              "path": "/docs/category/nft-support",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/protocol",
+              "path": "/docs/category/protocol",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/governance",
+              "path": "/docs/category/governance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/developer-resources",
+              "path": "/docs/category/developer-resources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/category/welcome",
+                "label": "Welcome"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

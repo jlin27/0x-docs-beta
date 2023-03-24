@@ -1,0 +1,16 @@
+{
+  "title": "Governance",
+  "description": "An introduction to 0x DAO and Governance",
+  "slug": "/category/governance",
+  "permalink": "/docs/category/governance",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/protocol/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/governance/intro"
+    }
+  }
+}

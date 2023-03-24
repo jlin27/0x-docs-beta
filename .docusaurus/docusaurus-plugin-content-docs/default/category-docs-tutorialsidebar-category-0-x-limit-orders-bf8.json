@@ -1,0 +1,16 @@
+{
+  "title": "0x Limit Orders",
+  "description": "An introduction 0x Limit Orders",
+  "slug": "/category/0x-limit-orders",
+  "permalink": "/docs/category/0x-limit-orders",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/0x-swap-api/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/0x-limit-orders/intro"
+    }
+  }
+}

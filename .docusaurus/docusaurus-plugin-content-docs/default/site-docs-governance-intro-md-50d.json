@@ -1,0 +1,26 @@
+{
+  "unversionedId": "governance/intro",
+  "id": "governance/intro",
+  "title": "Introduction",
+  "description": "An introduction to how the 0x Swap API works and the resources included this section",
+  "source": "@site/docs/governance/intro.md",
+  "sourceDirName": "governance",
+  "slug": "/governance/intro",
+  "permalink": "/docs/governance/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "An introduction to how the 0x Swap API works and the resources included this section"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Governance",
+    "permalink": "/docs/category/governance"
+  },
+  "next": {
+    "title": "Developer Resources",
+    "permalink": "/docs/category/developer-resources"
+  }
+}

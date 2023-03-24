@@ -1,0 +1,26 @@
+{
+  "unversionedId": "market-makers/intro",
+  "id": "market-makers/intro",
+  "title": "Introduction",
+  "description": "An introduction to how the 0x Swap API works and the resources included this section",
+  "source": "@site/docs/market-makers/intro.md",
+  "sourceDirName": "market-makers",
+  "slug": "/market-makers/intro",
+  "permalink": "/docs/market-makers/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "An introduction to how the 0x Swap API works and the resources included this section"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Market Makers",
+    "permalink": "/docs/category/market-makers"
+  },
+  "next": {
+    "title": "NFT Support",
+    "permalink": "/docs/category/nft-support"
+  }
+}

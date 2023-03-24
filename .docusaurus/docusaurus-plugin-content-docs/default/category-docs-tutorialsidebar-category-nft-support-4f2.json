@@ -1,0 +1,16 @@
+{
+  "title": "NFT Support",
+  "description": "An introduction for NFT Support",
+  "slug": "/category/nft-support",
+  "permalink": "/docs/category/nft-support",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/market-makers/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/nft-support/intro"
+    }
+  }
+}

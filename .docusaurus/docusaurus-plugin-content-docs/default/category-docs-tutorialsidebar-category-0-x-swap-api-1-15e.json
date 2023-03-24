@@ -1,0 +1,16 @@
+{
+  "title": "0x Swap API",
+  "description": "An introduction 0x Swap API",
+  "slug": "/category/0x-swap-api-1",
+  "permalink": "/docs/category/0x-swap-api-1",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/0x-swap-api/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/0x-swap-api copy/intro"
+    }
+  }
+}

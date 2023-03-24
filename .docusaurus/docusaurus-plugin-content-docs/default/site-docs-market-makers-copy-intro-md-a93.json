@@ -1,0 +1,26 @@
+{
+  "unversionedId": "market-makers copy/intro",
+  "id": "market-makers copy/intro",
+  "title": "Introduction",
+  "description": "An introduction to how the 0x Swap API works and the resources included this section",
+  "source": "@site/docs/market-makers copy/intro.md",
+  "sourceDirName": "market-makers copy",
+  "slug": "/market-makers copy/intro",
+  "permalink": "/docs/market-makers copy/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers copy/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "An introduction to how the 0x Swap API works and the resources included this section"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Market Makers",
+    "permalink": "/docs/category/market-makers-1"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}

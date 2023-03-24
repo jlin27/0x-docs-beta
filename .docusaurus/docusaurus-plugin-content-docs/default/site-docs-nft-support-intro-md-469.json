@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nft-support/intro",
+  "id": "nft-support/intro",
+  "title": "Introduction",
+  "description": "An introduction to NFT Support",
+  "source": "@site/docs/nft-support/intro.md",
+  "sourceDirName": "nft-support",
+  "slug": "/nft-support/intro",
+  "permalink": "/docs/nft-support/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "An introduction to NFT Support"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NFT Support",
+    "permalink": "/docs/category/nft-support"
+  },
+  "next": {
+    "title": "Protocol",
+    "permalink": "/docs/category/protocol"
+  }
+}

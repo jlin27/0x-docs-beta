@@ -1,0 +1,16 @@
+{
+  "title": "Developer Resources",
+  "description": "An introduction to the Developer Resources",
+  "slug": "/category/developer-resources-1",
+  "permalink": "/docs/category/developer-resources-1",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/developer-resources/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/protocol/intro"
+    }
+  }
+}
