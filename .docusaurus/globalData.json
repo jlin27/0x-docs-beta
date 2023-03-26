@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "introduction/intro",
+          "mainDocId": "introduction/welcome",
           "docs": [
             {
               "id": "0x-limit-orders/docs/introduction",
@@ -261,7 +261,27 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "introduction/intro",
+              "id": "introduction/0x-concept-videos",
+              "path": "/introduction/0x-concept-videos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/community",
+              "path": "/introduction/community",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/guides",
+              "path": "/introduction/guides",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/introduction-to-0x",
+              "path": "/introduction/introduction-to-0x",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/welcome",
               "path": "/",
               "sidebar": "tutorialSidebar"
             },

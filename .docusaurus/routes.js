@@ -44,11 +44,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '2fb'),
+    component: ComponentCreator('/', '8b4'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '9a7'),
+        component: ComponentCreator('/', '212'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -517,6 +517,30 @@ export default [
       {
         path: '/introduction/0x-cheat-sheet',
         component: ComponentCreator('/introduction/0x-cheat-sheet', 'c0b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/introduction/0x-concept-videos',
+        component: ComponentCreator('/introduction/0x-concept-videos', '123'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/introduction/community',
+        component: ComponentCreator('/introduction/community', 'a54'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/introduction/guides',
+        component: ComponentCreator('/introduction/guides', '93d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/introduction/introduction-to-0x',
+        component: ComponentCreator('/introduction/introduction-to-0x', '1d8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

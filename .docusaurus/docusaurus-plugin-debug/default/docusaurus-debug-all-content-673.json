@@ -1453,11 +1453,157 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/0x-cheat-sheet.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 6,
               "frontMatter": {
                 "sidebar_label": "0x Cheat Sheet",
-                "sidebar_position": 2,
+                "sidebar_position": 6,
                 "description": "A collection of commonly used addresses, endpoints, and values across 0x products."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Community",
+                "permalink": "/introduction/community"
+              },
+              "next": {
+                "title": "0x Swap API",
+                "permalink": "/category/0x-swap-api"
+              }
+            },
+            {
+              "unversionedId": "introduction/0x-concept-videos",
+              "id": "introduction/0x-concept-videos",
+              "title": "0x Concept Videos",
+              "description": "This page contains a shortlist of videos that showcase notable features of the 0x tech stack",
+              "source": "@site/docs/introduction/0x-concept-videos.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/0x-concept-videos",
+              "permalink": "/introduction/0x-concept-videos",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/0x-concept-videos.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "0x Concept Videos",
+                "sidebar_position": 4,
+                "description": "This page contains a shortlist of videos that showcase notable features of the 0x tech stack"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Guides",
+                "permalink": "/introduction/guides"
+              },
+              "next": {
+                "title": "Community",
+                "permalink": "/introduction/community"
+              }
+            },
+            {
+              "unversionedId": "introduction/community",
+              "id": "introduction/community",
+              "title": "Community",
+              "description": "One of the most important aspects of 0x is the community! We look forward to seeing you in one of our active developer communities below",
+              "source": "@site/docs/introduction/community.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/community",
+              "permalink": "/introduction/community",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/community.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_label": "Community",
+                "sidebar_position": 5,
+                "description": "One of the most important aspects of 0x is the community! We look forward to seeing you in one of our active developer communities below"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "0x Concept Videos",
+                "permalink": "/introduction/0x-concept-videos"
+              },
+              "next": {
+                "title": "0x Cheat Sheet",
+                "permalink": "/introduction/0x-cheat-sheet"
+              }
+            },
+            {
+              "unversionedId": "introduction/guides",
+              "id": "introduction/guides",
+              "title": "Guides",
+              "description": "This page lists the most popular guides to get started building with 0x based on your use case",
+              "source": "@site/docs/introduction/guides.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/guides",
+              "permalink": "/introduction/guides",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/guides.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Guides",
+                "sidebar_position": 3,
+                "description": "This page lists the most popular guides to get started building with 0x based on your use case"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction to 0x",
+                "permalink": "/introduction/introduction-to-0x"
+              },
+              "next": {
+                "title": "0x Concept Videos",
+                "permalink": "/introduction/0x-concept-videos"
+              }
+            },
+            {
+              "unversionedId": "introduction/introduction-to-0x",
+              "id": "introduction/introduction-to-0x",
+              "title": "Introduction to 0x",
+              "description": "Introduction to 0x",
+              "source": "@site/docs/introduction/introduction-to-0x.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/introduction-to-0x",
+              "permalink": "/introduction/introduction-to-0x",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/introduction-to-0x.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Introduction to 0x",
+                "sidebar_position": 2,
+                "description": "Introduction to 0x"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Welcome",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/introduction/guides"
+              }
+            },
+            {
+              "unversionedId": "introduction/welcome",
+              "id": "introduction/welcome",
+              "title": "Welcome",
+              "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+              "source": "@site/docs/introduction/welcome.md",
+              "sourceDirName": "introduction",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/welcome.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Welcome",
+                "sidebar_position": 1,
+                "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+                "slug": "/"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -1465,35 +1611,8 @@
                 "permalink": "/category/introduction"
               },
               "next": {
-                "title": "Welcome",
-                "permalink": "/"
-              }
-            },
-            {
-              "unversionedId": "introduction/intro",
-              "id": "introduction/intro",
-              "title": "Welcome",
-              "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
-              "source": "@site/docs/introduction/intro.md",
-              "sourceDirName": "introduction",
-              "slug": "/",
-              "permalink": "/",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/intro.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
-                "slug": "/"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "0x Cheat Sheet",
-                "permalink": "/introduction/0x-cheat-sheet"
-              },
-              "next": {
-                "title": "0x Swap API",
-                "permalink": "/category/0x-swap-api"
+                "title": "Introduction to 0x",
+                "permalink": "/introduction/introduction-to-0x"
               }
             },
             {
@@ -2387,12 +2506,33 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "introduction/0x-cheat-sheet",
-                    "label": "0x Cheat Sheet"
+                    "id": "introduction/welcome",
+                    "label": "Welcome"
                   },
                   {
                     "type": "doc",
-                    "id": "introduction/intro"
+                    "id": "introduction/introduction-to-0x",
+                    "label": "Introduction to 0x"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/guides",
+                    "label": "Guides"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/0x-concept-videos",
+                    "label": "0x Concept Videos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/community",
+                    "label": "Community"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/0x-cheat-sheet",
+                    "label": "0x Cheat Sheet"
                   }
                 ],
                 "link": {

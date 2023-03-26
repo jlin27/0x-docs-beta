@@ -11,19 +11,19 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/0x-cheat-sheet.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 6,
   "frontMatter": {
     "sidebar_label": "0x Cheat Sheet",
-    "sidebar_position": 2,
+    "sidebar_position": 6,
     "description": "A collection of commonly used addresses, endpoints, and values across 0x products."
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/category/introduction"
+    "title": "Community",
+    "permalink": "/introduction/community"
   },
   "next": {
-    "title": "Welcome",
-    "permalink": "/"
+    "title": "0x Swap API",
+    "permalink": "/category/0x-swap-api"
   }
 }

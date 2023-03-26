@@ -17,15 +17,39 @@
         "items": [
           {
             "type": "link",
-            "label": "0x Cheat Sheet",
-            "href": "/introduction/0x-cheat-sheet",
-            "docId": "introduction/0x-cheat-sheet"
+            "label": "Welcome",
+            "href": "/",
+            "docId": "introduction/welcome"
           },
           {
             "type": "link",
-            "label": "Welcome",
-            "href": "/",
-            "docId": "introduction/intro"
+            "label": "Introduction to 0x",
+            "href": "/introduction/introduction-to-0x",
+            "docId": "introduction/introduction-to-0x"
+          },
+          {
+            "type": "link",
+            "label": "Guides",
+            "href": "/introduction/guides",
+            "docId": "introduction/guides"
+          },
+          {
+            "type": "link",
+            "label": "0x Concept Videos",
+            "href": "/introduction/0x-concept-videos",
+            "docId": "introduction/0x-concept-videos"
+          },
+          {
+            "type": "link",
+            "label": "Community",
+            "href": "/introduction/community",
+            "docId": "introduction/community"
+          },
+          {
+            "type": "link",
+            "label": "0x Cheat Sheet",
+            "href": "/introduction/0x-cheat-sheet",
+            "docId": "introduction/0x-cheat-sheet"
           }
         ],
         "href": "/category/introduction"
@@ -1056,8 +1080,32 @@
       "description": "A collection of commonly used addresses, endpoints, and values across 0x products.",
       "sidebar": "tutorialSidebar"
     },
-    "introduction/intro": {
-      "id": "introduction/intro",
+    "introduction/0x-concept-videos": {
+      "id": "introduction/0x-concept-videos",
+      "title": "0x Concept Videos",
+      "description": "This page contains a shortlist of videos that showcase notable features of the 0x tech stack",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction/community": {
+      "id": "introduction/community",
+      "title": "Community",
+      "description": "One of the most important aspects of 0x is the community! We look forward to seeing you in one of our active developer communities below",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction/guides": {
+      "id": "introduction/guides",
+      "title": "Guides",
+      "description": "This page lists the most popular guides to get started building with 0x based on your use case",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction/introduction-to-0x": {
+      "id": "introduction/introduction-to-0x",
+      "title": "Introduction to 0x",
+      "description": "Introduction to 0x",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction/welcome": {
+      "id": "introduction/welcome",
       "title": "Welcome",
       "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
       "sidebar": "tutorialSidebar"
