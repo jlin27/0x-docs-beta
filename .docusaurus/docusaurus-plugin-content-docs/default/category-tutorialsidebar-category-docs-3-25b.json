@@ -1,0 +1,16 @@
+{
+  "title": "Docs",
+  "description": "Docs",
+  "slug": "/category/docs-3",
+  "permalink": "/category/docs-3",
+  "navigation": {
+    "previous": {
+      "title": "Protocol",
+      "permalink": "/category/protocol"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/protocol/docs/introduction"
+    }
+  }
+}

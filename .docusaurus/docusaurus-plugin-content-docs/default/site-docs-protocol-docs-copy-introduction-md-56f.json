@@ -1,0 +1,29 @@
+{
+  "unversionedId": "protocol/docs copy/introduction",
+  "id": "protocol/docs copy/introduction",
+  "title": "Docs",
+  "description": "Technical documentation on the on-chain protocol (smart contracts) for 0x.",
+  "source": "@site/docs/protocol/docs copy/introduction.md",
+  "sourceDirName": "protocol/docs copy",
+  "slug": "/protocol/docs copy/introduction",
+  "permalink": "/protocol/docs copy/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/protocol/docs copy/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Introduction",
+    "sidebar_position": 1,
+    "description": "Technical documentation on the on-chain protocol (smart contracts) for 0x."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docs",
+    "permalink": "/category/docs-4"
+  },
+  "next": {
+    "title": "Governance",
+    "permalink": "/category/governance"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Docs",
+  "description": "Docs",
+  "slug": "/category/docs-4",
+  "permalink": "/category/docs-4",
+  "navigation": {
+    "previous": {
+      "title": "Docs",
+      "permalink": "/category/docs-3"
+    },
+    "next": {
+      "title": "Exchange Proxy",
+      "permalink": "/protocol/docs/exchange-proxy/overview"
+    }
+  }
+}

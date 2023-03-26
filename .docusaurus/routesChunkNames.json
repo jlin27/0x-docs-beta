@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-e24": {
+  "/-4f0": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---405-e66"
@@ -212,6 +212,18 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-docs-269-f-5ff"
   },
+  "/category/docs-3-8d8": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-docs-3-d-85-5a4"
+  },
+  "/category/exchange-proxy-afd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-exchange-proxy-057-5fe"
+  },
+  "/category/features-dab": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-features-01-e-3c7"
+  },
   "/category/governance-934": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-governance-6-a-5-25e"
@@ -248,6 +260,10 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-protocol-6-d-3-82b"
   },
+  "/category/siging-orders-715": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-siging-orders-7-b-1-b6d"
+  },
   "/category/tutorial---basics-72e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-tutorial-basicsb-38-d69"
@@ -256,13 +272,13 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-tutorial-extrasfef-d24"
   },
-  "/developer-resources/intro-dba": {
+  "/developer-resources/introduction-9c4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---developer-resources-introcfd-b9d"
+    "content": "content---developer-resources-introduction-767-b54"
   },
-  "/governance/intro-318": {
+  "/governance/introduction-2b2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---governance-intro-50-d-f25"
+    "content": "content---governance-introduction-39-b-a76"
   },
   "/introduction/0x-cheat-sheet-c0b": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -300,6 +316,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---nft-support-docs-introductionee-3-e7e"
   },
+  "/nft-support/guides/cancelling-orders-48a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---nft-support-guides-cancelling-orderscaa-8a0"
+  },
   "/nft-support/guides/creating-orders/collection-offers-f85": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---nft-support-guides-creating-orders-collection-offers-8-d-6-b3e"
@@ -312,17 +332,49 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---nft-support-guides-creating-orders-royalties-and-fees-476-cf5"
   },
-  "/nft-support/guides/generating-0x-order-hashes-b9b": {
+  "/nft-support/guides/fetching-nft-order-data-761": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-guides-generating-0-x-order-hashes-009-a4e"
+    "content": "content---nft-support-guides-fetching-nft-order-data-3-b-7-aba"
   },
-  "/nft-support/intro-6a6": {
+  "/nft-support/guides/filling-orders-02c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-intro-469-460"
+    "content": "content---nft-support-guides-filling-orders-965-872"
   },
-  "/protocol/intro-444": {
+  "/nft-support/guides/signing-orders/overview-083": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-introc-68-2b9"
+    "content": "content---nft-support-guides-signing-orders-overview-1-f-9-e2d"
+  },
+  "/nft-support/guides/signing-orders/royalties-and-fees-290": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---nft-support-guides-signing-orders-royalties-and-fees-8-b-7-2bd"
+  },
+  "/protocol/docs/exchange-proxy/features/erc1155orders-cd6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-docs-exchange-proxy-features-erc-1155-ordersd-72-62f"
+  },
+  "/protocol/docs/exchange-proxy/features/erc721orders-c31": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-docs-exchange-proxy-features-erc-721-orders-5-d-6-9a2"
+  },
+  "/protocol/docs/exchange-proxy/features/nativeorders-abb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-docs-exchange-proxy-features-nativeorderse-30-631"
+  },
+  "/protocol/docs/exchange-proxy/features/overview-f4a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-docs-exchange-proxy-features-overviewbbf-359"
+  },
+  "/protocol/docs/exchange-proxy/overview-ff9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-docs-exchange-proxy-overview-8-e-1-cbb"
+  },
+  "/protocol/docs/introduction-0f0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-docs-introduction-389-3e0"
+  },
+  "/protocol/docs/signatures-374": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-docs-signatures-188-a25"
   },
   "/tutorial-basics/congratulations-4b2": {
     "__comp": "__comp---theme-doc-item-178-a40",

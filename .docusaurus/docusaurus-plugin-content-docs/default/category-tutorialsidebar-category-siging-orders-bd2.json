@@ -1,0 +1,16 @@
+{
+  "title": "Siging Orders",
+  "description": "Siging Orders",
+  "slug": "/category/siging-orders",
+  "permalink": "/category/siging-orders",
+  "navigation": {
+    "previous": {
+      "title": "Collection Offers",
+      "permalink": "/nft-support/guides/creating-orders/collection-offers"
+    },
+    "next": {
+      "title": "Overview",
+      "permalink": "/nft-support/guides/signing-orders/overview"
+    }
+  }
+}

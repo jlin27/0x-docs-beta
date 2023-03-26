@@ -1,0 +1,29 @@
+{
+  "unversionedId": "protocol/docs/exchange-proxy/features/erc1155orders",
+  "id": "protocol/docs/exchange-proxy/features/erc1155orders",
+  "title": "ERC1155Orders",
+  "description": "ERC1155<->ERC20/ETH Limit Order Functionality",
+  "source": "@site/docs/protocol/docs/exchange-proxy/features/erc1155orders.md",
+  "sourceDirName": "protocol/docs/exchange-proxy/features",
+  "slug": "/protocol/docs/exchange-proxy/features/erc1155orders",
+  "permalink": "/protocol/docs/exchange-proxy/features/erc1155orders",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/protocol/docs/exchange-proxy/features/erc1155orders.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_label": "ERC1155Orders",
+    "sidebar_position": 4,
+    "description": "ERC1155<->ERC20/ETH Limit Order Functionality"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ERC721Orders",
+    "permalink": "/protocol/docs/exchange-proxy/features/erc721orders"
+  },
+  "next": {
+    "title": "Signatures",
+    "permalink": "/protocol/docs/signatures"
+  }
+}

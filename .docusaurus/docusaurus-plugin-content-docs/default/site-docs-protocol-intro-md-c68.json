@@ -1,8 +1,8 @@
 {
   "unversionedId": "protocol/intro",
   "id": "protocol/intro",
-  "title": "Introduction",
-  "description": "An introduction to how the 0x Swap API works and the resources included this section",
+  "title": "Docs",
+  "description": "Technical documentation on the on-chain protocol (smart contracts) for 0x.",
   "source": "@site/docs/protocol/intro.md",
   "sourceDirName": "protocol",
   "slug": "/protocol/intro",
@@ -12,12 +12,12 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "description": "An introduction to how the 0x Swap API works and the resources included this section"
+    "description": "Technical documentation on the on-chain protocol (smart contracts) for 0x."
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Protocol",
-    "permalink": "/category/protocol"
+    "title": "Introduction",
+    "permalink": "/protocol/docs/introduction"
   },
   "next": {
     "title": "Governance",

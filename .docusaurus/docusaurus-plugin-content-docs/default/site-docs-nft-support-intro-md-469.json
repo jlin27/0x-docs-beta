@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Generating 0x Order Hashes",
-    "permalink": "/nft-support/guides/generating-0x-order-hashes"
+    "title": "On-chain Orders",
+    "permalink": "/nft-support/guides/signing-orders/royalties-and-fees"
   },
   "next": {
     "title": "Protocol",

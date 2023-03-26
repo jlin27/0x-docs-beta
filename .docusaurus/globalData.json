@@ -151,13 +151,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "developer-resources/intro",
-              "path": "/developer-resources/intro",
+              "id": "developer-resources/introduction",
+              "path": "/developer-resources/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "governance/intro",
-              "path": "/governance/intro",
+              "id": "governance/introduction",
+              "path": "/governance/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -211,6 +211,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "nft-support/guides/cancelling-orders",
+              "path": "/nft-support/guides/cancelling-orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "nft-support/guides/creating-orders/collection-offers",
               "path": "/nft-support/guides/creating-orders/collection-offers",
               "sidebar": "tutorialSidebar"
@@ -226,18 +231,58 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "nft-support/guides/generating-0x-order-hashes",
-              "path": "/nft-support/guides/generating-0x-order-hashes",
+              "id": "nft-support/guides/fetching-nft-order-data",
+              "path": "/nft-support/guides/fetching-nft-order-data",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "nft-support/intro",
-              "path": "/nft-support/intro",
+              "id": "nft-support/guides/filling-orders",
+              "path": "/nft-support/guides/filling-orders",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "protocol/intro",
-              "path": "/protocol/intro",
+              "id": "nft-support/guides/signing-orders/overview",
+              "path": "/nft-support/guides/signing-orders/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nft-support/guides/signing-orders/royalties-and-fees",
+              "path": "/nft-support/guides/signing-orders/royalties-and-fees",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "protocol/docs/exchange-proxy/features/erc1155orders",
+              "path": "/protocol/docs/exchange-proxy/features/erc1155orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "protocol/docs/exchange-proxy/features/erc721orders",
+              "path": "/protocol/docs/exchange-proxy/features/erc721orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "protocol/docs/exchange-proxy/features/nativeorders",
+              "path": "/protocol/docs/exchange-proxy/features/nativeorders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "protocol/docs/exchange-proxy/features/overview",
+              "path": "/protocol/docs/exchange-proxy/features/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "protocol/docs/exchange-proxy/overview",
+              "path": "/protocol/docs/exchange-proxy/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "protocol/docs/introduction",
+              "path": "/protocol/docs/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "protocol/docs/signatures",
+              "path": "/protocol/docs/signatures",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -361,8 +406,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/siging-orders",
+              "path": "/category/siging-orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/protocol",
               "path": "/category/protocol",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docs-3",
+              "path": "/category/docs-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/exchange-proxy",
+              "path": "/category/exchange-proxy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/features",
+              "path": "/category/features",
               "sidebar": "tutorialSidebar"
             },
             {

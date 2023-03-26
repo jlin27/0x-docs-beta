@@ -1,0 +1,16 @@
+{
+  "title": "Exchange Proxy",
+  "description": "Exchange Proxy",
+  "slug": "/category/exchange-proxy",
+  "permalink": "/category/exchange-proxy",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/protocol/docs/introduction"
+    },
+    "next": {
+      "title": "Overview",
+      "permalink": "/protocol/docs/exchange-proxy/overview"
+    }
+  }
+}

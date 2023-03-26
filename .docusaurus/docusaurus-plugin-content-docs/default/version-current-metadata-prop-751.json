@@ -394,19 +394,46 @@
                 "href": "/category/creating-orders"
               },
               {
+                "type": "category",
+                "label": "Siging Orders",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Overview",
+                    "href": "/nft-support/guides/signing-orders/overview",
+                    "docId": "nft-support/guides/signing-orders/overview"
+                  },
+                  {
+                    "type": "link",
+                    "label": "On-chain Orders",
+                    "href": "/nft-support/guides/signing-orders/royalties-and-fees",
+                    "docId": "nft-support/guides/signing-orders/royalties-and-fees"
+                  }
+                ],
+                "href": "/category/siging-orders"
+              },
+              {
                 "type": "link",
-                "label": "Generating 0x Order Hashes",
-                "href": "/nft-support/guides/generating-0x-order-hashes",
-                "docId": "nft-support/guides/generating-0x-order-hashes"
+                "label": "Filling Orders",
+                "href": "/nft-support/guides/filling-orders",
+                "docId": "nft-support/guides/filling-orders"
+              },
+              {
+                "type": "link",
+                "label": "Cancelling Orders",
+                "href": "/nft-support/guides/cancelling-orders",
+                "docId": "nft-support/guides/cancelling-orders"
+              },
+              {
+                "type": "link",
+                "label": "Fetching NFT Order Data",
+                "href": "/nft-support/guides/fetching-nft-order-data",
+                "docId": "nft-support/guides/fetching-nft-order-data"
               }
             ],
             "href": "/category/guides-2"
-          },
-          {
-            "type": "link",
-            "label": "Introduction",
-            "href": "/nft-support/intro",
-            "docId": "nft-support/intro"
           }
         ],
         "href": "/category/nft-support"
@@ -418,10 +445,73 @@
         "collapsed": true,
         "items": [
           {
-            "type": "link",
-            "label": "Introduction",
-            "href": "/protocol/intro",
-            "docId": "protocol/intro"
+            "type": "category",
+            "label": "Docs",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/protocol/docs/introduction",
+                "docId": "protocol/docs/introduction"
+              },
+              {
+                "type": "category",
+                "label": "Exchange Proxy",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Overview",
+                    "href": "/protocol/docs/exchange-proxy/overview",
+                    "docId": "protocol/docs/exchange-proxy/overview"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Features",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Overview",
+                        "href": "/protocol/docs/exchange-proxy/features/overview",
+                        "docId": "protocol/docs/exchange-proxy/features/overview"
+                      },
+                      {
+                        "type": "link",
+                        "label": "NativeOrders",
+                        "href": "/protocol/docs/exchange-proxy/features/nativeorders",
+                        "docId": "protocol/docs/exchange-proxy/features/nativeorders"
+                      },
+                      {
+                        "type": "link",
+                        "label": "ERC721Orders",
+                        "href": "/protocol/docs/exchange-proxy/features/erc721orders",
+                        "docId": "protocol/docs/exchange-proxy/features/erc721orders"
+                      },
+                      {
+                        "type": "link",
+                        "label": "ERC1155Orders",
+                        "href": "/protocol/docs/exchange-proxy/features/erc1155orders",
+                        "docId": "protocol/docs/exchange-proxy/features/erc1155orders"
+                      }
+                    ],
+                    "href": "/category/features"
+                  }
+                ],
+                "href": "/category/exchange-proxy"
+              },
+              {
+                "type": "link",
+                "label": "Signatures",
+                "href": "/protocol/docs/signatures",
+                "docId": "protocol/docs/signatures"
+              }
+            ],
+            "href": "/category/docs-3"
           }
         ],
         "href": "/category/protocol"
@@ -435,8 +525,8 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/governance/intro",
-            "docId": "governance/intro"
+            "href": "/governance/introduction",
+            "docId": "governance/introduction"
           }
         ],
         "href": "/category/governance"
@@ -450,8 +540,8 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/developer-resources/intro",
-            "docId": "developer-resources/intro"
+            "href": "/developer-resources/introduction",
+            "docId": "developer-resources/introduction"
           }
         ],
         "href": "/category/developer-resources"
@@ -693,14 +783,14 @@
       "description": "An introduction to how the 0x Swap API works and the resources included this section",
       "sidebar": "tutorialSidebar"
     },
-    "developer-resources/intro": {
-      "id": "developer-resources/intro",
+    "developer-resources/introduction": {
+      "id": "developer-resources/introduction",
       "title": "Introduction",
       "description": "An introduction to how the 0x Swap API works and the resources included this section",
       "sidebar": "tutorialSidebar"
     },
-    "governance/intro": {
-      "id": "governance/intro",
+    "governance/introduction": {
+      "id": "governance/introduction",
       "title": "Introduction",
       "description": "An introduction to how the 0x Swap API works and the resources included this section",
       "sidebar": "tutorialSidebar"
@@ -765,6 +855,12 @@
       "description": "Learn about the NFT features added to 0x V4",
       "sidebar": "tutorialSidebar"
     },
+    "nft-support/guides/cancelling-orders": {
+      "id": "nft-support/guides/cancelling-orders",
+      "title": "Cancelling Orders",
+      "description": "The basic functions used for cancelling NFT orders",
+      "sidebar": "tutorialSidebar"
+    },
     "nft-support/guides/creating-orders/collection-offers": {
       "id": "nft-support/guides/creating-orders/collection-offers",
       "title": "Collection Offers",
@@ -783,22 +879,70 @@
       "description": "Royalties and Fees",
       "sidebar": "tutorialSidebar"
     },
-    "nft-support/guides/generating-0x-order-hashes": {
-      "id": "nft-support/guides/generating-0x-order-hashes",
-      "title": "Generating 0x Order Hashes",
-      "description": "In this guide, we cover how to use @0x/protocol-utils to generate 0x Order Hashes",
+    "nft-support/guides/fetching-nft-order-data": {
+      "id": "nft-support/guides/fetching-nft-order-data",
+      "title": "Fetching NFT Order Data",
+      "description": "Fetching NFT Order Data",
       "sidebar": "tutorialSidebar"
     },
-    "nft-support/intro": {
-      "id": "nft-support/intro",
-      "title": "Introduction",
-      "description": "An introduction to NFT Support",
+    "nft-support/guides/filling-orders": {
+      "id": "nft-support/guides/filling-orders",
+      "title": "Filling Orders",
+      "description": "The basic functions used for filling NFT orders",
       "sidebar": "tutorialSidebar"
     },
-    "protocol/intro": {
-      "id": "protocol/intro",
+    "nft-support/guides/signing-orders/overview": {
+      "id": "nft-support/guides/signing-orders/overview",
+      "title": "Signing Orders",
+      "description": "Signing Orders",
+      "sidebar": "tutorialSidebar"
+    },
+    "nft-support/guides/signing-orders/royalties-and-fees": {
+      "id": "nft-support/guides/signing-orders/royalties-and-fees",
+      "title": "On-chain Orders",
+      "description": "On-chain Orders",
+      "sidebar": "tutorialSidebar"
+    },
+    "protocol/docs/exchange-proxy/features/erc1155orders": {
+      "id": "protocol/docs/exchange-proxy/features/erc1155orders",
+      "title": "ERC1155Orders",
+      "description": "ERC1155<->ERC20/ETH Limit Order Functionality",
+      "sidebar": "tutorialSidebar"
+    },
+    "protocol/docs/exchange-proxy/features/erc721orders": {
+      "id": "protocol/docs/exchange-proxy/features/erc721orders",
+      "title": "ERC721Orders",
+      "description": "ERC721<->ERC20/ETH Limit Order Functionality",
+      "sidebar": "tutorialSidebar"
+    },
+    "protocol/docs/exchange-proxy/features/nativeorders": {
+      "id": "protocol/docs/exchange-proxy/features/nativeorders",
+      "title": "NativeOrders",
+      "description": "ERC20 Limit Orders Feature of the Exchange Proxy",
+      "sidebar": "tutorialSidebar"
+    },
+    "protocol/docs/exchange-proxy/features/overview": {
+      "id": "protocol/docs/exchange-proxy/features/overview",
+      "title": "Features Overview",
+      "description": "Documentation on the individual features of the Exchange Proxy",
+      "sidebar": "tutorialSidebar"
+    },
+    "protocol/docs/exchange-proxy/overview": {
+      "id": "protocol/docs/exchange-proxy/overview",
+      "title": "Exchange Proxy Overview",
+      "description": "The canonical entry point for the protocol",
+      "sidebar": "tutorialSidebar"
+    },
+    "protocol/docs/introduction": {
+      "id": "protocol/docs/introduction",
       "title": "Introduction",
-      "description": "An introduction to how the 0x Swap API works and the resources included this section",
+      "description": "Technical documentation on the on-chain protocol (smart contracts) for 0x.",
+      "sidebar": "tutorialSidebar"
+    },
+    "protocol/docs/signatures": {
+      "id": "protocol/docs/signatures",
+      "title": "Signatures",
+      "description": "An overview of signature schemes used throughout 0x Protocol",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

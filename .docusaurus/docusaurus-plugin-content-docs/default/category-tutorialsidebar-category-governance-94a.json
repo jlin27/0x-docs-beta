@@ -5,12 +5,12 @@
   "permalink": "/category/governance",
   "navigation": {
     "previous": {
-      "title": "Introduction",
-      "permalink": "/protocol/intro"
+      "title": "Signatures",
+      "permalink": "/protocol/docs/signatures"
     },
     "next": {
       "title": "Introduction",
-      "permalink": "/governance/intro"
+      "permalink": "/governance/introduction"
     }
   }
 }

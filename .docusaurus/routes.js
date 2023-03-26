@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'e24'),
+    component: ComponentCreator('/', '4f0'),
     routes: [
       {
         path: '/',
@@ -281,6 +281,24 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/category/docs-3',
+        component: ComponentCreator('/category/docs-3', '8d8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/exchange-proxy',
+        component: ComponentCreator('/category/exchange-proxy', 'afd'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/features',
+        component: ComponentCreator('/category/features', 'dab'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/category/governance',
         component: ComponentCreator('/category/governance', '934'),
         exact: true,
@@ -335,6 +353,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/category/siging-orders',
+        component: ComponentCreator('/category/siging-orders', '715'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/category/tutorial---basics',
         component: ComponentCreator('/category/tutorial---basics', '72e'),
         exact: true,
@@ -347,14 +371,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/developer-resources/intro',
-        component: ComponentCreator('/developer-resources/intro', 'dba'),
+        path: '/developer-resources/introduction',
+        component: ComponentCreator('/developer-resources/introduction', '9c4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/governance/intro',
-        component: ComponentCreator('/governance/intro', '318'),
+        path: '/governance/introduction',
+        component: ComponentCreator('/governance/introduction', '2b2'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -413,6 +437,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/nft-support/guides/cancelling-orders',
+        component: ComponentCreator('/nft-support/guides/cancelling-orders', '48a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/nft-support/guides/creating-orders/collection-offers',
         component: ComponentCreator('/nft-support/guides/creating-orders/collection-offers', 'f85'),
         exact: true,
@@ -431,20 +461,68 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/nft-support/guides/generating-0x-order-hashes',
-        component: ComponentCreator('/nft-support/guides/generating-0x-order-hashes', 'b9b'),
+        path: '/nft-support/guides/fetching-nft-order-data',
+        component: ComponentCreator('/nft-support/guides/fetching-nft-order-data', '761'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/nft-support/intro',
-        component: ComponentCreator('/nft-support/intro', '6a6'),
+        path: '/nft-support/guides/filling-orders',
+        component: ComponentCreator('/nft-support/guides/filling-orders', '02c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/protocol/intro',
-        component: ComponentCreator('/protocol/intro', '444'),
+        path: '/nft-support/guides/signing-orders/overview',
+        component: ComponentCreator('/nft-support/guides/signing-orders/overview', '083'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/nft-support/guides/signing-orders/royalties-and-fees',
+        component: ComponentCreator('/nft-support/guides/signing-orders/royalties-and-fees', '290'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/protocol/docs/exchange-proxy/features/erc1155orders',
+        component: ComponentCreator('/protocol/docs/exchange-proxy/features/erc1155orders', 'cd6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/protocol/docs/exchange-proxy/features/erc721orders',
+        component: ComponentCreator('/protocol/docs/exchange-proxy/features/erc721orders', 'c31'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/protocol/docs/exchange-proxy/features/nativeorders',
+        component: ComponentCreator('/protocol/docs/exchange-proxy/features/nativeorders', 'abb'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/protocol/docs/exchange-proxy/features/overview',
+        component: ComponentCreator('/protocol/docs/exchange-proxy/features/overview', 'f4a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/protocol/docs/exchange-proxy/overview',
+        component: ComponentCreator('/protocol/docs/exchange-proxy/overview', 'ff9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/protocol/docs/introduction',
+        component: ComponentCreator('/protocol/docs/introduction', '0f0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/protocol/docs/signatures',
+        component: ComponentCreator('/protocol/docs/signatures', '374'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

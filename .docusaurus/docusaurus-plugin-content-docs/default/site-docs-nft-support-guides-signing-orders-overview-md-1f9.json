@@ -1,0 +1,29 @@
+{
+  "unversionedId": "nft-support/guides/signing-orders/overview",
+  "id": "nft-support/guides/signing-orders/overview",
+  "title": "Signing Orders",
+  "description": "Signing Orders",
+  "source": "@site/docs/nft-support/guides/signing-orders/overview.md",
+  "sourceDirName": "nft-support/guides/signing-orders",
+  "slug": "/nft-support/guides/signing-orders/overview",
+  "permalink": "/nft-support/guides/signing-orders/overview",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/guides/signing-orders/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Overview",
+    "sidebar_position": 1,
+    "description": "Signing Orders"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Siging Orders",
+    "permalink": "/category/siging-orders"
+  },
+  "next": {
+    "title": "On-chain Orders",
+    "permalink": "/nft-support/guides/signing-orders/royalties-and-fees"
+  }
+}

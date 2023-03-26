@@ -5,12 +5,12 @@
   "permalink": "/category/protocol",
   "navigation": {
     "previous": {
-      "title": "Introduction",
-      "permalink": "/nft-support/intro"
+      "title": "Fetching NFT Order Data",
+      "permalink": "/nft-support/guides/fetching-nft-order-data"
     },
     "next": {
-      "title": "Introduction",
-      "permalink": "/protocol/intro"
+      "title": "Docs",
+      "permalink": "/category/docs-3"
     }
   }
 }

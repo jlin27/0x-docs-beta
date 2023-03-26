@@ -1,0 +1,16 @@
+{
+  "title": "Features",
+  "description": "Features",
+  "slug": "/category/features",
+  "permalink": "/category/features",
+  "navigation": {
+    "previous": {
+      "title": "Overview",
+      "permalink": "/protocol/docs/exchange-proxy/overview"
+    },
+    "next": {
+      "title": "Overview",
+      "permalink": "/protocol/docs/exchange-proxy/features/overview"
+    }
+  }
+}

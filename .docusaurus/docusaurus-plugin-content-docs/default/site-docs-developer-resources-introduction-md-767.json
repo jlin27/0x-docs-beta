@@ -1,0 +1,26 @@
+{
+  "unversionedId": "developer-resources/introduction",
+  "id": "developer-resources/introduction",
+  "title": "Introduction",
+  "description": "An introduction to how the 0x Swap API works and the resources included this section",
+  "source": "@site/docs/developer-resources/introduction.md",
+  "sourceDirName": "developer-resources",
+  "slug": "/developer-resources/introduction",
+  "permalink": "/developer-resources/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "An introduction to how the 0x Swap API works and the resources included this section"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developer Resources",
+    "permalink": "/category/developer-resources"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/category/tutorial---basics"
+  }
+}

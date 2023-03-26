@@ -1,0 +1,29 @@
+{
+  "unversionedId": "protocol/docs/exchange-proxy copy/overview",
+  "id": "protocol/docs/exchange-proxy copy/overview",
+  "title": "Exchange Proxy Overview",
+  "description": "The canonical entry point for the protocol",
+  "source": "@site/docs/protocol/docs/exchange-proxy copy/overview.md",
+  "sourceDirName": "protocol/docs/exchange-proxy copy",
+  "slug": "/protocol/docs/exchange-proxy copy/overview",
+  "permalink": "/protocol/docs/exchange-proxy copy/overview",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/protocol/docs/exchange-proxy copy/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Exchange Proxy",
+    "sidebar_position": 1,
+    "description": "The canonical entry point for the protocol"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exchange Proxy",
+    "permalink": "/category/exchange-proxy-1"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/protocol/docs/introduction"
+  }
+}
