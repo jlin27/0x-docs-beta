@@ -1,8 +1,8 @@
 {
   "unversionedId": "0x-limit-orders/guides/fill-a-limit-order",
   "id": "0x-limit-orders/guides/fill-a-limit-order",
-  "title": "Limit Order Status",
-  "description": "Learn about viewing & distributing 0x Limit Orders",
+  "title": "Fill a Limit Order",
+  "description": "Fill a Limit Order",
   "source": "@site/docs/0x-limit-orders/guides/fill-a-limit-order.md",
   "sourceDirName": "0x-limit-orders/guides",
   "slug": "/0x-limit-orders/guides/fill-a-limit-order",
@@ -11,11 +11,11 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/fill-a-limit-order.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_label": "Limit Order Status",
-    "sidebar_position": 2,
-    "description": "Learn about viewing & distributing 0x Limit Orders"
+    "sidebar_label": "Fill a Limit Order",
+    "sidebar_position": 3,
+    "description": "Fill a Limit Order"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -23,7 +23,7 @@
     "permalink": "/0x-limit-orders/guides/cancel-a-limit-order"
   },
   "next": {
-    "title": "Working in the Testnet",
-    "permalink": "/0x-limit-orders/guides/working-in-the-testnet"
+    "title": "Limit Order Status",
+    "permalink": "/0x-limit-orders/guides/limit-order-status"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-swap-api/guides/wap-tokens-with-0x-swap-api",
+  "id": "0x-swap-api/guides/wap-tokens-with-0x-swap-api",
+  "title": "Swap Tokens with 0x Swap API",
+  "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x",
+  "source": "@site/docs/0x-swap-api/guides/wap-tokens-with-0x-swap-api.md",
+  "sourceDirName": "0x-swap-api/guides",
+  "slug": "/0x-swap-api/guides/wap-tokens-with-0x-swap-api",
+  "permalink": "/0x-swap-api/guides/wap-tokens-with-0x-swap-api",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/wap-tokens-with-0x-swap-api.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "How to Set Your Token Allowances",
+    "sidebar_position": 2,
+    "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Topics",
+    "permalink": "/category/advanced-topics-1"
+  },
+  "next": {
+    "title": "0x Orderbook API",
+    "permalink": "/category/0x-orderbook-api"
+  }
+}

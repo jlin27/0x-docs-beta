@@ -41,6 +41,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "0x-limit-orders/guides/limit-order-status",
+              "path": "/0x-limit-orders/guides/limit-order-status",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "0x-limit-orders/guides/working-in-the-testnet",
               "path": "/0x-limit-orders/guides/working-in-the-testnet",
               "sidebar": "tutorialSidebar"
@@ -146,18 +151,108 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api",
+              "path": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
+              "path": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
+              "path": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
+              "path": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "0x-swap-api/introduction",
               "path": "/0x-swap-api/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "developer-resources/introduction",
-              "path": "/developer-resources/introduction",
+              "id": "developer-resources/0x-legal-guide",
+              "path": "/developer-resources/0x-legal-guide",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "governance/introduction",
-              "path": "/governance/introduction",
+              "id": "developer-resources/audits",
+              "path": "/developer-resources/audits",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-resources/bounties",
+              "path": "/developer-resources/bounties",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-resources/contract-addresses",
+              "path": "/developer-resources/contract-addresses",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-resources/faqs-and-troubleshooting",
+              "path": "/developer-resources/faqs-and-troubleshooting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-resources/glossary",
+              "path": "/developer-resources/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-resources/how-to-get-0x-and-matcha-data",
+              "path": "/developer-resources/how-to-get-0x-and-matcha-data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-resources/repositories",
+              "path": "/developer-resources/repositories",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developer-resources/white-paper",
+              "path": "/developer-resources/white-paper",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/docs/apply-for-a-0xdao-grant-v2",
+              "path": "/governance/docs/apply-for-a-0xdao-grant-v2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/docs/community-treasury",
+              "path": "/governance/docs/community-treasury",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/docs/governance-participants",
+              "path": "/governance/docs/governance-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/docs/introduction",
+              "path": "/governance/docs/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/docs/types-of-votes",
+              "path": "/governance/docs/types-of-votes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/guides/how-to-delegate-zrx",
+              "path": "/governance/guides/how-to-delegate-zrx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/guides/how-to-vote",
+              "path": "/governance/guides/how-to-vote",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -346,6 +441,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/guides",
+              "path": "/category/guides",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/0x-orderbook-api",
               "path": "/category/0x-orderbook-api",
               "sidebar": "tutorialSidebar"
@@ -366,8 +466,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/guides",
-              "path": "/category/guides",
+              "id": "/category/guides-1",
+              "path": "/category/guides-1",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -381,8 +481,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/guides-1",
-              "path": "/category/guides-1",
+              "id": "/category/guides-2",
+              "path": "/category/guides-2",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -396,8 +496,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/guides-2",
-              "path": "/category/guides-2",
+              "id": "/category/guides-3",
+              "path": "/category/guides-3",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -433,6 +533,16 @@
             {
               "id": "/category/governance",
               "path": "/category/governance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docs-4",
+              "path": "/category/docs-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/guides-4",
+              "path": "/category/guides-4",
               "sidebar": "tutorialSidebar"
             },
             {

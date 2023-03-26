@@ -5,12 +5,12 @@
   "permalink": "/category/guides-2",
   "navigation": {
     "previous": {
-      "title": "Introduction",
-      "permalink": "/nft-support/docs/introduction"
+      "title": "Providing AMM liquidity to 0x API",
+      "permalink": "/market-makers/docs/providing-amm-liquidity-to-0x-api"
     },
     "next": {
-      "title": "Creating Orders",
-      "permalink": "/category/creating-orders"
+      "title": "Generating 0x Order Hashes",
+      "permalink": "/market-makers/guides/generating-0x-order-hashes"
     }
   }
 }

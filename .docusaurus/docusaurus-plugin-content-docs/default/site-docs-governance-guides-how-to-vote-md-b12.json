@@ -1,0 +1,29 @@
+{
+  "unversionedId": "governance/guides/how-to-vote",
+  "id": "governance/guides/how-to-vote",
+  "title": "How to Vote",
+  "description": "How to Vote",
+  "source": "@site/docs/governance/guides/how-to-vote.md",
+  "sourceDirName": "governance/guides",
+  "slug": "/governance/guides/how-to-vote",
+  "permalink": "/governance/guides/how-to-vote",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/guides/how-to-vote.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "How to Vote",
+    "sidebar_position": 2,
+    "description": "How to Vote"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Delegate ZRX",
+    "permalink": "/governance/guides/how-to-delegate-zrx"
+  },
+  "next": {
+    "title": "Developer Resources",
+    "permalink": "/category/developer-resources"
+  }
+}

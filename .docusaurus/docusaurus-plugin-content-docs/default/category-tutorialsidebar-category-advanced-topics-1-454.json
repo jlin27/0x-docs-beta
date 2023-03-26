@@ -5,12 +5,12 @@
   "permalink": "/category/advanced-topics-1",
   "navigation": {
     "previous": {
-      "title": "Introduction",
-      "permalink": "/0x-limit-orders/intro"
+      "title": "Price Impact Protection",
+      "permalink": "/0x-swap-api/advanced-topics/price-impact-protection"
     },
     "next": {
-      "title": "Rate Limiting",
-      "permalink": "/0x-limit-orders/advanced-topics/rate-limiting"
+      "title": "How to Set Your Token Allowances",
+      "permalink": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api"
     }
   }
 }

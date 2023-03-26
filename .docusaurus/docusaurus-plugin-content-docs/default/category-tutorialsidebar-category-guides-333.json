@@ -5,12 +5,12 @@
   "permalink": "/category/guides",
   "navigation": {
     "previous": {
-      "title": "Monitoring 0x Limit Orders",
-      "permalink": "/0x-limit-orders/docs/limit-order-structure copy"
+      "title": "Price Impact Protection",
+      "permalink": "/0x-swap-api/advanced-topics/price-impact-protection"
     },
     "next": {
-      "title": "Create a Limit Order",
-      "permalink": "/0x-limit-orders/guides/create-a-limit-order"
+      "title": "Swap Tokens with 0x Swap API",
+      "permalink": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api"
     }
   }
 }

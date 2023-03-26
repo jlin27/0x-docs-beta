@@ -11,16 +11,16 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/working-in-the-testnet.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_label": "Working in the Testnet",
-    "sidebar_position": 2,
+    "sidebar_position": 5,
     "description": "Learn about working in the testnet"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Limit Order Status",
-    "permalink": "/0x-limit-orders/guides/fill-a-limit-order"
+    "permalink": "/0x-limit-orders/guides/limit-order-status"
   },
   "next": {
     "title": "Market Makers",

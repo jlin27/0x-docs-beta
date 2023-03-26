@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-swap-api/advanced-topics copy/price-impact-protection",
+  "id": "0x-swap-api/advanced-topics copy/price-impact-protection",
+  "title": "Price Impact Protection",
+  "description": "Get notifications on illiquid markets. Don't get rekt.",
+  "source": "@site/docs/0x-swap-api/advanced-topics copy/price-impact-protection.md",
+  "sourceDirName": "0x-swap-api/advanced-topics copy",
+  "slug": "/0x-swap-api/advanced-topics copy/price-impact-protection",
+  "permalink": "/0x-swap-api/advanced-topics copy/price-impact-protection",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/advanced-topics copy/price-impact-protection.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_label": "Price Impact Protection",
+    "sidebar_position": 4,
+    "description": "Get notifications on illiquid markets. Don't get rekt."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Slippage Protection",
+    "permalink": "/0x-swap-api/advanced-topics copy/slippage-protection"
+  },
+  "next": {
+    "title": "0x Orderbook API",
+    "permalink": "/category/0x-orderbook-api"
+  }
+}

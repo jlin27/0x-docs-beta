@@ -1,0 +1,29 @@
+{
+  "unversionedId": "developer-resources/contract-addresses",
+  "id": "developer-resources/contract-addresses",
+  "title": "📃 Contract Addresses",
+  "description": "A list of commonly used 0x protocol contract addresses",
+  "source": "@site/docs/developer-resources/contract-addresses.md",
+  "sourceDirName": "developer-resources",
+  "slug": "/developer-resources/contract-addresses",
+  "permalink": "/developer-resources/contract-addresses",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/contract-addresses.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Contract Addresses",
+    "sidebar_position": 3,
+    "description": "A list of commonly used 0x protocol contract addresses"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FAQs & Troubleshooting",
+    "permalink": "/developer-resources/faqs-and-troubleshooting"
+  },
+  "next": {
+    "title": "Repositories",
+    "permalink": "/developer-resources/repositories"
+  }
+}

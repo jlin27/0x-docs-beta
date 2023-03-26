@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-swap-api/guides/swap-tokens",
+  "id": "0x-swap-api/guides/swap-tokens",
+  "title": "How to Set Your Token Allowances",
+  "description": "Learn how to set your token allowances",
+  "source": "@site/docs/0x-swap-api/guides/swap-tokens.md",
+  "sourceDirName": "0x-swap-api/guides",
+  "slug": "/0x-swap-api/guides/swap-tokens",
+  "permalink": "/0x-swap-api/guides/swap-tokens",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/swap-tokens.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "How to Set Your Token Allowances",
+    "sidebar_position": 2,
+    "description": "Learn how to set your token allowances"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Topics",
+    "permalink": "/category/advanced-topics-1"
+  },
+  "next": {
+    "title": "0x Orderbook API",
+    "permalink": "/category/0x-orderbook-api"
+  }
+}

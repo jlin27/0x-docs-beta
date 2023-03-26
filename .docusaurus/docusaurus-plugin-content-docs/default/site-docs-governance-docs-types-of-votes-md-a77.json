@@ -1,0 +1,29 @@
+{
+  "unversionedId": "governance/docs/types-of-votes",
+  "id": "governance/docs/types-of-votes",
+  "title": "Types of Votes",
+  "description": "Types of Votes",
+  "source": "@site/docs/governance/docs/types-of-votes.md",
+  "sourceDirName": "governance/docs",
+  "slug": "/governance/docs/types-of-votes",
+  "permalink": "/governance/docs/types-of-votes",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/docs/types-of-votes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Types of Votes",
+    "sidebar_position": 3,
+    "description": "Types of Votes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Governance Participants",
+    "permalink": "/governance/docs/governance-participants"
+  },
+  "next": {
+    "title": "Community Treasury",
+    "permalink": "/governance/docs/community-treasury"
+  }
+}

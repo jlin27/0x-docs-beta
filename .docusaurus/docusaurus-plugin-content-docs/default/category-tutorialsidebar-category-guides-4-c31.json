@@ -1,0 +1,16 @@
+{
+  "title": "Guides",
+  "description": "Guides",
+  "slug": "/category/guides-4",
+  "permalink": "/category/guides-4",
+  "navigation": {
+    "previous": {
+      "title": "Apply for a 0xDAO Grant (v2)",
+      "permalink": "/governance/docs/apply-for-a-0xdao-grant-v2"
+    },
+    "next": {
+      "title": "How to Delegate ZRX",
+      "permalink": "/governance/guides/how-to-delegate-zrx"
+    }
+  }
+}

@@ -103,7 +103,7 @@
               },
               "next": {
                 "title": "Guides",
-                "permalink": "/category/guides"
+                "permalink": "/category/guides-1"
               }
             },
             {
@@ -131,7 +131,7 @@
                 "permalink": "/0x-limit-orders/guides/create-a-limit-order"
               },
               "next": {
-                "title": "Limit Order Status",
+                "title": "Fill a Limit Order",
                 "permalink": "/0x-limit-orders/guides/fill-a-limit-order"
               }
             },
@@ -157,7 +157,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Guides",
-                "permalink": "/category/guides"
+                "permalink": "/category/guides-1"
               },
               "next": {
                 "title": "Cancel a Limit Order",
@@ -167,8 +167,8 @@
             {
               "unversionedId": "0x-limit-orders/guides/fill-a-limit-order",
               "id": "0x-limit-orders/guides/fill-a-limit-order",
-              "title": "Limit Order Status",
-              "description": "Learn about viewing & distributing 0x Limit Orders",
+              "title": "Fill a Limit Order",
+              "description": "Fill a Limit Order",
               "source": "@site/docs/0x-limit-orders/guides/fill-a-limit-order.md",
               "sourceDirName": "0x-limit-orders/guides",
               "slug": "/0x-limit-orders/guides/fill-a-limit-order",
@@ -177,16 +177,45 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/fill-a-limit-order.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_label": "Limit Order Status",
-                "sidebar_position": 2,
-                "description": "Learn about viewing & distributing 0x Limit Orders"
+                "sidebar_label": "Fill a Limit Order",
+                "sidebar_position": 3,
+                "description": "Fill a Limit Order"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Cancel a Limit Order",
                 "permalink": "/0x-limit-orders/guides/cancel-a-limit-order"
+              },
+              "next": {
+                "title": "Limit Order Status",
+                "permalink": "/0x-limit-orders/guides/limit-order-status"
+              }
+            },
+            {
+              "unversionedId": "0x-limit-orders/guides/limit-order-status",
+              "id": "0x-limit-orders/guides/limit-order-status",
+              "title": "Limit Order Status",
+              "description": "Learn about viewing & distributing 0x Limit Orders",
+              "source": "@site/docs/0x-limit-orders/guides/limit-order-status.md",
+              "sourceDirName": "0x-limit-orders/guides",
+              "slug": "/0x-limit-orders/guides/limit-order-status",
+              "permalink": "/0x-limit-orders/guides/limit-order-status",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/limit-order-status.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Limit Order Status",
+                "sidebar_position": 4,
+                "description": "Learn about viewing & distributing 0x Limit Orders"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Fill a Limit Order",
+                "permalink": "/0x-limit-orders/guides/fill-a-limit-order"
               },
               "next": {
                 "title": "Working in the Testnet",
@@ -206,16 +235,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/working-in-the-testnet.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_label": "Working in the Testnet",
-                "sidebar_position": 2,
+                "sidebar_position": 5,
                 "description": "Learn about working in the testnet"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Limit Order Status",
-                "permalink": "/0x-limit-orders/guides/fill-a-limit-order"
+                "permalink": "/0x-limit-orders/guides/limit-order-status"
               },
               "next": {
                 "title": "Market Makers",
@@ -624,8 +653,8 @@
                 "permalink": "/0x-swap-api/advanced-topics/slippage-protection"
               },
               "next": {
-                "title": "0x Orderbook API",
-                "permalink": "/category/0x-orderbook-api"
+                "title": "Guides",
+                "permalink": "/category/guides"
               }
             },
             {
@@ -803,6 +832,122 @@
               }
             },
             {
+              "unversionedId": "0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api",
+              "id": "0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api",
+              "title": "Accessing RFQ liquidity on 0x API",
+              "description": "This guide discusses what RFQ liquidity is, how it works, and how your project can apply to access it",
+              "source": "@site/docs/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api.md",
+              "sourceDirName": "0x-swap-api/guides",
+              "slug": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api",
+              "permalink": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Accessing RFQ liquidity on 0x API",
+                "sidebar_position": 3,
+                "description": "This guide discusses what RFQ liquidity is, how it works, and how your project can apply to access it"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Use 0x API Liquidity in Your Smart Contracts",
+                "permalink": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts"
+              },
+              "next": {
+                "title": "Troubleshooting 0x API Swaps",
+                "permalink": "/0x-swap-api/guides/troubleshooting-0x-api-swaps"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
+              "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
+              "title": "Swap Tokens with 0x Swap API",
+              "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x",
+              "source": "@site/docs/0x-swap-api/guides/swap-tokens-with-0x-swap-api.md",
+              "sourceDirName": "0x-swap-api/guides",
+              "slug": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api",
+              "permalink": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/swap-tokens-with-0x-swap-api.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Swap Tokens with 0x Swap API",
+                "sidebar_position": 1,
+                "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Guides",
+                "permalink": "/category/guides"
+              },
+              "next": {
+                "title": "Use 0x API Liquidity in Your Smart Contracts",
+                "permalink": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
+              "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
+              "title": "Troubleshooting 0x API Swaps",
+              "description": "Addressing common issues that come up with 0x API swaps.",
+              "source": "@site/docs/0x-swap-api/guides/troubleshooting-0x-api-swaps.md",
+              "sourceDirName": "0x-swap-api/guides",
+              "slug": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
+              "permalink": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/troubleshooting-0x-api-swaps.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Troubleshooting 0x API Swaps",
+                "sidebar_position": 4,
+                "description": "Addressing common issues that come up with 0x API swaps."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Accessing RFQ liquidity on 0x API",
+                "permalink": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api"
+              },
+              "next": {
+                "title": "0x Orderbook API",
+                "permalink": "/category/0x-orderbook-api"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
+              "id": "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
+              "title": "Use 0x API Liquidity in Your Smart Contracts",
+              "description": "Use 0x API Liquidity in Your Smart Contracts",
+              "source": "@site/docs/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts.md",
+              "sourceDirName": "0x-swap-api/guides",
+              "slug": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
+              "permalink": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Use 0x API Liquidity in Your Smart Contracts",
+                "sidebar_position": 2,
+                "description": "Use 0x API Liquidity in Your Smart Contracts"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Swap Tokens with 0x Swap API",
+                "permalink": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api"
+              },
+              "next": {
+                "title": "Accessing RFQ liquidity on 0x API",
+                "permalink": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api"
+              }
+            },
+            {
               "unversionedId": "0x-swap-api/introduction",
               "id": "0x-swap-api/introduction",
               "title": "Introduction",
@@ -832,20 +977,168 @@
               }
             },
             {
-              "unversionedId": "developer-resources/introduction",
-              "id": "developer-resources/introduction",
-              "title": "Introduction",
-              "description": "An introduction to how the 0x Swap API works and the resources included this section",
-              "source": "@site/docs/developer-resources/introduction.md",
+              "unversionedId": "developer-resources/0x-legal-guide",
+              "id": "developer-resources/0x-legal-guide",
+              "title": "0x Legal Guide",
+              "description": "0x Legal Guide",
+              "source": "@site/docs/developer-resources/0x-legal-guide.md",
               "sourceDirName": "developer-resources",
-              "slug": "/developer-resources/introduction",
-              "permalink": "/developer-resources/introduction",
+              "slug": "/developer-resources/0x-legal-guide",
+              "permalink": "/developer-resources/0x-legal-guide",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/introduction.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/0x-legal-guide.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 8,
               "frontMatter": {
-                "description": "An introduction to how the 0x Swap API works and the resources included this section"
+                "sidebar_label": "0x Legal Guide",
+                "sidebar_position": 8,
+                "description": "0x Legal Guide"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Bounties",
+                "permalink": "/developer-resources/bounties"
+              },
+              "next": {
+                "title": "White Paper",
+                "permalink": "/developer-resources/white-paper"
+              }
+            },
+            {
+              "unversionedId": "developer-resources/audits",
+              "id": "developer-resources/audits",
+              "title": "🔎 Audits",
+              "description": "Audits",
+              "source": "@site/docs/developer-resources/audits.md",
+              "sourceDirName": "developer-resources",
+              "slug": "/developer-resources/audits",
+              "permalink": "/developer-resources/audits",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/audits.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_label": "Audits",
+                "sidebar_position": 6,
+                "description": "Audits"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to Get 0x and Matcha Data",
+                "permalink": "/developer-resources/how-to-get-0x-and-matcha-data"
+              },
+              "next": {
+                "title": "Bounties",
+                "permalink": "/developer-resources/bounties"
+              }
+            },
+            {
+              "unversionedId": "developer-resources/bounties",
+              "id": "developer-resources/bounties",
+              "title": "🐛 Bounties",
+              "description": "Bounties",
+              "source": "@site/docs/developer-resources/bounties.md",
+              "sourceDirName": "developer-resources",
+              "slug": "/developer-resources/bounties",
+              "permalink": "/developer-resources/bounties",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/bounties.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_label": "Bounties",
+                "sidebar_position": 7,
+                "description": "Bounties"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Audits",
+                "permalink": "/developer-resources/audits"
+              },
+              "next": {
+                "title": "0x Legal Guide",
+                "permalink": "/developer-resources/0x-legal-guide"
+              }
+            },
+            {
+              "unversionedId": "developer-resources/contract-addresses",
+              "id": "developer-resources/contract-addresses",
+              "title": "📃 Contract Addresses",
+              "description": "A list of commonly used 0x protocol contract addresses",
+              "source": "@site/docs/developer-resources/contract-addresses.md",
+              "sourceDirName": "developer-resources",
+              "slug": "/developer-resources/contract-addresses",
+              "permalink": "/developer-resources/contract-addresses",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/contract-addresses.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Contract Addresses",
+                "sidebar_position": 3,
+                "description": "A list of commonly used 0x protocol contract addresses"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "FAQs & Troubleshooting",
+                "permalink": "/developer-resources/faqs-and-troubleshooting"
+              },
+              "next": {
+                "title": "Repositories",
+                "permalink": "/developer-resources/repositories"
+              }
+            },
+            {
+              "unversionedId": "developer-resources/faqs-and-troubleshooting",
+              "id": "developer-resources/faqs-and-troubleshooting",
+              "title": "🤔 FAQs & Troubleshooting",
+              "description": "FAQs & Troubleshooting",
+              "source": "@site/docs/developer-resources/faqs-and-troubleshooting.md",
+              "sourceDirName": "developer-resources",
+              "slug": "/developer-resources/faqs-and-troubleshooting",
+              "permalink": "/developer-resources/faqs-and-troubleshooting",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/faqs-and-troubleshooting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "FAQs & Troubleshooting",
+                "sidebar_position": 2,
+                "description": "FAQs & Troubleshooting"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glossary",
+                "permalink": "/developer-resources/glossary"
+              },
+              "next": {
+                "title": "Contract Addresses",
+                "permalink": "/developer-resources/contract-addresses"
+              }
+            },
+            {
+              "unversionedId": "developer-resources/glossary",
+              "id": "developer-resources/glossary",
+              "title": "📘 Glossary",
+              "description": "Glossary",
+              "source": "@site/docs/developer-resources/glossary.md",
+              "sourceDirName": "developer-resources",
+              "slug": "/developer-resources/glossary",
+              "permalink": "/developer-resources/glossary",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/glossary.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Glossary",
+                "sidebar_position": 1,
+                "description": "Glossary"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -853,30 +1146,294 @@
                 "permalink": "/category/developer-resources"
               },
               "next": {
+                "title": "FAQs & Troubleshooting",
+                "permalink": "/developer-resources/faqs-and-troubleshooting"
+              }
+            },
+            {
+              "unversionedId": "developer-resources/how-to-get-0x-and-matcha-data",
+              "id": "developer-resources/how-to-get-0x-and-matcha-data",
+              "title": "📊 How to Get 0x and Matcha Data",
+              "description": "With Existing Tools and Resources",
+              "source": "@site/docs/developer-resources/how-to-get-0x-and-matcha-data.md",
+              "sourceDirName": "developer-resources",
+              "slug": "/developer-resources/how-to-get-0x-and-matcha-data",
+              "permalink": "/developer-resources/how-to-get-0x-and-matcha-data",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/how-to-get-0x-and-matcha-data.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_label": "How to Get 0x and Matcha Data",
+                "sidebar_position": 5,
+                "description": "With Existing Tools and Resources"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Repositories",
+                "permalink": "/developer-resources/repositories"
+              },
+              "next": {
+                "title": "Audits",
+                "permalink": "/developer-resources/audits"
+              }
+            },
+            {
+              "unversionedId": "developer-resources/repositories",
+              "id": "developer-resources/repositories",
+              "title": "🐙 Repositories",
+              "description": "Repositories",
+              "source": "@site/docs/developer-resources/repositories.md",
+              "sourceDirName": "developer-resources",
+              "slug": "/developer-resources/repositories",
+              "permalink": "/developer-resources/repositories",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/repositories.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Repositories",
+                "sidebar_position": 4,
+                "description": "Repositories"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Contract Addresses",
+                "permalink": "/developer-resources/contract-addresses"
+              },
+              "next": {
+                "title": "How to Get 0x and Matcha Data",
+                "permalink": "/developer-resources/how-to-get-0x-and-matcha-data"
+              }
+            },
+            {
+              "unversionedId": "developer-resources/white-paper",
+              "id": "developer-resources/white-paper",
+              "title": "📄 White Paper",
+              "description": "White Paper",
+              "source": "@site/docs/developer-resources/white-paper.md",
+              "sourceDirName": "developer-resources",
+              "slug": "/developer-resources/white-paper",
+              "permalink": "/developer-resources/white-paper",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/white-paper.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_label": "White Paper",
+                "sidebar_position": 9,
+                "description": "White Paper"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "0x Legal Guide",
+                "permalink": "/developer-resources/0x-legal-guide"
+              },
+              "next": {
                 "title": "Tutorial - Basics",
                 "permalink": "/category/tutorial---basics"
               }
             },
             {
-              "unversionedId": "governance/introduction",
-              "id": "governance/introduction",
-              "title": "Introduction",
-              "description": "An introduction to how the 0x Swap API works and the resources included this section",
-              "source": "@site/docs/governance/introduction.md",
-              "sourceDirName": "governance",
-              "slug": "/governance/introduction",
-              "permalink": "/governance/introduction",
+              "unversionedId": "governance/docs/apply-for-a-0xdao-grant-v2",
+              "id": "governance/docs/apply-for-a-0xdao-grant-v2",
+              "title": "Apply for a 0xDAO Grant (v2)",
+              "description": "Apply for a 0xDAO Grant (v2)",
+              "source": "@site/docs/governance/docs/apply-for-a-0xdao-grant-v2.md",
+              "sourceDirName": "governance/docs",
+              "slug": "/governance/docs/apply-for-a-0xdao-grant-v2",
+              "permalink": "/governance/docs/apply-for-a-0xdao-grant-v2",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/introduction.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/docs/apply-for-a-0xdao-grant-v2.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 5,
               "frontMatter": {
-                "description": "An introduction to how the 0x Swap API works and the resources included this section"
+                "sidebar_label": "Apply for a 0xDAO Grant (v2)",
+                "sidebar_position": 5,
+                "description": "Apply for a 0xDAO Grant (v2)"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Governance",
-                "permalink": "/category/governance"
+                "title": "Community Treasury",
+                "permalink": "/governance/docs/community-treasury"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/category/guides-4"
+              }
+            },
+            {
+              "unversionedId": "governance/docs/community-treasury",
+              "id": "governance/docs/community-treasury",
+              "title": "Community Treasury",
+              "description": "Community Treasury",
+              "source": "@site/docs/governance/docs/community-treasury.md",
+              "sourceDirName": "governance/docs",
+              "slug": "/governance/docs/community-treasury",
+              "permalink": "/governance/docs/community-treasury",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/docs/community-treasury.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Community Treasury",
+                "sidebar_position": 4,
+                "description": "Community Treasury"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Types of Votes",
+                "permalink": "/governance/docs/types-of-votes"
+              },
+              "next": {
+                "title": "Apply for a 0xDAO Grant (v2)",
+                "permalink": "/governance/docs/apply-for-a-0xdao-grant-v2"
+              }
+            },
+            {
+              "unversionedId": "governance/docs/governance-participants",
+              "id": "governance/docs/governance-participants",
+              "title": "Governance Participants",
+              "description": "Governance Participants",
+              "source": "@site/docs/governance/docs/governance-participants.md",
+              "sourceDirName": "governance/docs",
+              "slug": "/governance/docs/governance-participants",
+              "permalink": "/governance/docs/governance-participants",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/docs/governance-participants.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Governance Participants",
+                "sidebar_position": 2,
+                "description": "Governance Participants"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/governance/docs/introduction"
+              },
+              "next": {
+                "title": "Types of Votes",
+                "permalink": "/governance/docs/types-of-votes"
+              }
+            },
+            {
+              "unversionedId": "governance/docs/introduction",
+              "id": "governance/docs/introduction",
+              "title": "Introduction",
+              "description": "The 0x Community DAO is the collective governing voice of the 0x protocol and the ZRX token",
+              "source": "@site/docs/governance/docs/introduction.md",
+              "sourceDirName": "governance/docs",
+              "slug": "/governance/docs/introduction",
+              "permalink": "/governance/docs/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/docs/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Introduction",
+                "sidebar_position": 1,
+                "description": "The 0x Community DAO is the collective governing voice of the 0x protocol and the ZRX token"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Docs",
+                "permalink": "/category/docs-4"
+              },
+              "next": {
+                "title": "Governance Participants",
+                "permalink": "/governance/docs/governance-participants"
+              }
+            },
+            {
+              "unversionedId": "governance/docs/types-of-votes",
+              "id": "governance/docs/types-of-votes",
+              "title": "Types of Votes",
+              "description": "Types of Votes",
+              "source": "@site/docs/governance/docs/types-of-votes.md",
+              "sourceDirName": "governance/docs",
+              "slug": "/governance/docs/types-of-votes",
+              "permalink": "/governance/docs/types-of-votes",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/docs/types-of-votes.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Types of Votes",
+                "sidebar_position": 3,
+                "description": "Types of Votes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Governance Participants",
+                "permalink": "/governance/docs/governance-participants"
+              },
+              "next": {
+                "title": "Community Treasury",
+                "permalink": "/governance/docs/community-treasury"
+              }
+            },
+            {
+              "unversionedId": "governance/guides/how-to-delegate-zrx",
+              "id": "governance/guides/how-to-delegate-zrx",
+              "title": "How to Delegate ZRX",
+              "description": "How to Delegate ZRX",
+              "source": "@site/docs/governance/guides/how-to-delegate-zrx.md",
+              "sourceDirName": "governance/guides",
+              "slug": "/governance/guides/how-to-delegate-zrx",
+              "permalink": "/governance/guides/how-to-delegate-zrx",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/guides/how-to-delegate-zrx.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "How to Delegate ZRX",
+                "sidebar_position": 1,
+                "description": "How to Delegate ZRX"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Guides",
+                "permalink": "/category/guides-4"
+              },
+              "next": {
+                "title": "How to Vote",
+                "permalink": "/governance/guides/how-to-vote"
+              }
+            },
+            {
+              "unversionedId": "governance/guides/how-to-vote",
+              "id": "governance/guides/how-to-vote",
+              "title": "How to Vote",
+              "description": "How to Vote",
+              "source": "@site/docs/governance/guides/how-to-vote.md",
+              "sourceDirName": "governance/guides",
+              "slug": "/governance/guides/how-to-vote",
+              "permalink": "/governance/guides/how-to-vote",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/guides/how-to-vote.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "How to Vote",
+                "sidebar_position": 2,
+                "description": "How to Vote"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to Delegate ZRX",
+                "permalink": "/governance/guides/how-to-delegate-zrx"
               },
               "next": {
                 "title": "Developer Resources",
@@ -994,7 +1551,7 @@
               },
               "next": {
                 "title": "Guides",
-                "permalink": "/category/guides-1"
+                "permalink": "/category/guides-2"
               }
             },
             {
@@ -1077,7 +1634,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Guides",
-                "permalink": "/category/guides-1"
+                "permalink": "/category/guides-2"
               },
               "next": {
                 "title": "Signing 0x Orders",
@@ -1168,7 +1725,7 @@
               },
               "next": {
                 "title": "Guides",
-                "permalink": "/category/guides-2"
+                "permalink": "/category/guides-3"
               }
             },
             {
@@ -1923,6 +2480,40 @@
                       "slug": "/category/advanced-topics",
                       "permalink": "/category/advanced-topics"
                     }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Guides",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
+                        "label": "Swap Tokens with 0x Swap API"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
+                        "label": "Use 0x API Liquidity in Your Smart Contracts"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api",
+                        "label": "Accessing RFQ liquidity on 0x API"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
+                        "label": "Troubleshooting 0x API Swaps"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Guides",
+                      "slug": "/category/guides",
+                      "permalink": "/category/guides"
+                    }
                   }
                 ],
                 "link": {
@@ -2074,6 +2665,11 @@
                       {
                         "type": "doc",
                         "id": "0x-limit-orders/guides/fill-a-limit-order",
+                        "label": "Fill a Limit Order"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-limit-orders/guides/limit-order-status",
                         "label": "Limit Order Status"
                       },
                       {
@@ -2085,8 +2681,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "Guides",
-                      "slug": "/category/guides",
-                      "permalink": "/category/guides"
+                      "slug": "/category/guides-1",
+                      "permalink": "/category/guides-1"
                     }
                   }
                 ],
@@ -2162,8 +2758,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "Guides",
-                      "slug": "/category/guides-1",
-                      "permalink": "/category/guides-1"
+                      "slug": "/category/guides-2",
+                      "permalink": "/category/guides-2"
                     }
                   }
                 ],
@@ -2277,8 +2873,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "Guides",
-                      "slug": "/category/guides-2",
-                      "permalink": "/category/guides-2"
+                      "slug": "/category/guides-3",
+                      "permalink": "/category/guides-3"
                     }
                   }
                 ],
@@ -2387,8 +2983,67 @@
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "governance/introduction"
+                    "type": "category",
+                    "label": "Docs",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "governance/docs/introduction",
+                        "label": "Introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "governance/docs/governance-participants",
+                        "label": "Governance Participants"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "governance/docs/types-of-votes",
+                        "label": "Types of Votes"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "governance/docs/community-treasury",
+                        "label": "Community Treasury"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "governance/docs/apply-for-a-0xdao-grant-v2",
+                        "label": "Apply for a 0xDAO Grant (v2)"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Docs",
+                      "slug": "/category/docs-4",
+                      "permalink": "/category/docs-4"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Guides",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "governance/guides/how-to-delegate-zrx",
+                        "label": "How to Delegate ZRX"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "governance/guides/how-to-vote",
+                        "label": "How to Vote"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Guides",
+                      "slug": "/category/guides-4",
+                      "permalink": "/category/guides-4"
+                    }
                   }
                 ],
                 "link": {
@@ -2406,7 +3061,48 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "developer-resources/introduction"
+                    "id": "developer-resources/glossary",
+                    "label": "Glossary"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "developer-resources/faqs-and-troubleshooting",
+                    "label": "FAQs & Troubleshooting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "developer-resources/contract-addresses",
+                    "label": "Contract Addresses"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "developer-resources/repositories",
+                    "label": "Repositories"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "developer-resources/how-to-get-0x-and-matcha-data",
+                    "label": "How to Get 0x and Matcha Data"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "developer-resources/audits",
+                    "label": "Audits"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "developer-resources/bounties",
+                    "label": "Bounties"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "developer-resources/0x-legal-guide",
+                    "label": "0x Legal Guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "developer-resources/white-paper",
+                    "label": "White Paper"
                   }
                 ],
                 "link": {

@@ -107,6 +107,39 @@
               }
             ],
             "href": "/category/advanced-topics"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Swap Tokens with 0x Swap API",
+                "href": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api",
+                "docId": "0x-swap-api/guides/swap-tokens-with-0x-swap-api"
+              },
+              {
+                "type": "link",
+                "label": "Use 0x API Liquidity in Your Smart Contracts",
+                "href": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
+                "docId": "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts"
+              },
+              {
+                "type": "link",
+                "label": "Accessing RFQ liquidity on 0x API",
+                "href": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api",
+                "docId": "0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api"
+              },
+              {
+                "type": "link",
+                "label": "Troubleshooting 0x API Swaps",
+                "href": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
+                "docId": "0x-swap-api/guides/troubleshooting-0x-api-swaps"
+              }
+            ],
+            "href": "/category/guides"
           }
         ],
         "href": "/category/0x-swap-api"
@@ -254,9 +287,15 @@
               },
               {
                 "type": "link",
-                "label": "Limit Order Status",
+                "label": "Fill a Limit Order",
                 "href": "/0x-limit-orders/guides/fill-a-limit-order",
                 "docId": "0x-limit-orders/guides/fill-a-limit-order"
+              },
+              {
+                "type": "link",
+                "label": "Limit Order Status",
+                "href": "/0x-limit-orders/guides/limit-order-status",
+                "docId": "0x-limit-orders/guides/limit-order-status"
               },
               {
                 "type": "link",
@@ -265,7 +304,7 @@
                 "docId": "0x-limit-orders/guides/working-in-the-testnet"
               }
             ],
-            "href": "/category/guides"
+            "href": "/category/guides-1"
           }
         ],
         "href": "/category/limit-order-advanced-traders"
@@ -334,7 +373,7 @@
                 "docId": "market-makers/guides/rfq-orders-code-examples-with-python"
               }
             ],
-            "href": "/category/guides-1"
+            "href": "/category/guides-2"
           }
         ],
         "href": "/category/market-makers"
@@ -433,7 +472,7 @@
                 "docId": "nft-support/guides/fetching-nft-order-data"
               }
             ],
-            "href": "/category/guides-2"
+            "href": "/category/guides-3"
           }
         ],
         "href": "/category/nft-support"
@@ -523,10 +562,64 @@
         "collapsed": true,
         "items": [
           {
-            "type": "link",
-            "label": "Introduction",
-            "href": "/governance/introduction",
-            "docId": "governance/introduction"
+            "type": "category",
+            "label": "Docs",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/governance/docs/introduction",
+                "docId": "governance/docs/introduction"
+              },
+              {
+                "type": "link",
+                "label": "Governance Participants",
+                "href": "/governance/docs/governance-participants",
+                "docId": "governance/docs/governance-participants"
+              },
+              {
+                "type": "link",
+                "label": "Types of Votes",
+                "href": "/governance/docs/types-of-votes",
+                "docId": "governance/docs/types-of-votes"
+              },
+              {
+                "type": "link",
+                "label": "Community Treasury",
+                "href": "/governance/docs/community-treasury",
+                "docId": "governance/docs/community-treasury"
+              },
+              {
+                "type": "link",
+                "label": "Apply for a 0xDAO Grant (v2)",
+                "href": "/governance/docs/apply-for-a-0xdao-grant-v2",
+                "docId": "governance/docs/apply-for-a-0xdao-grant-v2"
+              }
+            ],
+            "href": "/category/docs-4"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "How to Delegate ZRX",
+                "href": "/governance/guides/how-to-delegate-zrx",
+                "docId": "governance/guides/how-to-delegate-zrx"
+              },
+              {
+                "type": "link",
+                "label": "How to Vote",
+                "href": "/governance/guides/how-to-vote",
+                "docId": "governance/guides/how-to-vote"
+              }
+            ],
+            "href": "/category/guides-4"
           }
         ],
         "href": "/category/governance"
@@ -539,9 +632,57 @@
         "items": [
           {
             "type": "link",
-            "label": "Introduction",
-            "href": "/developer-resources/introduction",
-            "docId": "developer-resources/introduction"
+            "label": "Glossary",
+            "href": "/developer-resources/glossary",
+            "docId": "developer-resources/glossary"
+          },
+          {
+            "type": "link",
+            "label": "FAQs & Troubleshooting",
+            "href": "/developer-resources/faqs-and-troubleshooting",
+            "docId": "developer-resources/faqs-and-troubleshooting"
+          },
+          {
+            "type": "link",
+            "label": "Contract Addresses",
+            "href": "/developer-resources/contract-addresses",
+            "docId": "developer-resources/contract-addresses"
+          },
+          {
+            "type": "link",
+            "label": "Repositories",
+            "href": "/developer-resources/repositories",
+            "docId": "developer-resources/repositories"
+          },
+          {
+            "type": "link",
+            "label": "How to Get 0x and Matcha Data",
+            "href": "/developer-resources/how-to-get-0x-and-matcha-data",
+            "docId": "developer-resources/how-to-get-0x-and-matcha-data"
+          },
+          {
+            "type": "link",
+            "label": "Audits",
+            "href": "/developer-resources/audits",
+            "docId": "developer-resources/audits"
+          },
+          {
+            "type": "link",
+            "label": "Bounties",
+            "href": "/developer-resources/bounties",
+            "docId": "developer-resources/bounties"
+          },
+          {
+            "type": "link",
+            "label": "0x Legal Guide",
+            "href": "/developer-resources/0x-legal-guide",
+            "docId": "developer-resources/0x-legal-guide"
+          },
+          {
+            "type": "link",
+            "label": "White Paper",
+            "href": "/developer-resources/white-paper",
+            "docId": "developer-resources/white-paper"
           }
         ],
         "href": "/category/developer-resources"
@@ -647,6 +788,12 @@
     },
     "0x-limit-orders/guides/fill-a-limit-order": {
       "id": "0x-limit-orders/guides/fill-a-limit-order",
+      "title": "Fill a Limit Order",
+      "description": "Fill a Limit Order",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-limit-orders/guides/limit-order-status": {
+      "id": "0x-limit-orders/guides/limit-order-status",
       "title": "Limit Order Status",
       "description": "Learn about viewing & distributing 0x Limit Orders",
       "sidebar": "tutorialSidebar"
@@ -777,22 +924,130 @@
       "description": "Learn how to use the 0x API, a REST API that runs on HTTP",
       "sidebar": "tutorialSidebar"
     },
+    "0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api": {
+      "id": "0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api",
+      "title": "Accessing RFQ liquidity on 0x API",
+      "description": "This guide discusses what RFQ liquidity is, how it works, and how your project can apply to access it",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/guides/swap-tokens-with-0x-swap-api": {
+      "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
+      "title": "Swap Tokens with 0x Swap API",
+      "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/guides/troubleshooting-0x-api-swaps": {
+      "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
+      "title": "Troubleshooting 0x API Swaps",
+      "description": "Addressing common issues that come up with 0x API swaps.",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts": {
+      "id": "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
+      "title": "Use 0x API Liquidity in Your Smart Contracts",
+      "description": "Use 0x API Liquidity in Your Smart Contracts",
+      "sidebar": "tutorialSidebar"
+    },
     "0x-swap-api/introduction": {
       "id": "0x-swap-api/introduction",
       "title": "Introduction",
       "description": "An introduction to how the 0x Swap API works and the resources included this section",
       "sidebar": "tutorialSidebar"
     },
-    "developer-resources/introduction": {
-      "id": "developer-resources/introduction",
-      "title": "Introduction",
-      "description": "An introduction to how the 0x Swap API works and the resources included this section",
+    "developer-resources/0x-legal-guide": {
+      "id": "developer-resources/0x-legal-guide",
+      "title": "0x Legal Guide",
+      "description": "0x Legal Guide",
       "sidebar": "tutorialSidebar"
     },
-    "governance/introduction": {
-      "id": "governance/introduction",
+    "developer-resources/audits": {
+      "id": "developer-resources/audits",
+      "title": "🔎 Audits",
+      "description": "Audits",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-resources/bounties": {
+      "id": "developer-resources/bounties",
+      "title": "🐛 Bounties",
+      "description": "Bounties",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-resources/contract-addresses": {
+      "id": "developer-resources/contract-addresses",
+      "title": "📃 Contract Addresses",
+      "description": "A list of commonly used 0x protocol contract addresses",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-resources/faqs-and-troubleshooting": {
+      "id": "developer-resources/faqs-and-troubleshooting",
+      "title": "🤔 FAQs & Troubleshooting",
+      "description": "FAQs & Troubleshooting",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-resources/glossary": {
+      "id": "developer-resources/glossary",
+      "title": "📘 Glossary",
+      "description": "Glossary",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-resources/how-to-get-0x-and-matcha-data": {
+      "id": "developer-resources/how-to-get-0x-and-matcha-data",
+      "title": "📊 How to Get 0x and Matcha Data",
+      "description": "With Existing Tools and Resources",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-resources/repositories": {
+      "id": "developer-resources/repositories",
+      "title": "🐙 Repositories",
+      "description": "Repositories",
+      "sidebar": "tutorialSidebar"
+    },
+    "developer-resources/white-paper": {
+      "id": "developer-resources/white-paper",
+      "title": "📄 White Paper",
+      "description": "White Paper",
+      "sidebar": "tutorialSidebar"
+    },
+    "governance/docs/apply-for-a-0xdao-grant-v2": {
+      "id": "governance/docs/apply-for-a-0xdao-grant-v2",
+      "title": "Apply for a 0xDAO Grant (v2)",
+      "description": "Apply for a 0xDAO Grant (v2)",
+      "sidebar": "tutorialSidebar"
+    },
+    "governance/docs/community-treasury": {
+      "id": "governance/docs/community-treasury",
+      "title": "Community Treasury",
+      "description": "Community Treasury",
+      "sidebar": "tutorialSidebar"
+    },
+    "governance/docs/governance-participants": {
+      "id": "governance/docs/governance-participants",
+      "title": "Governance Participants",
+      "description": "Governance Participants",
+      "sidebar": "tutorialSidebar"
+    },
+    "governance/docs/introduction": {
+      "id": "governance/docs/introduction",
       "title": "Introduction",
-      "description": "An introduction to how the 0x Swap API works and the resources included this section",
+      "description": "The 0x Community DAO is the collective governing voice of the 0x protocol and the ZRX token",
+      "sidebar": "tutorialSidebar"
+    },
+    "governance/docs/types-of-votes": {
+      "id": "governance/docs/types-of-votes",
+      "title": "Types of Votes",
+      "description": "Types of Votes",
+      "sidebar": "tutorialSidebar"
+    },
+    "governance/guides/how-to-delegate-zrx": {
+      "id": "governance/guides/how-to-delegate-zrx",
+      "title": "How to Delegate ZRX",
+      "description": "How to Delegate ZRX",
+      "sidebar": "tutorialSidebar"
+    },
+    "governance/guides/how-to-vote": {
+      "id": "governance/guides/how-to-vote",
+      "title": "How to Vote",
+      "description": "How to Vote",
       "sidebar": "tutorialSidebar"
     },
     "introduction/0x-cheat-sheet": {

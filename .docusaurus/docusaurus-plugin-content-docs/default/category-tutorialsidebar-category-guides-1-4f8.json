@@ -5,12 +5,12 @@
   "permalink": "/category/guides-1",
   "navigation": {
     "previous": {
-      "title": "Providing AMM liquidity to 0x API",
-      "permalink": "/market-makers/docs/providing-amm-liquidity-to-0x-api"
+      "title": "Monitoring 0x Limit Orders",
+      "permalink": "/0x-limit-orders/docs/limit-order-structure copy"
     },
     "next": {
-      "title": "Generating 0x Order Hashes",
-      "permalink": "/market-makers/guides/generating-0x-order-hashes"
+      "title": "Create a Limit Order",
+      "permalink": "/0x-limit-orders/guides/create-a-limit-order"
     }
   }
 }

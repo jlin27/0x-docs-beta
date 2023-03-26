@@ -1,23 +1,18 @@
 ---
-sidebar_label: Limit Order Status
-sidebar_position: 2
-description: Learn about viewing & distributing 0x Limit Orders
+sidebar_label: Fill a Limit Order
+sidebar_position: 3
+description: Fill a Limit Order
 ---
+# Fill a Limit Order
 
-# Limit Order Status
+[0x Limit Orders](https://protocol.0x.org/en/latest/basics/orders.html#limit-orders) may be filled by calling the following methods on the [Exchange Proxy](https://protocol.0x.org/en/latest/architecture/overview.html). Our [protocol utilization](https://github.com/0xProject/protocol/tree/development/packages/protocol-utils) package is available for developers to generate, parse, sign and validate 0x orders. \
+\
+These are the basic functions for filling a 0x Limit Order:
 
-### Viewing & Distributing 0x Limit Orders
-
-0x Limit Orders can be submitted to the [0x Orderbook](https://0x.org/docs/api#orderbook). The following request-endpoint combinations are commonly used to view and distribute 0x Limit Orders via the 0x API.
-
-* [GET /orderbook/v1/](https://0x.org/docs/api#get-orderbookv1)
-  * Retrieves the orderbook for a given asset pair
-* [GET /orderbook/v1/orders](https://0x.org/docs/api#get-orderbookv1orders)
-  * Retrieves a list of orders given query parameters
-* [POST /orderbook/v1/order](https://0x.org/docs/api#post-orderbookv1order)
-  * Submit a signed 0x Limit Order
-* [POST /orderbook/v1/orders](https://0x.org/docs/api#post-orderbookv1orders)
-  * Submit a list of signed orders
+* [fillLimitOrder](https://protocol.0x.org/en/latest/basics/functions.html#filllimitorder)
+  * Fills a 0x Limit Order up to the amount requested
+* [fillOrKillLimitOrder](https://protocol.0x.org/en/latest/basics/functions.html#filllimitorder)
+  * Fills exactly the amount requested or reverts
 
 ### Code Examples
 

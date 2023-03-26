@@ -23,7 +23,7 @@
     "permalink": "/0x-limit-orders/guides/create-a-limit-order"
   },
   "next": {
-    "title": "Limit Order Status",
+    "title": "Fill a Limit Order",
     "permalink": "/0x-limit-orders/guides/fill-a-limit-order"
   }
 }

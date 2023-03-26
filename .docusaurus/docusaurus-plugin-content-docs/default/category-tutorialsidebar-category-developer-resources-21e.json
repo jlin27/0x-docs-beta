@@ -5,12 +5,12 @@
   "permalink": "/category/developer-resources",
   "navigation": {
     "previous": {
-      "title": "Introduction",
-      "permalink": "/governance/introduction"
+      "title": "How to Vote",
+      "permalink": "/governance/guides/how-to-vote"
     },
     "next": {
-      "title": "Introduction",
-      "permalink": "/developer-resources/introduction"
+      "title": "Glossary",
+      "permalink": "/developer-resources/glossary"
     }
   }
 }

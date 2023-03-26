@@ -1,0 +1,29 @@
+{
+  "unversionedId": "governance/docs/apply-for-a-0xdao-grant-v2",
+  "id": "governance/docs/apply-for-a-0xdao-grant-v2",
+  "title": "Apply for a 0xDAO Grant (v2)",
+  "description": "Apply for a 0xDAO Grant (v2)",
+  "source": "@site/docs/governance/docs/apply-for-a-0xdao-grant-v2.md",
+  "sourceDirName": "governance/docs",
+  "slug": "/governance/docs/apply-for-a-0xdao-grant-v2",
+  "permalink": "/governance/docs/apply-for-a-0xdao-grant-v2",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/docs/apply-for-a-0xdao-grant-v2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_label": "Apply for a 0xDAO Grant (v2)",
+    "sidebar_position": 5,
+    "description": "Apply for a 0xDAO Grant (v2)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Community Treasury",
+    "permalink": "/governance/docs/community-treasury"
+  },
+  "next": {
+    "title": "Guides",
+    "permalink": "/category/guides-4"
+  }
+}

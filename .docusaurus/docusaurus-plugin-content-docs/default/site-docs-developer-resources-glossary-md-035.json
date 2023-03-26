@@ -1,0 +1,29 @@
+{
+  "unversionedId": "developer-resources/glossary",
+  "id": "developer-resources/glossary",
+  "title": "📘 Glossary",
+  "description": "Glossary",
+  "source": "@site/docs/developer-resources/glossary.md",
+  "sourceDirName": "developer-resources",
+  "slug": "/developer-resources/glossary",
+  "permalink": "/developer-resources/glossary",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/glossary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Glossary",
+    "sidebar_position": 1,
+    "description": "Glossary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developer Resources",
+    "permalink": "/category/developer-resources"
+  },
+  "next": {
+    "title": "FAQs & Troubleshooting",
+    "permalink": "/developer-resources/faqs-and-troubleshooting"
+  }
+}

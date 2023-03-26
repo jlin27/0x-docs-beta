@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '4f0'),
+    component: ComponentCreator('/', '2fb'),
     routes: [
       {
         path: '/',
@@ -85,6 +85,12 @@ export default [
       {
         path: '/0x-limit-orders/guides/fill-a-limit-order',
         component: ComponentCreator('/0x-limit-orders/guides/fill-a-limit-order', '1bb'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/0x-limit-orders/guides/limit-order-status',
+        component: ComponentCreator('/0x-limit-orders/guides/limit-order-status', '603'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -215,6 +221,30 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api',
+        component: ComponentCreator('/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api', '238'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/0x-swap-api/guides/swap-tokens-with-0x-swap-api',
+        component: ComponentCreator('/0x-swap-api/guides/swap-tokens-with-0x-swap-api', '99f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/0x-swap-api/guides/troubleshooting-0x-api-swaps',
+        component: ComponentCreator('/0x-swap-api/guides/troubleshooting-0x-api-swaps', '52b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts',
+        component: ComponentCreator('/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts', '006'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/0x-swap-api/introduction',
         component: ComponentCreator('/0x-swap-api/introduction', '827'),
         exact: true,
@@ -287,6 +317,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/category/docs-4',
+        component: ComponentCreator('/category/docs-4', '5db'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/category/exchange-proxy',
         component: ComponentCreator('/category/exchange-proxy', 'afd'),
         exact: true,
@@ -319,6 +355,18 @@ export default [
       {
         path: '/category/guides-2',
         component: ComponentCreator('/category/guides-2', '0c7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/guides-3',
+        component: ComponentCreator('/category/guides-3', 'a56'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/guides-4',
+        component: ComponentCreator('/category/guides-4', '1ec'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -371,14 +419,98 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/developer-resources/introduction',
-        component: ComponentCreator('/developer-resources/introduction', '9c4'),
+        path: '/developer-resources/0x-legal-guide',
+        component: ComponentCreator('/developer-resources/0x-legal-guide', '544'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/governance/introduction',
-        component: ComponentCreator('/governance/introduction', '2b2'),
+        path: '/developer-resources/audits',
+        component: ComponentCreator('/developer-resources/audits', '374'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/developer-resources/bounties',
+        component: ComponentCreator('/developer-resources/bounties', 'db5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/developer-resources/contract-addresses',
+        component: ComponentCreator('/developer-resources/contract-addresses', '7fb'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/developer-resources/faqs-and-troubleshooting',
+        component: ComponentCreator('/developer-resources/faqs-and-troubleshooting', '46e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/developer-resources/glossary',
+        component: ComponentCreator('/developer-resources/glossary', '3c5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/developer-resources/how-to-get-0x-and-matcha-data',
+        component: ComponentCreator('/developer-resources/how-to-get-0x-and-matcha-data', 'c00'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/developer-resources/repositories',
+        component: ComponentCreator('/developer-resources/repositories', '706'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/developer-resources/white-paper',
+        component: ComponentCreator('/developer-resources/white-paper', '0b5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/governance/docs/apply-for-a-0xdao-grant-v2',
+        component: ComponentCreator('/governance/docs/apply-for-a-0xdao-grant-v2', '2ed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/governance/docs/community-treasury',
+        component: ComponentCreator('/governance/docs/community-treasury', '053'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/governance/docs/governance-participants',
+        component: ComponentCreator('/governance/docs/governance-participants', 'b57'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/governance/docs/introduction',
+        component: ComponentCreator('/governance/docs/introduction', '690'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/governance/docs/types-of-votes',
+        component: ComponentCreator('/governance/docs/types-of-votes', 'cca'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/governance/guides/how-to-delegate-zrx',
+        component: ComponentCreator('/governance/guides/how-to-delegate-zrx', '68b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/governance/guides/how-to-vote',
+        component: ComponentCreator('/governance/guides/how-to-vote', '729'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

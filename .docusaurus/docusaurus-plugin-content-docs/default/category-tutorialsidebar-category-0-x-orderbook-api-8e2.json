@@ -5,8 +5,8 @@
   "permalink": "/category/0x-orderbook-api",
   "navigation": {
     "previous": {
-      "title": "Price Impact Protection",
-      "permalink": "/0x-swap-api/advanced-topics/price-impact-protection"
+      "title": "Troubleshooting 0x API Swaps",
+      "permalink": "/0x-swap-api/guides/troubleshooting-0x-api-swaps"
     },
     "next": {
       "title": "Introduction",
