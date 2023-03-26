@@ -9,7 +9,7 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://docs.0x.org",
   "baseUrl": "/",
-  "organizationName": "0xproject",
+  "organizationName": "jlin27",
   "projectName": "0x-docs",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
@@ -26,13 +26,11 @@ export default {
       "classic",
       {
         "docs": {
+          "routeBasePath": "/",
           "sidebarPath": "/Users/jessica/github/0x-docs/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
+        "blog": false,
         "theme": {
           "customCss": "/Users/jessica/github/0x-docs/src/css/custom.css"
         }
@@ -53,11 +51,6 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Docs"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
         },
         {
           "href": "https://github.com/0xProject",
@@ -84,33 +77,20 @@ export default {
           "items": [
             {
               "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "https://ethereum.stackexchange.com/questions/tagged/0x"
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://discord.com/invite/d3FTX3M"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://twitter.com/0xproject"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2023"
     },
     "prism": {
       "theme": {

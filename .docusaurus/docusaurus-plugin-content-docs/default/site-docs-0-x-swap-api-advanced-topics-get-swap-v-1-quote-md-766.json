@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-swap-api/advanced-topics/get-swap-v1-quote",
+  "id": "0x-swap-api/advanced-topics/get-swap-v1-quote",
+  "title": "How to Set Your Token Allowances",
+  "description": "Learn how to set your token allowances",
+  "source": "@site/docs/0x-swap-api/advanced-topics/get-swap-v1-quote.md",
+  "sourceDirName": "0x-swap-api/advanced-topics",
+  "slug": "/0x-swap-api/advanced-topics/get-swap-v1-quote",
+  "permalink": "/0x-swap-api/advanced-topics/get-swap-v1-quote",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/advanced-topics/get-swap-v1-quote.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "How to Set Your Token Allowances",
+    "sidebar_position": 2,
+    "description": "Learn how to set your token allowances"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API References",
+    "permalink": "/0x-swap-api/advanced-topics/intro"
+  },
+  "next": {
+    "title": "GET /swap/v1/price",
+    "permalink": "/0x-swap-api/advanced-topics/get-swap-v1-quote copy"
+  }
+}

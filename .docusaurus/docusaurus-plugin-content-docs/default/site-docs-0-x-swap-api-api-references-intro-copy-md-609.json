@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-swap-api/api-references/intro copy",
+  "id": "0x-swap-api/api-references/intro copy",
+  "title": "API References",
+  "description": "Learn how to use the 0x API, a REST API that runs on HTTP",
+  "source": "@site/docs/0x-swap-api/api-references/intro copy.md",
+  "sourceDirName": "0x-swap-api/api-references",
+  "slug": "/0x-swap-api/api-references/intro copy",
+  "permalink": "/0x-swap-api/api-references/intro copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/intro copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "API References",
+    "sidebar_position": 2,
+    "description": "Learn how to use the 0x API, a REST API that runs on HTTP"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API References",
+    "permalink": "/category/api-references"
+  },
+  "next": {
+    "title": "API References",
+    "permalink": "/0x-swap-api/api-references/intro"
+  }
+}

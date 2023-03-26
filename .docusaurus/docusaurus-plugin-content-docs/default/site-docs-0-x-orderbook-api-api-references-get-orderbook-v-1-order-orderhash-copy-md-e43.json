@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash copy",
+  "id": "0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash copy",
+  "title": "POST /orderbook/v1/order\\_config",
+  "description": "Learn how to use  POST /orderbook/v1/order\\_config",
+  "source": "@site/docs/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash copy.md",
+  "sourceDirName": "0x-orderbook-api/api-references",
+  "slug": "/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash copy",
+  "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_label": "POST /orderbook/v1/order\\_config",
+    "sidebar_position": 7,
+    "description": "Learn how to use  POST /orderbook/v1/order\\_config"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GET /orderbook/v1/order/orderHash",
+    "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash"
+  },
+  "next": {
+    "title": "0x Limit Orders",
+    "permalink": "/category/0x-limit-orders"
+  }
+}

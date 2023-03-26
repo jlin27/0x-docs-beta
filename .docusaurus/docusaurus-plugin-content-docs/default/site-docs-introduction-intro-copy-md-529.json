@@ -1,0 +1,27 @@
+{
+  "unversionedId": "introduction/intro copy",
+  "id": "introduction/intro copy",
+  "title": "Welcome",
+  "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+  "source": "@site/docs/introduction/intro copy.md",
+  "sourceDirName": "introduction",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/intro copy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/category/introduction"
+  },
+  "next": {
+    "title": "Welcome",
+    "permalink": "/"
+  }
+}

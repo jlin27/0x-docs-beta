@@ -1,153 +1,388 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
-          "mainDocId": "welcome/intro",
+          "path": "/",
+          "mainDocId": "introduction/intro",
           "docs": [
             {
-              "id": "0x-limit-orders/intro",
-              "path": "/docs/0x-limit-orders/intro",
+              "id": "0x-limit-orders/docs/introduction",
+              "path": "/0x-limit-orders/docs/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "0x-swap-api/0x-swap-api-references/intro",
-              "path": "/docs/0x-swap-api/0x-swap-api-references/intro",
+              "id": "0x-limit-orders/docs/limit-order-structure",
+              "path": "/0x-limit-orders/docs/limit-order-structure",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "0x-swap-api/intro",
-              "path": "/docs/0x-swap-api/intro",
+              "id": "0x-limit-orders/docs/limit-order-structure copy",
+              "path": "/0x-limit-orders/docs/limit-order-structure copy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-limit-orders/guides/cancel-a-limit-order",
+              "path": "/0x-limit-orders/guides/cancel-a-limit-order",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-limit-orders/guides/create-a-limit-order",
+              "path": "/0x-limit-orders/guides/create-a-limit-order",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-limit-orders/guides/fill-a-limit-order",
+              "path": "/0x-limit-orders/guides/fill-a-limit-order",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-limit-orders/guides/working-in-the-testnet",
+              "path": "/0x-limit-orders/guides/working-in-the-testnet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/api-references/get-orderbook-v1",
+              "path": "/0x-orderbook-api/api-references/get-orderbook-v1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md",
+              "path": "/0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash",
+              "path": "/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/api-references/get-orderbook-v1-orders",
+              "path": "/0x-orderbook-api/api-references/get-orderbook-v1-orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/api-references/intro",
+              "path": "/0x-orderbook-api/api-references/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/api-references/post-orderbook-v1-order",
+              "path": "/0x-orderbook-api/api-references/post-orderbook-v1-order",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/api-references/post-orderbook-v1-order_config",
+              "path": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/api-references/post-orderbook-v1-orders",
+              "path": "/0x-orderbook-api/api-references/post-orderbook-v1-orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/api-references/websocket-api",
+              "path": "/0x-orderbook-api/api-references/websocket-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/connection-limit",
+              "path": "/0x-orderbook-api/connection-limit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/introduction",
+              "path": "/0x-orderbook-api/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-orderbook-api/rate-limiting",
+              "path": "/0x-orderbook-api/rate-limiting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+              "path": "/0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/advanced-topics/price-impact-protection",
+              "path": "/0x-swap-api/advanced-topics/price-impact-protection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/advanced-topics/rate-limiting",
+              "path": "/0x-swap-api/advanced-topics/rate-limiting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/advanced-topics/slippage-protection",
+              "path": "/0x-swap-api/advanced-topics/slippage-protection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/api-references/get-swap-v1-price",
+              "path": "/0x-swap-api/api-references/get-swap-v1-price",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/api-references/get-swap-v1-quote",
+              "path": "/0x-swap-api/api-references/get-swap-v1-quote",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/api-references/get-swap-v1-source",
+              "path": "/0x-swap-api/api-references/get-swap-v1-source",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/api-references/intro",
+              "path": "/0x-swap-api/api-references/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "0x-swap-api/introduction",
+              "path": "/0x-swap-api/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "developer-resources/intro",
-              "path": "/docs/developer-resources/intro",
+              "path": "/developer-resources/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "governance/intro",
-              "path": "/docs/governance/intro",
+              "path": "/governance/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "market-makers/intro",
-              "path": "/docs/market-makers/intro",
+              "id": "introduction/0x-cheat-sheet",
+              "path": "/introduction/0x-cheat-sheet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/intro",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "market-makers/docs/introduction",
+              "path": "/market-makers/docs/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
+              "path": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
+              "path": "/market-makers/docs/providing-rfq-liquidity-to-0x-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "market-makers/docs/rfq-order-structure",
+              "path": "/market-makers/docs/rfq-order-structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "market-makers/guides/generating-0x-order-hashes",
+              "path": "/market-makers/guides/generating-0x-order-hashes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "market-makers/guides/rfq-orders-code-examples-with-python",
+              "path": "/market-makers/guides/rfq-orders-code-examples-with-python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "market-makers/guides/signing-0x-orders",
+              "path": "/market-makers/guides/signing-0x-orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nft-support/docs/introduction",
+              "path": "/nft-support/docs/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nft-support/guides/creating-orders/collection-offers",
+              "path": "/nft-support/guides/creating-orders/collection-offers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nft-support/guides/creating-orders/overview",
+              "path": "/nft-support/guides/creating-orders/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nft-support/guides/creating-orders/royalties-and-fees",
+              "path": "/nft-support/guides/creating-orders/royalties-and-fees",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nft-support/guides/generating-0x-order-hashes",
+              "path": "/nft-support/guides/generating-0x-order-hashes",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "nft-support/intro",
-              "path": "/docs/nft-support/intro",
+              "path": "/nft-support/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "protocol/intro",
-              "path": "/docs/protocol/intro",
+              "path": "/protocol/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
+              "path": "/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "path": "/tutorial-basics/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
+              "path": "/tutorial-basics/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
+              "path": "/tutorial-basics/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
+              "path": "/tutorial-basics/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
+              "path": "/tutorial-basics/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "path": "/tutorial-extras/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "path": "/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "welcome/intro",
-              "path": "/docs/welcome/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/welcome",
-              "path": "/docs/category/welcome",
+              "id": "/category/introduction",
+              "path": "/category/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/0x-swap-api",
-              "path": "/docs/category/0x-swap-api",
+              "path": "/category/0x-swap-api",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/0x-swap-api-references",
-              "path": "/docs/category/0x-swap-api-references",
+              "id": "/category/api-references",
+              "path": "/category/api-references",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/0x-limit-orders",
-              "path": "/docs/category/0x-limit-orders",
+              "id": "/category/advanced-topics",
+              "path": "/category/advanced-topics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/0x-orderbook-api",
+              "path": "/category/0x-orderbook-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/api-references-1",
+              "path": "/category/api-references-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/limit-order-advanced-traders",
+              "path": "/category/limit-order-advanced-traders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docs",
+              "path": "/category/docs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/guides",
+              "path": "/category/guides",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/market-makers",
-              "path": "/docs/category/market-makers",
+              "path": "/category/market-makers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docs-1",
+              "path": "/category/docs-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/guides-1",
+              "path": "/category/guides-1",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/nft-support",
-              "path": "/docs/category/nft-support",
+              "path": "/category/nft-support",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docs-2",
+              "path": "/category/docs-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/guides-2",
+              "path": "/category/guides-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/creating-orders",
+              "path": "/category/creating-orders",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/protocol",
-              "path": "/docs/category/protocol",
+              "path": "/category/protocol",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/governance",
-              "path": "/docs/category/governance",
+              "path": "/category/governance",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/developer-resources",
-              "path": "/docs/category/developer-resources",
+              "path": "/category/developer-resources",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
+              "path": "/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
+              "path": "/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -155,8 +390,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/category/welcome",
-                "label": "Welcome"
+                "path": "/category/introduction",
+                "label": "Introduction"
               }
             }
           }

@@ -1,0 +1,16 @@
+{
+  "title": "API References",
+  "description": "An introduction 0x Orderbook API",
+  "slug": "/category/api-references-1",
+  "permalink": "/category/api-references-1",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/0x-orderbook-api/introduction"
+    },
+    "next": {
+      "title": "API References",
+      "permalink": "/0x-orderbook-api/api-references/intro"
+    }
+  }
+}

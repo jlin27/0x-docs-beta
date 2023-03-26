@@ -1,0 +1,16 @@
+{
+  "title": "Guides",
+  "description": "Guides",
+  "slug": "/category/guides-2",
+  "permalink": "/category/guides-2",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/nft-support/docs/introduction"
+    },
+    "next": {
+      "title": "Creating Orders",
+      "permalink": "/category/creating-orders"
+    }
+  }
+}

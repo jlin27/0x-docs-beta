@@ -5,22 +5,23 @@
   "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
   "source": "@site/docs/welcome/intro.md",
   "sourceDirName": "welcome",
-  "slug": "/welcome/intro",
-  "permalink": "/docs/welcome/intro",
+  "slug": "/",
+  "permalink": "/",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/welcome/intro.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet"
+    "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+    "slug": "/"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Welcome",
-    "permalink": "/docs/category/welcome"
+    "permalink": "/category/welcome"
   },
   "next": {
     "title": "0x Swap API",
-    "permalink": "/docs/category/0x-swap-api"
+    "permalink": "/category/0x-swap-api"
   }
 }

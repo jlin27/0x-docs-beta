@@ -1,0 +1,16 @@
+{
+  "title": "Guides",
+  "description": "Guides",
+  "slug": "/category/guides-3",
+  "permalink": "/category/guides-3",
+  "navigation": {
+    "previous": {
+      "title": "Generating 0x Order Hashes",
+      "permalink": "/nft-support/guides/generating-0x-order-hashes"
+    },
+    "next": {
+      "title": "Generating 0x Order Hashes",
+      "permalink": "/nft-support/guides copy/generating-0x-order-hashes"
+    }
+  }
+}

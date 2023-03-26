@@ -1,0 +1,16 @@
+{
+  "title": "Docs",
+  "description": "Docs",
+  "slug": "/category/docs",
+  "permalink": "/category/docs",
+  "navigation": {
+    "previous": {
+      "title": "Limit Order (Advanced Traders)",
+      "permalink": "/category/limit-order-advanced-traders"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/0x-limit-orders/docs/introduction"
+    }
+  }
+}

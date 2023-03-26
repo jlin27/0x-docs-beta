@@ -1,0 +1,26 @@
+{
+  "unversionedId": "0x-orderbook-api/intro",
+  "id": "0x-orderbook-api/intro",
+  "title": "Introduction",
+  "description": "An introduction to how the 0x Swap API works and the resources included this section",
+  "source": "@site/docs/0x-orderbook-api/intro.md",
+  "sourceDirName": "0x-orderbook-api",
+  "slug": "/0x-orderbook-api/intro",
+  "permalink": "/0x-orderbook-api/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "An introduction to how the 0x Swap API works and the resources included this section"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "0x Orderbook API",
+    "permalink": "/category/0x-orderbook-api"
+  },
+  "next": {
+    "title": "0x Limit Orders",
+    "permalink": "/category/0x-limit-orders"
+  }
+}

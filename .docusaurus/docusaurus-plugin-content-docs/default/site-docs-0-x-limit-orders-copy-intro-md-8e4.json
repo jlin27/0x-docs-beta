@@ -6,7 +6,7 @@
   "source": "@site/docs/0x-limit-orders copy/intro.md",
   "sourceDirName": "0x-limit-orders copy",
   "slug": "/0x-limit-orders copy/intro",
-  "permalink": "/docs/0x-limit-orders copy/intro",
+  "permalink": "/0x-limit-orders copy/intro",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders copy/intro.md",
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "0x Limit Orders",
-    "permalink": "/docs/category/0x-limit-orders-1"
+    "permalink": "/category/0x-limit-orders-1"
   },
   "next": {
     "title": "Market Makers",
-    "permalink": "/docs/category/market-makers"
+    "permalink": "/category/market-makers"
   }
 }

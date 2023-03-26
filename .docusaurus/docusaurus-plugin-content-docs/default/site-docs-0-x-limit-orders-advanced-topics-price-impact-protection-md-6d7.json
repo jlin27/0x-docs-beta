@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-limit-orders/advanced-topics/price-impact-protection",
+  "id": "0x-limit-orders/advanced-topics/price-impact-protection",
+  "title": "Price Impact Protection",
+  "description": "Get notifications on illiquid markets. Don't get rekt.",
+  "source": "@site/docs/0x-limit-orders/advanced-topics/price-impact-protection.md",
+  "sourceDirName": "0x-limit-orders/advanced-topics",
+  "slug": "/0x-limit-orders/advanced-topics/price-impact-protection",
+  "permalink": "/0x-limit-orders/advanced-topics/price-impact-protection",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/advanced-topics/price-impact-protection.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_label": "Price Impact Protection",
+    "sidebar_position": 4,
+    "description": "Get notifications on illiquid markets. Don't get rekt."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Slippage Protection",
+    "permalink": "/0x-limit-orders/advanced-topics/slippage-protection"
+  },
+  "next": {
+    "title": "Market Makers",
+    "permalink": "/category/market-makers"
+  }
+}

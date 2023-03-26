@@ -1,0 +1,16 @@
+{
+  "title": "Guides",
+  "description": "Guides",
+  "slug": "/category/guides-1",
+  "permalink": "/category/guides-1",
+  "navigation": {
+    "previous": {
+      "title": "Providing AMM liquidity to 0x API",
+      "permalink": "/market-makers/docs/providing-amm-liquidity-to-0x-api"
+    },
+    "next": {
+      "title": "Generating 0x Order Hashes",
+      "permalink": "/market-makers/guides/generating-0x-order-hashes"
+    }
+  }
+}

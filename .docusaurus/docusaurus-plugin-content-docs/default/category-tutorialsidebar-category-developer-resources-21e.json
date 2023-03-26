@@ -1,0 +1,16 @@
+{
+  "title": "Developer Resources",
+  "description": "List of 0x Developer Resources",
+  "slug": "/category/developer-resources",
+  "permalink": "/category/developer-resources",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/governance/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/developer-resources/intro"
+    }
+  }
+}

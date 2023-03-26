@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-limit-orders/docs/slippage-protection",
+  "id": "0x-limit-orders/docs/slippage-protection",
+  "title": "Slippage Protection",
+  "description": "Say goodbye to MEV attacks and say hello 👋 to the best executed price with Slippage Protection",
+  "source": "@site/docs/0x-limit-orders/docs/slippage-protection.md",
+  "sourceDirName": "0x-limit-orders/docs",
+  "slug": "/0x-limit-orders/docs/slippage-protection",
+  "permalink": "/0x-limit-orders/docs/slippage-protection",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/docs/slippage-protection.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Slippage Protection",
+    "sidebar_position": 3,
+    "description": "Say goodbye to MEV attacks and say hello 👋 to the best executed price with Slippage Protection"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Set Your Token Allowances",
+    "permalink": "/0x-limit-orders/docs/how-to-set-your-token-allowances"
+  },
+  "next": {
+    "title": "Price Impact Protection",
+    "permalink": "/0x-limit-orders/docs/price-impact-protection"
+  }
+}

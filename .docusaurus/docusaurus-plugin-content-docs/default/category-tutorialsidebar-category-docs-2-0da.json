@@ -1,0 +1,16 @@
+{
+  "title": "Docs",
+  "description": "Docs",
+  "slug": "/category/docs-2",
+  "permalink": "/category/docs-2",
+  "navigation": {
+    "previous": {
+      "title": "NFT Support",
+      "permalink": "/category/nft-support"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/nft-support/docs/introduction"
+    }
+  }
+}

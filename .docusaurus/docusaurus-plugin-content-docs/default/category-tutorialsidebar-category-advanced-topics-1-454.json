@@ -1,0 +1,16 @@
+{
+  "title": "Advanced Topics",
+  "description": "Advanced Topics",
+  "slug": "/category/advanced-topics-1",
+  "permalink": "/category/advanced-topics-1",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/0x-limit-orders/intro"
+    },
+    "next": {
+      "title": "Rate Limiting",
+      "permalink": "/0x-limit-orders/advanced-topics/rate-limiting"
+    }
+  }
+}

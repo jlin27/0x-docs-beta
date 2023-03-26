@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-limit-orders/guides/introduction",
+  "id": "0x-limit-orders/guides/introduction",
+  "title": "Create a Limit Order",
+  "description": "Learn about 0x Limit Order Structure, why, and how to use it",
+  "source": "@site/docs/0x-limit-orders/guides/introduction.md",
+  "sourceDirName": "0x-limit-orders/guides",
+  "slug": "/0x-limit-orders/guides/introduction",
+  "permalink": "/0x-limit-orders/guides/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Introduction",
+    "sidebar_position": 1,
+    "description": "Learn about 0x Limit Order Structure, why, and how to use it"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docs",
+    "permalink": "/category/docs-1"
+  },
+  "next": {
+    "title": "0x Swap API",
+    "permalink": "/category/0x-swap-api"
+  }
+}

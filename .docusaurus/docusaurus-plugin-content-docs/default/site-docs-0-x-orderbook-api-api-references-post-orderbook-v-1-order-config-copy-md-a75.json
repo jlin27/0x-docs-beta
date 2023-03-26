@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-orderbook-api/api-references/post-orderbook-v1-order_config copy",
+  "id": "0x-orderbook-api/api-references/post-orderbook-v1-order_config copy",
+  "title": "GET /orderbook/v1/fee\\_recipients",
+  "description": "Learn how to use GET /orderbook/v1/fee_recipients",
+  "source": "@site/docs/0x-orderbook-api/api-references/post-orderbook-v1-order_config copy.md",
+  "sourceDirName": "0x-orderbook-api/api-references",
+  "slug": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config copy",
+  "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/post-orderbook-v1-order_config copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_label": "GET /orderbook/v1/fee_recipients",
+    "sidebar_position": 9,
+    "description": "Learn how to use GET /orderbook/v1/fee_recipients"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "POST /orderbook/v1/order\\_config",
+    "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config"
+  },
+  "next": {
+    "title": "0x Limit Orders",
+    "permalink": "/category/0x-limit-orders"
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "label": "0x Limit Orders",
-  "position": 3,
+  "label": "Limit Order (Advanced Traders)",
+  "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "An introduction 0x Limit Orders"
+    "description": "Limit Order (Advanced Traders)"
   }
 }

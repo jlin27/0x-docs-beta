@@ -1,0 +1,16 @@
+{
+  "title": "Protocol",
+  "description": "An introduction to the 0x Protocol",
+  "slug": "/category/protocol",
+  "permalink": "/category/protocol",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/nft-support/intro"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/protocol/intro"
+    }
+  }
+}

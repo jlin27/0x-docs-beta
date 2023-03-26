@@ -1,0 +1,29 @@
+{
+  "unversionedId": "nft-support/guides/creating-orders/overview",
+  "id": "nft-support/guides/creating-orders/overview",
+  "title": "Creating Orders",
+  "description": "Creating Orders",
+  "source": "@site/docs/nft-support/guides/creating-orders/overview.md",
+  "sourceDirName": "nft-support/guides/creating-orders",
+  "slug": "/nft-support/guides/creating-orders/overview",
+  "permalink": "/nft-support/guides/creating-orders/overview",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/guides/creating-orders/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Overview",
+    "sidebar_position": 2,
+    "description": "Creating Orders"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating Orders",
+    "permalink": "/category/creating-orders"
+  },
+  "next": {
+    "title": "Royalties and Fees",
+    "permalink": "/nft-support/guides/creating-orders/royalties-and-fees"
+  }
+}

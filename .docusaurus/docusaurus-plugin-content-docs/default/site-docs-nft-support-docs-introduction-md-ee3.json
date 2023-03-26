@@ -1,0 +1,29 @@
+{
+  "unversionedId": "nft-support/docs/introduction",
+  "id": "nft-support/docs/introduction",
+  "title": "Introduction",
+  "description": "Learn about the NFT features added to 0x V4",
+  "source": "@site/docs/nft-support/docs/introduction.md",
+  "sourceDirName": "nft-support/docs",
+  "slug": "/nft-support/docs/introduction",
+  "permalink": "/nft-support/docs/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/docs/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Introduction",
+    "sidebar_position": 1,
+    "description": "Learn about the NFT features added to 0x V4"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docs",
+    "permalink": "/category/docs-2"
+  },
+  "next": {
+    "title": "Guides",
+    "permalink": "/category/guides-2"
+  }
+}

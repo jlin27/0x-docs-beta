@@ -1,0 +1,16 @@
+{
+  "title": "Docs",
+  "description": "Docs",
+  "slug": "/category/docs-1",
+  "permalink": "/category/docs-1",
+  "navigation": {
+    "previous": {
+      "title": "Market Makers",
+      "permalink": "/category/market-makers"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/market-makers/docs/introduction"
+    }
+  }
+}

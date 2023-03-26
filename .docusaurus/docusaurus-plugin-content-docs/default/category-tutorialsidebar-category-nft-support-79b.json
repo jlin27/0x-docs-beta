@@ -1,0 +1,16 @@
+{
+  "title": "NFT Support",
+  "description": "An introduction for NFT Support",
+  "slug": "/category/nft-support",
+  "permalink": "/category/nft-support",
+  "navigation": {
+    "previous": {
+      "title": "0x v4 RFQ Orders Code Examples with Python",
+      "permalink": "/market-makers/guides/rfq-orders-code-examples-with-python"
+    },
+    "next": {
+      "title": "Docs",
+      "permalink": "/category/docs-2"
+    }
+  }
+}

@@ -6,7 +6,7 @@
   "source": "@site/docs/nft-support/intro.md",
   "sourceDirName": "nft-support",
   "slug": "/nft-support/intro",
-  "permalink": "/docs/nft-support/intro",
+  "permalink": "/nft-support/intro",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/intro.md",
   "tags": [],
@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "NFT Support",
-    "permalink": "/docs/category/nft-support"
+    "title": "Generating 0x Order Hashes",
+    "permalink": "/nft-support/guides/generating-0x-order-hashes"
   },
   "next": {
     "title": "Protocol",
-    "permalink": "/docs/category/protocol"
+    "permalink": "/category/protocol"
   }
 }

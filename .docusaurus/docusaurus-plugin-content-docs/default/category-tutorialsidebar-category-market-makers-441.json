@@ -1,0 +1,16 @@
+{
+  "title": "Market Makers",
+  "description": "An introduction for Market Makers",
+  "slug": "/category/market-makers",
+  "permalink": "/category/market-makers",
+  "navigation": {
+    "previous": {
+      "title": "Working in the Testnet",
+      "permalink": "/0x-limit-orders/guides/working-in-the-testnet"
+    },
+    "next": {
+      "title": "Docs",
+      "permalink": "/category/docs-1"
+    }
+  }
+}

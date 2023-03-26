@@ -1,0 +1,29 @@
+{
+  "unversionedId": "market-makers/guides/working-in-the-testnet",
+  "id": "market-makers/guides/working-in-the-testnet",
+  "title": "Working in the Testnet",
+  "description": "Learn about working in the testnet",
+  "source": "@site/docs/market-makers/guides/working-in-the-testnet.md",
+  "sourceDirName": "market-makers/guides",
+  "slug": "/market-makers/guides/working-in-the-testnet",
+  "permalink": "/market-makers/guides/working-in-the-testnet",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/guides/working-in-the-testnet.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Working in the Testnet",
+    "sidebar_position": 2,
+    "description": "Learn about working in the testnet"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Limit Order Status",
+    "permalink": "/market-makers/guides/fill-a-limit-order"
+  },
+  "next": {
+    "title": "NFT Support",
+    "permalink": "/category/nft-support"
+  }
+}

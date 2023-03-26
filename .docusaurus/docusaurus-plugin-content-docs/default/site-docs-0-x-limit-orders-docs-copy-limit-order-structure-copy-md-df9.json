@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-limit-orders/docs copy/limit-order-structure copy",
+  "id": "0x-limit-orders/docs copy/limit-order-structure copy",
+  "title": "Monitoring 0x Limit Orders",
+  "description": "Learn about Monitoring 0x Limit Orders",
+  "source": "@site/docs/0x-limit-orders/docs copy/limit-order-structure copy.md",
+  "sourceDirName": "0x-limit-orders/docs copy",
+  "slug": "/0x-limit-orders/docs copy/limit-order-structure copy",
+  "permalink": "/0x-limit-orders/docs copy/limit-order-structure copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/docs copy/limit-order-structure copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Monitoring 0x Limit Orders",
+    "sidebar_position": 3,
+    "description": "Learn about Monitoring 0x Limit Orders"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Limit Order Structure",
+    "permalink": "/0x-limit-orders/docs copy/limit-order-structure"
+  },
+  "next": {
+    "title": "Market Makers",
+    "permalink": "/category/market-makers"
+  }
+}

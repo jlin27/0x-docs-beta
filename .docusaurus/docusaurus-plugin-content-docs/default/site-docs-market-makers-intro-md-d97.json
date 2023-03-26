@@ -6,7 +6,7 @@
   "source": "@site/docs/market-makers/intro.md",
   "sourceDirName": "market-makers",
   "slug": "/market-makers/intro",
-  "permalink": "/docs/market-makers/intro",
+  "permalink": "/market-makers/intro",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/intro.md",
   "tags": [],
@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Market Makers",
-    "permalink": "/docs/category/market-makers"
+    "title": "Monitoring 0x Limit Orders",
+    "permalink": "/market-makers/docs/limit-order-structure copy"
   },
   "next": {
     "title": "NFT Support",
-    "permalink": "/docs/category/nft-support"
+    "permalink": "/category/nft-support"
   }
 }

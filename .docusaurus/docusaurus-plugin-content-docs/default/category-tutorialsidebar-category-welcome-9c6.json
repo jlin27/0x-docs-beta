@@ -1,0 +1,12 @@
+{
+  "title": "Welcome",
+  "description": "Welcome to the 0x docs",
+  "slug": "/category/welcome",
+  "permalink": "/category/welcome",
+  "navigation": {
+    "next": {
+      "title": "Welcome",
+      "permalink": "/"
+    }
+  }
+}

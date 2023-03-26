@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
+          "path": "/",
+          "tagsPath": "/tags",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
@@ -20,81 +20,815 @@
           "contentPathLocalized": "/Users/jessica/github/0x-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "0x-limit-orders/intro",
-              "id": "0x-limit-orders/intro",
+              "unversionedId": "0x-limit-orders/docs/introduction",
+              "id": "0x-limit-orders/docs/introduction",
               "title": "Introduction",
-              "description": "An introduction to how the 0x Swap API works and the resources included this section",
-              "source": "@site/docs/0x-limit-orders/intro.md",
-              "sourceDirName": "0x-limit-orders",
-              "slug": "/0x-limit-orders/intro",
-              "permalink": "/docs/0x-limit-orders/intro",
+              "description": "Learn about 0x Limit Order Structure, why, and how to use it",
+              "source": "@site/docs/0x-limit-orders/docs/introduction.md",
+              "sourceDirName": "0x-limit-orders/docs",
+              "slug": "/0x-limit-orders/docs/introduction",
+              "permalink": "/0x-limit-orders/docs/introduction",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/intro.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/docs/introduction.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 1,
               "frontMatter": {
-                "description": "An introduction to how the 0x Swap API works and the resources included this section"
+                "sidebar_label": "Introduction",
+                "sidebar_position": 1,
+                "description": "Learn about 0x Limit Order Structure, why, and how to use it"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "0x Limit Orders",
-                "permalink": "/docs/category/0x-limit-orders"
+                "title": "Docs",
+                "permalink": "/category/docs"
+              },
+              "next": {
+                "title": "Limit Order Structure",
+                "permalink": "/0x-limit-orders/docs/limit-order-structure"
+              }
+            },
+            {
+              "unversionedId": "0x-limit-orders/docs/limit-order-structure",
+              "id": "0x-limit-orders/docs/limit-order-structure",
+              "title": "Limit Order Structure",
+              "description": "Learn about 0x Limit Order Structure, why, and how to use it",
+              "source": "@site/docs/0x-limit-orders/docs/limit-order-structure.md",
+              "sourceDirName": "0x-limit-orders/docs",
+              "slug": "/0x-limit-orders/docs/limit-order-structure",
+              "permalink": "/0x-limit-orders/docs/limit-order-structure",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/docs/limit-order-structure.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Limit Order Structure",
+                "sidebar_position": 2,
+                "description": "Learn about 0x Limit Order Structure, why, and how to use it"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/0x-limit-orders/docs/introduction"
+              },
+              "next": {
+                "title": "Monitoring 0x Limit Orders",
+                "permalink": "/0x-limit-orders/docs/limit-order-structure copy"
+              }
+            },
+            {
+              "unversionedId": "0x-limit-orders/docs/limit-order-structure copy",
+              "id": "0x-limit-orders/docs/limit-order-structure copy",
+              "title": "Monitoring 0x Limit Orders",
+              "description": "Learn about Monitoring 0x Limit Orders",
+              "source": "@site/docs/0x-limit-orders/docs/limit-order-structure copy.md",
+              "sourceDirName": "0x-limit-orders/docs",
+              "slug": "/0x-limit-orders/docs/limit-order-structure copy",
+              "permalink": "/0x-limit-orders/docs/limit-order-structure copy",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/docs/limit-order-structure copy.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Monitoring 0x Limit Orders",
+                "sidebar_position": 3,
+                "description": "Learn about Monitoring 0x Limit Orders"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Limit Order Structure",
+                "permalink": "/0x-limit-orders/docs/limit-order-structure"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/category/guides"
+              }
+            },
+            {
+              "unversionedId": "0x-limit-orders/guides/cancel-a-limit-order",
+              "id": "0x-limit-orders/guides/cancel-a-limit-order",
+              "title": "Cancel a Limit Order",
+              "description": "Learn about how to cancel a limit order",
+              "source": "@site/docs/0x-limit-orders/guides/cancel-a-limit-order.md",
+              "sourceDirName": "0x-limit-orders/guides",
+              "slug": "/0x-limit-orders/guides/cancel-a-limit-order",
+              "permalink": "/0x-limit-orders/guides/cancel-a-limit-order",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/cancel-a-limit-order.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Cancel a Limit Order",
+                "sidebar_position": 2,
+                "description": "Learn about how to cancel a limit order"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Limit Order",
+                "permalink": "/0x-limit-orders/guides/create-a-limit-order"
+              },
+              "next": {
+                "title": "Limit Order Status",
+                "permalink": "/0x-limit-orders/guides/fill-a-limit-order"
+              }
+            },
+            {
+              "unversionedId": "0x-limit-orders/guides/create-a-limit-order",
+              "id": "0x-limit-orders/guides/create-a-limit-order",
+              "title": "Create a Limit Order",
+              "description": "Learn about how to create a limit order",
+              "source": "@site/docs/0x-limit-orders/guides/create-a-limit-order.md",
+              "sourceDirName": "0x-limit-orders/guides",
+              "slug": "/0x-limit-orders/guides/create-a-limit-order",
+              "permalink": "/0x-limit-orders/guides/create-a-limit-order",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/create-a-limit-order.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Create a Limit Order",
+                "sidebar_position": 1,
+                "description": "Learn about how to create a limit order"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Guides",
+                "permalink": "/category/guides"
+              },
+              "next": {
+                "title": "Cancel a Limit Order",
+                "permalink": "/0x-limit-orders/guides/cancel-a-limit-order"
+              }
+            },
+            {
+              "unversionedId": "0x-limit-orders/guides/fill-a-limit-order",
+              "id": "0x-limit-orders/guides/fill-a-limit-order",
+              "title": "Limit Order Status",
+              "description": "Learn about viewing & distributing 0x Limit Orders",
+              "source": "@site/docs/0x-limit-orders/guides/fill-a-limit-order.md",
+              "sourceDirName": "0x-limit-orders/guides",
+              "slug": "/0x-limit-orders/guides/fill-a-limit-order",
+              "permalink": "/0x-limit-orders/guides/fill-a-limit-order",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/fill-a-limit-order.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Limit Order Status",
+                "sidebar_position": 2,
+                "description": "Learn about viewing & distributing 0x Limit Orders"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Cancel a Limit Order",
+                "permalink": "/0x-limit-orders/guides/cancel-a-limit-order"
+              },
+              "next": {
+                "title": "Working in the Testnet",
+                "permalink": "/0x-limit-orders/guides/working-in-the-testnet"
+              }
+            },
+            {
+              "unversionedId": "0x-limit-orders/guides/working-in-the-testnet",
+              "id": "0x-limit-orders/guides/working-in-the-testnet",
+              "title": "Working in the Testnet",
+              "description": "Learn about working in the testnet",
+              "source": "@site/docs/0x-limit-orders/guides/working-in-the-testnet.md",
+              "sourceDirName": "0x-limit-orders/guides",
+              "slug": "/0x-limit-orders/guides/working-in-the-testnet",
+              "permalink": "/0x-limit-orders/guides/working-in-the-testnet",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/working-in-the-testnet.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Working in the Testnet",
+                "sidebar_position": 2,
+                "description": "Learn about working in the testnet"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Limit Order Status",
+                "permalink": "/0x-limit-orders/guides/fill-a-limit-order"
               },
               "next": {
                 "title": "Market Makers",
-                "permalink": "/docs/category/market-makers"
+                "permalink": "/category/market-makers"
               }
             },
             {
-              "unversionedId": "0x-swap-api/0x-swap-api-references/intro",
-              "id": "0x-swap-api/0x-swap-api-references/intro",
-              "title": "API References",
-              "description": "Swap API References",
-              "source": "@site/docs/0x-swap-api/0x-swap-api-references/intro.md",
-              "sourceDirName": "0x-swap-api/0x-swap-api-references",
-              "slug": "/0x-swap-api/0x-swap-api-references/intro",
-              "permalink": "/docs/0x-swap-api/0x-swap-api-references/intro",
+              "unversionedId": "0x-orderbook-api/api-references/get-orderbook-v1",
+              "id": "0x-orderbook-api/api-references/get-orderbook-v1",
+              "title": "GET /orderbook/v1/orders",
+              "description": "Learn how to use GET /orderbook/v1/",
+              "source": "@site/docs/0x-orderbook-api/api-references/get-orderbook-v1.md",
+              "sourceDirName": "0x-orderbook-api/api-references",
+              "slug": "/0x-orderbook-api/api-references/get-orderbook-v1",
+              "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/0x-swap-api-references/intro.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/get-orderbook-v1.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 2,
               "frontMatter": {
-                "description": "Swap API References"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "0x Swap API References",
-                "permalink": "/docs/category/0x-swap-api-references"
-              },
-              "next": {
-                "title": "Introduction",
-                "permalink": "/docs/0x-swap-api/intro"
-              }
-            },
-            {
-              "unversionedId": "0x-swap-api/intro",
-              "id": "0x-swap-api/intro",
-              "title": "Introduction",
-              "description": "An introduction to how the 0x Swap API works and the resources included this section",
-              "source": "@site/docs/0x-swap-api/intro.md",
-              "sourceDirName": "0x-swap-api",
-              "slug": "/0x-swap-api/intro",
-              "permalink": "/docs/0x-swap-api/intro",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/intro.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "description": "An introduction to how the 0x Swap API works and the resources included this section"
+                "sidebar_label": "GET /orderbook/v1/orders",
+                "sidebar_position": 2,
+                "description": "Learn how to use GET /orderbook/v1/"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "API References",
-                "permalink": "/docs/0x-swap-api/0x-swap-api-references/intro"
+                "permalink": "/0x-orderbook-api/api-references/intro"
               },
               "next": {
-                "title": "0x Limit Orders",
-                "permalink": "/docs/category/0x-limit-orders"
+                "title": "GET /orderbook/v1/orders",
+                "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-orders"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md",
+              "id": "0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md",
+              "title": "GET /orderbook/v1/fee\\_recipients",
+              "description": "Learn how to use GET /orderbook/v1/fee_recipients",
+              "source": "@site/docs/0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md.md",
+              "sourceDirName": "0x-orderbook-api/api-references",
+              "slug": "/0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md",
+              "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_label": "GET /orderbook/v1/fee_recipients",
+                "sidebar_position": 9,
+                "description": "Learn how to use GET /orderbook/v1/fee_recipients"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "POST /orderbook/v1/order\\_config",
+                "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config"
+              },
+              "next": {
+                "title": "Websocket API",
+                "permalink": "/0x-orderbook-api/api-references/websocket-api"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash",
+              "id": "0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash",
+              "title": "GET /orderbook/v1/order/:orderHash:",
+              "description": "Learn how to use GET /orderbook/v1/order/orderHash",
+              "source": "@site/docs/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash.md",
+              "sourceDirName": "0x-orderbook-api/api-references",
+              "slug": "/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash",
+              "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_label": "GET /orderbook/v1/order/orderHash",
+                "sidebar_position": 6,
+                "description": "Learn how to use GET /orderbook/v1/order/orderHash"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "POST /orderbook/v1/orders",
+                "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-orders"
+              },
+              "next": {
+                "title": "POST /orderbook/v1/order\\_config",
+                "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/api-references/get-orderbook-v1-orders",
+              "id": "0x-orderbook-api/api-references/get-orderbook-v1-orders",
+              "title": "GET /orderbook/v1/orders",
+              "description": "Learn how to use GET /orderbook/v1/orders",
+              "source": "@site/docs/0x-orderbook-api/api-references/get-orderbook-v1-orders.md",
+              "sourceDirName": "0x-orderbook-api/api-references",
+              "slug": "/0x-orderbook-api/api-references/get-orderbook-v1-orders",
+              "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-orders",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/get-orderbook-v1-orders.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "GET /orderbook/v1/orders",
+                "sidebar_position": 3,
+                "description": "Learn how to use GET /orderbook/v1/orders"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /orderbook/v1/orders",
+                "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1"
+              },
+              "next": {
+                "title": "POST /orderbook/v1/order",
+                "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-order"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/api-references/intro",
+              "id": "0x-orderbook-api/api-references/intro",
+              "title": "API References",
+              "description": "0x API hosts an Orderbook of 0x Limit Orders that anyone can provide liquidity to or take liquidity from",
+              "source": "@site/docs/0x-orderbook-api/api-references/intro.md",
+              "sourceDirName": "0x-orderbook-api/api-references",
+              "slug": "/0x-orderbook-api/api-references/intro",
+              "permalink": "/0x-orderbook-api/api-references/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "API References",
+                "sidebar_position": 1,
+                "description": "0x API hosts an Orderbook of 0x Limit Orders that anyone can provide liquidity to or take liquidity from"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API References",
+                "permalink": "/category/api-references-1"
+              },
+              "next": {
+                "title": "GET /orderbook/v1/orders",
+                "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/api-references/post-orderbook-v1-order",
+              "id": "0x-orderbook-api/api-references/post-orderbook-v1-order",
+              "title": "POST /orderbook/v1/order",
+              "description": "Learn how to use POST /orderbook/v1/order",
+              "source": "@site/docs/0x-orderbook-api/api-references/post-orderbook-v1-order.md",
+              "sourceDirName": "0x-orderbook-api/api-references",
+              "slug": "/0x-orderbook-api/api-references/post-orderbook-v1-order",
+              "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-order",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/post-orderbook-v1-order.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "POST /orderbook/v1/order",
+                "sidebar_position": 4,
+                "description": "Learn how to use POST /orderbook/v1/order"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /orderbook/v1/orders",
+                "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-orders"
+              },
+              "next": {
+                "title": "POST /orderbook/v1/orders",
+                "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-orders"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/api-references/post-orderbook-v1-order_config",
+              "id": "0x-orderbook-api/api-references/post-orderbook-v1-order_config",
+              "title": "POST /orderbook/v1/order\\_config",
+              "description": "Learn how to use  POST /orderbook/v1/order\\_config",
+              "source": "@site/docs/0x-orderbook-api/api-references/post-orderbook-v1-order_config.md",
+              "sourceDirName": "0x-orderbook-api/api-references",
+              "slug": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config",
+              "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/post-orderbook-v1-order_config.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_label": "POST /orderbook/v1/order\\_config",
+                "sidebar_position": 7,
+                "description": "Learn how to use  POST /orderbook/v1/order\\_config"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /orderbook/v1/order/orderHash",
+                "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash"
+              },
+              "next": {
+                "title": "GET /orderbook/v1/fee_recipients",
+                "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/api-references/post-orderbook-v1-orders",
+              "id": "0x-orderbook-api/api-references/post-orderbook-v1-orders",
+              "title": "GET /orderbook/v1/orders",
+              "description": "Learn how to use POST /orderbook/v1/orders",
+              "source": "@site/docs/0x-orderbook-api/api-references/post-orderbook-v1-orders.md",
+              "sourceDirName": "0x-orderbook-api/api-references",
+              "slug": "/0x-orderbook-api/api-references/post-orderbook-v1-orders",
+              "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-orders",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/post-orderbook-v1-orders.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_label": "POST /orderbook/v1/orders",
+                "sidebar_position": 5,
+                "description": "Learn how to use POST /orderbook/v1/orders"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "POST /orderbook/v1/order",
+                "permalink": "/0x-orderbook-api/api-references/post-orderbook-v1-order"
+              },
+              "next": {
+                "title": "GET /orderbook/v1/order/orderHash",
+                "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/api-references/websocket-api",
+              "id": "0x-orderbook-api/api-references/websocket-api",
+              "title": "Websocket API",
+              "description": "Learn how to use the Websocket API",
+              "source": "@site/docs/0x-orderbook-api/api-references/websocket-api.md",
+              "sourceDirName": "0x-orderbook-api/api-references",
+              "slug": "/0x-orderbook-api/api-references/websocket-api",
+              "permalink": "/0x-orderbook-api/api-references/websocket-api",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/websocket-api.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_label": "Websocket API",
+                "sidebar_position": 10,
+                "description": "Learn how to use the Websocket API"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /orderbook/v1/fee_recipients",
+                "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md"
+              },
+              "next": {
+                "title": "Rate Limiting",
+                "permalink": "/0x-orderbook-api/rate-limiting"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/connection-limit",
+              "id": "0x-orderbook-api/connection-limit",
+              "title": "Connection Limit",
+              "description": "Connection Limit",
+              "source": "@site/docs/0x-orderbook-api/connection-limit.md",
+              "sourceDirName": "0x-orderbook-api",
+              "slug": "/0x-orderbook-api/connection-limit",
+              "permalink": "/0x-orderbook-api/connection-limit",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/connection-limit.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Connection Limit",
+                "sidebar_position": 4,
+                "description": "Connection Limit"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Rate Limiting",
+                "permalink": "/0x-orderbook-api/rate-limiting"
+              },
+              "next": {
+                "title": "Limit Order (Advanced Traders)",
+                "permalink": "/category/limit-order-advanced-traders"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/introduction",
+              "id": "0x-orderbook-api/introduction",
+              "title": "Introduction",
+              "description": "0x API hosts an Orderbook of 0x Limit Orders that anyone can provide liquidity to or take liquidity from.",
+              "source": "@site/docs/0x-orderbook-api/introduction.md",
+              "sourceDirName": "0x-orderbook-api",
+              "slug": "/0x-orderbook-api/introduction",
+              "permalink": "/0x-orderbook-api/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Introduction",
+                "sidebar_position": 1,
+                "description": "0x API hosts an Orderbook of 0x Limit Orders that anyone can provide liquidity to or take liquidity from."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "0x Orderbook API",
+                "permalink": "/category/0x-orderbook-api"
+              },
+              "next": {
+                "title": "API References",
+                "permalink": "/category/api-references-1"
+              }
+            },
+            {
+              "unversionedId": "0x-orderbook-api/rate-limiting",
+              "id": "0x-orderbook-api/rate-limiting",
+              "title": "Rate Limiting",
+              "description": "Rate Limiting",
+              "source": "@site/docs/0x-orderbook-api/rate-limiting.md",
+              "sourceDirName": "0x-orderbook-api",
+              "slug": "/0x-orderbook-api/rate-limiting",
+              "permalink": "/0x-orderbook-api/rate-limiting",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/rate-limiting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Rate Limiting",
+                "sidebar_position": 2,
+                "description": "Rate Limiting"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Websocket API",
+                "permalink": "/0x-orderbook-api/api-references/websocket-api"
+              },
+              "next": {
+                "title": "Connection Limit",
+                "permalink": "/0x-orderbook-api/connection-limit"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+              "id": "0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+              "title": "How to Set Your Token Allowances",
+              "description": "Learn how to set your token allowances",
+              "source": "@site/docs/0x-swap-api/advanced-topics/how-to-set-your-token-allowances.md",
+              "sourceDirName": "0x-swap-api/advanced-topics",
+              "slug": "/0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+              "permalink": "/0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/advanced-topics/how-to-set-your-token-allowances.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "How to Set Your Token Allowances",
+                "sidebar_position": 2,
+                "description": "Learn how to set your token allowances"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Rate Limiting",
+                "permalink": "/0x-swap-api/advanced-topics/rate-limiting"
+              },
+              "next": {
+                "title": "Slippage Protection",
+                "permalink": "/0x-swap-api/advanced-topics/slippage-protection"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/advanced-topics/price-impact-protection",
+              "id": "0x-swap-api/advanced-topics/price-impact-protection",
+              "title": "Price Impact Protection",
+              "description": "Get notifications on illiquid markets. Don't get rekt.",
+              "source": "@site/docs/0x-swap-api/advanced-topics/price-impact-protection.md",
+              "sourceDirName": "0x-swap-api/advanced-topics",
+              "slug": "/0x-swap-api/advanced-topics/price-impact-protection",
+              "permalink": "/0x-swap-api/advanced-topics/price-impact-protection",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/advanced-topics/price-impact-protection.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Price Impact Protection",
+                "sidebar_position": 4,
+                "description": "Get notifications on illiquid markets. Don't get rekt."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Slippage Protection",
+                "permalink": "/0x-swap-api/advanced-topics/slippage-protection"
+              },
+              "next": {
+                "title": "0x Orderbook API",
+                "permalink": "/category/0x-orderbook-api"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/advanced-topics/rate-limiting",
+              "id": "0x-swap-api/advanced-topics/rate-limiting",
+              "title": "Rate Limiting",
+              "description": "Rate Limiting",
+              "source": "@site/docs/0x-swap-api/advanced-topics/rate-limiting.md",
+              "sourceDirName": "0x-swap-api/advanced-topics",
+              "slug": "/0x-swap-api/advanced-topics/rate-limiting",
+              "permalink": "/0x-swap-api/advanced-topics/rate-limiting",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/advanced-topics/rate-limiting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Rate Limiting",
+                "sidebar_position": 1,
+                "description": "Rate Limiting"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Advanced Topics",
+                "permalink": "/category/advanced-topics"
+              },
+              "next": {
+                "title": "How to Set Your Token Allowances",
+                "permalink": "/0x-swap-api/advanced-topics/how-to-set-your-token-allowances"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/advanced-topics/slippage-protection",
+              "id": "0x-swap-api/advanced-topics/slippage-protection",
+              "title": "Slippage Protection",
+              "description": "Say goodbye to MEV attacks and say hello 👋 to the best executed price with Slippage Protection",
+              "source": "@site/docs/0x-swap-api/advanced-topics/slippage-protection.md",
+              "sourceDirName": "0x-swap-api/advanced-topics",
+              "slug": "/0x-swap-api/advanced-topics/slippage-protection",
+              "permalink": "/0x-swap-api/advanced-topics/slippage-protection",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/advanced-topics/slippage-protection.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Slippage Protection",
+                "sidebar_position": 3,
+                "description": "Say goodbye to MEV attacks and say hello 👋 to the best executed price with Slippage Protection"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to Set Your Token Allowances",
+                "permalink": "/0x-swap-api/advanced-topics/how-to-set-your-token-allowances"
+              },
+              "next": {
+                "title": "Price Impact Protection",
+                "permalink": "/0x-swap-api/advanced-topics/price-impact-protection"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/api-references/get-swap-v1-price",
+              "id": "0x-swap-api/api-references/get-swap-v1-price",
+              "title": "GET /swap/v1/price",
+              "description": "Learn how to use GET /swap/v1/price",
+              "source": "@site/docs/0x-swap-api/api-references/get-swap-v1-price.md",
+              "sourceDirName": "0x-swap-api/api-references",
+              "slug": "/0x-swap-api/api-references/get-swap-v1-price",
+              "permalink": "/0x-swap-api/api-references/get-swap-v1-price",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/get-swap-v1-price.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "GET /swap/v1/price",
+                "sidebar_position": 3,
+                "description": "Learn how to use GET /swap/v1/price"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /swap/v1/quote",
+                "permalink": "/0x-swap-api/api-references/get-swap-v1-quote"
+              },
+              "next": {
+                "title": "GET /swap/v1/source",
+                "permalink": "/0x-swap-api/api-references/get-swap-v1-source"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/api-references/get-swap-v1-quote",
+              "id": "0x-swap-api/api-references/get-swap-v1-quote",
+              "title": "GET /swap/v1/quote",
+              "description": "Learn how to use GET /swap/v1/quote",
+              "source": "@site/docs/0x-swap-api/api-references/get-swap-v1-quote.md",
+              "sourceDirName": "0x-swap-api/api-references",
+              "slug": "/0x-swap-api/api-references/get-swap-v1-quote",
+              "permalink": "/0x-swap-api/api-references/get-swap-v1-quote",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/get-swap-v1-quote.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "GET /swap/v1/quote",
+                "sidebar_position": 2,
+                "description": "Learn how to use GET /swap/v1/quote"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API References",
+                "permalink": "/0x-swap-api/api-references/intro"
+              },
+              "next": {
+                "title": "GET /swap/v1/price",
+                "permalink": "/0x-swap-api/api-references/get-swap-v1-price"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/api-references/get-swap-v1-source",
+              "id": "0x-swap-api/api-references/get-swap-v1-source",
+              "title": "GET /swap/v1/source",
+              "description": "Learn how to use GET /swap/v1/source",
+              "source": "@site/docs/0x-swap-api/api-references/get-swap-v1-source.md",
+              "sourceDirName": "0x-swap-api/api-references",
+              "slug": "/0x-swap-api/api-references/get-swap-v1-source",
+              "permalink": "/0x-swap-api/api-references/get-swap-v1-source",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/get-swap-v1-source.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "GET /swap/v1/source",
+                "sidebar_position": 3,
+                "description": "Learn how to use GET /swap/v1/source"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /swap/v1/price",
+                "permalink": "/0x-swap-api/api-references/get-swap-v1-price"
+              },
+              "next": {
+                "title": "Advanced Topics",
+                "permalink": "/category/advanced-topics"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/api-references/intro",
+              "id": "0x-swap-api/api-references/intro",
+              "title": "API References",
+              "description": "Learn how to use the 0x API, a REST API that runs on HTTP",
+              "source": "@site/docs/0x-swap-api/api-references/intro.md",
+              "sourceDirName": "0x-swap-api/api-references",
+              "slug": "/0x-swap-api/api-references/intro",
+              "permalink": "/0x-swap-api/api-references/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "API References",
+                "sidebar_position": 1,
+                "description": "Learn how to use the 0x API, a REST API that runs on HTTP"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API References",
+                "permalink": "/category/api-references"
+              },
+              "next": {
+                "title": "GET /swap/v1/quote",
+                "permalink": "/0x-swap-api/api-references/get-swap-v1-quote"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/introduction",
+              "id": "0x-swap-api/introduction",
+              "title": "Introduction",
+              "description": "An introduction to how the 0x Swap API works and the resources included this section",
+              "source": "@site/docs/0x-swap-api/introduction.md",
+              "sourceDirName": "0x-swap-api",
+              "slug": "/0x-swap-api/introduction",
+              "permalink": "/0x-swap-api/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Introduction",
+                "sidebar_position": 1,
+                "description": "An introduction to how the 0x Swap API works and the resources included this section"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "0x Swap API",
+                "permalink": "/category/0x-swap-api"
+              },
+              "next": {
+                "title": "API References",
+                "permalink": "/category/api-references"
               }
             },
             {
@@ -105,7 +839,7 @@
               "source": "@site/docs/developer-resources/intro.md",
               "sourceDirName": "developer-resources",
               "slug": "/developer-resources/intro",
-              "permalink": "/docs/developer-resources/intro",
+              "permalink": "/developer-resources/intro",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/intro.md",
               "tags": [],
@@ -116,11 +850,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Developer Resources",
-                "permalink": "/docs/category/developer-resources"
+                "permalink": "/category/developer-resources"
               },
               "next": {
                 "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "permalink": "/category/tutorial---basics"
               }
             },
             {
@@ -131,7 +865,7 @@
               "source": "@site/docs/governance/intro.md",
               "sourceDirName": "governance",
               "slug": "/governance/intro",
-              "permalink": "/docs/governance/intro",
+              "permalink": "/governance/intro",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/intro.md",
               "tags": [],
@@ -142,37 +876,415 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Governance",
-                "permalink": "/docs/category/governance"
+                "permalink": "/category/governance"
               },
               "next": {
                 "title": "Developer Resources",
-                "permalink": "/docs/category/developer-resources"
+                "permalink": "/category/developer-resources"
               }
             },
             {
-              "unversionedId": "market-makers/intro",
-              "id": "market-makers/intro",
-              "title": "Introduction",
-              "description": "An introduction to how the 0x Swap API works and the resources included this section",
-              "source": "@site/docs/market-makers/intro.md",
-              "sourceDirName": "market-makers",
-              "slug": "/market-makers/intro",
-              "permalink": "/docs/market-makers/intro",
+              "unversionedId": "introduction/0x-cheat-sheet",
+              "id": "introduction/0x-cheat-sheet",
+              "title": "0x Cheat Sheet",
+              "description": "A collection of commonly used addresses, endpoints, and values across 0x products.",
+              "source": "@site/docs/introduction/0x-cheat-sheet.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/0x-cheat-sheet",
+              "permalink": "/introduction/0x-cheat-sheet",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/intro.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/0x-cheat-sheet.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 2,
               "frontMatter": {
-                "description": "An introduction to how the 0x Swap API works and the resources included this section"
+                "sidebar_label": "0x Cheat Sheet",
+                "sidebar_position": 2,
+                "description": "A collection of commonly used addresses, endpoints, and values across 0x products."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Market Makers",
-                "permalink": "/docs/category/market-makers"
+                "title": "Introduction",
+                "permalink": "/category/introduction"
+              },
+              "next": {
+                "title": "Welcome",
+                "permalink": "/"
+              }
+            },
+            {
+              "unversionedId": "introduction/intro",
+              "id": "introduction/intro",
+              "title": "Welcome",
+              "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+              "source": "@site/docs/introduction/intro.md",
+              "sourceDirName": "introduction",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "0x Cheat Sheet",
+                "permalink": "/introduction/0x-cheat-sheet"
+              },
+              "next": {
+                "title": "0x Swap API",
+                "permalink": "/category/0x-swap-api"
+              }
+            },
+            {
+              "unversionedId": "market-makers/docs/introduction",
+              "id": "market-makers/docs/introduction",
+              "title": "Introduction",
+              "description": "This section is for (i) Professional Market-makers interested in supplying liquidity via the 0x RFQ system, and (ii) Integrators who would like to access RFQ liquidity, via /swap",
+              "source": "@site/docs/market-makers/docs/introduction.md",
+              "sourceDirName": "market-makers/docs",
+              "slug": "/market-makers/docs/introduction",
+              "permalink": "/market-makers/docs/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/docs/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Introduction",
+                "sidebar_position": 1,
+                "description": "This section is for (i) Professional Market-makers interested in supplying liquidity via the 0x RFQ system, and (ii) Integrators who would like to access RFQ liquidity, via /swap"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Docs",
+                "permalink": "/category/docs-1"
+              },
+              "next": {
+                "title": "RFQ Order Structure",
+                "permalink": "/market-makers/docs/rfq-order-structure"
+              }
+            },
+            {
+              "unversionedId": "market-makers/docs/providing-amm-liquidity-to-0x-api",
+              "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
+              "title": "Providing AMM liquidity to 0x API",
+              "description": "Providing AMM liquidity to 0x API",
+              "source": "@site/docs/market-makers/docs/providing-amm-liquidity-to-0x-api.md",
+              "sourceDirName": "market-makers/docs",
+              "slug": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
+              "permalink": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/docs/providing-amm-liquidity-to-0x-api.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Providing AMM liquidity to 0x API",
+                "sidebar_position": 4,
+                "description": "Providing AMM liquidity to 0x API"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Providing RFQ liquidity to 0x API",
+                "permalink": "/market-makers/docs/providing-rfq-liquidity-to-0x-api"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/category/guides-1"
+              }
+            },
+            {
+              "unversionedId": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
+              "id": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
+              "title": "Providing RFQ liquidity to 0x API",
+              "description": "Providing RFQ liquidity to 0x API",
+              "source": "@site/docs/market-makers/docs/providing-rfq-liquidity-to-0x-api.md",
+              "sourceDirName": "market-makers/docs",
+              "slug": "/market-makers/docs/providing-rfq-liquidity-to-0x-api",
+              "permalink": "/market-makers/docs/providing-rfq-liquidity-to-0x-api",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/docs/providing-rfq-liquidity-to-0x-api.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Providing RFQ liquidity to 0x API",
+                "sidebar_position": 3,
+                "description": "Providing RFQ liquidity to 0x API"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "RFQ Order Structure",
+                "permalink": "/market-makers/docs/rfq-order-structure"
+              },
+              "next": {
+                "title": "Providing AMM liquidity to 0x API",
+                "permalink": "/market-makers/docs/providing-amm-liquidity-to-0x-api"
+              }
+            },
+            {
+              "unversionedId": "market-makers/docs/rfq-order-structure",
+              "id": "market-makers/docs/rfq-order-structure",
+              "title": "RFQ Order Structure",
+              "description": "RFQ Order Structure",
+              "source": "@site/docs/market-makers/docs/rfq-order-structure.md",
+              "sourceDirName": "market-makers/docs",
+              "slug": "/market-makers/docs/rfq-order-structure",
+              "permalink": "/market-makers/docs/rfq-order-structure",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/docs/rfq-order-structure.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "RFQ Order Structure",
+                "sidebar_position": 2,
+                "description": "RFQ Order Structure"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/market-makers/docs/introduction"
+              },
+              "next": {
+                "title": "Providing RFQ liquidity to 0x API",
+                "permalink": "/market-makers/docs/providing-rfq-liquidity-to-0x-api"
+              }
+            },
+            {
+              "unversionedId": "market-makers/guides/generating-0x-order-hashes",
+              "id": "market-makers/guides/generating-0x-order-hashes",
+              "title": "Generating 0x Order Hashes",
+              "description": "In this guide, we cover how to use @0x/protocol-utils to generate 0x Order Hashes",
+              "source": "@site/docs/market-makers/guides/generating-0x-order-hashes.md",
+              "sourceDirName": "market-makers/guides",
+              "slug": "/market-makers/guides/generating-0x-order-hashes",
+              "permalink": "/market-makers/guides/generating-0x-order-hashes",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/guides/generating-0x-order-hashes.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Generating 0x Order Hashes",
+                "sidebar_position": 1,
+                "description": "In this guide, we cover how to use @0x/protocol-utils to generate 0x Order Hashes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Guides",
+                "permalink": "/category/guides-1"
+              },
+              "next": {
+                "title": "Signing 0x Orders",
+                "permalink": "/market-makers/guides/signing-0x-orders"
+              }
+            },
+            {
+              "unversionedId": "market-makers/guides/rfq-orders-code-examples-with-python",
+              "id": "market-makers/guides/rfq-orders-code-examples-with-python",
+              "title": "RFQ Orders Code Examples with Python",
+              "description": "0x v4 RFQ Orders Code Examples with Python",
+              "source": "@site/docs/market-makers/guides/rfq-orders-code-examples-with-python.md",
+              "sourceDirName": "market-makers/guides",
+              "slug": "/market-makers/guides/rfq-orders-code-examples-with-python",
+              "permalink": "/market-makers/guides/rfq-orders-code-examples-with-python",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/guides/rfq-orders-code-examples-with-python.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "0x v4 RFQ Orders Code Examples with Python",
+                "sidebar_position": 3,
+                "description": "0x v4 RFQ Orders Code Examples with Python"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Signing 0x Orders",
+                "permalink": "/market-makers/guides/signing-0x-orders"
               },
               "next": {
                 "title": "NFT Support",
-                "permalink": "/docs/category/nft-support"
+                "permalink": "/category/nft-support"
+              }
+            },
+            {
+              "unversionedId": "market-makers/guides/signing-0x-orders",
+              "id": "market-makers/guides/signing-0x-orders",
+              "title": "Signing 0x Orders",
+              "description": "In this guide, we discuss how to use @0x/protocol-utils or ethers.js to sign 0x Orders",
+              "source": "@site/docs/market-makers/guides/signing-0x-orders.md",
+              "sourceDirName": "market-makers/guides",
+              "slug": "/market-makers/guides/signing-0x-orders",
+              "permalink": "/market-makers/guides/signing-0x-orders",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/guides/signing-0x-orders.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Signing 0x Orders",
+                "sidebar_position": 2,
+                "description": "In this guide, we discuss how to use @0x/protocol-utils or ethers.js to sign 0x Orders"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Generating 0x Order Hashes",
+                "permalink": "/market-makers/guides/generating-0x-order-hashes"
+              },
+              "next": {
+                "title": "0x v4 RFQ Orders Code Examples with Python",
+                "permalink": "/market-makers/guides/rfq-orders-code-examples-with-python"
+              }
+            },
+            {
+              "unversionedId": "nft-support/docs/introduction",
+              "id": "nft-support/docs/introduction",
+              "title": "Introduction",
+              "description": "Learn about the NFT features added to 0x V4",
+              "source": "@site/docs/nft-support/docs/introduction.md",
+              "sourceDirName": "nft-support/docs",
+              "slug": "/nft-support/docs/introduction",
+              "permalink": "/nft-support/docs/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/docs/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Introduction",
+                "sidebar_position": 1,
+                "description": "Learn about the NFT features added to 0x V4"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Docs",
+                "permalink": "/category/docs-2"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/category/guides-2"
+              }
+            },
+            {
+              "unversionedId": "nft-support/guides/creating-orders/collection-offers",
+              "id": "nft-support/guides/creating-orders/collection-offers",
+              "title": "Collection Offers",
+              "description": "Collection Offers",
+              "source": "@site/docs/nft-support/guides/creating-orders/collection-offers.md",
+              "sourceDirName": "nft-support/guides/creating-orders",
+              "slug": "/nft-support/guides/creating-orders/collection-offers",
+              "permalink": "/nft-support/guides/creating-orders/collection-offers",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/guides/creating-orders/collection-offers.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "Collection Offers",
+                "sidebar_position": 3,
+                "description": "Collection Offers"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Royalties and Fees",
+                "permalink": "/nft-support/guides/creating-orders/royalties-and-fees"
+              },
+              "next": {
+                "title": "Generating 0x Order Hashes",
+                "permalink": "/nft-support/guides/generating-0x-order-hashes"
+              }
+            },
+            {
+              "unversionedId": "nft-support/guides/creating-orders/overview",
+              "id": "nft-support/guides/creating-orders/overview",
+              "title": "Creating Orders",
+              "description": "Creating Orders",
+              "source": "@site/docs/nft-support/guides/creating-orders/overview.md",
+              "sourceDirName": "nft-support/guides/creating-orders",
+              "slug": "/nft-support/guides/creating-orders/overview",
+              "permalink": "/nft-support/guides/creating-orders/overview",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/guides/creating-orders/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Overview",
+                "sidebar_position": 2,
+                "description": "Creating Orders"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Creating Orders",
+                "permalink": "/category/creating-orders"
+              },
+              "next": {
+                "title": "Royalties and Fees",
+                "permalink": "/nft-support/guides/creating-orders/royalties-and-fees"
+              }
+            },
+            {
+              "unversionedId": "nft-support/guides/creating-orders/royalties-and-fees",
+              "id": "nft-support/guides/creating-orders/royalties-and-fees",
+              "title": "Generating 0x Order Hashes",
+              "description": "Royalties and Fees",
+              "source": "@site/docs/nft-support/guides/creating-orders/royalties-and-fees.md",
+              "sourceDirName": "nft-support/guides/creating-orders",
+              "slug": "/nft-support/guides/creating-orders/royalties-and-fees",
+              "permalink": "/nft-support/guides/creating-orders/royalties-and-fees",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/guides/creating-orders/royalties-and-fees.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Royalties and Fees",
+                "sidebar_position": 2,
+                "description": "Royalties and Fees"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/nft-support/guides/creating-orders/overview"
+              },
+              "next": {
+                "title": "Collection Offers",
+                "permalink": "/nft-support/guides/creating-orders/collection-offers"
+              }
+            },
+            {
+              "unversionedId": "nft-support/guides/generating-0x-order-hashes",
+              "id": "nft-support/guides/generating-0x-order-hashes",
+              "title": "Generating 0x Order Hashes",
+              "description": "In this guide, we cover how to use @0x/protocol-utils to generate 0x Order Hashes",
+              "source": "@site/docs/nft-support/guides/generating-0x-order-hashes.md",
+              "sourceDirName": "nft-support/guides",
+              "slug": "/nft-support/guides/generating-0x-order-hashes",
+              "permalink": "/nft-support/guides/generating-0x-order-hashes",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/guides/generating-0x-order-hashes.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Generating 0x Order Hashes",
+                "sidebar_position": 1,
+                "description": "In this guide, we cover how to use @0x/protocol-utils to generate 0x Order Hashes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Collection Offers",
+                "permalink": "/nft-support/guides/creating-orders/collection-offers"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/nft-support/intro"
               }
             },
             {
@@ -183,7 +1295,7 @@
               "source": "@site/docs/nft-support/intro.md",
               "sourceDirName": "nft-support",
               "slug": "/nft-support/intro",
-              "permalink": "/docs/nft-support/intro",
+              "permalink": "/nft-support/intro",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/intro.md",
               "tags": [],
@@ -193,12 +1305,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "NFT Support",
-                "permalink": "/docs/category/nft-support"
+                "title": "Generating 0x Order Hashes",
+                "permalink": "/nft-support/guides/generating-0x-order-hashes"
               },
               "next": {
                 "title": "Protocol",
-                "permalink": "/docs/category/protocol"
+                "permalink": "/category/protocol"
               }
             },
             {
@@ -209,7 +1321,7 @@
               "source": "@site/docs/protocol/intro.md",
               "sourceDirName": "protocol",
               "slug": "/protocol/intro",
-              "permalink": "/docs/protocol/intro",
+              "permalink": "/protocol/intro",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/protocol/intro.md",
               "tags": [],
@@ -220,11 +1332,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Protocol",
-                "permalink": "/docs/category/protocol"
+                "permalink": "/category/protocol"
               },
               "next": {
                 "title": "Governance",
-                "permalink": "/docs/category/governance"
+                "permalink": "/category/governance"
               }
             },
             {
@@ -235,7 +1347,7 @@
               "source": "@site/docs/tutorial-basics/congratulations.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
+              "permalink": "/tutorial-basics/congratulations",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
               "tags": [],
@@ -247,11 +1359,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/tutorial-basics/deploy-your-site"
               },
               "next": {
                 "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "permalink": "/category/tutorial---extras"
               }
             },
             {
@@ -262,7 +1374,7 @@
               "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "permalink": "/tutorial-basics/create-a-blog-post",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
@@ -274,11 +1386,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/tutorial-basics/create-a-document"
               },
               "next": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/tutorial-basics/markdown-features"
               }
             },
             {
@@ -289,7 +1401,7 @@
               "source": "@site/docs/tutorial-basics/create-a-document.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
+              "permalink": "/tutorial-basics/create-a-document",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
               "tags": [],
@@ -301,11 +1413,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/tutorial-basics/create-a-page"
               },
               "next": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/tutorial-basics/create-a-blog-post"
               }
             },
             {
@@ -316,7 +1428,7 @@
               "source": "@site/docs/tutorial-basics/create-a-page.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
+              "permalink": "/tutorial-basics/create-a-page",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
               "tags": [],
@@ -328,11 +1440,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "permalink": "/category/tutorial---basics"
               },
               "next": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/tutorial-basics/create-a-document"
               }
             },
             {
@@ -343,7 +1455,7 @@
               "source": "@site/docs/tutorial-basics/deploy-your-site.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
+              "permalink": "/tutorial-basics/deploy-your-site",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
@@ -355,11 +1467,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/tutorial-basics/markdown-features"
               },
               "next": {
                 "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
+                "permalink": "/tutorial-basics/congratulations"
               }
             },
             {
@@ -370,7 +1482,7 @@
               "source": "@site/docs/tutorial-basics/markdown-features.mdx",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
+              "permalink": "/tutorial-basics/markdown-features",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
@@ -382,11 +1494,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/tutorial-basics/create-a-blog-post"
               },
               "next": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/tutorial-basics/deploy-your-site"
               }
             },
             {
@@ -397,7 +1509,7 @@
               "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
+              "permalink": "/tutorial-extras/manage-docs-versions",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
@@ -409,11 +1521,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "permalink": "/category/tutorial---extras"
               },
               "next": {
                 "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
+                "permalink": "/tutorial-extras/translate-your-site"
               }
             },
             {
@@ -424,7 +1536,7 @@
               "source": "@site/docs/tutorial-extras/translate-your-site.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
+              "permalink": "/tutorial-extras/translate-your-site",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
@@ -436,33 +1548,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              }
-            },
-            {
-              "unversionedId": "welcome/intro",
-              "id": "welcome/intro",
-              "title": "Welcome",
-              "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
-              "source": "@site/docs/welcome/intro.md",
-              "sourceDirName": "welcome",
-              "slug": "/welcome/intro",
-              "permalink": "/docs/welcome/intro",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/welcome/intro.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Welcome",
-                "permalink": "/docs/category/welcome"
-              },
-              "next": {
-                "title": "0x Swap API",
-                "permalink": "/docs/category/0x-swap-api"
+                "permalink": "/tutorial-extras/manage-docs-versions"
               }
             }
           ],
@@ -471,20 +1557,25 @@
             "tutorialSidebar": [
               {
                 "type": "category",
-                "label": "Welcome",
+                "label": "Introduction",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "welcome/intro"
+                    "id": "introduction/0x-cheat-sheet",
+                    "label": "0x Cheat Sheet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/intro"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "Welcome to the 0x docs",
-                  "slug": "/category/welcome",
-                  "permalink": "/docs/category/welcome"
+                  "slug": "/category/introduction",
+                  "permalink": "/category/introduction"
                 }
               },
               {
@@ -494,51 +1585,249 @@
                 "collapsed": true,
                 "items": [
                   {
+                    "type": "doc",
+                    "id": "0x-swap-api/introduction",
+                    "label": "Introduction"
+                  },
+                  {
                     "type": "category",
-                    "label": "0x Swap API References",
+                    "label": "API References",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
                         "type": "doc",
-                        "id": "0x-swap-api/0x-swap-api-references/intro"
+                        "id": "0x-swap-api/api-references/intro",
+                        "label": "API References"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/api-references/get-swap-v1-quote",
+                        "label": "GET /swap/v1/quote"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/api-references/get-swap-v1-price",
+                        "label": "GET /swap/v1/price"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/api-references/get-swap-v1-source",
+                        "label": "GET /swap/v1/source"
                       }
                     ],
                     "link": {
                       "type": "generated-index",
-                      "description": "An introduction 0x Swap API",
-                      "slug": "/category/0x-swap-api-references",
-                      "permalink": "/docs/category/0x-swap-api-references"
+                      "description": "An introduction 0x Orderbook API",
+                      "slug": "/category/api-references",
+                      "permalink": "/category/api-references"
                     }
                   },
                   {
-                    "type": "doc",
-                    "id": "0x-swap-api/intro"
+                    "type": "category",
+                    "label": "Advanced Topics",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/advanced-topics/rate-limiting",
+                        "label": "Rate Limiting"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+                        "label": "How to Set Your Token Allowances"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/advanced-topics/slippage-protection",
+                        "label": "Slippage Protection"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/advanced-topics/price-impact-protection",
+                        "label": "Price Impact Protection"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Advanced Topics",
+                      "slug": "/category/advanced-topics",
+                      "permalink": "/category/advanced-topics"
+                    }
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "An introduction 0x Swap API",
                   "slug": "/category/0x-swap-api",
-                  "permalink": "/docs/category/0x-swap-api"
+                  "permalink": "/category/0x-swap-api"
                 }
               },
               {
                 "type": "category",
-                "label": "0x Limit Orders",
+                "label": "0x Orderbook API",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "0x-limit-orders/intro"
+                    "id": "0x-orderbook-api/introduction",
+                    "label": "Introduction"
+                  },
+                  {
+                    "type": "category",
+                    "label": "API References",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "0x-orderbook-api/api-references/intro",
+                        "label": "API References"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-orderbook-api/api-references/get-orderbook-v1",
+                        "label": "GET /orderbook/v1/orders"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-orderbook-api/api-references/get-orderbook-v1-orders",
+                        "label": "GET /orderbook/v1/orders"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-orderbook-api/api-references/post-orderbook-v1-order",
+                        "label": "POST /orderbook/v1/order"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-orderbook-api/api-references/post-orderbook-v1-orders",
+                        "label": "POST /orderbook/v1/orders"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash",
+                        "label": "GET /orderbook/v1/order/orderHash"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-orderbook-api/api-references/post-orderbook-v1-order_config",
+                        "label": "POST /orderbook/v1/order\\_config"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md",
+                        "label": "GET /orderbook/v1/fee_recipients"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-orderbook-api/api-references/websocket-api",
+                        "label": "Websocket API"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "An introduction 0x Orderbook API",
+                      "slug": "/category/api-references-1",
+                      "permalink": "/category/api-references-1"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "0x-orderbook-api/rate-limiting",
+                    "label": "Rate Limiting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "0x-orderbook-api/connection-limit",
+                    "label": "Connection Limit"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "An introduction 0x Limit Orders",
-                  "slug": "/category/0x-limit-orders",
-                  "permalink": "/docs/category/0x-limit-orders"
+                  "description": "An introduction 0x Orderbook API",
+                  "slug": "/category/0x-orderbook-api",
+                  "permalink": "/category/0x-orderbook-api"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Limit Order (Advanced Traders)",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Docs",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "0x-limit-orders/docs/introduction",
+                        "label": "Introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-limit-orders/docs/limit-order-structure",
+                        "label": "Limit Order Structure"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-limit-orders/docs/limit-order-structure copy",
+                        "label": "Monitoring 0x Limit Orders"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Docs",
+                      "slug": "/category/docs",
+                      "permalink": "/category/docs"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Guides",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "0x-limit-orders/guides/create-a-limit-order",
+                        "label": "Create a Limit Order"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-limit-orders/guides/cancel-a-limit-order",
+                        "label": "Cancel a Limit Order"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-limit-orders/guides/fill-a-limit-order",
+                        "label": "Limit Order Status"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-limit-orders/guides/working-in-the-testnet",
+                        "label": "Working in the Testnet"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Guides",
+                      "slug": "/category/guides",
+                      "permalink": "/category/guides"
+                    }
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Limit Order (Advanced Traders)",
+                  "slug": "/category/limit-order-advanced-traders",
+                  "permalink": "/category/limit-order-advanced-traders"
                 }
               },
               {
@@ -548,15 +1837,74 @@
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "market-makers/intro"
+                    "type": "category",
+                    "label": "Docs",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "market-makers/docs/introduction",
+                        "label": "Introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "market-makers/docs/rfq-order-structure",
+                        "label": "RFQ Order Structure"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
+                        "label": "Providing RFQ liquidity to 0x API"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
+                        "label": "Providing AMM liquidity to 0x API"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Docs",
+                      "slug": "/category/docs-1",
+                      "permalink": "/category/docs-1"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Guides",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "market-makers/guides/generating-0x-order-hashes",
+                        "label": "Generating 0x Order Hashes"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "market-makers/guides/signing-0x-orders",
+                        "label": "Signing 0x Orders"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "market-makers/guides/rfq-orders-code-examples-with-python",
+                        "label": "0x v4 RFQ Orders Code Examples with Python"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Guides",
+                      "slug": "/category/guides-1",
+                      "permalink": "/category/guides-1"
+                    }
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "An introduction for Market Makers",
                   "slug": "/category/market-makers",
-                  "permalink": "/docs/category/market-makers"
+                  "permalink": "/category/market-makers"
                 }
               },
               {
@@ -566,6 +1914,73 @@
                 "collapsed": true,
                 "items": [
                   {
+                    "type": "category",
+                    "label": "Docs",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "nft-support/docs/introduction",
+                        "label": "Introduction"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Docs",
+                      "slug": "/category/docs-2",
+                      "permalink": "/category/docs-2"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Guides",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "Creating Orders",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "nft-support/guides/creating-orders/overview",
+                            "label": "Overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "nft-support/guides/creating-orders/royalties-and-fees",
+                            "label": "Royalties and Fees"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "nft-support/guides/creating-orders/collection-offers",
+                            "label": "Collection Offers"
+                          }
+                        ],
+                        "link": {
+                          "type": "generated-index",
+                          "description": "Creating Orders",
+                          "slug": "/category/creating-orders",
+                          "permalink": "/category/creating-orders"
+                        }
+                      },
+                      {
+                        "type": "doc",
+                        "id": "nft-support/guides/generating-0x-order-hashes",
+                        "label": "Generating 0x Order Hashes"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Guides",
+                      "slug": "/category/guides-2",
+                      "permalink": "/category/guides-2"
+                    }
+                  },
+                  {
                     "type": "doc",
                     "id": "nft-support/intro"
                   }
@@ -574,7 +1989,7 @@
                   "type": "generated-index",
                   "description": "An introduction for NFT Support",
                   "slug": "/category/nft-support",
-                  "permalink": "/docs/category/nft-support"
+                  "permalink": "/category/nft-support"
                 }
               },
               {
@@ -592,7 +2007,7 @@
                   "type": "generated-index",
                   "description": "An introduction to the 0x Protocol",
                   "slug": "/category/protocol",
-                  "permalink": "/docs/category/protocol"
+                  "permalink": "/category/protocol"
                 }
               },
               {
@@ -610,7 +2025,7 @@
                   "type": "generated-index",
                   "description": "An introduction to 0x DAO and Governance",
                   "slug": "/category/governance",
-                  "permalink": "/docs/category/governance"
+                  "permalink": "/category/governance"
                 }
               },
               {
@@ -628,7 +2043,7 @@
                   "type": "generated-index",
                   "description": "List of 0x Developer Resources",
                   "slug": "/category/developer-resources",
-                  "permalink": "/docs/category/developer-resources"
+                  "permalink": "/category/developer-resources"
                 }
               },
               {
@@ -666,7 +2081,7 @@
                   "type": "generated-index",
                   "description": "5 minutes to learn the most important Docusaurus concepts.",
                   "slug": "/category/tutorial---basics",
-                  "permalink": "/docs/category/tutorial---basics"
+                  "permalink": "/category/tutorial---basics"
                 }
               },
               {
@@ -687,7 +2102,7 @@
                 "link": {
                   "type": "generated-index",
                   "slug": "/category/tutorial---extras",
-                  "permalink": "/docs/category/tutorial---extras"
+                  "permalink": "/category/tutorial---extras"
                 }
               }
             ]
@@ -696,356 +2111,8 @@
       ]
     }
   },
-  "docusaurus-plugin-content-blog": {
-    "default": {
-      "blogSidebarTitle": "Recent posts",
-      "blogPosts": [
-        {
-          "id": "welcome",
-          "metadata": {
-            "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
-            "source": "@site/blog/2021-08-26-welcome/index.md",
-            "title": "Welcome",
-            "description": "Docusaurus blogging features are powered by the blog plugin.",
-            "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "August 26, 2021",
-            "tags": [
-              {
-                "label": "facebook",
-                "permalink": "/blog/tags/facebook"
-              },
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.405,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              },
-              {
-                "name": "Yangshun Tay",
-                "title": "Front End Engineer @ Facebook",
-                "url": "https://github.com/yangshun",
-                "imageURL": "https://github.com/yangshun.png",
-                "key": "yangshun"
-              }
-            ],
-            "frontMatter": {
-              "slug": "welcome",
-              "title": "Welcome",
-              "authors": [
-                "slorber",
-                "yangshun"
-              ],
-              "tags": [
-                "facebook",
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "nextItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
-            }
-          },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
-        },
-        {
-          "id": "mdx-blog-post",
-          "metadata": {
-            "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
-            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-            "title": "MDX Blog Post",
-            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-            "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "August 1, 2021",
-            "tags": [
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.175,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              }
-            ],
-            "frontMatter": {
-              "slug": "mdx-blog-post",
-              "title": "MDX Blog Post",
-              "authors": [
-                "slorber"
-              ],
-              "tags": [
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
-            },
-            "nextItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
-        },
-        {
-          "id": "long-blog-post",
-          "metadata": {
-            "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
-            "source": "@site/blog/2019-05-29-long-blog-post.md",
-            "title": "Long Blog Post",
-            "description": "This is the summary of a very long blog post,",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 2.05,
-            "hasTruncateMarker": true,
-            "authors": [
-              {
-                "name": "Endilie Yacop Sucipto",
-                "title": "Maintainer of Docusaurus",
-                "url": "https://github.com/endiliey",
-                "imageURL": "https://github.com/endiliey.png",
-                "key": "endi"
-              }
-            ],
-            "frontMatter": {
-              "slug": "long-blog-post",
-              "title": "Long Blog Post",
-              "authors": "endi",
-              "tags": [
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
-            },
-            "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
-            }
-          },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        },
-        {
-          "id": "first-blog-post",
-          "metadata": {
-            "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.12,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              }
-            ],
-            "frontMatter": {
-              "slug": "first-blog-post",
-              "title": "First Blog Post",
-              "authors": {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              },
-              "tags": [
-                "hola",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        }
-      ],
-      "blogListPaginated": [
-        {
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "metadata": {
-            "permalink": "/blog",
-            "page": 1,
-            "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 4,
-            "blogDescription": "Blog",
-            "blogTitle": "Blog"
-          }
-        }
-      ],
-      "blogTags": {
-        "/blog/tags/facebook": {
-          "label": "facebook",
-          "items": [
-            "welcome"
-          ],
-          "permalink": "/blog/tags/facebook",
-          "pages": [
-            {
-              "items": [
-                "welcome"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/facebook",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/hello": {
-          "label": "hello",
-          "items": [
-            "welcome",
-            "long-blog-post"
-          ],
-          "permalink": "/blog/tags/hello",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "long-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/hello",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/docusaurus": {
-          "label": "docusaurus",
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/docusaurus",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "mdx-blog-post",
-                "long-blog-post",
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/docusaurus",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 4,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/hola": {
-          "label": "hola",
-          "items": [
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/hola",
-          "pages": [
-            {
-              "items": [
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/hola",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        }
-      },
-      "blogTagsListPath": "/blog/tags"
-    }
-  },
   "docusaurus-plugin-content-pages": {
     "default": [
-      {
-        "type": "jsx",
-        "permalink": "/",
-        "source": "@site/src/pages/index.js"
-      },
       {
         "type": "mdx",
         "permalink": "/markdown-page",

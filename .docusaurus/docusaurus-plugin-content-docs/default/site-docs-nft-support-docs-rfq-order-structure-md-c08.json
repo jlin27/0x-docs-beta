@@ -1,0 +1,29 @@
+{
+  "unversionedId": "nft-support/docs/rfq-order-structure",
+  "id": "nft-support/docs/rfq-order-structure",
+  "title": "RFQ Order Structure",
+  "description": "RFQ Order Structure",
+  "source": "@site/docs/nft-support/docs/rfq-order-structure.md",
+  "sourceDirName": "nft-support/docs",
+  "slug": "/nft-support/docs/rfq-order-structure",
+  "permalink": "/nft-support/docs/rfq-order-structure",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/nft-support/docs/rfq-order-structure.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "RFQ Order Structure",
+    "sidebar_position": 2,
+    "description": "RFQ Order Structure"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/nft-support/docs/introduction"
+  },
+  "next": {
+    "title": "Providing RFQ liquidity to 0x API",
+    "permalink": "/nft-support/docs/providing-rfq-liquidity-to-0x-api"
+  }
+}

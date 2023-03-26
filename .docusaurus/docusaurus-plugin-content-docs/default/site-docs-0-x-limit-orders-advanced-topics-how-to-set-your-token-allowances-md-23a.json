@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-limit-orders/advanced-topics/how-to-set-your-token-allowances",
+  "id": "0x-limit-orders/advanced-topics/how-to-set-your-token-allowances",
+  "title": "How to Set Your Token Allowances",
+  "description": "Learn how to set your token allowances",
+  "source": "@site/docs/0x-limit-orders/advanced-topics/how-to-set-your-token-allowances.md",
+  "sourceDirName": "0x-limit-orders/advanced-topics",
+  "slug": "/0x-limit-orders/advanced-topics/how-to-set-your-token-allowances",
+  "permalink": "/0x-limit-orders/advanced-topics/how-to-set-your-token-allowances",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/advanced-topics/how-to-set-your-token-allowances.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "How to Set Your Token Allowances",
+    "sidebar_position": 2,
+    "description": "Learn how to set your token allowances"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rate Limiting",
+    "permalink": "/0x-limit-orders/advanced-topics/rate-limiting"
+  },
+  "next": {
+    "title": "Slippage Protection",
+    "permalink": "/0x-limit-orders/advanced-topics/slippage-protection"
+  }
+}

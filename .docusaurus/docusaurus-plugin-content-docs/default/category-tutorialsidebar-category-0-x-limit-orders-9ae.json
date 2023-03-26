@@ -1,0 +1,16 @@
+{
+  "title": "0x Limit Orders",
+  "description": "An introduction 0x Limit Orders",
+  "slug": "/category/0x-limit-orders",
+  "permalink": "/category/0x-limit-orders",
+  "navigation": {
+    "previous": {
+      "title": "Connection Limit",
+      "permalink": "/0x-orderbook-api/connection-limit"
+    },
+    "next": {
+      "title": "Docs",
+      "permalink": "/category/docs"
+    }
+  }
+}

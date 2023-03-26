@@ -11,18 +11,24 @@
     "tutorialSidebar": [
       {
         "type": "category",
-        "label": "Welcome",
+        "label": "Introduction",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
+            "label": "0x Cheat Sheet",
+            "href": "/introduction/0x-cheat-sheet",
+            "docId": "introduction/0x-cheat-sheet"
+          },
+          {
+            "type": "link",
             "label": "Welcome",
-            "href": "/docs/welcome/intro",
-            "docId": "welcome/intro"
+            "href": "/",
+            "docId": "introduction/intro"
           }
         ],
-        "href": "/docs/category/welcome"
+        "href": "/category/introduction"
       },
       {
         "type": "category",
@@ -31,43 +37,238 @@
         "collapsed": true,
         "items": [
           {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/0x-swap-api/introduction",
+            "docId": "0x-swap-api/introduction"
+          },
+          {
             "type": "category",
-            "label": "0x Swap API References",
+            "label": "API References",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "link",
                 "label": "API References",
-                "href": "/docs/0x-swap-api/0x-swap-api-references/intro",
-                "docId": "0x-swap-api/0x-swap-api-references/intro"
+                "href": "/0x-swap-api/api-references/intro",
+                "docId": "0x-swap-api/api-references/intro"
+              },
+              {
+                "type": "link",
+                "label": "GET /swap/v1/quote",
+                "href": "/0x-swap-api/api-references/get-swap-v1-quote",
+                "docId": "0x-swap-api/api-references/get-swap-v1-quote"
+              },
+              {
+                "type": "link",
+                "label": "GET /swap/v1/price",
+                "href": "/0x-swap-api/api-references/get-swap-v1-price",
+                "docId": "0x-swap-api/api-references/get-swap-v1-price"
+              },
+              {
+                "type": "link",
+                "label": "GET /swap/v1/source",
+                "href": "/0x-swap-api/api-references/get-swap-v1-source",
+                "docId": "0x-swap-api/api-references/get-swap-v1-source"
               }
             ],
-            "href": "/docs/category/0x-swap-api-references"
+            "href": "/category/api-references"
           },
           {
-            "type": "link",
-            "label": "Introduction",
-            "href": "/docs/0x-swap-api/intro",
-            "docId": "0x-swap-api/intro"
+            "type": "category",
+            "label": "Advanced Topics",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Rate Limiting",
+                "href": "/0x-swap-api/advanced-topics/rate-limiting",
+                "docId": "0x-swap-api/advanced-topics/rate-limiting"
+              },
+              {
+                "type": "link",
+                "label": "How to Set Your Token Allowances",
+                "href": "/0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+                "docId": "0x-swap-api/advanced-topics/how-to-set-your-token-allowances"
+              },
+              {
+                "type": "link",
+                "label": "Slippage Protection",
+                "href": "/0x-swap-api/advanced-topics/slippage-protection",
+                "docId": "0x-swap-api/advanced-topics/slippage-protection"
+              },
+              {
+                "type": "link",
+                "label": "Price Impact Protection",
+                "href": "/0x-swap-api/advanced-topics/price-impact-protection",
+                "docId": "0x-swap-api/advanced-topics/price-impact-protection"
+              }
+            ],
+            "href": "/category/advanced-topics"
           }
         ],
-        "href": "/docs/category/0x-swap-api"
+        "href": "/category/0x-swap-api"
       },
       {
         "type": "category",
-        "label": "0x Limit Orders",
+        "label": "0x Orderbook API",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/0x-limit-orders/intro",
-            "docId": "0x-limit-orders/intro"
+            "href": "/0x-orderbook-api/introduction",
+            "docId": "0x-orderbook-api/introduction"
+          },
+          {
+            "type": "category",
+            "label": "API References",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "API References",
+                "href": "/0x-orderbook-api/api-references/intro",
+                "docId": "0x-orderbook-api/api-references/intro"
+              },
+              {
+                "type": "link",
+                "label": "GET /orderbook/v1/orders",
+                "href": "/0x-orderbook-api/api-references/get-orderbook-v1",
+                "docId": "0x-orderbook-api/api-references/get-orderbook-v1"
+              },
+              {
+                "type": "link",
+                "label": "GET /orderbook/v1/orders",
+                "href": "/0x-orderbook-api/api-references/get-orderbook-v1-orders",
+                "docId": "0x-orderbook-api/api-references/get-orderbook-v1-orders"
+              },
+              {
+                "type": "link",
+                "label": "POST /orderbook/v1/order",
+                "href": "/0x-orderbook-api/api-references/post-orderbook-v1-order",
+                "docId": "0x-orderbook-api/api-references/post-orderbook-v1-order"
+              },
+              {
+                "type": "link",
+                "label": "POST /orderbook/v1/orders",
+                "href": "/0x-orderbook-api/api-references/post-orderbook-v1-orders",
+                "docId": "0x-orderbook-api/api-references/post-orderbook-v1-orders"
+              },
+              {
+                "type": "link",
+                "label": "GET /orderbook/v1/order/orderHash",
+                "href": "/0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash",
+                "docId": "0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash"
+              },
+              {
+                "type": "link",
+                "label": "POST /orderbook/v1/order\\_config",
+                "href": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config",
+                "docId": "0x-orderbook-api/api-references/post-orderbook-v1-order_config"
+              },
+              {
+                "type": "link",
+                "label": "GET /orderbook/v1/fee_recipients",
+                "href": "/0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md",
+                "docId": "0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md"
+              },
+              {
+                "type": "link",
+                "label": "Websocket API",
+                "href": "/0x-orderbook-api/api-references/websocket-api",
+                "docId": "0x-orderbook-api/api-references/websocket-api"
+              }
+            ],
+            "href": "/category/api-references-1"
+          },
+          {
+            "type": "link",
+            "label": "Rate Limiting",
+            "href": "/0x-orderbook-api/rate-limiting",
+            "docId": "0x-orderbook-api/rate-limiting"
+          },
+          {
+            "type": "link",
+            "label": "Connection Limit",
+            "href": "/0x-orderbook-api/connection-limit",
+            "docId": "0x-orderbook-api/connection-limit"
           }
         ],
-        "href": "/docs/category/0x-limit-orders"
+        "href": "/category/0x-orderbook-api"
+      },
+      {
+        "type": "category",
+        "label": "Limit Order (Advanced Traders)",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Docs",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/0x-limit-orders/docs/introduction",
+                "docId": "0x-limit-orders/docs/introduction"
+              },
+              {
+                "type": "link",
+                "label": "Limit Order Structure",
+                "href": "/0x-limit-orders/docs/limit-order-structure",
+                "docId": "0x-limit-orders/docs/limit-order-structure"
+              },
+              {
+                "type": "link",
+                "label": "Monitoring 0x Limit Orders",
+                "href": "/0x-limit-orders/docs/limit-order-structure copy",
+                "docId": "0x-limit-orders/docs/limit-order-structure copy"
+              }
+            ],
+            "href": "/category/docs"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Create a Limit Order",
+                "href": "/0x-limit-orders/guides/create-a-limit-order",
+                "docId": "0x-limit-orders/guides/create-a-limit-order"
+              },
+              {
+                "type": "link",
+                "label": "Cancel a Limit Order",
+                "href": "/0x-limit-orders/guides/cancel-a-limit-order",
+                "docId": "0x-limit-orders/guides/cancel-a-limit-order"
+              },
+              {
+                "type": "link",
+                "label": "Limit Order Status",
+                "href": "/0x-limit-orders/guides/fill-a-limit-order",
+                "docId": "0x-limit-orders/guides/fill-a-limit-order"
+              },
+              {
+                "type": "link",
+                "label": "Working in the Testnet",
+                "href": "/0x-limit-orders/guides/working-in-the-testnet",
+                "docId": "0x-limit-orders/guides/working-in-the-testnet"
+              }
+            ],
+            "href": "/category/guides"
+          }
+        ],
+        "href": "/category/limit-order-advanced-traders"
       },
       {
         "type": "category",
@@ -76,13 +277,67 @@
         "collapsed": true,
         "items": [
           {
-            "type": "link",
-            "label": "Introduction",
-            "href": "/docs/market-makers/intro",
-            "docId": "market-makers/intro"
+            "type": "category",
+            "label": "Docs",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/market-makers/docs/introduction",
+                "docId": "market-makers/docs/introduction"
+              },
+              {
+                "type": "link",
+                "label": "RFQ Order Structure",
+                "href": "/market-makers/docs/rfq-order-structure",
+                "docId": "market-makers/docs/rfq-order-structure"
+              },
+              {
+                "type": "link",
+                "label": "Providing RFQ liquidity to 0x API",
+                "href": "/market-makers/docs/providing-rfq-liquidity-to-0x-api",
+                "docId": "market-makers/docs/providing-rfq-liquidity-to-0x-api"
+              },
+              {
+                "type": "link",
+                "label": "Providing AMM liquidity to 0x API",
+                "href": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
+                "docId": "market-makers/docs/providing-amm-liquidity-to-0x-api"
+              }
+            ],
+            "href": "/category/docs-1"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Generating 0x Order Hashes",
+                "href": "/market-makers/guides/generating-0x-order-hashes",
+                "docId": "market-makers/guides/generating-0x-order-hashes"
+              },
+              {
+                "type": "link",
+                "label": "Signing 0x Orders",
+                "href": "/market-makers/guides/signing-0x-orders",
+                "docId": "market-makers/guides/signing-0x-orders"
+              },
+              {
+                "type": "link",
+                "label": "0x v4 RFQ Orders Code Examples with Python",
+                "href": "/market-makers/guides/rfq-orders-code-examples-with-python",
+                "docId": "market-makers/guides/rfq-orders-code-examples-with-python"
+              }
+            ],
+            "href": "/category/guides-1"
           }
         ],
-        "href": "/docs/category/market-makers"
+        "href": "/category/market-makers"
       },
       {
         "type": "category",
@@ -91,13 +346,70 @@
         "collapsed": true,
         "items": [
           {
+            "type": "category",
+            "label": "Docs",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/nft-support/docs/introduction",
+                "docId": "nft-support/docs/introduction"
+              }
+            ],
+            "href": "/category/docs-2"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Creating Orders",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Overview",
+                    "href": "/nft-support/guides/creating-orders/overview",
+                    "docId": "nft-support/guides/creating-orders/overview"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Royalties and Fees",
+                    "href": "/nft-support/guides/creating-orders/royalties-and-fees",
+                    "docId": "nft-support/guides/creating-orders/royalties-and-fees"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Collection Offers",
+                    "href": "/nft-support/guides/creating-orders/collection-offers",
+                    "docId": "nft-support/guides/creating-orders/collection-offers"
+                  }
+                ],
+                "href": "/category/creating-orders"
+              },
+              {
+                "type": "link",
+                "label": "Generating 0x Order Hashes",
+                "href": "/nft-support/guides/generating-0x-order-hashes",
+                "docId": "nft-support/guides/generating-0x-order-hashes"
+              }
+            ],
+            "href": "/category/guides-2"
+          },
+          {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/nft-support/intro",
+            "href": "/nft-support/intro",
             "docId": "nft-support/intro"
           }
         ],
-        "href": "/docs/category/nft-support"
+        "href": "/category/nft-support"
       },
       {
         "type": "category",
@@ -108,11 +420,11 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/protocol/intro",
+            "href": "/protocol/intro",
             "docId": "protocol/intro"
           }
         ],
-        "href": "/docs/category/protocol"
+        "href": "/category/protocol"
       },
       {
         "type": "category",
@@ -123,11 +435,11 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/governance/intro",
+            "href": "/governance/intro",
             "docId": "governance/intro"
           }
         ],
-        "href": "/docs/category/governance"
+        "href": "/category/governance"
       },
       {
         "type": "category",
@@ -138,11 +450,11 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/developer-resources/intro",
+            "href": "/developer-resources/intro",
             "docId": "developer-resources/intro"
           }
         ],
-        "href": "/docs/category/developer-resources"
+        "href": "/category/developer-resources"
       },
       {
         "type": "category",
@@ -153,41 +465,41 @@
           {
             "type": "link",
             "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
+            "href": "/tutorial-basics/create-a-page",
             "docId": "tutorial-basics/create-a-page"
           },
           {
             "type": "link",
             "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
+            "href": "/tutorial-basics/create-a-document",
             "docId": "tutorial-basics/create-a-document"
           },
           {
             "type": "link",
             "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
+            "href": "/tutorial-basics/create-a-blog-post",
             "docId": "tutorial-basics/create-a-blog-post"
           },
           {
             "type": "link",
             "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
+            "href": "/tutorial-basics/markdown-features",
             "docId": "tutorial-basics/markdown-features"
           },
           {
             "type": "link",
             "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
+            "href": "/tutorial-basics/deploy-your-site",
             "docId": "tutorial-basics/deploy-your-site"
           },
           {
             "type": "link",
             "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
+            "href": "/tutorial-basics/congratulations",
             "docId": "tutorial-basics/congratulations"
           }
         ],
-        "href": "/docs/category/tutorial---basics"
+        "href": "/category/tutorial---basics"
       },
       {
         "type": "category",
@@ -198,35 +510,185 @@
           {
             "type": "link",
             "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
+            "href": "/tutorial-extras/manage-docs-versions",
             "docId": "tutorial-extras/manage-docs-versions"
           },
           {
             "type": "link",
             "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
+            "href": "/tutorial-extras/translate-your-site",
             "docId": "tutorial-extras/translate-your-site"
           }
         ],
-        "href": "/docs/category/tutorial---extras"
+        "href": "/category/tutorial---extras"
       }
     ]
   },
   "docs": {
-    "0x-limit-orders/intro": {
-      "id": "0x-limit-orders/intro",
+    "0x-limit-orders/docs/introduction": {
+      "id": "0x-limit-orders/docs/introduction",
       "title": "Introduction",
-      "description": "An introduction to how the 0x Swap API works and the resources included this section",
+      "description": "Learn about 0x Limit Order Structure, why, and how to use it",
       "sidebar": "tutorialSidebar"
     },
-    "0x-swap-api/0x-swap-api-references/intro": {
-      "id": "0x-swap-api/0x-swap-api-references/intro",
+    "0x-limit-orders/docs/limit-order-structure": {
+      "id": "0x-limit-orders/docs/limit-order-structure",
+      "title": "Limit Order Structure",
+      "description": "Learn about 0x Limit Order Structure, why, and how to use it",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-limit-orders/docs/limit-order-structure copy": {
+      "id": "0x-limit-orders/docs/limit-order-structure copy",
+      "title": "Monitoring 0x Limit Orders",
+      "description": "Learn about Monitoring 0x Limit Orders",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-limit-orders/guides/cancel-a-limit-order": {
+      "id": "0x-limit-orders/guides/cancel-a-limit-order",
+      "title": "Cancel a Limit Order",
+      "description": "Learn about how to cancel a limit order",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-limit-orders/guides/create-a-limit-order": {
+      "id": "0x-limit-orders/guides/create-a-limit-order",
+      "title": "Create a Limit Order",
+      "description": "Learn about how to create a limit order",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-limit-orders/guides/fill-a-limit-order": {
+      "id": "0x-limit-orders/guides/fill-a-limit-order",
+      "title": "Limit Order Status",
+      "description": "Learn about viewing & distributing 0x Limit Orders",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-limit-orders/guides/working-in-the-testnet": {
+      "id": "0x-limit-orders/guides/working-in-the-testnet",
+      "title": "Working in the Testnet",
+      "description": "Learn about working in the testnet",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/api-references/get-orderbook-v1": {
+      "id": "0x-orderbook-api/api-references/get-orderbook-v1",
+      "title": "GET /orderbook/v1/orders",
+      "description": "Learn how to use GET /orderbook/v1/",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md": {
+      "id": "0x-orderbook-api/api-references/get-orderbook-v1-fee_recipients.md",
+      "title": "GET /orderbook/v1/fee\\_recipients",
+      "description": "Learn how to use GET /orderbook/v1/fee_recipients",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash": {
+      "id": "0x-orderbook-api/api-references/get-orderbook-v1-order-orderhash",
+      "title": "GET /orderbook/v1/order/:orderHash:",
+      "description": "Learn how to use GET /orderbook/v1/order/orderHash",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/api-references/get-orderbook-v1-orders": {
+      "id": "0x-orderbook-api/api-references/get-orderbook-v1-orders",
+      "title": "GET /orderbook/v1/orders",
+      "description": "Learn how to use GET /orderbook/v1/orders",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/api-references/intro": {
+      "id": "0x-orderbook-api/api-references/intro",
       "title": "API References",
-      "description": "Swap API References",
+      "description": "0x API hosts an Orderbook of 0x Limit Orders that anyone can provide liquidity to or take liquidity from",
       "sidebar": "tutorialSidebar"
     },
-    "0x-swap-api/intro": {
-      "id": "0x-swap-api/intro",
+    "0x-orderbook-api/api-references/post-orderbook-v1-order": {
+      "id": "0x-orderbook-api/api-references/post-orderbook-v1-order",
+      "title": "POST /orderbook/v1/order",
+      "description": "Learn how to use POST /orderbook/v1/order",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/api-references/post-orderbook-v1-order_config": {
+      "id": "0x-orderbook-api/api-references/post-orderbook-v1-order_config",
+      "title": "POST /orderbook/v1/order\\_config",
+      "description": "Learn how to use  POST /orderbook/v1/order\\_config",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/api-references/post-orderbook-v1-orders": {
+      "id": "0x-orderbook-api/api-references/post-orderbook-v1-orders",
+      "title": "GET /orderbook/v1/orders",
+      "description": "Learn how to use POST /orderbook/v1/orders",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/api-references/websocket-api": {
+      "id": "0x-orderbook-api/api-references/websocket-api",
+      "title": "Websocket API",
+      "description": "Learn how to use the Websocket API",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/connection-limit": {
+      "id": "0x-orderbook-api/connection-limit",
+      "title": "Connection Limit",
+      "description": "Connection Limit",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/introduction": {
+      "id": "0x-orderbook-api/introduction",
+      "title": "Introduction",
+      "description": "0x API hosts an Orderbook of 0x Limit Orders that anyone can provide liquidity to or take liquidity from.",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-orderbook-api/rate-limiting": {
+      "id": "0x-orderbook-api/rate-limiting",
+      "title": "Rate Limiting",
+      "description": "Rate Limiting",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/advanced-topics/how-to-set-your-token-allowances": {
+      "id": "0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+      "title": "How to Set Your Token Allowances",
+      "description": "Learn how to set your token allowances",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/advanced-topics/price-impact-protection": {
+      "id": "0x-swap-api/advanced-topics/price-impact-protection",
+      "title": "Price Impact Protection",
+      "description": "Get notifications on illiquid markets. Don't get rekt.",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/advanced-topics/rate-limiting": {
+      "id": "0x-swap-api/advanced-topics/rate-limiting",
+      "title": "Rate Limiting",
+      "description": "Rate Limiting",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/advanced-topics/slippage-protection": {
+      "id": "0x-swap-api/advanced-topics/slippage-protection",
+      "title": "Slippage Protection",
+      "description": "Say goodbye to MEV attacks and say hello 👋 to the best executed price with Slippage Protection",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/api-references/get-swap-v1-price": {
+      "id": "0x-swap-api/api-references/get-swap-v1-price",
+      "title": "GET /swap/v1/price",
+      "description": "Learn how to use GET /swap/v1/price",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/api-references/get-swap-v1-quote": {
+      "id": "0x-swap-api/api-references/get-swap-v1-quote",
+      "title": "GET /swap/v1/quote",
+      "description": "Learn how to use GET /swap/v1/quote",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/api-references/get-swap-v1-source": {
+      "id": "0x-swap-api/api-references/get-swap-v1-source",
+      "title": "GET /swap/v1/source",
+      "description": "Learn how to use GET /swap/v1/source",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/api-references/intro": {
+      "id": "0x-swap-api/api-references/intro",
+      "title": "API References",
+      "description": "Learn how to use the 0x API, a REST API that runs on HTTP",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/introduction": {
+      "id": "0x-swap-api/introduction",
       "title": "Introduction",
       "description": "An introduction to how the 0x Swap API works and the resources included this section",
       "sidebar": "tutorialSidebar"
@@ -243,10 +705,88 @@
       "description": "An introduction to how the 0x Swap API works and the resources included this section",
       "sidebar": "tutorialSidebar"
     },
-    "market-makers/intro": {
-      "id": "market-makers/intro",
+    "introduction/0x-cheat-sheet": {
+      "id": "introduction/0x-cheat-sheet",
+      "title": "0x Cheat Sheet",
+      "description": "A collection of commonly used addresses, endpoints, and values across 0x products.",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction/intro": {
+      "id": "introduction/intro",
+      "title": "Welcome",
+      "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+      "sidebar": "tutorialSidebar"
+    },
+    "market-makers/docs/introduction": {
+      "id": "market-makers/docs/introduction",
       "title": "Introduction",
-      "description": "An introduction to how the 0x Swap API works and the resources included this section",
+      "description": "This section is for (i) Professional Market-makers interested in supplying liquidity via the 0x RFQ system, and (ii) Integrators who would like to access RFQ liquidity, via /swap",
+      "sidebar": "tutorialSidebar"
+    },
+    "market-makers/docs/providing-amm-liquidity-to-0x-api": {
+      "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
+      "title": "Providing AMM liquidity to 0x API",
+      "description": "Providing AMM liquidity to 0x API",
+      "sidebar": "tutorialSidebar"
+    },
+    "market-makers/docs/providing-rfq-liquidity-to-0x-api": {
+      "id": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
+      "title": "Providing RFQ liquidity to 0x API",
+      "description": "Providing RFQ liquidity to 0x API",
+      "sidebar": "tutorialSidebar"
+    },
+    "market-makers/docs/rfq-order-structure": {
+      "id": "market-makers/docs/rfq-order-structure",
+      "title": "RFQ Order Structure",
+      "description": "RFQ Order Structure",
+      "sidebar": "tutorialSidebar"
+    },
+    "market-makers/guides/generating-0x-order-hashes": {
+      "id": "market-makers/guides/generating-0x-order-hashes",
+      "title": "Generating 0x Order Hashes",
+      "description": "In this guide, we cover how to use @0x/protocol-utils to generate 0x Order Hashes",
+      "sidebar": "tutorialSidebar"
+    },
+    "market-makers/guides/rfq-orders-code-examples-with-python": {
+      "id": "market-makers/guides/rfq-orders-code-examples-with-python",
+      "title": "RFQ Orders Code Examples with Python",
+      "description": "0x v4 RFQ Orders Code Examples with Python",
+      "sidebar": "tutorialSidebar"
+    },
+    "market-makers/guides/signing-0x-orders": {
+      "id": "market-makers/guides/signing-0x-orders",
+      "title": "Signing 0x Orders",
+      "description": "In this guide, we discuss how to use @0x/protocol-utils or ethers.js to sign 0x Orders",
+      "sidebar": "tutorialSidebar"
+    },
+    "nft-support/docs/introduction": {
+      "id": "nft-support/docs/introduction",
+      "title": "Introduction",
+      "description": "Learn about the NFT features added to 0x V4",
+      "sidebar": "tutorialSidebar"
+    },
+    "nft-support/guides/creating-orders/collection-offers": {
+      "id": "nft-support/guides/creating-orders/collection-offers",
+      "title": "Collection Offers",
+      "description": "Collection Offers",
+      "sidebar": "tutorialSidebar"
+    },
+    "nft-support/guides/creating-orders/overview": {
+      "id": "nft-support/guides/creating-orders/overview",
+      "title": "Creating Orders",
+      "description": "Creating Orders",
+      "sidebar": "tutorialSidebar"
+    },
+    "nft-support/guides/creating-orders/royalties-and-fees": {
+      "id": "nft-support/guides/creating-orders/royalties-and-fees",
+      "title": "Generating 0x Order Hashes",
+      "description": "Royalties and Fees",
+      "sidebar": "tutorialSidebar"
+    },
+    "nft-support/guides/generating-0x-order-hashes": {
+      "id": "nft-support/guides/generating-0x-order-hashes",
+      "title": "Generating 0x Order Hashes",
+      "description": "In this guide, we cover how to use @0x/protocol-utils to generate 0x Order Hashes",
       "sidebar": "tutorialSidebar"
     },
     "nft-support/intro": {
@@ -307,12 +847,6 @@
       "id": "tutorial-extras/translate-your-site",
       "title": "Translate your site",
       "description": "Let's translate docs/intro.md to French.",
-      "sidebar": "tutorialSidebar"
-    },
-    "welcome/intro": {
-      "id": "welcome/intro",
-      "title": "Welcome",
-      "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
       "sidebar": "tutorialSidebar"
     }
   }

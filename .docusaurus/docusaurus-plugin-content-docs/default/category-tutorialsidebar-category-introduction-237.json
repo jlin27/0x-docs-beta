@@ -1,0 +1,12 @@
+{
+  "title": "Introduction",
+  "description": "Welcome to the 0x docs",
+  "slug": "/category/introduction",
+  "permalink": "/category/introduction",
+  "navigation": {
+    "next": {
+      "title": "0x Cheat Sheet",
+      "permalink": "/introduction/0x-cheat-sheet"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-swap-api/advanced-topics/get-swap-v1-quote copy",
+  "id": "0x-swap-api/advanced-topics/get-swap-v1-quote copy",
+  "title": "GET /swap/v1/price",
+  "description": "Learn how to use GET /swap/v1/price",
+  "source": "@site/docs/0x-swap-api/advanced-topics/get-swap-v1-quote copy.md",
+  "sourceDirName": "0x-swap-api/advanced-topics",
+  "slug": "/0x-swap-api/advanced-topics/get-swap-v1-quote copy",
+  "permalink": "/0x-swap-api/advanced-topics/get-swap-v1-quote copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/advanced-topics/get-swap-v1-quote copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "GET /swap/v1/price",
+    "sidebar_position": 3,
+    "description": "Learn how to use GET /swap/v1/price"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Set Your Token Allowances",
+    "permalink": "/0x-swap-api/advanced-topics/how-to-set-your-token-allowances"
+  },
+  "next": {
+    "title": "Rate Limiting",
+    "permalink": "/0x-swap-api/advanced-topics/rate-limiting"
+  }
+}

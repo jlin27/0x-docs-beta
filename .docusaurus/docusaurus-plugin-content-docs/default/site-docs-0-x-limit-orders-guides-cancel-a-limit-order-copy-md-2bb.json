@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-limit-orders/guides/cancel-a-limit-order-copy",
+  "id": "0x-limit-orders/guides/cancel-a-limit-order-copy",
+  "title": "Cancel a Limit Order",
+  "description": "Learn about how to cancel a limit order",
+  "source": "@site/docs/0x-limit-orders/guides/cancel-a-limit-order-copy.md",
+  "sourceDirName": "0x-limit-orders/guides",
+  "slug": "/0x-limit-orders/guides/cancel-a-limit-order-copy",
+  "permalink": "/0x-limit-orders/guides/cancel-a-limit-order-copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-limit-orders/guides/cancel-a-limit-order-copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Cancel a Limit Order",
+    "sidebar_position": 2,
+    "description": "Learn about how to cancel a limit order"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Limit Order",
+    "permalink": "/0x-limit-orders/guides/create-a-limit-order"
+  },
+  "next": {
+    "title": "Market Makers",
+    "permalink": "/category/market-makers"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Advanced Topics",
+  "description": "Advanced Topics",
+  "slug": "/category/advanced-topics",
+  "permalink": "/category/advanced-topics",
+  "navigation": {
+    "previous": {
+      "title": "GET /swap/v1/source",
+      "permalink": "/0x-swap-api/api-references/get-swap-v1-source"
+    },
+    "next": {
+      "title": "Rate Limiting",
+      "permalink": "/0x-swap-api/advanced-topics/rate-limiting"
+    }
+  }
+}
