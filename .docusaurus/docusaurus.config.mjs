@@ -21,6 +21,7 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "customFields": {},
   "presets": [
     [
       "classic",
@@ -319,7 +320,6 @@ export default {
   "staticDirectories": [
     "static"
   ],
-  "customFields": {},
   "plugins": [],
   "themes": [],
   "scripts": [],

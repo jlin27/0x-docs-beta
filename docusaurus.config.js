@@ -32,6 +32,10 @@ const config = {
     locales: ['en'],
   },
 
+  customFields:{
+    mendableAnonKey:process.env.MENDABLE_ANON_KEY,
+  },
+
   presets: [
     [
       'classic',
