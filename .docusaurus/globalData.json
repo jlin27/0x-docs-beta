@@ -401,16 +401,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/introduction",
-              "path": "/category/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/0x-swap-api",
-              "path": "/category/0x-swap-api",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/api-references",
               "path": "/category/api-references",
               "sidebar": "tutorialSidebar"
@@ -535,8 +525,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/category/introduction",
-                "label": "Introduction"
+                "path": "/",
+                "label": "Welcome"
               }
             }
           }

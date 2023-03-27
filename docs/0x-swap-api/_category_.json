@@ -1,8 +1,7 @@
 {
-  "label": "0x Swap API",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "An introduction 0x Swap API"
-  }
+    "label": "0x Swap API",
+    "position": 2,
+    "link": {
+      "description": "An introduction 0x Swap API"
+    }
 }

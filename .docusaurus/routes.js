@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '2aa'),
+    component: ComponentCreator('/', '196'),
     routes: [
       {
         path: '/',
@@ -257,12 +257,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/0x-swap-api',
-        component: ComponentCreator('/category/0x-swap-api', '587'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/category/advanced-topics',
         component: ComponentCreator('/category/advanced-topics', '97e'),
         exact: true,
@@ -367,12 +361,6 @@ export default [
       {
         path: '/category/guides-4',
         component: ComponentCreator('/category/guides-4', '1ec'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/category/introduction',
-        component: ComponentCreator('/category/introduction', '69c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

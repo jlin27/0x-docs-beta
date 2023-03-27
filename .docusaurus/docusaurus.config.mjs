@@ -5,6 +5,10 @@
  */
 export default {
   "title": "0x",
+  "staticDirectories": [
+    "public",
+    "static"
+  ],
   "tagline": "Connecting developers to web3 markets",
   "favicon": "img/favicon.ico",
   "url": "https://docs.0x.org",
@@ -69,6 +73,13 @@ export default {
         }
       ],
       "hideOnScroll": false
+    },
+    "docs": {
+      "sidebar": {
+        "hideable": true,
+        "autoCollapseCategories": false
+      },
+      "versionPersistence": "localStorage"
     },
     "footer": {
       "style": "dark",
@@ -311,13 +322,6 @@ export default {
       "disableSwitch": false,
       "respectPrefersColorScheme": false
     },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
-    },
     "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
@@ -326,9 +330,6 @@ export default {
   },
   "baseUrlIssueBanner": true,
   "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
   "customFields": {},
   "themes": [],
   "scripts": [],

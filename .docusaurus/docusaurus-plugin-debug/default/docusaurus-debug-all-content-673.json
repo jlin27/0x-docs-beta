@@ -968,8 +968,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "0x Swap API",
-                "permalink": "/category/0x-swap-api"
+                "title": "0x Swap API"
               },
               "next": {
                 "title": "API References",
@@ -1461,8 +1460,7 @@
                 "permalink": "/introduction/community"
               },
               "next": {
-                "title": "0x Swap API",
-                "permalink": "/category/0x-swap-api"
+                "title": "0x Swap API"
               }
             },
             {
@@ -1603,8 +1601,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/category/introduction"
+                "title": "Introduction"
               },
               "next": {
                 "title": "Introduction to 0x",
@@ -2320,10 +2317,7 @@
                   }
                 ],
                 "link": {
-                  "type": "generated-index",
-                  "description": "Welcome to the 0x docs",
-                  "slug": "/category/introduction",
-                  "permalink": "/category/introduction"
+                  "description": "Welcome to the 0x docs"
                 }
               },
               {
@@ -2441,10 +2435,7 @@
                   }
                 ],
                 "link": {
-                  "type": "generated-index",
-                  "description": "An introduction 0x Swap API",
-                  "slug": "/category/0x-swap-api",
-                  "permalink": "/category/0x-swap-api"
+                  "description": "An introduction 0x Swap API"
                 }
               },
               {

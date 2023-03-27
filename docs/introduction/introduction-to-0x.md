@@ -25,6 +25,8 @@ Developers can integrate with 0x at the smart contract or application layer.\
 \
 The diagram below shows an overview of the 0x ecosystem, which includes applications who provide liquidity (supply), applications who consume liquidity (demand), and the multiple supported blockchains.&#x20;
 
+![0x is an open-source, decentralized exchange infrastructure that enables the exchange of tokenized assets on multiple blockchains.](/img/introduction/0x-ecosystem.png)
+
 
 ### Makers and Takers
 

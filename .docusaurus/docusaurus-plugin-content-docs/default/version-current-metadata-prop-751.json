@@ -51,8 +51,7 @@
             "href": "/introduction/0x-cheat-sheet",
             "docId": "introduction/0x-cheat-sheet"
           }
-        ],
-        "href": "/category/introduction"
+        ]
       },
       {
         "type": "category",
@@ -165,8 +164,7 @@
             ],
             "href": "/category/guides"
           }
-        ],
-        "href": "/category/0x-swap-api"
+        ]
       },
       {
         "type": "category",

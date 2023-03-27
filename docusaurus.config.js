@@ -7,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '0x',
+  staticDirectories: ['public', 'static'],
   tagline: 'Connecting developers to web3 markets',
   favicon: 'img/favicon.ico',
 
@@ -80,6 +81,11 @@ const config = {
             position: 'right',
           },
         ],
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
       },
       footer: {
         style: 'dark',
