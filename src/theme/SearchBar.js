@@ -9,7 +9,7 @@ export default function SearchBarWrapper() {
   return (
     <div className="mendable-search">
       <MendableSearchBar
-        anon_key={customFields.mendableAnonKey}
+        anon_key='a5341b92-5ba9-49cd-b40d-dd8c5ddfa026'
         style={{ accentColor: "#179C54", darkMode: false }}
         placeholder="Search..."
         dialogPlaceholder="How do I implement the Swap API?"

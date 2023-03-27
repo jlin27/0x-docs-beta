@@ -32,9 +32,8 @@ const config = {
     locales: ['en'],
   },
 
-  customFields:{
-    mendableAnonKey:process.env.MENDABLE_ANON_KEY,
-  },
+
+  plugins: [['docusaurus-node-polyfills', { excludeAliases: ['console']}]],
 
   presets: [
     [
