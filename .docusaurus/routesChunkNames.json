@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-c98": {
+  "/-bb5": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---88-e-ce4"
@@ -58,7 +58,7 @@
   },
   "/-212": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---introduction-welcomec-87-1b5"
+    "content": "content---c-87-aee"
   },
   "/0x-limit-orders/docs/introduction-985": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -270,7 +270,7 @@
   },
   "/introduction/introduction-to-0x-1d8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---faf-f54"
+    "content": "content---introduction-introduction-to-0-xfaf-b39"
   },
   "/market-makers/docs/introduction-ba5": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -299,5 +299,41 @@
   "/market-makers/guides/signing-0x-orders-d24": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---market-makers-guides-signing-0-x-ordersbf-8-c77"
+  },
+  "/tx-relay-api/api-references/get-tx-relay-v1-swap-price-2bd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tx-relay-api-api-references-get-tx-relay-v-1-swap-price-717-268"
+  },
+  "/tx-relay-api/api-references/get-tx-relay-v1-swap-quote-a0a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tx-relay-api-api-references-get-tx-relay-v-1-swap-quote-4-e-0-0b8"
+  },
+  "/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md-3be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tx-relay-api-api-references-get-tx-relay-v-1-swap-status-trade-hash-md-3-b-2-359"
+  },
+  "/tx-relay-api/api-references/get-tx-relay-v1-swap-submit-100": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tx-relay-api-api-references-get-tx-relay-v-1-swap-submita-59-078"
+  },
+  "/tx-relay-api/api-references/overview-936": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tx-relay-api-api-references-overviewf-4-d-d94"
+  },
+  "/tx-relay-api/development-status-034": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tx-relay-api-development-status-259-6c3"
+  },
+  "/tx-relay-api/gasless-approvals-token-list-f5a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tx-relay-api-gasless-approvals-token-list-5-e-0-a4a"
+  },
+  "/tx-relay-api/introduction-d79": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tx-relay-api-introduction-0-d-4-e7b"
+  },
+  "/tx-relay-api/tx-relay-faq-da6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tx-relay-api-tx-relay-faqe-50-56c"
   }
 }

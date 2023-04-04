@@ -849,7 +849,7 @@
                 "permalink": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts"
               },
               "next": {
-                "title": "Troubleshooting 0x API Swaps",
+                "title": "Troubleshooting Swap API",
                 "permalink": "/0x-swap-api/guides/troubleshooting-0x-api-swaps"
               }
             },
@@ -913,8 +913,8 @@
             {
               "unversionedId": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
               "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
-              "title": "Troubleshooting 0x API Swaps",
-              "description": "Addressing common issues that come up with 0x API swaps.",
+              "title": "Troubleshooting Swap API",
+              "description": "Addressing common issues that come up with Swap API.",
               "source": "@site/docs/0x-swap-api/guides/troubleshooting-0x-api-swaps.md",
               "sourceDirName": "0x-swap-api/guides",
               "slug": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
@@ -925,9 +925,9 @@
               "version": "current",
               "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_label": "Troubleshooting 0x API Swaps",
+                "sidebar_label": "Troubleshooting Swap API",
                 "sidebar_position": 4,
-                "description": "Addressing common issues that come up with 0x API swaps."
+                "description": "Addressing common issues that come up with Swap API."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -935,8 +935,7 @@
                 "permalink": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api"
               },
               "next": {
-                "title": "Orderbook API",
-                "permalink": "/category/orderbook-api"
+                "title": "Tx Relay API"
               }
             },
             {
@@ -1624,6 +1623,264 @@
                 "title": "0x v4 RFQ Orders Code Examples with Python",
                 "permalink": "/market-makers/guides/rfq-orders-code-examples-with-python"
               }
+            },
+            {
+              "unversionedId": "tx-relay-api/api-references/get-tx-relay-v1-swap-price",
+              "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-price",
+              "title": "GET /tx-relay/v1/swap/price",
+              "description": "Learn how to use GET /tx-relay/v1/swap/price",
+              "source": "@site/docs/tx-relay-api/api-references/get-tx-relay-v1-swap-price.md",
+              "sourceDirName": "tx-relay-api/api-references",
+              "slug": "/tx-relay-api/api-references/get-tx-relay-v1-swap-price",
+              "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-price",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/api-references/get-tx-relay-v1-swap-price.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "GET /tx-relay/v1/swap/price",
+                "sidebar_position": 2,
+                "description": "Learn how to use GET /tx-relay/v1/swap/price"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/tx-relay-api/api-references/overview"
+              },
+              "next": {
+                "title": "GET /tx-relay/v1/swap/quote",
+                "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-quote"
+              }
+            },
+            {
+              "unversionedId": "tx-relay-api/api-references/get-tx-relay-v1-swap-quote",
+              "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-quote",
+              "title": "GET /tx-relay/v1/swap/quote",
+              "description": "Learn how to use GET /tx-relay/v1/swap/quote",
+              "source": "@site/docs/tx-relay-api/api-references/get-tx-relay-v1-swap-quote.md",
+              "sourceDirName": "tx-relay-api/api-references",
+              "slug": "/tx-relay-api/api-references/get-tx-relay-v1-swap-quote",
+              "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-quote",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/api-references/get-tx-relay-v1-swap-quote.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "GET /tx-relay/v1/swap/quote",
+                "sidebar_position": 3,
+                "description": "Learn how to use GET /tx-relay/v1/swap/quote"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /tx-relay/v1/swap/price",
+                "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-price"
+              },
+              "next": {
+                "title": "GET /tx-relay/v1/swap/submit",
+                "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-submit"
+              }
+            },
+            {
+              "unversionedId": "tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md",
+              "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md",
+              "title": "GET /tx-relay/v1/swap/status/:trade-hash",
+              "description": "Learn how to use GET /tx-relay/v1/swap/status/:trade-hash",
+              "source": "@site/docs/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md.md",
+              "sourceDirName": "tx-relay-api/api-references",
+              "slug": "/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md",
+              "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "GET /tx-relay/v1/swap/status/:trade-hash",
+                "sidebar_position": 4,
+                "description": "Learn how to use GET /tx-relay/v1/swap/status/:trade-hash"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /tx-relay/v1/swap/submit",
+                "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-submit"
+              },
+              "next": {
+                "title": "Tx Relay FAQ",
+                "permalink": "/tx-relay-api/tx-relay-faq"
+              }
+            },
+            {
+              "unversionedId": "tx-relay-api/api-references/get-tx-relay-v1-swap-submit",
+              "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-submit",
+              "title": "GET /tx-relay/v1/swap/submit",
+              "description": "Learn how to use GET /tx-relay/v1/swap/submit",
+              "source": "@site/docs/tx-relay-api/api-references/get-tx-relay-v1-swap-submit.md",
+              "sourceDirName": "tx-relay-api/api-references",
+              "slug": "/tx-relay-api/api-references/get-tx-relay-v1-swap-submit",
+              "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-submit",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/api-references/get-tx-relay-v1-swap-submit.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "GET /tx-relay/v1/swap/submit",
+                "sidebar_position": 3,
+                "description": "Learn how to use GET /tx-relay/v1/swap/submit"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /tx-relay/v1/swap/quote",
+                "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-quote"
+              },
+              "next": {
+                "title": "GET /tx-relay/v1/swap/status/:trade-hash",
+                "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md"
+              }
+            },
+            {
+              "unversionedId": "tx-relay-api/api-references/overview",
+              "id": "tx-relay-api/api-references/overview",
+              "title": "API References",
+              "description": "Learn how to use the 0x Swap API, the most efficient liquidity for web3 tokens through a single API.",
+              "source": "@site/docs/tx-relay-api/api-references/overview.md",
+              "sourceDirName": "tx-relay-api/api-references",
+              "slug": "/tx-relay-api/api-references/overview",
+              "permalink": "/tx-relay-api/api-references/overview",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/api-references/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Overview",
+                "sidebar_position": 1,
+                "description": "Learn how to use the 0x Swap API, the most efficient liquidity for web3 tokens through a single API."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API References"
+              },
+              "next": {
+                "title": "GET /tx-relay/v1/swap/price",
+                "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-price"
+              }
+            },
+            {
+              "unversionedId": "tx-relay-api/development-status",
+              "id": "tx-relay-api/development-status",
+              "title": "Development Status",
+              "description": "Development Status for Tx Relay. Get access to Sandbox.",
+              "source": "@site/docs/tx-relay-api/development-status.md",
+              "sourceDirName": "tx-relay-api",
+              "slug": "/tx-relay-api/development-status",
+              "permalink": "/tx-relay-api/development-status",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/development-status.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Development Status",
+                "sidebar_position": 2,
+                "description": "Development Status for Tx Relay. Get access to Sandbox."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/tx-relay-api/introduction"
+              },
+              "next": {
+                "title": "API References"
+              }
+            },
+            {
+              "unversionedId": "tx-relay-api/gasless-approvals-token-list",
+              "id": "tx-relay-api/gasless-approvals-token-list",
+              "title": "Gasless Approvals Token List",
+              "description": "Gasless Approvals Token List",
+              "source": "@site/docs/tx-relay-api/gasless-approvals-token-list.md",
+              "sourceDirName": "tx-relay-api",
+              "slug": "/tx-relay-api/gasless-approvals-token-list",
+              "permalink": "/tx-relay-api/gasless-approvals-token-list",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/gasless-approvals-token-list.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_label": "Gasless Approvals Token List",
+                "sidebar_position": 5,
+                "description": "Gasless Approvals Token List"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tx Relay FAQ",
+                "permalink": "/tx-relay-api/tx-relay-faq"
+              },
+              "next": {
+                "title": "Orderbook API",
+                "permalink": "/category/orderbook-api"
+              }
+            },
+            {
+              "unversionedId": "tx-relay-api/introduction",
+              "id": "tx-relay-api/introduction",
+              "title": "Introduction",
+              "description": "Tx Relay is in Closed Beta - highly subject to change",
+              "source": "@site/docs/tx-relay-api/introduction.md",
+              "sourceDirName": "tx-relay-api",
+              "slug": "/tx-relay-api/introduction",
+              "permalink": "/tx-relay-api/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Introduction",
+                "sidebar_position": 1,
+                "description": "Tx Relay is in Closed Beta - highly subject to change"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tx Relay API"
+              },
+              "next": {
+                "title": "Development Status",
+                "permalink": "/tx-relay-api/development-status"
+              }
+            },
+            {
+              "unversionedId": "tx-relay-api/tx-relay-faq",
+              "id": "tx-relay-api/tx-relay-faq",
+              "title": "Tx Relay FAQ",
+              "description": "Tx Relay FAQ",
+              "source": "@site/docs/tx-relay-api/tx-relay-faq.md",
+              "sourceDirName": "tx-relay-api",
+              "slug": "/tx-relay-api/tx-relay-faq",
+              "permalink": "/tx-relay-api/tx-relay-faq",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/tx-relay-faq.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Tx Relay FAQ",
+                "sidebar_position": 4,
+                "description": "Tx Relay FAQ"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GET /tx-relay/v1/swap/status/:trade-hash",
+                "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md"
+              },
+              "next": {
+                "title": "Gasless Approvals Token List",
+                "permalink": "/tx-relay-api/gasless-approvals-token-list"
+              }
             }
           ],
           "drafts": [],
@@ -1772,7 +2029,7 @@
                       {
                         "type": "doc",
                         "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
-                        "label": "Troubleshooting 0x API Swaps"
+                        "label": "Troubleshooting Swap API"
                       }
                     ],
                     "link": {
@@ -1782,6 +2039,73 @@
                 ],
                 "link": {
                   "description": "An introduction Swap API"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Tx Relay API",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tx-relay-api/introduction",
+                    "label": "Introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tx-relay-api/development-status",
+                    "label": "Development Status"
+                  },
+                  {
+                    "type": "category",
+                    "label": "API References",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "tx-relay-api/api-references/overview",
+                        "label": "Overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-price",
+                        "label": "GET /tx-relay/v1/swap/price"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-quote",
+                        "label": "GET /tx-relay/v1/swap/quote"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-submit",
+                        "label": "GET /tx-relay/v1/swap/submit"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md",
+                        "label": "GET /tx-relay/v1/swap/status/:trade-hash"
+                      }
+                    ],
+                    "link": {
+                      "description": "Tx Relay API References"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tx-relay-api/tx-relay-faq",
+                    "label": "Tx Relay FAQ"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tx-relay-api/gasless-approvals-token-list",
+                    "label": "Gasless Approvals Token List"
+                  }
+                ],
+                "link": {
+                  "description": "Learn about Tx Relay API"
                 }
               },
               {

@@ -5,8 +5,8 @@
   "permalink": "/category/orderbook-api",
   "navigation": {
     "previous": {
-      "title": "Troubleshooting 0x API Swaps",
-      "permalink": "/0x-swap-api/guides/troubleshooting-0x-api-swaps"
+      "title": "Gasless Approvals Token List",
+      "permalink": "/tx-relay-api/gasless-approvals-token-list"
     },
     "next": {
       "title": "Introduction",

@@ -1,8 +1,8 @@
 {
   "unversionedId": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
   "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
-  "title": "Troubleshooting 0x API Swaps",
-  "description": "Addressing common issues that come up with 0x API swaps.",
+  "title": "Troubleshooting Swap API",
+  "description": "Addressing common issues that come up with Swap API.",
   "source": "@site/docs/0x-swap-api/guides/troubleshooting-0x-api-swaps.md",
   "sourceDirName": "0x-swap-api/guides",
   "slug": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
@@ -13,9 +13,9 @@
   "version": "current",
   "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_label": "Troubleshooting 0x API Swaps",
+    "sidebar_label": "Troubleshooting Swap API",
     "sidebar_position": 4,
-    "description": "Addressing common issues that come up with 0x API swaps."
+    "description": "Addressing common issues that come up with Swap API."
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -23,7 +23,6 @@
     "permalink": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api"
   },
   "next": {
-    "title": "Orderbook API",
-    "permalink": "/category/orderbook-api"
+    "title": "Tx Relay API"
   }
 }

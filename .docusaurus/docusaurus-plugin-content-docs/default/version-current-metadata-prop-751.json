@@ -161,11 +161,81 @@
               },
               {
                 "type": "link",
-                "label": "Troubleshooting 0x API Swaps",
+                "label": "Troubleshooting Swap API",
                 "href": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
                 "docId": "0x-swap-api/guides/troubleshooting-0x-api-swaps"
               }
             ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Tx Relay API",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/tx-relay-api/introduction",
+            "docId": "tx-relay-api/introduction"
+          },
+          {
+            "type": "link",
+            "label": "Development Status",
+            "href": "/tx-relay-api/development-status",
+            "docId": "tx-relay-api/development-status"
+          },
+          {
+            "type": "category",
+            "label": "API References",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/tx-relay-api/api-references/overview",
+                "docId": "tx-relay-api/api-references/overview"
+              },
+              {
+                "type": "link",
+                "label": "GET /tx-relay/v1/swap/price",
+                "href": "/tx-relay-api/api-references/get-tx-relay-v1-swap-price",
+                "docId": "tx-relay-api/api-references/get-tx-relay-v1-swap-price"
+              },
+              {
+                "type": "link",
+                "label": "GET /tx-relay/v1/swap/quote",
+                "href": "/tx-relay-api/api-references/get-tx-relay-v1-swap-quote",
+                "docId": "tx-relay-api/api-references/get-tx-relay-v1-swap-quote"
+              },
+              {
+                "type": "link",
+                "label": "GET /tx-relay/v1/swap/submit",
+                "href": "/tx-relay-api/api-references/get-tx-relay-v1-swap-submit",
+                "docId": "tx-relay-api/api-references/get-tx-relay-v1-swap-submit"
+              },
+              {
+                "type": "link",
+                "label": "GET /tx-relay/v1/swap/status/:trade-hash",
+                "href": "/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md",
+                "docId": "tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "label": "Tx Relay FAQ",
+            "href": "/tx-relay-api/tx-relay-faq",
+            "docId": "tx-relay-api/tx-relay-faq"
+          },
+          {
+            "type": "link",
+            "label": "Gasless Approvals Token List",
+            "href": "/tx-relay-api/gasless-approvals-token-list",
+            "docId": "tx-relay-api/gasless-approvals-token-list"
           }
         ]
       },
@@ -653,8 +723,8 @@
     },
     "0x-swap-api/guides/troubleshooting-0x-api-swaps": {
       "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
-      "title": "Troubleshooting 0x API Swaps",
-      "description": "Addressing common issues that come up with 0x API swaps.",
+      "title": "Troubleshooting Swap API",
+      "description": "Addressing common issues that come up with Swap API.",
       "sidebar": "tutorialSidebar"
     },
     "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts": {
@@ -799,6 +869,60 @@
       "id": "market-makers/guides/signing-0x-orders",
       "title": "Signing 0x Orders",
       "description": "In this guide, we discuss how to use @0x/protocol-utils or ethers.js to sign 0x Orders",
+      "sidebar": "tutorialSidebar"
+    },
+    "tx-relay-api/api-references/get-tx-relay-v1-swap-price": {
+      "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-price",
+      "title": "GET /tx-relay/v1/swap/price",
+      "description": "Learn how to use GET /tx-relay/v1/swap/price",
+      "sidebar": "tutorialSidebar"
+    },
+    "tx-relay-api/api-references/get-tx-relay-v1-swap-quote": {
+      "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-quote",
+      "title": "GET /tx-relay/v1/swap/quote",
+      "description": "Learn how to use GET /tx-relay/v1/swap/quote",
+      "sidebar": "tutorialSidebar"
+    },
+    "tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md": {
+      "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md",
+      "title": "GET /tx-relay/v1/swap/status/:trade-hash",
+      "description": "Learn how to use GET /tx-relay/v1/swap/status/:trade-hash",
+      "sidebar": "tutorialSidebar"
+    },
+    "tx-relay-api/api-references/get-tx-relay-v1-swap-submit": {
+      "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-submit",
+      "title": "GET /tx-relay/v1/swap/submit",
+      "description": "Learn how to use GET /tx-relay/v1/swap/submit",
+      "sidebar": "tutorialSidebar"
+    },
+    "tx-relay-api/api-references/overview": {
+      "id": "tx-relay-api/api-references/overview",
+      "title": "API References",
+      "description": "Learn how to use the 0x Swap API, the most efficient liquidity for web3 tokens through a single API.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tx-relay-api/development-status": {
+      "id": "tx-relay-api/development-status",
+      "title": "Development Status",
+      "description": "Development Status for Tx Relay. Get access to Sandbox.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tx-relay-api/gasless-approvals-token-list": {
+      "id": "tx-relay-api/gasless-approvals-token-list",
+      "title": "Gasless Approvals Token List",
+      "description": "Gasless Approvals Token List",
+      "sidebar": "tutorialSidebar"
+    },
+    "tx-relay-api/introduction": {
+      "id": "tx-relay-api/introduction",
+      "title": "Introduction",
+      "description": "Tx Relay is in Closed Beta - highly subject to change",
+      "sidebar": "tutorialSidebar"
+    },
+    "tx-relay-api/tx-relay-faq": {
+      "id": "tx-relay-api/tx-relay-faq",
+      "title": "Tx Relay FAQ",
+      "description": "Tx Relay FAQ",
       "sidebar": "tutorialSidebar"
     }
   }

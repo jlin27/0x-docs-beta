@@ -291,6 +291,51 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-price",
+              "path": "/tx-relay-api/api-references/get-tx-relay-v1-swap-price",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-quote",
+              "path": "/tx-relay-api/api-references/get-tx-relay-v1-swap-quote",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md",
+              "path": "/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tx-relay-api/api-references/get-tx-relay-v1-swap-submit",
+              "path": "/tx-relay-api/api-references/get-tx-relay-v1-swap-submit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tx-relay-api/api-references/overview",
+              "path": "/tx-relay-api/api-references/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tx-relay-api/development-status",
+              "path": "/tx-relay-api/development-status",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tx-relay-api/gasless-approvals-token-list",
+              "path": "/tx-relay-api/gasless-approvals-token-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tx-relay-api/introduction",
+              "path": "/tx-relay-api/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tx-relay-api/tx-relay-faq",
+              "path": "/tx-relay-api/tx-relay-faq",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/orderbook-api",
               "path": "/category/orderbook-api",
               "sidebar": "tutorialSidebar"

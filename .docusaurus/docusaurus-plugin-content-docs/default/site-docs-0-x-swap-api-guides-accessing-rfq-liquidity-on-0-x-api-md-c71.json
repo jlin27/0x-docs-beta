@@ -23,7 +23,7 @@
     "permalink": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts"
   },
   "next": {
-    "title": "Troubleshooting 0x API Swaps",
+    "title": "Troubleshooting Swap API",
     "permalink": "/0x-swap-api/guides/troubleshooting-0x-api-swaps"
   }
 }

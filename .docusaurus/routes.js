@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'c98'),
+    component: ComponentCreator('/', 'bb5'),
     routes: [
       {
         path: '/',
@@ -409,6 +409,60 @@ export default [
       {
         path: '/market-makers/guides/signing-0x-orders',
         component: ComponentCreator('/market-makers/guides/signing-0x-orders', 'd24'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/tx-relay-api/api-references/get-tx-relay-v1-swap-price',
+        component: ComponentCreator('/tx-relay-api/api-references/get-tx-relay-v1-swap-price', '2bd'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/tx-relay-api/api-references/get-tx-relay-v1-swap-quote',
+        component: ComponentCreator('/tx-relay-api/api-references/get-tx-relay-v1-swap-quote', 'a0a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md',
+        component: ComponentCreator('/tx-relay-api/api-references/get-tx-relay-v1-swap-status-trade-hash.md', '3be'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/tx-relay-api/api-references/get-tx-relay-v1-swap-submit',
+        component: ComponentCreator('/tx-relay-api/api-references/get-tx-relay-v1-swap-submit', '100'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/tx-relay-api/api-references/overview',
+        component: ComponentCreator('/tx-relay-api/api-references/overview', '936'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/tx-relay-api/development-status',
+        component: ComponentCreator('/tx-relay-api/development-status', '034'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/tx-relay-api/gasless-approvals-token-list',
+        component: ComponentCreator('/tx-relay-api/gasless-approvals-token-list', 'f5a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/tx-relay-api/introduction',
+        component: ComponentCreator('/tx-relay-api/introduction', 'd79'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/tx-relay-api/tx-relay-faq',
+        component: ComponentCreator('/tx-relay-api/tx-relay-faq', 'da6'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

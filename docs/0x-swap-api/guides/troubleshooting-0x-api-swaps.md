@@ -1,11 +1,11 @@
 ---
-sidebar_label: Troubleshooting 0x API Swaps
+sidebar_label: Troubleshooting Swap API
 sidebar_position: 4
-description: Addressing common issues that come up with 0x API swaps.
+description: Addressing common issues that come up with Swap API.
 ---
 
 
-# Troubleshooting 0x API Swaps
+# Troubleshooting Swap API
 
 ## Swap Requirements
 
@@ -33,3 +33,8 @@ Depending on the network/chain you're using and tokens you're swapping, liquidit
 
 Some exotic tokens will take fees when any transfer of the token is performed. This often wreaks havoc on our settlement contracts as they are not aware of this mechanism and wind up attempting to sell less or receiving less than what the quote demands. In some circumstances you can _buy_ these tokens by setting a high enough `slippagePercentage` to accommodate the transfer fee, but your mileage may vary.
 
+### More Resources
+
+:::info
+For the Troubleshooting list, see [FAQs & Troubleshooting](/developer-resources/faqs-and-troubleshooting)
+:::

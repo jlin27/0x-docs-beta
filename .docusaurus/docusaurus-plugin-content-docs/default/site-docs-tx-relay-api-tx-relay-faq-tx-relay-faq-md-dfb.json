@@ -1,0 +1,28 @@
+{
+  "unversionedId": "tx-relay-api/tx-relay-faq/tx-relay-faq",
+  "id": "tx-relay-api/tx-relay-faq/tx-relay-faq",
+  "title": "Tx Relay FAQ",
+  "description": "Tx Relay FAQ",
+  "source": "@site/docs/tx-relay-api/tx-relay-faq/tx-relay-faq.md",
+  "sourceDirName": "tx-relay-api/tx-relay-faq",
+  "slug": "/tx-relay-api/tx-relay-faq/",
+  "permalink": "/tx-relay-api/tx-relay-faq/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/tx-relay-faq/tx-relay-faq.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Tx Relay FAQ",
+    "sidebar_position": 1,
+    "description": "Tx Relay FAQ"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tx Relay FAQ"
+  },
+  "next": {
+    "title": "Gasless Approvals Token List",
+    "permalink": "/tx-relay-api/tx-relay-faq/gasless-approvals-token-list"
+  }
+}

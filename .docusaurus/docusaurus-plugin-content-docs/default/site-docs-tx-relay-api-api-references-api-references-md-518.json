@@ -1,0 +1,29 @@
+{
+  "unversionedId": "tx-relay-api/api-references/api-references",
+  "id": "tx-relay-api/api-references/api-references",
+  "title": "GET /tx-relay/v1/swap/status/:trade-hash",
+  "description": "Learn how to use GET /tx-relay/v1/swap/status/:trade-hash",
+  "source": "@site/docs/tx-relay-api/api-references/api-references.md",
+  "sourceDirName": "tx-relay-api/api-references",
+  "slug": "/tx-relay-api/api-references/",
+  "permalink": "/tx-relay-api/api-references/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/api-references/api-references.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_label": "GET /tx-relay/v1/swap/status/:trade-hash",
+    "sidebar_position": 4,
+    "description": "Learn how to use GET /tx-relay/v1/swap/status/:trade-hash"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GET /tx-relay/v1/swap/submit",
+    "permalink": "/tx-relay-api/api-references/get-tx-relay-v1-swap-submit"
+  },
+  "next": {
+    "title": "Development Status",
+    "permalink": "/tx-relay-api/development-status"
+  }
+}

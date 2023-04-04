@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tx-relay-api/docs/introduction",
+  "id": "tx-relay-api/docs/introduction",
+  "title": "Introduction",
+  "description": "This section is for (i) Professional Market-makers interested in supplying liquidity via the 0x RFQ system, and (ii) Integrators who would like to access RFQ liquidity, via /swap",
+  "source": "@site/docs/tx-relay-api/docs/introduction.md",
+  "sourceDirName": "tx-relay-api/docs",
+  "slug": "/tx-relay-api/docs/introduction",
+  "permalink": "/tx-relay-api/docs/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tx-relay-api/docs/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Introduction",
+    "sidebar_position": 1,
+    "description": "This section is for (i) Professional Market-makers interested in supplying liquidity via the 0x RFQ system, and (ii) Integrators who would like to access RFQ liquidity, via /swap"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tx Relay FAQ"
+  }
+}
