@@ -6,11 +6,11 @@
   "navigation": {
     "previous": {
       "title": "Introduction",
-      "permalink": "/0x-swap-api/introduction"
+      "permalink": "/0x-orderbook-api/introduction"
     },
     "next": {
       "title": "API References",
-      "permalink": "/0x-swap-api/api-references/intro"
+      "permalink": "/0x-orderbook-api/api-references/intro"
     }
   }
 }

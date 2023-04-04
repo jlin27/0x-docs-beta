@@ -1,64 +1,64 @@
 {
-  "/__docusaurus/debug-b21": {
+  "/__docusaurus/debug-9d2": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-639-df5"
+      "plugin": "plugin---docusaurus-debuge-2-b-f3b"
     }
   },
-  "/__docusaurus/debug/config-00f": {
+  "/__docusaurus/debug/config-30d": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-639-df5"
+      "plugin": "plugin---docusaurus-debuge-2-b-f3b"
     }
   },
-  "/__docusaurus/debug/content-560": {
+  "/__docusaurus/debug/content-232": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-639-df5"
+      "plugin": "plugin---docusaurus-debuge-2-b-f3b"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-f36": {
+  "/__docusaurus/debug/globalData-d0c": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-639-df5"
+      "plugin": "plugin---docusaurus-debuge-2-b-f3b"
     }
   },
-  "/__docusaurus/debug/metadata-1ed": {
+  "/__docusaurus/debug/metadata-426": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-639-df5"
+      "plugin": "plugin---docusaurus-debuge-2-b-f3b"
     }
   },
-  "/__docusaurus/debug/registry-030": {
+  "/__docusaurus/debug/registry-167": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-639-df5"
+      "plugin": "plugin---docusaurus-debuge-2-b-f3b"
     }
   },
-  "/__docusaurus/debug/routes-b45": {
+  "/__docusaurus/debug/routes-230": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-639-df5"
+      "plugin": "plugin---docusaurus-debuge-2-b-f3b"
     }
   },
-  "/markdown-page-d48": {
+  "/markdown-page-345": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-pagec-79-a24"
+      "plugin": "plugin---markdown-page-88-b-23d"
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-196": {
+  "/-61a": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---405-e66"
+      "plugin": "plugin---88-e-ce4"
     },
     "versionMetadata": "versionMetadata---935-fcf"
   },
-  "/-212": {
+  "/-9d4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---c-87-aee"
+    "content": "content---faf-f54"
   },
   "/0x-limit-orders/docs/introduction-985": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -168,9 +168,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---0-x-swap-api-api-references-get-swap-v-1-source-14-b-75e"
   },
-  "/0x-swap-api/api-references/intro-81e": {
+  "/0x-swap-api/api-references/overview-e70": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---0-x-swap-api-api-references-introcec-e6e"
+    "content": "content---0-x-swap-api-api-references-overview-01-a-4ea"
   },
   "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api-238": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -196,17 +196,9 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-0-x-orderbook-api-97-f-7c4"
   },
-  "/category/advanced-topics-97e": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-advanced-topics-453-590"
-  },
   "/category/api-references-9ba": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-api-references-567-f3e"
-  },
-  "/category/api-references-1-2a4": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-api-references-1936-91d"
   },
   "/category/creating-orders-227": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -263,10 +255,6 @@
   "/category/guides-3-a56": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-guides-3-f-55-aa3"
-  },
-  "/category/guides-4-1ec": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-guides-4641-ade"
   },
   "/category/limit-order-advanced-traders-88e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -367,10 +355,6 @@
   "/introduction/guides-93d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---introduction-guides-8-cd-b03"
-  },
-  "/introduction/introduction-to-0x-1d8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---introduction-introduction-to-0-xfaf-b39"
   },
   "/market-makers/docs/introduction-ba5": {
     "__comp": "__comp---theme-doc-item-178-a40",

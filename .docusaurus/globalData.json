@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "introduction/welcome",
+          "mainDocId": "introduction/introduction-to-0x",
           "docs": [
             {
               "id": "0x-limit-orders/docs/introduction",
@@ -146,8 +146,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "0x-swap-api/api-references/intro",
-              "path": "/0x-swap-api/api-references/intro",
+              "id": "0x-swap-api/api-references/overview",
+              "path": "/0x-swap-api/api-references/overview",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -277,11 +277,6 @@
             },
             {
               "id": "introduction/introduction-to-0x",
-              "path": "/introduction/introduction-to-0x",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "introduction/welcome",
               "path": "/",
               "sidebar": "tutorialSidebar"
             },
@@ -401,28 +396,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/api-references",
-              "path": "/category/api-references",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/advanced-topics",
-              "path": "/category/advanced-topics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/guides",
-              "path": "/category/guides",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/0x-orderbook-api",
               "path": "/category/0x-orderbook-api",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/api-references-1",
-              "path": "/category/api-references-1",
+              "id": "/category/api-references",
+              "path": "/category/api-references",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -436,8 +416,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/guides-1",
-              "path": "/category/guides-1",
+              "id": "/category/guides",
+              "path": "/category/guides",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -451,8 +431,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/guides-2",
-              "path": "/category/guides-2",
+              "id": "/category/guides-1",
+              "path": "/category/guides-1",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -466,8 +446,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/guides-3",
-              "path": "/category/guides-3",
+              "id": "/category/guides-2",
+              "path": "/category/guides-2",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -511,8 +491,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/guides-4",
-              "path": "/category/guides-4",
+              "id": "/category/guides-3",
+              "path": "/category/guides-3",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -526,7 +506,7 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/",
-                "label": "Welcome"
+                "label": "Introduction to 0x"
               }
             }
           }

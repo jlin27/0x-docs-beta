@@ -2,7 +2,7 @@
   "unversionedId": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
   "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
   "title": "Swap Tokens with 0x Swap API",
-  "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x",
+  "description": "This article will guide you through plugging into Swap API and programmatically executing a trade.",
   "source": "@site/docs/0x-swap-api/guides/swap-tokens-with-0x-swap-api.md",
   "sourceDirName": "0x-swap-api/guides",
   "slug": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api",
@@ -13,14 +13,13 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_label": "Swap Tokens with 0x Swap API",
+    "sidebar_label": "Swap Tokens with Swap API",
     "sidebar_position": 1,
-    "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x"
+    "description": "This article will guide you through plugging into Swap API and programmatically executing a trade."
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Guides",
-    "permalink": "/category/guides"
+    "title": "Guides"
   },
   "next": {
     "title": "Use 0x API Liquidity in Your Smart Contracts",

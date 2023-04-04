@@ -19,8 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Advanced Topics",
-    "permalink": "/category/advanced-topics"
+    "title": "Advanced Topics"
   },
   "next": {
     "title": "How to Set Your Token Allowances",

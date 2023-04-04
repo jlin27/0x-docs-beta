@@ -1,20 +1,20 @@
 ---
-sidebar_label: Swap Tokens with 0x Swap API
+sidebar_label: Swap Tokens with Swap API
 sidebar_position: 1
-description: This article will guide you through plugging into 0x API and programmatically executing a trade via 0x
+description: This article will guide you through plugging into Swap API and programmatically executing a trade.
 ---
 
 # Swap Tokens with 0x Swap API
 
-The examples in this article are for Ethereum mainnet. Refer to the [0x-cheat-sheet.md](../../introduction/0x-cheat-sheet.md "mention") for endpoints and addresses appropriate for other blockchains.\
-\
-[0x Swap API](broken-reference) is the recommended way of interacting with 0x protocol for retail trade. Under the hood, the API performs three tasks:
+The examples in this article are for Ethereum mainnet. Refer to the [0x Cheat Sheet](/introduction/0x-cheat-sheet) for endpoints and addresses appropriate for other blockchains.
+
+[Swap API](/0x-swap-api/introduction) is the recommended way of interacting with 0x protocol for retail trade. Under the hood, the API performs three tasks:
 
 * Queries prices of ERC20 assets from multiple decentralized exchanges and market makers
 * Aggregates the liquidity from the queried sources to provide the best price possible
 * Returns the trade in a format that can be easily executed using the Web3 library of your choice
 
-**Swap Tokens in 3 simple steps:**
+### Swap Tokens in 3 simple steps
 
 1. (If needed) Set token allowance
 2. Fetch a swap quote
@@ -26,13 +26,13 @@ A [token allowance ](https://tokenallowance.io/)is required if you want a third-
 
 In our case, we would like the [0x Exchange Proxy smart contract](https://docs.0x.org/introduction/0x-cheat-sheet#exchange-proxy-addresses) to trade our ERC20 tokens for us, so we will need to _approve_ an _allowance_ (a certain amount) for _this contract to move a certain amount of our ERC20 tokens on our behalf_.
 
-When setting the token allowance, make sure to provide enough allowance for the buy or sell amount as well as the gas.&#x20;
+When setting the token allowance, make sure to provide enough allowance for the buy or sell amount as well as the gas.
 
-{% hint style="info" %}
-When setting the token allowance, make sure to provide enough allowance for the buy or sell amount _as well as the gas;_ otherwise, you may receive a 'Gas estimation failed' error.&#x20;
-{% endhint %}
+:::tip
+When setting the token allowance, make sure to provide enough allowance for the buy or sell amount _as well as the gas;_ otherwise, you may receive a 'Gas estimation failed' error.
+:::
 
-For implementation details, see [how-to-set-your-token-allowances.md](../advanced-topics/how-to-set-your-token-allowances.md "mention").&#x20;
+For implementation details, see [How to Set Your Token Allowances](/0x-swap-api/advanced-topics/how-to-set-your-token-allowances)
 
 ## 2. Fetch a Swap Quote
 
@@ -75,15 +75,15 @@ The API response will look like the following (some fields omitted):
 }
 ```
 
-A full list of the description of each field is outlined in the [API reference](../api-references/get-swap-v1-quote.md).
+A full list of the description of each field is outlined in the [Swap API reference](/0x-swap-api/api-references/get-swap-v1-quote).
 
-{% hint style="info" %}
-Note the `to` field is the contract address to send call `data` to. This is the [0x Exchange Proxy address](https://docs.0x.org/developer-resources/contract-addresses) corresponding to the network the request was made on. For production-level code, make sure to add verification that checks that the `to` field returned is actually the 0x Exchange Proxy address as demonstrated in this code example ([constructor](https://github.com/0xProject/0x-api-starter-guide-code/blob/e02eb1c47feb229a6a37e2cb47a76df73d3fe09e/contracts/SimpleTokenSwap.sol#L26-L32), [swapTarget check](https://github.com/0xProject/0x-api-starter-guide-code/blob/e02eb1c47feb229a6a37e2cb47a76df73d3fe09e/contracts/SimpleTokenSwap.sol#L85-L86)).&#x20;
-{% endhint %}
+:::tip
+Note the `to` field is the contract address to send call `data` to. This is the [0x Exchange Proxy address](https://docs.0x.org/developer-resources/contract-addresses) corresponding to the network the request was made on. For production-level code, make sure to add verification that checks that the `to` field returned is actually the 0x Exchange Proxy address as demonstrated in this code example ([constructor](https://github.com/0xProject/0x-api-starter-guide-code/blob/e02eb1c47feb229a6a37e2cb47a76df73d3fe09e/contracts/SimpleTokenSwap.sol#L26-L32), [swapTarget check](https://github.com/0xProject/0x-api-starter-guide-code/blob/e02eb1c47feb229a6a37e2cb47a76df73d3fe09e/contracts/SimpleTokenSwap.sol#L85-L86)).
+:::
 
 ### Specify a Taker Address for Your Swaps
 
-The `takerAddress` field is the address that will be performing the trade. While technically optional, we recommend providing this parameter if possible so that the API can more accurately estimate the gas required for the swap transaction. Note that this currently only works with non-contract addresses. Read more on how [adding the `takerAddress` helps catch issues](https://docs.0x.org/\~/changes/PCjEyAi54cQNhYQqyeuy/developer-resources/faqs-and-troubleshooting#how-does-takeraddress-help-with-catching-issues).&#x20;
+The `takerAddress` field is the address that will be performing the trade. While technically optional, we recommend providing this parameter if possible so that the API can more accurately estimate the gas required for the swap transaction. Note that this currently only works with non-contract addresses. Read more on how [adding the `takerAddress` helps catch issues](developer-resources/faqs-and-troubleshooting#-troubleshooting).
 
 ```javascript
 const params = {
@@ -111,13 +111,13 @@ An HTTP response with status 400 will be returned if the `eth_estimateGas` resul
 
 ## 3. Send the Transaction to the Network
 
-Once you've received the API response, in order to submit the transaction to the network you will need to sign the transaction with your preferred web3 library (web3.js, ethers.js, etc). \
-\
+Once you've received the API response, in order to submit the transaction to the network you will need to sign the transaction with your preferred web3 library (web3.js, ethers.js, etc). 
+
 Below are some implementation differences when using web3.js vs ethers.js:
 
 #### web3.js
 
-The fields returned in a swap [`/quote`](https://docs.0x.org/0x-api-swap/api-references/get-swap-v1-quote#response) are designed to overlap with the raw transaction object accepted by [`web3.js`’s `sendTransaction()`](https://web3js.readthedocs.io/en/v1.7.5/web3-eth.html#sendtransaction) function. What this means is that if you are using web3.js, you can directly pass the response from [`/quote`](https://docs.0x.org/0x-api-swap/api-references/get-swap-v1-quote#response)  because it contains all the necessary parameters for `web3.eth.setTransaction()` - _from, to, value, gas, data, etc_.&#x20;
+The fields returned in a swap [`/quote`](https://docs.0x.org/0x-api-swap/api-references/get-swap-v1-quote#response) are designed to overlap with the raw transaction object accepted by [`web3.js`’s `sendTransaction()`](https://web3js.readthedocs.io/en/v1.7.5/web3-eth.html#sendtransaction) function. What this means is that if you are using web3.js, you can directly pass the response from [`/quote`](https://docs.0x.org/0x-api-swap/api-references/get-swap-v1-quote#response)  because it contains all the necessary parameters for `web3.eth.setTransaction()` - _from, to, value, gas, data, etc_.
 
 #### ethers.js
 
@@ -217,7 +217,7 @@ await web3.eth.sendTransaction(await response.json());
 
 By default, 0x API will choose the median “fast” (<30s) gas price (as reported by various sources, such as [ETH Gas Station](https://ethgasstation.info/)) and compute the quote based around that. However, you can explicitly provide a gas price with the `gasPrice` query parameter. Just like with other quantities, values for this parameter are in wei (e.g. `9 gwei = 9 * 10^9 wei = 9000000000`).
 
-### Max Slippage <a href="#max-slippage" id="max-slippage"></a>
+### Max Slippage
 
 0x API aggregates liquidity from various sources, including on-chain AMMs. Whereas the price of 0x orders are “locked in” when they are signed, AMM prices can fluctuate between the time of the API request and the time the swap transaction gets mined (this is known as slippage). If, at the time the swap is executed, the price is below the `guaranteedPrice` returned in the API response, the transaction will revert.
 
@@ -230,8 +230,3 @@ The `slippagePercentage` parameter determines the difference between the `price`
 * [Fill a 0x API quote](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/fill\_0x\_api\_swap.ts) - A runnable example of how to fill a 0x quote that can be run on Ropsten or Ganache.&#x20;
 * [How to Build a Token Swap Dapp With 0x API](https://docs.alchemy.com/alchemy/road-to-web3/weekly-learning-challenges/9.-how-to-build-a-token-swap-dapp-with-0x-api) - A full end-to-end guide on how to build a token swapping dapp (a simple [Matcha.xyz](https://matcha.xyz/)) using the 0x /swap API endpoint. This DEX aggregates liquidity across the greater DEX ecosystem surfaces the best price to the user.
 
-## Wrapping Up
-
-Now that you’ve got your feet wet with 0x API, here are some other resources to make using 0x protocol as easy as possible:
-
-* Refer to our [0x API specification](../../0x-orderbook-api/api-references/) for detailed documentation, including a comprehensive specification of request parameters and response fields.\

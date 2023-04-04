@@ -1,8 +1,8 @@
 {
   "unversionedId": "0x-swap-api/api-references/get-swap-v1-source",
   "id": "0x-swap-api/api-references/get-swap-v1-source",
-  "title": "GET /swap/v1/source",
-  "description": "Learn how to use GET /swap/v1/source",
+  "title": "GET /swap/v1/sources",
+  "description": "Learn how to use GET /swap/v1/sources",
   "source": "@site/docs/0x-swap-api/api-references/get-swap-v1-source.md",
   "sourceDirName": "0x-swap-api/api-references",
   "slug": "/0x-swap-api/api-references/get-swap-v1-source",
@@ -13,9 +13,9 @@
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_label": "GET /swap/v1/source",
+    "sidebar_label": "GET /swap/v1/sources",
     "sidebar_position": 3,
-    "description": "Learn how to use GET /swap/v1/source"
+    "description": "Learn how to use GET /swap/v1/sources"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -23,7 +23,6 @@
     "permalink": "/0x-swap-api/api-references/get-swap-v1-price"
   },
   "next": {
-    "title": "Advanced Topics",
-    "permalink": "/category/advanced-topics"
+    "title": "Advanced Topics"
   }
 }

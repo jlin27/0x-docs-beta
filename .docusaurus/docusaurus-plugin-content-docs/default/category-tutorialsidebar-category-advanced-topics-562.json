@@ -5,7 +5,7 @@
   "permalink": "/category/advanced-topics",
   "navigation": {
     "previous": {
-      "title": "GET /swap/v1/source",
+      "title": "GET /swap/v1/sources",
       "permalink": "/0x-swap-api/api-references/get-swap-v1-source"
     },
     "next": {

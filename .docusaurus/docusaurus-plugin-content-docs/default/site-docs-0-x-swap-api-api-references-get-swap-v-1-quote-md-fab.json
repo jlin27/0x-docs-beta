@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "API References",
-    "permalink": "/0x-swap-api/api-references/intro"
+    "title": "Overview",
+    "permalink": "/0x-swap-api/api-references/overview"
   },
   "next": {
     "title": "GET /swap/v1/price",

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "0x-swap-api/api-references/testing",
+  "id": "0x-swap-api/api-references/testing",
+  "title": "GET /swap/v1/quote",
+  "description": "Get an easy-to-consume quote for buying or selling any ERC20 token. The return format is a valid unsigned Ethereum transaction and can be submitted directly to an Ethereum node (or the nodes of other chains if applicable) to complete the swap. For transactions where the sellToken is not ETH, you will have to set your allowances.&#x20;",
+  "source": "@site/docs/0x-swap-api/api-references/testing.md",
+  "sourceDirName": "0x-swap-api/api-references",
+  "slug": "/0x-swap-api/api-references/testing",
+  "permalink": "/0x-swap-api/api-references/testing",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/testing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GET /swap/v1/source",
+    "permalink": "/0x-swap-api/api-references/get-swap-v1-source"
+  },
+  "next": {
+    "title": "Advanced Topics",
+    "permalink": "/category/advanced-topics"
+  }
+}

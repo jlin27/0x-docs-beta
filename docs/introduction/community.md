@@ -1,6 +1,6 @@
 ---
 sidebar_label: Community
-sidebar_position: 5
+sidebar_position: 4
 description: One of the most important aspects of 0x is the community! We look forward to seeing you in one of our active developer communities below
 ---
 
@@ -14,4 +14,3 @@ Join our bustling 0x developer communities to contribute 💻, learn 🧠, and g
 * [Twitter](https://twitter.com/0xproject)
 * [YouTube](https://www.youtube.com/c/0xProject)
 * [Reddit](https://www.reddit.com/r/0xProject/)
-* [0x DAO Forum](https://gov.0x.org/)

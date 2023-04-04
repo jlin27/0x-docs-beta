@@ -11,10 +11,10 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/0x-concept-videos.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_label": "0x Concept Videos",
-    "sidebar_position": 4,
+    "sidebar_position": 3,
     "description": "This page contains a shortlist of videos that showcase notable features of the 0x tech stack"
   },
   "sidebar": "tutorialSidebar",

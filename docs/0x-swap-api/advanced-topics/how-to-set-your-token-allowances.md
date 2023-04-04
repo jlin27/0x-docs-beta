@@ -16,9 +16,9 @@ Some interactions with 0x require or are improved by setting [token allowances](
 
 0x API uses an advanced architecture to minimize the transaction costs for its users, as a result of this the target for allowances has changed for the `v1` endpoints. For users of the `swap/v1/*` swap endpoints the ERC20 allowance target has changed and a new field `allowanceTarget` is introduced in the `/price` and `/quote` responses. The `allowanceTarget` field is the contract address that the user needs to set an ERC20 allowance for in order to be able to perform the trade. Note that `allowanceTarget` is only relevant when selling an ERC20 token.
 
-{% hint style="info" %}
-When setting the token allowance, make sure to provide enough allowance for the buy or sell amount _as well as the gas;_ otherwise, you may receive a 'Gas estimation failed' error.&#x20;
-{% endhint %}
+:::tip
+When setting the token allowance, make sure to provide enough allowance for the buy or sell amount _as well as the gas;_ otherwise, you may receive a 'Gas estimation failed' error.
+:::
 
 ### Setting Allowances for a quote with Web3.js
 

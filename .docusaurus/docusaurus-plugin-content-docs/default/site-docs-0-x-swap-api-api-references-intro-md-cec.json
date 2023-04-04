@@ -2,7 +2,7 @@
   "unversionedId": "0x-swap-api/api-references/intro",
   "id": "0x-swap-api/api-references/intro",
   "title": "API References",
-  "description": "Learn how to use the 0x API, a REST API that runs on HTTP",
+  "description": "Learn how to use the 0x Swap API, the most efficient liquidity for web3 tokens through a single API.",
   "source": "@site/docs/0x-swap-api/api-references/intro.md",
   "sourceDirName": "0x-swap-api/api-references",
   "slug": "/0x-swap-api/api-references/intro",
@@ -13,14 +13,13 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_label": "API References",
+    "sidebar_label": "Intro",
     "sidebar_position": 1,
-    "description": "Learn how to use the 0x API, a REST API that runs on HTTP"
+    "description": "Learn how to use the 0x Swap API, the most efficient liquidity for web3 tokens through a single API."
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "API References",
-    "permalink": "/category/api-references"
+    "title": "API References"
   },
   "next": {
     "title": "GET /swap/v1/quote",

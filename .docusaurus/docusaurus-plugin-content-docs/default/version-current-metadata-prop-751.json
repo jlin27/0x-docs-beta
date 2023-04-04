@@ -17,14 +17,8 @@
         "items": [
           {
             "type": "link",
-            "label": "Welcome",
-            "href": "/",
-            "docId": "introduction/welcome"
-          },
-          {
-            "type": "link",
             "label": "Introduction to 0x",
-            "href": "/introduction/introduction-to-0x",
+            "href": "/",
             "docId": "introduction/introduction-to-0x"
           },
           {
@@ -73,9 +67,9 @@
             "items": [
               {
                 "type": "link",
-                "label": "API References",
-                "href": "/0x-swap-api/api-references/intro",
-                "docId": "0x-swap-api/api-references/intro"
+                "label": "Overview",
+                "href": "/0x-swap-api/api-references/overview",
+                "docId": "0x-swap-api/api-references/overview"
               },
               {
                 "type": "link",
@@ -91,12 +85,11 @@
               },
               {
                 "type": "link",
-                "label": "GET /swap/v1/source",
+                "label": "GET /swap/v1/sources",
                 "href": "/0x-swap-api/api-references/get-swap-v1-source",
                 "docId": "0x-swap-api/api-references/get-swap-v1-source"
               }
-            ],
-            "href": "/category/api-references"
+            ]
           },
           {
             "type": "category",
@@ -128,8 +121,7 @@
                 "href": "/0x-swap-api/advanced-topics/price-impact-protection",
                 "docId": "0x-swap-api/advanced-topics/price-impact-protection"
               }
-            ],
-            "href": "/category/advanced-topics"
+            ]
           },
           {
             "type": "category",
@@ -139,7 +131,7 @@
             "items": [
               {
                 "type": "link",
-                "label": "Swap Tokens with 0x Swap API",
+                "label": "Swap Tokens with Swap API",
                 "href": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api",
                 "docId": "0x-swap-api/guides/swap-tokens-with-0x-swap-api"
               },
@@ -161,8 +153,7 @@
                 "href": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
                 "docId": "0x-swap-api/guides/troubleshooting-0x-api-swaps"
               }
-            ],
-            "href": "/category/guides"
+            ]
           }
         ]
       },
@@ -239,7 +230,7 @@
                 "docId": "0x-orderbook-api/api-references/websocket-api"
               }
             ],
-            "href": "/category/api-references-1"
+            "href": "/category/api-references"
           },
           {
             "type": "link",
@@ -326,7 +317,7 @@
                 "docId": "0x-limit-orders/guides/working-in-the-testnet"
               }
             ],
-            "href": "/category/guides-1"
+            "href": "/category/guides"
           }
         ],
         "href": "/category/limit-order-advanced-traders"
@@ -395,7 +386,7 @@
                 "docId": "market-makers/guides/rfq-orders-code-examples-with-python"
               }
             ],
-            "href": "/category/guides-2"
+            "href": "/category/guides-1"
           }
         ],
         "href": "/category/market-makers"
@@ -494,7 +485,7 @@
                 "docId": "nft-support/guides/fetching-nft-order-data"
               }
             ],
-            "href": "/category/guides-3"
+            "href": "/category/guides-2"
           }
         ],
         "href": "/category/nft-support"
@@ -641,7 +632,7 @@
                 "docId": "governance/guides/how-to-vote"
               }
             ],
-            "href": "/category/guides-4"
+            "href": "/category/guides-3"
           }
         ],
         "href": "/category/governance"
@@ -870,14 +861,14 @@
     },
     "0x-swap-api/api-references/get-swap-v1-source": {
       "id": "0x-swap-api/api-references/get-swap-v1-source",
-      "title": "GET /swap/v1/source",
-      "description": "Learn how to use GET /swap/v1/source",
+      "title": "GET /swap/v1/sources",
+      "description": "Learn how to use GET /swap/v1/sources",
       "sidebar": "tutorialSidebar"
     },
-    "0x-swap-api/api-references/intro": {
-      "id": "0x-swap-api/api-references/intro",
+    "0x-swap-api/api-references/overview": {
+      "id": "0x-swap-api/api-references/overview",
       "title": "API References",
-      "description": "Learn how to use the 0x API, a REST API that runs on HTTP",
+      "description": "Learn how to use the 0x Swap API, the most efficient liquidity for web3 tokens through a single API.",
       "sidebar": "tutorialSidebar"
     },
     "0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api": {
@@ -889,7 +880,7 @@
     "0x-swap-api/guides/swap-tokens-with-0x-swap-api": {
       "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
       "title": "Swap Tokens with 0x Swap API",
-      "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x",
+      "description": "This article will guide you through plugging into Swap API and programmatically executing a trade.",
       "sidebar": "tutorialSidebar"
     },
     "0x-swap-api/guides/troubleshooting-0x-api-swaps": {
@@ -1033,12 +1024,6 @@
     "introduction/introduction-to-0x": {
       "id": "introduction/introduction-to-0x",
       "title": "Introduction to 0x",
-      "description": "Introduction to 0x",
-      "sidebar": "tutorialSidebar"
-    },
-    "introduction/welcome": {
-      "id": "introduction/welcome",
-      "title": "Welcome",
       "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
       "sidebar": "tutorialSidebar"
     },

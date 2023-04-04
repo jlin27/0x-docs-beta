@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/jessica/github/0x-docs/sidebars.js",
-          "contentPath": "/Users/jessica/github/0x-docs/docs",
-          "contentPathLocalized": "/Users/jessica/github/0x-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/jessica/github/jlin27/0x-docs/sidebars.js",
+          "contentPath": "/Users/jessica/github/jlin27/0x-docs/docs",
+          "contentPathLocalized": "/Users/jessica/github/jlin27/0x-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "0x-limit-orders/docs/introduction",
@@ -103,7 +103,7 @@
               },
               "next": {
                 "title": "Guides",
-                "permalink": "/category/guides-1"
+                "permalink": "/category/guides"
               }
             },
             {
@@ -157,7 +157,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Guides",
-                "permalink": "/category/guides-1"
+                "permalink": "/category/guides"
               },
               "next": {
                 "title": "Cancel a Limit Order",
@@ -389,7 +389,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "API References",
-                "permalink": "/category/api-references-1"
+                "permalink": "/category/api-references"
               },
               "next": {
                 "title": "GET /orderbook/v1/orders",
@@ -567,7 +567,7 @@
               },
               "next": {
                 "title": "API References",
-                "permalink": "/category/api-references-1"
+                "permalink": "/category/api-references"
               }
             },
             {
@@ -653,8 +653,7 @@
                 "permalink": "/0x-swap-api/advanced-topics/slippage-protection"
               },
               "next": {
-                "title": "Guides",
-                "permalink": "/category/guides"
+                "title": "Guides"
               }
             },
             {
@@ -678,8 +677,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Advanced Topics",
-                "permalink": "/category/advanced-topics"
+                "title": "Advanced Topics"
               },
               "next": {
                 "title": "How to Set Your Token Allowances",
@@ -740,7 +738,7 @@
                 "permalink": "/0x-swap-api/api-references/get-swap-v1-quote"
               },
               "next": {
-                "title": "GET /swap/v1/source",
+                "title": "GET /swap/v1/sources",
                 "permalink": "/0x-swap-api/api-references/get-swap-v1-source"
               }
             },
@@ -765,8 +763,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "API References",
-                "permalink": "/0x-swap-api/api-references/intro"
+                "title": "Overview",
+                "permalink": "/0x-swap-api/api-references/overview"
               },
               "next": {
                 "title": "GET /swap/v1/price",
@@ -776,8 +774,8 @@
             {
               "unversionedId": "0x-swap-api/api-references/get-swap-v1-source",
               "id": "0x-swap-api/api-references/get-swap-v1-source",
-              "title": "GET /swap/v1/source",
-              "description": "Learn how to use GET /swap/v1/source",
+              "title": "GET /swap/v1/sources",
+              "description": "Learn how to use GET /swap/v1/sources",
               "source": "@site/docs/0x-swap-api/api-references/get-swap-v1-source.md",
               "sourceDirName": "0x-swap-api/api-references",
               "slug": "/0x-swap-api/api-references/get-swap-v1-source",
@@ -788,9 +786,9 @@
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_label": "GET /swap/v1/source",
+                "sidebar_label": "GET /swap/v1/sources",
                 "sidebar_position": 3,
-                "description": "Learn how to use GET /swap/v1/source"
+                "description": "Learn how to use GET /swap/v1/sources"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -798,33 +796,31 @@
                 "permalink": "/0x-swap-api/api-references/get-swap-v1-price"
               },
               "next": {
-                "title": "Advanced Topics",
-                "permalink": "/category/advanced-topics"
+                "title": "Advanced Topics"
               }
             },
             {
-              "unversionedId": "0x-swap-api/api-references/intro",
-              "id": "0x-swap-api/api-references/intro",
+              "unversionedId": "0x-swap-api/api-references/overview",
+              "id": "0x-swap-api/api-references/overview",
               "title": "API References",
-              "description": "Learn how to use the 0x API, a REST API that runs on HTTP",
-              "source": "@site/docs/0x-swap-api/api-references/intro.md",
+              "description": "Learn how to use the 0x Swap API, the most efficient liquidity for web3 tokens through a single API.",
+              "source": "@site/docs/0x-swap-api/api-references/overview.md",
               "sourceDirName": "0x-swap-api/api-references",
-              "slug": "/0x-swap-api/api-references/intro",
-              "permalink": "/0x-swap-api/api-references/intro",
+              "slug": "/0x-swap-api/api-references/overview",
+              "permalink": "/0x-swap-api/api-references/overview",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/intro.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_label": "API References",
+                "sidebar_label": "Overview",
                 "sidebar_position": 1,
-                "description": "Learn how to use the 0x API, a REST API that runs on HTTP"
+                "description": "Learn how to use the 0x Swap API, the most efficient liquidity for web3 tokens through a single API."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "API References",
-                "permalink": "/category/api-references"
+                "title": "API References"
               },
               "next": {
                 "title": "GET /swap/v1/quote",
@@ -864,7 +860,7 @@
               "unversionedId": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
               "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
               "title": "Swap Tokens with 0x Swap API",
-              "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x",
+              "description": "This article will guide you through plugging into Swap API and programmatically executing a trade.",
               "source": "@site/docs/0x-swap-api/guides/swap-tokens-with-0x-swap-api.md",
               "sourceDirName": "0x-swap-api/guides",
               "slug": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api",
@@ -875,14 +871,13 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_label": "Swap Tokens with 0x Swap API",
+                "sidebar_label": "Swap Tokens with Swap API",
                 "sidebar_position": 1,
-                "description": "This article will guide you through plugging into 0x API and programmatically executing a trade via 0x"
+                "description": "This article will guide you through plugging into Swap API and programmatically executing a trade."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Guides",
-                "permalink": "/category/guides"
+                "title": "Guides"
               },
               "next": {
                 "title": "Use 0x API Liquidity in Your Smart Contracts",
@@ -939,7 +934,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Swap Tokens with 0x Swap API",
+                "title": "Swap Tokens with Swap API",
                 "permalink": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api"
               },
               "next": {
@@ -971,8 +966,7 @@
                 "title": "0x Swap API"
               },
               "next": {
-                "title": "API References",
-                "permalink": "/category/api-references"
+                "title": "API References"
               }
             },
             {
@@ -1258,7 +1252,7 @@
               },
               "next": {
                 "title": "Guides",
-                "permalink": "/category/guides-4"
+                "permalink": "/category/guides-3"
               }
             },
             {
@@ -1399,7 +1393,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Guides",
-                "permalink": "/category/guides-4"
+                "permalink": "/category/guides-3"
               },
               "next": {
                 "title": "How to Vote",
@@ -1448,10 +1442,10 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/0x-cheat-sheet.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 6,
+              "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_label": "0x Cheat Sheet",
-                "sidebar_position": 6,
+                "sidebar_position": 5,
                 "description": "A collection of commonly used addresses, endpoints, and values across 0x products."
               },
               "sidebar": "tutorialSidebar",
@@ -1476,10 +1470,10 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/0x-concept-videos.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_label": "0x Concept Videos",
-                "sidebar_position": 4,
+                "sidebar_position": 3,
                 "description": "This page contains a shortlist of videos that showcase notable features of the 0x tech stack"
               },
               "sidebar": "tutorialSidebar",
@@ -1505,10 +1499,10 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/community.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 4,
               "frontMatter": {
                 "sidebar_label": "Community",
-                "sidebar_position": 5,
+                "sidebar_position": 4,
                 "description": "One of the most important aspects of 0x is the community! We look forward to seeing you in one of our active developer communities below"
               },
               "sidebar": "tutorialSidebar",
@@ -1534,16 +1528,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/guides.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_label": "Guides",
-                "sidebar_position": 3,
+                "sidebar_position": 2,
                 "description": "This page lists the most popular guides to get started building with 0x based on your use case"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction to 0x",
-                "permalink": "/introduction/introduction-to-0x"
+                "permalink": "/"
               },
               "next": {
                 "title": "0x Concept Videos",
@@ -1554,47 +1548,18 @@
               "unversionedId": "introduction/introduction-to-0x",
               "id": "introduction/introduction-to-0x",
               "title": "Introduction to 0x",
-              "description": "Introduction to 0x",
-              "source": "@site/docs/introduction/introduction-to-0x.md",
-              "sourceDirName": "introduction",
-              "slug": "/introduction/introduction-to-0x",
-              "permalink": "/introduction/introduction-to-0x",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/introduction-to-0x.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_label": "Introduction to 0x",
-                "sidebar_position": 2,
-                "description": "Introduction to 0x"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Welcome",
-                "permalink": "/"
-              },
-              "next": {
-                "title": "Guides",
-                "permalink": "/introduction/guides"
-              }
-            },
-            {
-              "unversionedId": "introduction/welcome",
-              "id": "introduction/welcome",
-              "title": "Welcome",
               "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
-              "source": "@site/docs/introduction/welcome.md",
+              "source": "@site/docs/introduction/introduction-to-0x.md",
               "sourceDirName": "introduction",
               "slug": "/",
               "permalink": "/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/welcome.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/introduction-to-0x.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_label": "Welcome",
+                "sidebar_label": "Introduction to 0x",
                 "sidebar_position": 1,
                 "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
                 "slug": "/"
@@ -1604,8 +1569,8 @@
                 "title": "Introduction"
               },
               "next": {
-                "title": "Introduction to 0x",
-                "permalink": "/introduction/introduction-to-0x"
+                "title": "Guides",
+                "permalink": "/introduction/guides"
               }
             },
             {
@@ -1663,7 +1628,7 @@
               },
               "next": {
                 "title": "Guides",
-                "permalink": "/category/guides-2"
+                "permalink": "/category/guides-1"
               }
             },
             {
@@ -1746,7 +1711,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Guides",
-                "permalink": "/category/guides-2"
+                "permalink": "/category/guides-1"
               },
               "next": {
                 "title": "Signing 0x Orders",
@@ -1837,7 +1802,7 @@
               },
               "next": {
                 "title": "Guides",
-                "permalink": "/category/guides-3"
+                "permalink": "/category/guides-2"
               }
             },
             {
@@ -2287,11 +2252,6 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "introduction/welcome",
-                    "label": "Welcome"
-                  },
-                  {
-                    "type": "doc",
                     "id": "introduction/introduction-to-0x",
                     "label": "Introduction to 0x"
                   },
@@ -2339,8 +2299,8 @@
                     "items": [
                       {
                         "type": "doc",
-                        "id": "0x-swap-api/api-references/intro",
-                        "label": "API References"
+                        "id": "0x-swap-api/api-references/overview",
+                        "label": "Overview"
                       },
                       {
                         "type": "doc",
@@ -2355,14 +2315,11 @@
                       {
                         "type": "doc",
                         "id": "0x-swap-api/api-references/get-swap-v1-source",
-                        "label": "GET /swap/v1/source"
+                        "label": "GET /swap/v1/sources"
                       }
                     ],
                     "link": {
-                      "type": "generated-index",
-                      "description": "An introduction 0x Orderbook API",
-                      "slug": "/category/api-references",
-                      "permalink": "/category/api-references"
+                      "description": "An introduction 0x Swap API"
                     }
                   },
                   {
@@ -2393,10 +2350,7 @@
                       }
                     ],
                     "link": {
-                      "type": "generated-index",
-                      "description": "Advanced Topics",
-                      "slug": "/category/advanced-topics",
-                      "permalink": "/category/advanced-topics"
+                      "description": "Advanced Topics"
                     }
                   },
                   {
@@ -2408,7 +2362,7 @@
                       {
                         "type": "doc",
                         "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
-                        "label": "Swap Tokens with 0x Swap API"
+                        "label": "Swap Tokens with Swap API"
                       },
                       {
                         "type": "doc",
@@ -2427,10 +2381,7 @@
                       }
                     ],
                     "link": {
-                      "type": "generated-index",
-                      "description": "Guides",
-                      "slug": "/category/guides",
-                      "permalink": "/category/guides"
+                      "description": "Guides"
                     }
                   }
                 ],
@@ -2504,8 +2455,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "An introduction 0x Orderbook API",
-                      "slug": "/category/api-references-1",
-                      "permalink": "/category/api-references-1"
+                      "slug": "/category/api-references",
+                      "permalink": "/category/api-references"
                     }
                   },
                   {
@@ -2596,8 +2547,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "Guides",
-                      "slug": "/category/guides-1",
-                      "permalink": "/category/guides-1"
+                      "slug": "/category/guides",
+                      "permalink": "/category/guides"
                     }
                   }
                 ],
@@ -2673,8 +2624,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "Guides",
-                      "slug": "/category/guides-2",
-                      "permalink": "/category/guides-2"
+                      "slug": "/category/guides-1",
+                      "permalink": "/category/guides-1"
                     }
                   }
                 ],
@@ -2788,8 +2739,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "Guides",
-                      "slug": "/category/guides-3",
-                      "permalink": "/category/guides-3"
+                      "slug": "/category/guides-2",
+                      "permalink": "/category/guides-2"
                     }
                   }
                 ],
@@ -2956,8 +2907,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "Guides",
-                      "slug": "/category/guides-4",
-                      "permalink": "/category/guides-4"
+                      "slug": "/category/guides-3",
+                      "permalink": "/category/guides-3"
                     }
                   }
                 ],

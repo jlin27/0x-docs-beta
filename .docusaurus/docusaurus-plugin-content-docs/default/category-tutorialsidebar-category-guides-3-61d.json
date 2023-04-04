@@ -5,12 +5,12 @@
   "permalink": "/category/guides-3",
   "navigation": {
     "previous": {
-      "title": "Introduction",
-      "permalink": "/nft-support/docs/introduction"
+      "title": "Apply for a 0xDAO Grant (v2)",
+      "permalink": "/governance/docs/apply-for-a-0xdao-grant-v2"
     },
     "next": {
-      "title": "Creating Orders",
-      "permalink": "/category/creating-orders"
+      "title": "How to Delegate ZRX",
+      "permalink": "/governance/guides/how-to-delegate-zrx"
     }
   }
 }

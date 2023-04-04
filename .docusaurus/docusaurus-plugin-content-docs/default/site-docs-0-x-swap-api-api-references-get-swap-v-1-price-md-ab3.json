@@ -23,7 +23,7 @@
     "permalink": "/0x-swap-api/api-references/get-swap-v1-quote"
   },
   "next": {
-    "title": "GET /swap/v1/source",
+    "title": "GET /swap/v1/sources",
     "permalink": "/0x-swap-api/api-references/get-swap-v1-source"
   }
 }

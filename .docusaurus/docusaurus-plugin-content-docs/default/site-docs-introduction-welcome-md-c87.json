@@ -20,10 +20,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Introduction"
+    "title": "Introduction to 0x",
+    "permalink": "/"
   },
   "next": {
-    "title": "Introduction to 0x",
-    "permalink": "/introduction/introduction-to-0x"
+    "title": "Guides",
+    "permalink": "/introduction/guides"
   }
 }

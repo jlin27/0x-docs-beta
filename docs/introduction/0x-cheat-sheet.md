@@ -1,6 +1,6 @@
 ---
 sidebar_label: 0x Cheat Sheet
-sidebar_position: 6
+sidebar_position: 5 
 description: A collection of commonly used addresses, endpoints, and values across 0x products.
 ---
 
@@ -8,7 +8,9 @@ description: A collection of commonly used addresses, endpoints, and values acro
 
 ### 0x Protocol Version
 
-We are currently on v4 of the 0x protocol ([github](https://github.com/0xProject/protocol) | [docs](https://github.com/0xProject/protocol/tree/development/docs)).
+We are currently on v4 of the 0x protocol
+* [Github Repo](https://github.com/0xProject/protocol)
+* [Docs](https://github.com/0xProject/protocol/tree/development/docs)
 
 ### 0x API Endpoints
 
@@ -42,4 +44,11 @@ This is the primary contract for all interactions with the protocol. It is also 
 
 These contracts are used within the 0x ecosystem but are not intended for direct interaction with users except in rare circumstances. They are less likely to remain fixed (compared to the Exchange Proxy Address). The latest addresses can be found in the protocol repo's [addresses.json](https://github.com/0xProject/protocol/blob/development/packages/contract-addresses/addresses.json) file. A subset of commonly used addresses can be found in [contract-addresses.md](../developer-resources/contract-addresses.md "mention").
 
+### 0x Order Types
+An order is a message passed into the 0x Protocol to facilitate a trade (see [How does 0x work?](/introduction/introduction-to-0x#how-does-0x-work)). The order types that we support include: 
 
+| **Order Type** | **Summary**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | **Order Structure**                             | **Supported Token Trade Types**                 |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| Limit Orders   | These are the standard 0x Order, which encodes a possible trade between a maker and taker at a fixed price.                                                                                                                                                                                                                                                                                                                                                                                                                         | [Limit Order Structure](/0x-limit-orders/docs/limit-order-structure)                           | ERC20 <-> ERC20 trade                           |
+| RFQ Orders     | These are a stripped down version of standard limit orders, supporting fewer fields and a leaner settlement process. These orders are fielded just-in-time, directly from market makers, during the construction of a swap quote on 0x API, and can be filled through the  `fillRfqOrder()` function on the Exchange Proxy.                                                                                                                                                                                                         | [RFQ Order Structure](/market-makers/docs/rfq-order-structure)                             | ERC20 <-> ERC20 trade                           |
+| NFT Orders     | NFT orders in 0x V4 are optimized for this specific use case. They are up to 54% cheaper than alternatives currently on Ethereum. Unlike 0x Limit orders, there is a  _direction_ of the trade, either buy or sell. ERC20’s can be exchanged for either ERC721 or ERC1155. NFT Property-based orders can also be created by specifying the properties field in the respective order. **NOTE:** This order type is only supported by the 0x Protocol, see the [protocol docs](https://protocol.0x.org/en/latest/) for more details.  | ERC721 Order Structure; ERC1155 Order Structure | ERC20 <-> ERC721 trade; ERC20 <-> ERC1155 trade |

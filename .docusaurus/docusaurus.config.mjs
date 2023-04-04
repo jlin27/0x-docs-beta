@@ -41,12 +41,12 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/Users/jessica/github/0x-docs/sidebars.js",
+          "sidebarPath": "/Users/jessica/github/jlin27/0x-docs/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": false,
         "theme": {
-          "customCss": "/Users/jessica/github/0x-docs/src/css/custom.css"
+          "customCss": "/Users/jessica/github/jlin27/0x-docs/src/css/custom.css"
         }
       }
     ]
