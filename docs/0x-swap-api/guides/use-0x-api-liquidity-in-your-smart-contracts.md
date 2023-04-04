@@ -1,6 +1,6 @@
 ---
 sidebar_label: Use 0x API Liquidity in Your Smart Contracts
-sidebar_position: 2
+sidebar_position: 3
 description: Use 0x API Liquidity in Your Smart Contracts
 ---
 

@@ -306,21 +306,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/market-makers",
-              "path": "/category/market-makers",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/docs-1",
-              "path": "/category/docs-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/guides-1",
-              "path": "/category/guides-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/developer-resources",
               "path": "/category/developer-resources",
               "sidebar": "tutorialSidebar"

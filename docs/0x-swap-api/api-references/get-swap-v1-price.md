@@ -61,7 +61,7 @@ Identical to the response schema for `/swap/v1/quote`, with the execption that t
 | `buyTokenToEthRate` | The rate between ETH and `buyToken`                                                                                                                                                                                                                                                                                            |
 | `expectedSlippage` | This is the expected slippage used in routing calculations for the quote returned. It is the value of slippage that we estimate that the selected route will have: <br/><br/> - It can be used by integrators to calculate the Final Expected Amount for the asset: i.e. calculated as (`buyAmount` * `expectedSlippage` ) <br/><br/> -  It will only be returned when `enableSlippageProtection` is not set to `false`                                                                                                                                                                                                                                                                                           |
 
-### Examples
+### Example
 
 #### Get the price available for selling 1 ETH for DAI
 

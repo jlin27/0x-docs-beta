@@ -19,8 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Guides",
-    "permalink": "/category/guides-1"
+    "title": "Guides"
   },
   "next": {
     "title": "Signing 0x Orders",

@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'a2e'),
+    component: ComponentCreator('/', 'b2c'),
     routes: [
       {
         path: '/',
@@ -275,32 +275,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/docs-1',
-        component: ComponentCreator('/category/docs-1', '83f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/category/guides',
         component: ComponentCreator('/category/guides', 'a79'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/guides-1',
-        component: ComponentCreator('/category/guides-1', 'e86'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/category/limit-order-advanced-traders',
         component: ComponentCreator('/category/limit-order-advanced-traders', '88e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/category/market-makers',
-        component: ComponentCreator('/category/market-makers', 'ad8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

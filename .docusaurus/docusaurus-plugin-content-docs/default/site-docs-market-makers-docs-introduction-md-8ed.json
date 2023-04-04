@@ -19,8 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Docs",
-    "permalink": "/category/docs-1"
+    "title": "Docs"
   },
   "next": {
     "title": "RFQ Order Structure",

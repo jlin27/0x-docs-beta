@@ -363,8 +363,7 @@
                 "href": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
                 "docId": "market-makers/docs/providing-amm-liquidity-to-0x-api"
               }
-            ],
-            "href": "/category/docs-1"
+            ]
           },
           {
             "type": "category",
@@ -390,11 +389,9 @@
                 "href": "/market-makers/guides/rfq-orders-code-examples-with-python",
                 "docId": "market-makers/guides/rfq-orders-code-examples-with-python"
               }
-            ],
-            "href": "/category/guides-1"
+            ]
           }
-        ],
-        "href": "/category/market-makers"
+        ]
       },
       {
         "type": "category",
