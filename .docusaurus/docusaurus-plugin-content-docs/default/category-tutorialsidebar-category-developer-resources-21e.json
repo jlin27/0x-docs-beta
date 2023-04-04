@@ -5,8 +5,8 @@
   "permalink": "/category/developer-resources",
   "navigation": {
     "previous": {
-      "title": "How to Vote",
-      "permalink": "/governance/guides/how-to-vote"
+      "title": "0x v4 RFQ Orders Code Examples with Python",
+      "permalink": "/market-makers/guides/rfq-orders-code-examples-with-python"
     },
     "next": {
       "title": "Glossary",

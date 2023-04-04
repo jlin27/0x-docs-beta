@@ -66,6 +66,9 @@ The `enableSlippageProtection` parameter (an Optional Boolean) has been added to
 We recommended meta-aggregators and integrators who compare the quoted price with other sources to set the `enableSlippageProtection`to `false`.
 :::
 
+
+<!-- TODO Add image -->
+
 #### **Response Changes**
 
 The `buyAmount` , `price`, and `expectedSlippage` response fields in the [**`/swap/quote`**](/0x-swap-api/api-references/get-swap-v1-quote) and [**`/swap/price`**](/0x-swap-api/api-references/get-swap-v1-price) endpoints are affected by this change

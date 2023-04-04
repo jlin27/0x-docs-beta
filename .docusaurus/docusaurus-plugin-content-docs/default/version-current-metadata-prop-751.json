@@ -137,6 +137,12 @@
               },
               {
                 "type": "link",
+                "label": "How to Build a Token Swap DApp",
+                "href": "/0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api",
+                "docId": "0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api"
+              },
+              {
+                "type": "link",
                 "label": "Use 0x API Liquidity in Your Smart Contracts",
                 "href": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
                 "docId": "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts"
@@ -229,8 +235,7 @@
                 "href": "/0x-orderbook-api/api-references/websocket-api",
                 "docId": "0x-orderbook-api/api-references/websocket-api"
               }
-            ],
-            "href": "/category/api-references"
+            ]
           },
           {
             "type": "link",
@@ -390,252 +395,6 @@
           }
         ],
         "href": "/category/market-makers"
-      },
-      {
-        "type": "category",
-        "label": "NFT Support",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "Docs",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Introduction",
-                "href": "/nft-support/docs/introduction",
-                "docId": "nft-support/docs/introduction"
-              }
-            ],
-            "href": "/category/docs-2"
-          },
-          {
-            "type": "category",
-            "label": "Guides",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "category",
-                "label": "Creating Orders",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "Overview",
-                    "href": "/nft-support/guides/creating-orders/overview",
-                    "docId": "nft-support/guides/creating-orders/overview"
-                  },
-                  {
-                    "type": "link",
-                    "label": "Royalties and Fees",
-                    "href": "/nft-support/guides/creating-orders/royalties-and-fees",
-                    "docId": "nft-support/guides/creating-orders/royalties-and-fees"
-                  },
-                  {
-                    "type": "link",
-                    "label": "Collection Offers",
-                    "href": "/nft-support/guides/creating-orders/collection-offers",
-                    "docId": "nft-support/guides/creating-orders/collection-offers"
-                  }
-                ],
-                "href": "/category/creating-orders"
-              },
-              {
-                "type": "category",
-                "label": "Siging Orders",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "Overview",
-                    "href": "/nft-support/guides/signing-orders/overview",
-                    "docId": "nft-support/guides/signing-orders/overview"
-                  },
-                  {
-                    "type": "link",
-                    "label": "On-chain Orders",
-                    "href": "/nft-support/guides/signing-orders/royalties-and-fees",
-                    "docId": "nft-support/guides/signing-orders/royalties-and-fees"
-                  }
-                ],
-                "href": "/category/siging-orders"
-              },
-              {
-                "type": "link",
-                "label": "Filling Orders",
-                "href": "/nft-support/guides/filling-orders",
-                "docId": "nft-support/guides/filling-orders"
-              },
-              {
-                "type": "link",
-                "label": "Cancelling Orders",
-                "href": "/nft-support/guides/cancelling-orders",
-                "docId": "nft-support/guides/cancelling-orders"
-              },
-              {
-                "type": "link",
-                "label": "Fetching NFT Order Data",
-                "href": "/nft-support/guides/fetching-nft-order-data",
-                "docId": "nft-support/guides/fetching-nft-order-data"
-              }
-            ],
-            "href": "/category/guides-2"
-          }
-        ],
-        "href": "/category/nft-support"
-      },
-      {
-        "type": "category",
-        "label": "Protocol",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "Docs",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Introduction",
-                "href": "/protocol/docs/introduction",
-                "docId": "protocol/docs/introduction"
-              },
-              {
-                "type": "category",
-                "label": "Exchange Proxy",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "Overview",
-                    "href": "/protocol/docs/exchange-proxy/overview",
-                    "docId": "protocol/docs/exchange-proxy/overview"
-                  },
-                  {
-                    "type": "category",
-                    "label": "Features",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "link",
-                        "label": "Overview",
-                        "href": "/protocol/docs/exchange-proxy/features/overview",
-                        "docId": "protocol/docs/exchange-proxy/features/overview"
-                      },
-                      {
-                        "type": "link",
-                        "label": "NativeOrders",
-                        "href": "/protocol/docs/exchange-proxy/features/nativeorders",
-                        "docId": "protocol/docs/exchange-proxy/features/nativeorders"
-                      },
-                      {
-                        "type": "link",
-                        "label": "ERC721Orders",
-                        "href": "/protocol/docs/exchange-proxy/features/erc721orders",
-                        "docId": "protocol/docs/exchange-proxy/features/erc721orders"
-                      },
-                      {
-                        "type": "link",
-                        "label": "ERC1155Orders",
-                        "href": "/protocol/docs/exchange-proxy/features/erc1155orders",
-                        "docId": "protocol/docs/exchange-proxy/features/erc1155orders"
-                      }
-                    ],
-                    "href": "/category/features"
-                  }
-                ],
-                "href": "/category/exchange-proxy"
-              },
-              {
-                "type": "link",
-                "label": "Signatures",
-                "href": "/protocol/docs/signatures",
-                "docId": "protocol/docs/signatures"
-              }
-            ],
-            "href": "/category/docs-3"
-          }
-        ],
-        "href": "/category/protocol"
-      },
-      {
-        "type": "category",
-        "label": "Governance",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "Docs",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Introduction",
-                "href": "/governance/docs/introduction",
-                "docId": "governance/docs/introduction"
-              },
-              {
-                "type": "link",
-                "label": "Governance Participants",
-                "href": "/governance/docs/governance-participants",
-                "docId": "governance/docs/governance-participants"
-              },
-              {
-                "type": "link",
-                "label": "Types of Votes",
-                "href": "/governance/docs/types-of-votes",
-                "docId": "governance/docs/types-of-votes"
-              },
-              {
-                "type": "link",
-                "label": "Community Treasury",
-                "href": "/governance/docs/community-treasury",
-                "docId": "governance/docs/community-treasury"
-              },
-              {
-                "type": "link",
-                "label": "Apply for a 0xDAO Grant (v2)",
-                "href": "/governance/docs/apply-for-a-0xdao-grant-v2",
-                "docId": "governance/docs/apply-for-a-0xdao-grant-v2"
-              }
-            ],
-            "href": "/category/docs-4"
-          },
-          {
-            "type": "category",
-            "label": "Guides",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "How to Delegate ZRX",
-                "href": "/governance/guides/how-to-delegate-zrx",
-                "docId": "governance/guides/how-to-delegate-zrx"
-              },
-              {
-                "type": "link",
-                "label": "How to Vote",
-                "href": "/governance/guides/how-to-vote",
-                "docId": "governance/guides/how-to-vote"
-              }
-            ],
-            "href": "/category/guides-3"
-          }
-        ],
-        "href": "/category/governance"
       },
       {
         "type": "category",
@@ -877,6 +636,12 @@
       "description": "This guide discusses what RFQ liquidity is, how it works, and how your project can apply to access it",
       "sidebar": "tutorialSidebar"
     },
+    "0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api": {
+      "id": "0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api",
+      "title": "How to Build a Token Swap DApp",
+      "description": "An end-to-end tutorial that shows you how to build a token swapping dApp using the Swap API.",
+      "sidebar": "tutorialSidebar"
+    },
     "0x-swap-api/guides/swap-tokens-with-0x-swap-api": {
       "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
       "title": "Swap Tokens with 0x Swap API",
@@ -955,48 +720,6 @@
       "description": "White Paper",
       "sidebar": "tutorialSidebar"
     },
-    "governance/docs/apply-for-a-0xdao-grant-v2": {
-      "id": "governance/docs/apply-for-a-0xdao-grant-v2",
-      "title": "Apply for a 0xDAO Grant (v2)",
-      "description": "Apply for a 0xDAO Grant (v2)",
-      "sidebar": "tutorialSidebar"
-    },
-    "governance/docs/community-treasury": {
-      "id": "governance/docs/community-treasury",
-      "title": "Community Treasury",
-      "description": "Community Treasury",
-      "sidebar": "tutorialSidebar"
-    },
-    "governance/docs/governance-participants": {
-      "id": "governance/docs/governance-participants",
-      "title": "Governance Participants",
-      "description": "Governance Participants",
-      "sidebar": "tutorialSidebar"
-    },
-    "governance/docs/introduction": {
-      "id": "governance/docs/introduction",
-      "title": "Introduction",
-      "description": "The 0x Community DAO is the collective governing voice of the 0x protocol and the ZRX token",
-      "sidebar": "tutorialSidebar"
-    },
-    "governance/docs/types-of-votes": {
-      "id": "governance/docs/types-of-votes",
-      "title": "Types of Votes",
-      "description": "Types of Votes",
-      "sidebar": "tutorialSidebar"
-    },
-    "governance/guides/how-to-delegate-zrx": {
-      "id": "governance/guides/how-to-delegate-zrx",
-      "title": "How to Delegate ZRX",
-      "description": "How to Delegate ZRX",
-      "sidebar": "tutorialSidebar"
-    },
-    "governance/guides/how-to-vote": {
-      "id": "governance/guides/how-to-vote",
-      "title": "How to Vote",
-      "description": "How to Vote",
-      "sidebar": "tutorialSidebar"
-    },
     "introduction/0x-cheat-sheet": {
       "id": "introduction/0x-cheat-sheet",
       "title": "0x Cheat Sheet",
@@ -1067,102 +790,6 @@
       "id": "market-makers/guides/signing-0x-orders",
       "title": "Signing 0x Orders",
       "description": "In this guide, we discuss how to use @0x/protocol-utils or ethers.js to sign 0x Orders",
-      "sidebar": "tutorialSidebar"
-    },
-    "nft-support/docs/introduction": {
-      "id": "nft-support/docs/introduction",
-      "title": "Introduction",
-      "description": "Learn about the NFT features added to 0x V4",
-      "sidebar": "tutorialSidebar"
-    },
-    "nft-support/guides/cancelling-orders": {
-      "id": "nft-support/guides/cancelling-orders",
-      "title": "Cancelling Orders",
-      "description": "The basic functions used for cancelling NFT orders",
-      "sidebar": "tutorialSidebar"
-    },
-    "nft-support/guides/creating-orders/collection-offers": {
-      "id": "nft-support/guides/creating-orders/collection-offers",
-      "title": "Collection Offers",
-      "description": "Collection Offers",
-      "sidebar": "tutorialSidebar"
-    },
-    "nft-support/guides/creating-orders/overview": {
-      "id": "nft-support/guides/creating-orders/overview",
-      "title": "Creating Orders",
-      "description": "Creating Orders",
-      "sidebar": "tutorialSidebar"
-    },
-    "nft-support/guides/creating-orders/royalties-and-fees": {
-      "id": "nft-support/guides/creating-orders/royalties-and-fees",
-      "title": "Generating 0x Order Hashes",
-      "description": "Royalties and Fees",
-      "sidebar": "tutorialSidebar"
-    },
-    "nft-support/guides/fetching-nft-order-data": {
-      "id": "nft-support/guides/fetching-nft-order-data",
-      "title": "Fetching NFT Order Data",
-      "description": "Fetching NFT Order Data",
-      "sidebar": "tutorialSidebar"
-    },
-    "nft-support/guides/filling-orders": {
-      "id": "nft-support/guides/filling-orders",
-      "title": "Filling Orders",
-      "description": "The basic functions used for filling NFT orders",
-      "sidebar": "tutorialSidebar"
-    },
-    "nft-support/guides/signing-orders/overview": {
-      "id": "nft-support/guides/signing-orders/overview",
-      "title": "Signing Orders",
-      "description": "Signing Orders",
-      "sidebar": "tutorialSidebar"
-    },
-    "nft-support/guides/signing-orders/royalties-and-fees": {
-      "id": "nft-support/guides/signing-orders/royalties-and-fees",
-      "title": "On-chain Orders",
-      "description": "On-chain Orders",
-      "sidebar": "tutorialSidebar"
-    },
-    "protocol/docs/exchange-proxy/features/erc1155orders": {
-      "id": "protocol/docs/exchange-proxy/features/erc1155orders",
-      "title": "ERC1155Orders",
-      "description": "ERC1155<->ERC20/ETH Limit Order Functionality",
-      "sidebar": "tutorialSidebar"
-    },
-    "protocol/docs/exchange-proxy/features/erc721orders": {
-      "id": "protocol/docs/exchange-proxy/features/erc721orders",
-      "title": "ERC721Orders",
-      "description": "ERC721<->ERC20/ETH Limit Order Functionality",
-      "sidebar": "tutorialSidebar"
-    },
-    "protocol/docs/exchange-proxy/features/nativeorders": {
-      "id": "protocol/docs/exchange-proxy/features/nativeorders",
-      "title": "NativeOrders",
-      "description": "ERC20 Limit Orders Feature of the Exchange Proxy",
-      "sidebar": "tutorialSidebar"
-    },
-    "protocol/docs/exchange-proxy/features/overview": {
-      "id": "protocol/docs/exchange-proxy/features/overview",
-      "title": "Features Overview",
-      "description": "Documentation on the individual features of the Exchange Proxy",
-      "sidebar": "tutorialSidebar"
-    },
-    "protocol/docs/exchange-proxy/overview": {
-      "id": "protocol/docs/exchange-proxy/overview",
-      "title": "Exchange Proxy Overview",
-      "description": "The canonical entry point for the protocol",
-      "sidebar": "tutorialSidebar"
-    },
-    "protocol/docs/introduction": {
-      "id": "protocol/docs/introduction",
-      "title": "Introduction",
-      "description": "Technical documentation on the on-chain protocol (smart contracts) for 0x.",
-      "sidebar": "tutorialSidebar"
-    },
-    "protocol/docs/signatures": {
-      "id": "protocol/docs/signatures",
-      "title": "Signatures",
-      "description": "An overview of signature schemes used throughout 0x Protocol",
       "sidebar": "tutorialSidebar"
     }
   }

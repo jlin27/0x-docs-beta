@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-61a": {
+  "/-a2e": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---88-e-ce4"
@@ -176,6 +176,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---0-x-swap-api-guides-accessing-rfq-liquidity-on-0-x-apic-71-d81"
   },
+  "/0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api-30c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---0-x-swap-api-guides-how-to-build-a-token-swap-dapp-with-0-x-apib-53-e33"
+  },
   "/0x-swap-api/guides/swap-tokens-with-0x-swap-api-99f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---0-x-swap-api-guides-swap-tokens-with-0-x-swap-api-314-635"
@@ -196,14 +200,6 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-0-x-orderbook-api-97-f-7c4"
   },
-  "/category/api-references-9ba": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-api-references-567-f3e"
-  },
-  "/category/creating-orders-227": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-creating-orders-4-ec-ce5"
-  },
   "/category/developer-resources-292": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-developer-resourcesc-93-41e"
@@ -216,30 +212,6 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-docs-19-ed-843"
   },
-  "/category/docs-2-dc5": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-docs-269-f-5ff"
-  },
-  "/category/docs-3-8d8": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-docs-3-d-85-5a4"
-  },
-  "/category/docs-4-5db": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-docs-4-de-3-8b5"
-  },
-  "/category/exchange-proxy-afd": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-exchange-proxy-057-5fe"
-  },
-  "/category/features-dab": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-features-01-e-3c7"
-  },
-  "/category/governance-934": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-governance-6-a-5-25e"
-  },
   "/category/guides-a79": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-guides-759-aae"
@@ -248,14 +220,6 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-guides-144-e-286"
   },
-  "/category/guides-2-0c7": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-guides-2-b-11-d22"
-  },
-  "/category/guides-3-a56": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-guides-3-f-55-aa3"
-  },
   "/category/limit-order-advanced-traders-88e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-limit-order-advanced-tradersa-87-152"
@@ -263,18 +227,6 @@
   "/category/market-makers-ad8": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-market-makers-8-d-3-ed1"
-  },
-  "/category/nft-support-605": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-nft-support-93-f-166"
-  },
-  "/category/protocol-97a": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-protocol-6-d-3-82b"
-  },
-  "/category/siging-orders-715": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---category-siging-orders-7-b-1-b6d"
   },
   "/developer-resources/0x-legal-guide-544": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -311,34 +263,6 @@
   "/developer-resources/white-paper-0b5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---developer-resources-white-paperf-05-2a8"
-  },
-  "/governance/docs/apply-for-a-0xdao-grant-v2-2ed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---governance-docs-apply-for-a-0-xdao-grant-v-2-fb-1-645"
-  },
-  "/governance/docs/community-treasury-053": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---governance-docs-community-treasuryc-6-c-0b6"
-  },
-  "/governance/docs/governance-participants-b57": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---governance-docs-governance-participants-4-b-7-762"
-  },
-  "/governance/docs/introduction-690": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---governance-docs-introductiona-80-706"
-  },
-  "/governance/docs/types-of-votes-cca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---governance-docs-types-of-votesa-77-95c"
-  },
-  "/governance/guides/how-to-delegate-zrx-68b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---governance-guides-how-to-delegate-zrx-2-ca-57a"
-  },
-  "/governance/guides/how-to-vote-729": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---governance-guides-how-to-voteb-12-596"
   },
   "/introduction/0x-cheat-sheet-c0b": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -383,69 +307,5 @@
   "/market-makers/guides/signing-0x-orders-d24": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---market-makers-guides-signing-0-x-ordersbf-8-c77"
-  },
-  "/nft-support/docs/introduction-770": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-docs-introductionee-3-e7e"
-  },
-  "/nft-support/guides/cancelling-orders-48a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-guides-cancelling-orderscaa-8a0"
-  },
-  "/nft-support/guides/creating-orders/collection-offers-f85": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-guides-creating-orders-collection-offers-8-d-6-b3e"
-  },
-  "/nft-support/guides/creating-orders/overview-e65": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-guides-creating-orders-overview-169-8a1"
-  },
-  "/nft-support/guides/creating-orders/royalties-and-fees-73e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-guides-creating-orders-royalties-and-fees-476-cf5"
-  },
-  "/nft-support/guides/fetching-nft-order-data-761": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-guides-fetching-nft-order-data-3-b-7-aba"
-  },
-  "/nft-support/guides/filling-orders-02c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-guides-filling-orders-965-872"
-  },
-  "/nft-support/guides/signing-orders/overview-083": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-guides-signing-orders-overview-1-f-9-e2d"
-  },
-  "/nft-support/guides/signing-orders/royalties-and-fees-290": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---nft-support-guides-signing-orders-royalties-and-fees-8-b-7-2bd"
-  },
-  "/protocol/docs/exchange-proxy/features/erc1155orders-cd6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-docs-exchange-proxy-features-erc-1155-ordersd-72-62f"
-  },
-  "/protocol/docs/exchange-proxy/features/erc721orders-c31": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-docs-exchange-proxy-features-erc-721-orders-5-d-6-9a2"
-  },
-  "/protocol/docs/exchange-proxy/features/nativeorders-abb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-docs-exchange-proxy-features-nativeorderse-30-631"
-  },
-  "/protocol/docs/exchange-proxy/features/overview-f4a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-docs-exchange-proxy-features-overviewbbf-359"
-  },
-  "/protocol/docs/exchange-proxy/overview-ff9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-docs-exchange-proxy-overview-8-e-1-cbb"
-  },
-  "/protocol/docs/introduction-0f0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-docs-introduction-389-3e0"
-  },
-  "/protocol/docs/signatures-374": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-docs-signatures-188-a25"
   }
 }

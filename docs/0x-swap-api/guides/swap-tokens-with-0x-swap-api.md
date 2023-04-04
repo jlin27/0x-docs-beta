@@ -227,6 +227,6 @@ The `slippagePercentage` parameter determines the difference between the `price`
 
 * The [0x API starter project](https://github.com/0xProject/0x-api-starter-guide-code) has a direct swap example that you can play around with at no cost by using a Ganache instance forked from Ethereum mainnet.[\
   ](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/fill\_0x\_api\_swap.ts)
-* [Fill a 0x API quote](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/fill\_0x\_api\_swap.ts) - A runnable example of how to fill a 0x quote that can be run on Ropsten or Ganache.&#x20;
+* [Fill a 0x API quote](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/fill\_0x\_api\_swap.ts) - A runnable example of how to fill a 0x quote that can be run on Ropsten or Ganache.
 * [How to Build a Token Swap Dapp With 0x API](https://docs.alchemy.com/alchemy/road-to-web3/weekly-learning-challenges/9.-how-to-build-a-token-swap-dapp-with-0x-api) - A full end-to-end guide on how to build a token swapping dapp (a simple [Matcha.xyz](https://matcha.xyz/)) using the 0x /swap API endpoint. This DEX aggregates liquidity across the greater DEX ecosystem surfaces the best price to the user.
 

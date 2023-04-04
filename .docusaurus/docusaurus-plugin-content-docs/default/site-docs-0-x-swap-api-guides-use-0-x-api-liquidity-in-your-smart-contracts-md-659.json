@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Swap Tokens with Swap API",
-    "permalink": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api"
+    "title": "How to Build a Token Swap DApp",
+    "permalink": "/0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api"
   },
   "next": {
     "title": "Accessing RFQ liquidity on 0x API",

@@ -19,8 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "API References",
-    "permalink": "/category/api-references"
+    "title": "API References"
   },
   "next": {
     "title": "GET /orderbook/v1/orders",

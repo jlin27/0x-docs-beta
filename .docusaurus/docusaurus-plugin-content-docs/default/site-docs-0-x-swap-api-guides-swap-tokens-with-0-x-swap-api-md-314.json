@@ -22,7 +22,7 @@
     "title": "Guides"
   },
   "next": {
-    "title": "Use 0x API Liquidity in Your Smart Contracts",
-    "permalink": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts"
+    "title": "How to Build a Token Swap DApp",
+    "permalink": "/0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api"
   }
 }

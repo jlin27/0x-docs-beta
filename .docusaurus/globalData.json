@@ -156,6 +156,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api",
+              "path": "/0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "0x-swap-api/guides/swap-tokens-with-0x-swap-api",
               "path": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api",
               "sidebar": "tutorialSidebar"
@@ -221,41 +226,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "governance/docs/apply-for-a-0xdao-grant-v2",
-              "path": "/governance/docs/apply-for-a-0xdao-grant-v2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "governance/docs/community-treasury",
-              "path": "/governance/docs/community-treasury",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "governance/docs/governance-participants",
-              "path": "/governance/docs/governance-participants",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "governance/docs/introduction",
-              "path": "/governance/docs/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "governance/docs/types-of-votes",
-              "path": "/governance/docs/types-of-votes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "governance/guides/how-to-delegate-zrx",
-              "path": "/governance/guides/how-to-delegate-zrx",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "governance/guides/how-to-vote",
-              "path": "/governance/guides/how-to-vote",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "introduction/0x-cheat-sheet",
               "path": "/introduction/0x-cheat-sheet",
               "sidebar": "tutorialSidebar"
@@ -316,93 +286,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "nft-support/docs/introduction",
-              "path": "/nft-support/docs/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nft-support/guides/cancelling-orders",
-              "path": "/nft-support/guides/cancelling-orders",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nft-support/guides/creating-orders/collection-offers",
-              "path": "/nft-support/guides/creating-orders/collection-offers",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nft-support/guides/creating-orders/overview",
-              "path": "/nft-support/guides/creating-orders/overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nft-support/guides/creating-orders/royalties-and-fees",
-              "path": "/nft-support/guides/creating-orders/royalties-and-fees",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nft-support/guides/fetching-nft-order-data",
-              "path": "/nft-support/guides/fetching-nft-order-data",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nft-support/guides/filling-orders",
-              "path": "/nft-support/guides/filling-orders",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nft-support/guides/signing-orders/overview",
-              "path": "/nft-support/guides/signing-orders/overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nft-support/guides/signing-orders/royalties-and-fees",
-              "path": "/nft-support/guides/signing-orders/royalties-and-fees",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "protocol/docs/exchange-proxy/features/erc1155orders",
-              "path": "/protocol/docs/exchange-proxy/features/erc1155orders",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "protocol/docs/exchange-proxy/features/erc721orders",
-              "path": "/protocol/docs/exchange-proxy/features/erc721orders",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "protocol/docs/exchange-proxy/features/nativeorders",
-              "path": "/protocol/docs/exchange-proxy/features/nativeorders",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "protocol/docs/exchange-proxy/features/overview",
-              "path": "/protocol/docs/exchange-proxy/features/overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "protocol/docs/exchange-proxy/overview",
-              "path": "/protocol/docs/exchange-proxy/overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "protocol/docs/introduction",
-              "path": "/protocol/docs/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "protocol/docs/signatures",
-              "path": "/protocol/docs/signatures",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/0x-orderbook-api",
               "path": "/category/0x-orderbook-api",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/api-references",
-              "path": "/category/api-references",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -433,66 +318,6 @@
             {
               "id": "/category/guides-1",
               "path": "/category/guides-1",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/nft-support",
-              "path": "/category/nft-support",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/docs-2",
-              "path": "/category/docs-2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/guides-2",
-              "path": "/category/guides-2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/creating-orders",
-              "path": "/category/creating-orders",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/siging-orders",
-              "path": "/category/siging-orders",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/protocol",
-              "path": "/category/protocol",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/docs-3",
-              "path": "/category/docs-3",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/exchange-proxy",
-              "path": "/category/exchange-proxy",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/features",
-              "path": "/category/features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/governance",
-              "path": "/category/governance",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/docs-4",
-              "path": "/category/docs-4",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/guides-3",
-              "path": "/category/guides-3",
               "sidebar": "tutorialSidebar"
             },
             {

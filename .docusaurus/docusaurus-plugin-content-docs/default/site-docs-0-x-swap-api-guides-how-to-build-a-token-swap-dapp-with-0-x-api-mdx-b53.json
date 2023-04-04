@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api",
+  "id": "0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api",
+  "title": "How to Build a Token Swap DApp",
+  "description": "An end-to-end tutorial that shows you how to build a token swapping dApp using the Swap API.",
+  "source": "@site/docs/0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api.mdx",
+  "sourceDirName": "0x-swap-api/guides",
+  "slug": "/0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api",
+  "permalink": "/0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/how-to-build-a-token-swap-dapp-with-0x-api.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "How to Build a Token Swap DApp",
+    "sidebar_position": 2,
+    "description": "An end-to-end tutorial that shows you how to build a token swapping dApp using the Swap API."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Swap Tokens with Swap API",
+    "permalink": "/0x-swap-api/guides/swap-tokens-with-0x-swap-api"
+  },
+  "next": {
+    "title": "Use 0x API Liquidity in Your Smart Contracts",
+    "permalink": "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts"
+  }
+}
