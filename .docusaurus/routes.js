@@ -44,11 +44,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'b2c'),
+    component: ComponentCreator('/', 'c98'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '9d4'),
+        component: ComponentCreator('/', '212'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -257,12 +257,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/0x-orderbook-api',
-        component: ComponentCreator('/category/0x-orderbook-api', '02d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/category/developer-resources',
         component: ComponentCreator('/category/developer-resources', '292'),
         exact: true,
@@ -283,6 +277,12 @@ export default [
       {
         path: '/category/limit-order-advanced-traders',
         component: ComponentCreator('/category/limit-order-advanced-traders', '88e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/orderbook-api',
+        component: ComponentCreator('/category/orderbook-api', '261'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -361,6 +361,12 @@ export default [
       {
         path: '/introduction/guides',
         component: ComponentCreator('/introduction/guides', '93d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/introduction/introduction-to-0x',
+        component: ComponentCreator('/introduction/introduction-to-0x', '1d8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

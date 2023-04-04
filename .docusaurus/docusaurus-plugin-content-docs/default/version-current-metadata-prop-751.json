@@ -17,8 +17,14 @@
         "items": [
           {
             "type": "link",
-            "label": "Introduction to 0x",
+            "label": "Welcome",
             "href": "/",
+            "docId": "introduction/welcome"
+          },
+          {
+            "type": "link",
+            "label": "Introduction to 0x",
+            "href": "/introduction/introduction-to-0x",
             "docId": "introduction/introduction-to-0x"
           },
           {
@@ -49,7 +55,7 @@
       },
       {
         "type": "category",
-        "label": "0x Swap API",
+        "label": "Swap API",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -165,7 +171,7 @@
       },
       {
         "type": "category",
-        "label": "0x Orderbook API",
+        "label": "Orderbook API",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -250,7 +256,7 @@
             "docId": "0x-orderbook-api/connection-limit"
           }
         ],
-        "href": "/category/0x-orderbook-api"
+        "href": "/category/orderbook-api"
       },
       {
         "type": "category",
@@ -744,6 +750,12 @@
     "introduction/introduction-to-0x": {
       "id": "introduction/introduction-to-0x",
       "title": "Introduction to 0x",
+      "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction/welcome": {
+      "id": "introduction/welcome",
+      "title": "Welcome",
       "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
       "sidebar": "tutorialSidebar"
     },

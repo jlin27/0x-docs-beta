@@ -54,18 +54,12 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "0x Docs",
+      "title": "Docs",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "0x Docs",
         "src": "img/0x-logo.png"
       },
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Docs"
-        },
         {
           "href": "https://github.com/0xProject",
           "label": "GitHub",

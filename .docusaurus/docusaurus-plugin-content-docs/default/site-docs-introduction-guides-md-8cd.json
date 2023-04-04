@@ -11,16 +11,16 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/guides.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_label": "Guides",
-    "sidebar_position": 2,
+    "sidebar_position": 3,
     "description": "This page lists the most popular guides to get started building with 0x based on your use case"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction to 0x",
-    "permalink": "/"
+    "permalink": "/introduction/introduction-to-0x"
   },
   "next": {
     "title": "0x Concept Videos",

@@ -1,25 +1,10 @@
 ---
 sidebar_label: Introduction to 0x
-sidebar_position: 1
+sidebar_position: 2
 description: This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet
-slug: /
 ---
 
 # Introduction to 0x
-
-### Connect developers to Web3 markets
-
-**0x ** offers the core building blocks to create the most powerful Web3 apps. Building in Web3 becomes increasingly difficult as the number of ecosystems, DEX protocols, and tokens grow. Our APIs and solutions remove this complexity and reduce the infrastructure overhead.
-
-We offer a fully integrated suite of APIs that help you quickly build, launch, and scale your financial products. 
-
-Get started building:
-- [Swap API](/0x-swap-api/introduction)
-- Tx Relay API
-- [Orderbook API](0x-orderbook-api/introduction)
-- [Limit Orders (Advanced Traders)](/0x-limit-orders/docs/introduction)
-- [Market Makers](/market-makers/docs/introduction)
-- [Dev Resources](/category/developer-resources)
 
 :::tip
 
@@ -69,6 +54,8 @@ This is the entity who wants the Maker's asset. The Takers agree to trade their 
 ## How does 0x work?
 
 Let’s look into how a 0x order is executed.
+
+![how does 0x work](/img/introduction/onchainoffchain.gif)
 
 
 1. A Maker creates a 0x order which is a json object that adheres to a standard order message format (see list of all [0x order types here](0x-cheat-sheet.md#0x-order-types)). It indicates what kind of asset the Maker is committed to trade. Assets could include fungible tokens (ERC20), non-fungible tokens (ERC721), or bundles of assets (ERC1155).

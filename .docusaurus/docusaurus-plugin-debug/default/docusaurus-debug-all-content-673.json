@@ -560,8 +560,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "0x Orderbook API",
-                "permalink": "/category/0x-orderbook-api"
+                "title": "Orderbook API",
+                "permalink": "/category/orderbook-api"
               },
               "next": {
                 "title": "API References"
@@ -935,8 +935,8 @@
                 "permalink": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api"
               },
               "next": {
-                "title": "0x Orderbook API",
-                "permalink": "/category/0x-orderbook-api"
+                "title": "Orderbook API",
+                "permalink": "/category/orderbook-api"
               }
             },
             {
@@ -989,7 +989,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "0x Swap API"
+                "title": "Swap API"
               },
               "next": {
                 "title": "API References"
@@ -1265,10 +1265,10 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/0x-cheat-sheet.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 6,
               "frontMatter": {
                 "sidebar_label": "0x Cheat Sheet",
-                "sidebar_position": 5,
+                "sidebar_position": 6,
                 "description": "A collection of commonly used addresses, endpoints, and values across 0x products."
               },
               "sidebar": "tutorialSidebar",
@@ -1277,7 +1277,7 @@
                 "permalink": "/introduction/community"
               },
               "next": {
-                "title": "0x Swap API"
+                "title": "Swap API"
               }
             },
             {
@@ -1293,10 +1293,10 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/0x-concept-videos.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 4,
               "frontMatter": {
                 "sidebar_label": "0x Concept Videos",
-                "sidebar_position": 3,
+                "sidebar_position": 4,
                 "description": "This page contains a shortlist of videos that showcase notable features of the 0x tech stack"
               },
               "sidebar": "tutorialSidebar",
@@ -1322,10 +1322,10 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/community.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_label": "Community",
-                "sidebar_position": 4,
+                "sidebar_position": 5,
                 "description": "One of the most important aspects of 0x is the community! We look forward to seeing you in one of our active developer communities below"
               },
               "sidebar": "tutorialSidebar",
@@ -1351,16 +1351,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/guides.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_label": "Guides",
-                "sidebar_position": 2,
+                "sidebar_position": 3,
                 "description": "This page lists the most popular guides to get started building with 0x based on your use case"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction to 0x",
-                "permalink": "/"
+                "permalink": "/introduction/introduction-to-0x"
               },
               "next": {
                 "title": "0x Concept Videos",
@@ -1374,15 +1374,44 @@
               "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
               "source": "@site/docs/introduction/introduction-to-0x.md",
               "sourceDirName": "introduction",
-              "slug": "/",
-              "permalink": "/",
+              "slug": "/introduction/introduction-to-0x",
+              "permalink": "/introduction/introduction-to-0x",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/introduction-to-0x.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_label": "Introduction to 0x",
+                "sidebar_position": 2,
+                "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Welcome",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Guides",
+                "permalink": "/introduction/guides"
+              }
+            },
+            {
+              "unversionedId": "introduction/welcome",
+              "id": "introduction/welcome",
+              "title": "Welcome",
+              "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
+              "source": "@site/docs/introduction/welcome.md",
+              "sourceDirName": "introduction",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/welcome.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Welcome",
                 "sidebar_position": 1,
                 "description": "This is your launchpad to learn about 0x - Trusted exchange infrastructure for the internet",
                 "slug": "/"
@@ -1392,8 +1421,8 @@
                 "title": "Introduction"
               },
               "next": {
-                "title": "Guides",
-                "permalink": "/introduction/guides"
+                "title": "Introduction to 0x",
+                "permalink": "/introduction/introduction-to-0x"
               }
             },
             {
@@ -1608,6 +1637,11 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "introduction/welcome",
+                    "label": "Welcome"
+                  },
+                  {
+                    "type": "doc",
                     "id": "introduction/introduction-to-0x",
                     "label": "Introduction to 0x"
                   },
@@ -1638,7 +1672,7 @@
               },
               {
                 "type": "category",
-                "label": "0x Swap API",
+                "label": "Swap API",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -1747,12 +1781,12 @@
                   }
                 ],
                 "link": {
-                  "description": "An introduction 0x Swap API"
+                  "description": "An introduction Swap API"
                 }
               },
               {
                 "type": "category",
-                "label": "0x Orderbook API",
+                "label": "Orderbook API",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -1830,9 +1864,9 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "An introduction 0x Orderbook API",
-                  "slug": "/category/0x-orderbook-api",
-                  "permalink": "/category/0x-orderbook-api"
+                  "description": "An introduction Orderbook API",
+                  "slug": "/category/orderbook-api",
+                  "permalink": "/category/orderbook-api"
                 }
               },
               {

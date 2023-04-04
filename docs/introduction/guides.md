@@ -1,6 +1,6 @@
 ---
 sidebar_label: Guides
-sidebar_position: 2
+sidebar_position: 3
 description: This page lists the most popular guides to get started building with 0x based on your use case
 ---
 

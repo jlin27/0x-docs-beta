@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "introduction/introduction-to-0x",
+          "mainDocId": "introduction/welcome",
           "docs": [
             {
               "id": "0x-limit-orders/docs/introduction",
@@ -247,6 +247,11 @@
             },
             {
               "id": "introduction/introduction-to-0x",
+              "path": "/introduction/introduction-to-0x",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/welcome",
               "path": "/",
               "sidebar": "tutorialSidebar"
             },
@@ -286,8 +291,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/0x-orderbook-api",
-              "path": "/category/0x-orderbook-api",
+              "id": "/category/orderbook-api",
+              "path": "/category/orderbook-api",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -316,7 +321,7 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/",
-                "label": "Introduction to 0x"
+                "label": "Welcome"
               }
             }
           }

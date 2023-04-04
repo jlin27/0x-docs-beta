@@ -1,8 +1,8 @@
 {
-  "label": "0x Orderbook API",
+  "label": "Orderbook API",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "An introduction 0x Orderbook API"
+    "description": "An introduction Orderbook API"
   }
 }
