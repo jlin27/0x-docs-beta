@@ -8,9 +8,9 @@ description: Learn how to use GET /orderbook/v1/fee_recipients
 
 Retrieves a list of valid feeRecipient addresses.
 
-{% hint style="warning" %}
-This endpoint is paginated. By default, a request returns page 1 with 20 orders. It is possible to change which page and how many records are returned per page via the query parameters. See[#pagination](./#pagination "mention")for more details.&#x20;
-{% endhint %}
+:::info
+This endpoint is paginated. By default, a request returns page 1 with 20 orders. It is possible to change which page and how many records are returned per page via the query parameters. See[#pagination](./#pagination "mention")for more details.
+:::
 
 ## Request
 

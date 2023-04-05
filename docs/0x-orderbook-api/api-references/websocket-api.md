@@ -35,12 +35,12 @@ A list consisting of signed orders with metaData.
 
 | Field      | Description                                                                                                   |
 | ---------- | ------------------------------------------------------------------------------------------------------------- |
-| `order`    | Raw [signed orders](../../0x-swap-api/api-references/#signed-order).                                          |
+| `order`    | Raw [signed orders](/0x-swap-api/api-references/overview#signed-order).                                          |
 | `metaData` | Object where optional meta-data will be included, such as the `orderHash` and `remainingFillableTakerAmount`. |
 
 ## Examples
 
-### **Subscribe to All Order Updates**
+### Subscribe to All Order Updates
 
 #### Request
 

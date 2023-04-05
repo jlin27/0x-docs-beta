@@ -90,4 +90,4 @@ This section contains the following docs and guides
 
 **API FAQs**
 
-* [FAQs and Troubleshooting](/developer-resources/faqs-and-troubleshooting)
+* [FAQs & Troubleshooting](/developer-resources/faqs-and-troubleshooting)

@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'bb5'),
+    component: ComponentCreator('/', '8ca'),
     routes: [
       {
         path: '/',
@@ -65,8 +65,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/0x-limit-orders/docs/limit-order-structure copy',
-        component: ComponentCreator('/0x-limit-orders/docs/limit-order-structure copy', '6de'),
+        path: '/0x-limit-orders/docs/monitoring-0x-limit-orders',
+        component: ComponentCreator('/0x-limit-orders/docs/monitoring-0x-limit-orders', '577'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -125,8 +125,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/0x-orderbook-api/api-references/intro',
-        component: ComponentCreator('/0x-orderbook-api/api-references/intro', '49c'),
+        path: '/0x-orderbook-api/api-references/overview',
+        component: ComponentCreator('/0x-orderbook-api/api-references/overview', '3b5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -259,30 +259,6 @@ export default [
       {
         path: '/category/developer-resources',
         component: ComponentCreator('/category/developer-resources', '292'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/category/docs',
-        component: ComponentCreator('/category/docs', 'e1f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/category/guides',
-        component: ComponentCreator('/category/guides', 'a79'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/category/limit-order-advanced-traders',
-        component: ComponentCreator('/category/limit-order-advanced-traders', '88e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/category/orderbook-api',
-        component: ComponentCreator('/category/orderbook-api', '261'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

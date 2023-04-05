@@ -3,82 +3,76 @@ sidebar_label: POST /orderbook/v1/orders
 sidebar_position: 5
 description: Learn how to use POST /orderbook/v1/orders
 ---
-# GET /orderbook/v1/orders
 
-Retrieves a list of orders given query parameters.
+# POST /orderbook/v1/orders
 
-{% hint style="warning" %}
-This endpoint is paginated. By default, a request returns page 1 with 20 orders. It is possible to change which page and how many records are returned per page via the query parameters. See[#pagination](./#pagination "mention")for more details.&#x20;
-{% endhint %}
+Submit a list of signed orders.
 
 ## Request
 
-Any[ Signed Order ](./#signed-order)field can be use as a query parameter. Additional query parameters are listed below.
-
-| Query Params | Description                                             |
-| ------------ | ------------------------------------------------------- |
-| `trader`     | (Optional) The address of either the maker or the taker |
+A list of [signed orders](../../0x-swap-api/api-references/#signed-order).
 
 ## Response
 
-### Response
-
-| Field      | Description                                                                                                   |
-| ---------- | ------------------------------------------------------------------------------------------------------------- |
-| `order`    | Raw[ signed order](./#signed-order).                                                                          |
-| `metaData` | Object where optional meta-data will be included, such as the `orderHash` and `remainingFillableTakerAmount`. |
+No response fields when successful. An [error ](../../0x-swap-api/api-references/#errors)when unsuccessful.
 
 ## Examples
 
-### **Get All Orders Selling WETH**
+### Post some Orders
 
-#### **Request**
+#### Request
 
-GET
+POST `/orderbook/v1/orders`
 
 ```
-https://api.0x.org/orderbook/v1/orders?makerToken=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+[
+    {
+        "makerToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "takerToken": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+        "makerAmount": "100000000000000",
+        "takerAmount": "2000000000000000000000",
+        "maker": "0x56EB0aD2dC746540Fab5C02478B31e2AA9DdC38C",
+        "taker": "0x0000000000000000000000000000000000000000",
+        "pool": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "expiry": "1614957869",
+        "salt": "6783702559744797318323886303764333477871845949851321622397911580758640049826",
+        "chainId": 1,
+        "verifyingContract": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+        "takerTokenFeeAmount": "0",
+        "sender": "0x0000000000000000000000000000000000000000",
+        "feeRecipient": "0x0000000000000000000000000000000000000000",
+        "signature": {
+            "v": 27,
+            "r": "0x260e3ade4c5e995074e51c5e6031a7f9ac4c466923cf636a52da5618733ca733",
+            "s": "0x0ad43fef82c1deaa740905d76fd6201960b034dbaebda9ae55a28276fffda5b4",
+            "signatureType": 3
+        }
+    },
+    {
+        "makerToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "takerToken": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+        "makerAmount": "100000000000000",
+        "takerAmount": "2000000000000000000000",
+        "maker": "0x56EB0aD2dC746540Fab5C02478B31e2AA9DdC38C",
+        "taker": "0x0000000000000000000000000000000000000000",
+        "pool": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "expiry": "1614957869",
+        "salt": "75302780246208148116958057129632839621788678452217539992230761105996524515708",
+        "chainId": 1,
+        "verifyingContract": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+        "takerTokenFeeAmount": "0",
+        "sender": "0x0000000000000000000000000000000000000000",
+        "feeRecipient": "0x0000000000000000000000000000000000000000",
+        "signature": {
+            "v": 28,
+            "r": "0xb8d4cefbad61a6d05d78d400473509ad384aa6b8e9533052bb6918bb9cb9ae26",
+            "s": "0x797e4630d9f827cdca76ef6523b2e6617d79bb82ee50b5206490237056708402",
+            "signatureType": 3
+        }
+    }
+]
 ```
 
 **Response**
 
-```
-{
-  "total": 111
-  "page": 1,
-  "perPage": 20,
-  "records": [
-    {
-      "metaData": {
-        "createdAt": "2021-03-05T14:19:58.745Z",
-        "orderHash": "0x9cecbbb001b2ddcb23cee4de97b46ef014621050ce04099ace24d25ad7022d99",
-        "remainingFillableTakerAmount": "2000000000000000000000"
-      },
-      "order": {
-        "chainId": 1,
-        "expiry": "1614954899",
-        "feeRecipient": "0x0000000000000000000000000000000000000000",
-        "maker": "0x56eb0ad2dc746540fab5c02478b31e2aa9ddc38c",
-        "makerAmount": "100000000000000",
-        "makerToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-        "pool": "0x0000000000000000000000000000000000000000000000000000000000000000",
-        "salt": "76705913446798151184926653565841843850509871332931031350949084138605565413651",
-        "sender": "0x0000000000000000000000000000000000000000",
-        "signature": {
-          "r": "0x2ca75df712c9a0a56ccf315af5608dd1dda859fce001403de34ee21df9ae5eef",
-          "s": "0x01c3f1eb9dcce82ac989c3a7491cafe69c13f7c2d51adae3426e93d4f3447df4",
-          "signatureType": 3,
-          "v": 27
-        },
-        "taker": "0x0000000000000000000000000000000000000000",
-        "takerAmount": "2000000000000000000000",
-        "takerToken": "0xe41d2489571d322189246dafa5ebde1f4699f498",
-        "takerTokenFeeAmount": "0",
-        "verifyingContract": "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
-      }
-    }
-  ],
-}
-```
-
-\
+`Empty response body`

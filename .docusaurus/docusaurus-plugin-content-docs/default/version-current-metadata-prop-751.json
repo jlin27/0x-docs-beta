@@ -99,38 +99,6 @@
           },
           {
             "type": "category",
-            "label": "Advanced Topics",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Rate Limiting",
-                "href": "/0x-swap-api/advanced-topics/rate-limiting",
-                "docId": "0x-swap-api/advanced-topics/rate-limiting"
-              },
-              {
-                "type": "link",
-                "label": "How to Set Your Token Allowances",
-                "href": "/0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
-                "docId": "0x-swap-api/advanced-topics/how-to-set-your-token-allowances"
-              },
-              {
-                "type": "link",
-                "label": "Slippage Protection",
-                "href": "/0x-swap-api/advanced-topics/slippage-protection",
-                "docId": "0x-swap-api/advanced-topics/slippage-protection"
-              },
-              {
-                "type": "link",
-                "label": "Price Impact Protection",
-                "href": "/0x-swap-api/advanced-topics/price-impact-protection",
-                "docId": "0x-swap-api/advanced-topics/price-impact-protection"
-              }
-            ]
-          },
-          {
-            "type": "category",
             "label": "Guides",
             "collapsible": true,
             "collapsed": true,
@@ -164,6 +132,38 @@
                 "label": "Troubleshooting Swap API",
                 "href": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
                 "docId": "0x-swap-api/guides/troubleshooting-0x-api-swaps"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Advanced Topics",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Rate Limiting",
+                "href": "/0x-swap-api/advanced-topics/rate-limiting",
+                "docId": "0x-swap-api/advanced-topics/rate-limiting"
+              },
+              {
+                "type": "link",
+                "label": "How to Set Your Token Allowances",
+                "href": "/0x-swap-api/advanced-topics/how-to-set-your-token-allowances",
+                "docId": "0x-swap-api/advanced-topics/how-to-set-your-token-allowances"
+              },
+              {
+                "type": "link",
+                "label": "Slippage Protection",
+                "href": "/0x-swap-api/advanced-topics/slippage-protection",
+                "docId": "0x-swap-api/advanced-topics/slippage-protection"
+              },
+              {
+                "type": "link",
+                "label": "Price Impact Protection",
+                "href": "/0x-swap-api/advanced-topics/price-impact-protection",
+                "docId": "0x-swap-api/advanced-topics/price-impact-protection"
               }
             ]
           }
@@ -259,13 +259,13 @@
             "items": [
               {
                 "type": "link",
-                "label": "API References",
-                "href": "/0x-orderbook-api/api-references/intro",
-                "docId": "0x-orderbook-api/api-references/intro"
+                "label": "Overview",
+                "href": "/0x-orderbook-api/api-references/overview",
+                "docId": "0x-orderbook-api/api-references/overview"
               },
               {
                 "type": "link",
-                "label": "GET /orderbook/v1/orders",
+                "label": "GET /orderbook/v1/",
                 "href": "/0x-orderbook-api/api-references/get-orderbook-v1",
                 "docId": "0x-orderbook-api/api-references/get-orderbook-v1"
               },
@@ -295,7 +295,7 @@
               },
               {
                 "type": "link",
-                "label": "POST /orderbook/v1/order\\_config",
+                "label": "POST /orderbook/v1/order_config",
                 "href": "/0x-orderbook-api/api-references/post-orderbook-v1-order_config",
                 "docId": "0x-orderbook-api/api-references/post-orderbook-v1-order_config"
               },
@@ -325,8 +325,7 @@
             "href": "/0x-orderbook-api/connection-limit",
             "docId": "0x-orderbook-api/connection-limit"
           }
-        ],
-        "href": "/category/orderbook-api"
+        ]
       },
       {
         "type": "category",
@@ -355,11 +354,10 @@
               {
                 "type": "link",
                 "label": "Monitoring 0x Limit Orders",
-                "href": "/0x-limit-orders/docs/limit-order-structure copy",
-                "docId": "0x-limit-orders/docs/limit-order-structure copy"
+                "href": "/0x-limit-orders/docs/monitoring-0x-limit-orders",
+                "docId": "0x-limit-orders/docs/monitoring-0x-limit-orders"
               }
-            ],
-            "href": "/category/docs"
+            ]
           },
           {
             "type": "category",
@@ -397,11 +395,9 @@
                 "href": "/0x-limit-orders/guides/working-in-the-testnet",
                 "docId": "0x-limit-orders/guides/working-in-the-testnet"
               }
-            ],
-            "href": "/category/guides"
+            ]
           }
-        ],
-        "href": "/category/limit-order-advanced-traders"
+        ]
       },
       {
         "type": "category",
@@ -435,7 +431,7 @@
               },
               {
                 "type": "link",
-                "label": "Providing AMM liquidity to 0x API",
+                "label": "Providing AMM Liquidity to 0x API",
                 "href": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
                 "docId": "market-makers/docs/providing-amm-liquidity-to-0x-api"
               }
@@ -547,8 +543,8 @@
       "description": "Learn about 0x Limit Order Structure, why, and how to use it",
       "sidebar": "tutorialSidebar"
     },
-    "0x-limit-orders/docs/limit-order-structure copy": {
-      "id": "0x-limit-orders/docs/limit-order-structure copy",
+    "0x-limit-orders/docs/monitoring-0x-limit-orders": {
+      "id": "0x-limit-orders/docs/monitoring-0x-limit-orders",
       "title": "Monitoring 0x Limit Orders",
       "description": "Learn about Monitoring 0x Limit Orders",
       "sidebar": "tutorialSidebar"
@@ -585,7 +581,7 @@
     },
     "0x-orderbook-api/api-references/get-orderbook-v1": {
       "id": "0x-orderbook-api/api-references/get-orderbook-v1",
-      "title": "GET /orderbook/v1/orders",
+      "title": "GET /orderbook/v1/",
       "description": "Learn how to use GET /orderbook/v1/",
       "sidebar": "tutorialSidebar"
     },
@@ -607,8 +603,8 @@
       "description": "Learn how to use GET /orderbook/v1/orders",
       "sidebar": "tutorialSidebar"
     },
-    "0x-orderbook-api/api-references/intro": {
-      "id": "0x-orderbook-api/api-references/intro",
+    "0x-orderbook-api/api-references/overview": {
+      "id": "0x-orderbook-api/api-references/overview",
       "title": "API References",
       "description": "0x API hosts an Orderbook of 0x Limit Orders that anyone can provide liquidity to or take liquidity from",
       "sidebar": "tutorialSidebar"
@@ -621,13 +617,13 @@
     },
     "0x-orderbook-api/api-references/post-orderbook-v1-order_config": {
       "id": "0x-orderbook-api/api-references/post-orderbook-v1-order_config",
-      "title": "POST /orderbook/v1/order\\_config",
-      "description": "Learn how to use  POST /orderbook/v1/order\\_config",
+      "title": "POST /orderbook/v1/order_config",
+      "description": "Learn how to use  POST /orderbook/v1/order_config",
       "sidebar": "tutorialSidebar"
     },
     "0x-orderbook-api/api-references/post-orderbook-v1-orders": {
       "id": "0x-orderbook-api/api-references/post-orderbook-v1-orders",
-      "title": "GET /orderbook/v1/orders",
+      "title": "POST /orderbook/v1/orders",
       "description": "Learn how to use POST /orderbook/v1/orders",
       "sidebar": "tutorialSidebar"
     },
@@ -838,7 +834,7 @@
     "market-makers/docs/providing-amm-liquidity-to-0x-api": {
       "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
       "title": "Providing AMM liquidity to 0x API",
-      "description": "Providing AMM liquidity to 0x API",
+      "description": "Providing AMM Liquidity to 0x API",
       "sidebar": "tutorialSidebar"
     },
     "market-makers/docs/providing-rfq-liquidity-to-0x-api": {
@@ -861,7 +857,7 @@
     },
     "market-makers/guides/rfq-orders-code-examples-with-python": {
       "id": "market-makers/guides/rfq-orders-code-examples-with-python",
-      "title": "RFQ Orders Code Examples with Python",
+      "title": "Python RFQ Orders Code Examples",
       "description": "0x v4 RFQ Orders Code Examples with Python",
       "sidebar": "tutorialSidebar"
     },

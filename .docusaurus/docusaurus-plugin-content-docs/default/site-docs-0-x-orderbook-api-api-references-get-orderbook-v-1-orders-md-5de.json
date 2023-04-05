@@ -19,7 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "GET /orderbook/v1/orders",
+    "title": "GET /orderbook/v1/",
     "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1"
   },
   "next": {

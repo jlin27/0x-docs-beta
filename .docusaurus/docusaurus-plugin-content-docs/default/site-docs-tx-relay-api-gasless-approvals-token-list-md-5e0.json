@@ -23,7 +23,6 @@
     "permalink": "/tx-relay-api/tx-relay-faq"
   },
   "next": {
-    "title": "Orderbook API",
-    "permalink": "/category/orderbook-api"
+    "title": "Orderbook API"
   }
 }

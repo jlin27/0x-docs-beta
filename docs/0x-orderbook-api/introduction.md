@@ -6,28 +6,26 @@ description: 0x API hosts an Orderbook of 0x Limit Orders that anyone can provid
 
 # Introduction
 
-Whether you're looking to offer limit orders in your app, or utilize limit orders in MEV searching strategies, the 0x API Orderbook is your go to source.
+Enable limit orders in your app or take liquidity directly from the 0x Orderbook.
 
 0x API has an Orderbook on the following chains:
 
 * Ethereum
-* BSC
+* BSCs
 * Polygon
 
-In previous versions of 0x API prior to 0x v4, this functionality was exposed by the "SRA" endpoint.
-
-* Previous docs: [https://github.com/0xProject/standard-relayer-api](https://github.com/0xProject/standard-relayer-api)
+In previous versions of 0x API prior to 0x v4, this functionality was exposed by the "SRA" endpoint. Previous docs: [https://github.com/0xProject/standard-relayer-api](https://github.com/0xProject/standard-relayer-api)
 
 ## Get Started
 
-This section contains the following docs and guides\
+This section contains the following docs and guides
 
 
 **API References**
 
-* [api-references](api-references/introduction )
-* [get-orderbook-v1.md](api-references/get-orderbook-v1.md "mention")
-* [get-orderbook-v1-orders.md](api-references/get-orderbook-v1-orders.md "mention")
+* [Overview](/0x-orderbook-api/api-references/)
+* [GET /orderbook/v1/order](api-references/get-orderbook-v1.md)
+* [GET /orderbook/v1/orders](api-references/get-orderbook-v1-orders.md "mention")
 * [post-orderbook-v1-order.md](api-references/post-orderbook-v1-order.md "mention")
 * [post-orderbook-v1-orders.md](api-references/post-orderbook-v1-orders.md "mention")
 * [get-orderbook-v1-order-orderhash.md](api-references/get-orderbook-v1-order-orderhash.md "mention")

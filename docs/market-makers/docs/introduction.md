@@ -26,28 +26,28 @@ RFQ orders contain a [`takerAddress` query parameter](../../developer-resources/
 
 In addition to the 0x API configuration identifying trusted takers, it also contains a list of specific market makers that participate in the RFQ system. Each maker is identified by an HTTP endpoint URL, and each endpoint has an associated list of asset pairs for which that endpoint will provide quotes. For the instance at `api.0x.org`, the 0x team is maintaining a list of trusted market makers.
 
-{% hint style="info" %}
-If you represent a trading firm that would like to add liquidity to the 0x ecosystem via the RFQ system, please get in touch here[: 0x RFQ Interest Form](https://docs.google.com/forms/d/e/1FAIpQLSen019JsWFZHluSgqSaPE\_WFVc4YBtNS4EKB8ondJJ40Eh8jw/viewform?usp=sf\_link)
-{% endhint %}
+:::info
+If you represent a trading firm that would like to add liquidity to the 0x ecosystem via the RFQ system, please get in touch here: [0x RFQ Interest Form](https://docs.google.com/forms/d/e/1FAIpQLSen019JsWFZHluSgqSaPE\_WFVc4YBtNS4EKB8ondJJ40Eh8jw/viewform?usp=sf\_link)
+:::
 
 ##
 
 ### **Firm Quotes**
 
-The firm quote resource is hosted at [`/swap/v1/quote`](../../0x-swap-api/api-references/get-swap-v1-quote.md) and responds with a full 0x order, which can be submitted to an Ethereum node by the client. Therefore it is expected that the maker has reserved the maker assets required to settle the trade, leaving the order unlikely to revert.\
-\
+The firm quote resource is hosted at [`/swap/v1/quote`](/0x-swap-api/api-references/get-swap-v1-quote) and responds with a full 0x order, which can be submitted to an Ethereum node by the client. Therefore it is expected that the maker has reserved the maker assets required to settle the trade, leaving the order unlikely to revert.
+
 In order to qualify for RFQ liquidity, the request to `/swap/v1/quote` must include the query parameter `intentOnFilling=true` (in addition to the aforementioned `0x-api-key` and non-null `takerAddress`).
 
 ### **Indicative Pricing**
 
-The indicative pricing resource is hosted at [`/swap/v1/price`](../../0x-swap-api/api-references/get-swap-v1-price.md) and responds with pricing information, but that response does not contain a full 0x order, so it does not constitute a legitimate transaction that can be submitted to the Ethereum network.  This resource can be used by price feeds and other applications that do not intend to submit an actual transaction.
+The indicative pricing resource is hosted at [`/swap/v1/price`](/0x-swap-api/api-references/get-swap-v1-price) and responds with pricing information, but that response does not contain a full 0x order, so it does not constitute a legitimate transaction that can be submitted to the Ethereum network.  This resource can be used by price feeds and other applications that do not intend to submit an actual transaction.
 
 ****
 
 ## Quote Validation
 
-Whenever a 0x API client specifies a `takerAddress` in their [`/quote`](../../0x-swap-api/api-references/get-swap-v1-quote.md) request, the API will validate the quote before returning it to the client, avoiding a number of possible causes for transaction reverts. (For more details, see "[How does `takerAddress` help with catching issues?](../../developer-resources/faqs-and-troubleshooting.md#how-does-takeraddress-help-with-catching-issues)".)\
-\
+Whenever a 0x API client specifies a `takerAddress` in their [`/quote`](/0x-swap-api/api-references/get-swap-v1-quote) request, the API will validate the quote before returning it to the client, avoiding a number of possible causes for transaction reverts. (For more details, see "[How does `takerAddress` help with catching issues?](/developer-resources/faqs-and-troubleshooting#-troubleshooting)")
+
 However, given that a `takerAddress` is required in order to obtain RFQ liquidity, and given that this requirement subverts the optionality of the quote validation feature, the implementation of RFQ introduced a new query parameter to the `/quote` resource: `skipValidation`. When this parameter is set to `true`, quote validation will be skipped. While validating even RFQ quotes is a best-practice recommended default, skipping validation can be useful in certain circumstances, such as when experimenting with a new maker integration deployment.
 
 ### Note for Smart Contract Integrations
@@ -56,23 +56,23 @@ One particular circumstance in which it may be necessary to skip quote validatio
 
 ## Excluding Liquidity Sources
 
-When requesting a quote from the 0x API, clients can choose to have the API exclude specific liquidity sources. (For more details, see [the API specification](../../0x-swap-api/api-references/get-swap-v1-quote.md#excluding-liquidity-sources).)\
-\
-At this time, RFQ liquidity is considered by the 0x API to be included within the `0x`/`Native` liquidity group. (In the API's interface, it's referred to as `0x`, but in the underlying routing logic it's referred to as `Native`.)\
-\
-Therefore, if a 0x API client intends to access RFQ liquidity, it's important that they not exclude the `0x` liquidity source.\
+When requesting a quote from the Swap API, clients can choose to have the [API exclude specific liquidity sources](/0x-swap-api/api-references/get-swap-v1-quote#excluding-liquidity-sources).
+
+At this time, RFQ liquidity is considered by the 0x API to be included within the `0x`/`Native` liquidity group. (In the API's interface, it's referred to as `0x`, but in the underlying routing logic it's referred to as `Native`.)
+
+Therefore, if a Swap API client intends to access RFQ liquidity, it's important that they not exclude the `0x` liquidity source.
 
 
 ## Code Examples
 
-Checkout our [Guides](../guides/) for RFQT and RFQM Market Makers on how to create, hash, sign, fill, get state, and cancel 0x V4 RFQ orders
+Checkout our [Guides](/introduction/guides) for RFQT and RFQM Market Makers on how to create, hash, sign, fill, get state, and cancel 0x V4 RFQ orders
 
-* [generating-0x-order-hashes.md](../guides/generating-0x-order-hashes.md "mention")
-* [signing-0x-orders.md](../guides/signing-0x-orders.md "mention")
-* [0x-v4-rfq-orders-code-examples-with-python.md](../guides/0x-v4-rfq-orders-code-examples-with-python.md "mention")
+* [Generating 0x Order Hashes](../guides/generating-0x-order-hashes.md)
+* [Signing 0x Orders](../guides/signing-0x-orders.md)
+* [Python RFQ Orders Code Examples ](../guides/0x-v4-rfq-orders-code-examples-with-python.md)
 * [Fill ERC20 RFQ order](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/fill\_erc20\_rfq\_order.ts)
 * [Fill ERC20 RFQ order with maker order signer](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/fill\_erc20\_rfq\_order\_with\_maker\_order\_signer.ts)
 * [Subscribe to RFQ order fill events](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/fill\_erc20\_limit\_order.ts)
-* [Execute Metatransaction](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/execute\_metatransaction\_fill\_rfq\_order.ts) to fill RFQ order&#x20;
+* [Execute Metatransaction](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/execute\_metatransaction\_fill\_rfq\_order.ts) to fill RFQ order
 * [Fill ERC20 OTC order](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/fill\_erc20\_otc\_order.ts)
 * [(Advanced) Fill an aggregated quote via TransformERC20](https://github.com/0xProject/0x-starter-project/blob/master/src/scenarios/transform\_erc20.ts)

@@ -19,8 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Docs",
-    "permalink": "/category/docs"
+    "title": "Docs"
   },
   "next": {
     "title": "Limit Order Structure",

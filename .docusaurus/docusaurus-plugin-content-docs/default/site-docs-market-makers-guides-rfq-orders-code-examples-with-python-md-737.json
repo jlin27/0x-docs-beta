@@ -1,7 +1,7 @@
 {
   "unversionedId": "market-makers/guides/rfq-orders-code-examples-with-python",
   "id": "market-makers/guides/rfq-orders-code-examples-with-python",
-  "title": "RFQ Orders Code Examples with Python",
+  "title": "Python RFQ Orders Code Examples",
   "description": "0x v4 RFQ Orders Code Examples with Python",
   "source": "@site/docs/market-makers/guides/rfq-orders-code-examples-with-python.md",
   "sourceDirName": "market-makers/guides",

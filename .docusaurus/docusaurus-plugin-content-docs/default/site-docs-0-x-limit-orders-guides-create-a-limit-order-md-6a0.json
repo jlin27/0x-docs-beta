@@ -19,8 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Guides",
-    "permalink": "/category/guides"
+    "title": "Guides"
   },
   "next": {
     "title": "Cancel a Limit Order",

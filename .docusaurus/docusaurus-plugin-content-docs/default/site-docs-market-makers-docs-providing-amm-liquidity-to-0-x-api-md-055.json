@@ -2,7 +2,7 @@
   "unversionedId": "market-makers/docs/providing-amm-liquidity-to-0x-api",
   "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
   "title": "Providing AMM liquidity to 0x API",
-  "description": "Providing AMM liquidity to 0x API",
+  "description": "Providing AMM Liquidity to 0x API",
   "source": "@site/docs/market-makers/docs/providing-amm-liquidity-to-0x-api.md",
   "sourceDirName": "market-makers/docs",
   "slug": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
@@ -13,9 +13,9 @@
   "version": "current",
   "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_label": "Providing AMM liquidity to 0x API",
+    "sidebar_label": "Providing AMM Liquidity to 0x API",
     "sidebar_position": 4,
-    "description": "Providing AMM liquidity to 0x API"
+    "description": "Providing AMM Liquidity to 0x API"
   },
   "sidebar": "tutorialSidebar",
   "previous": {

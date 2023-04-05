@@ -6,14 +6,11 @@ description: Learn about working in the testnet
 
 # Working in the Testnet
 
-0x API and 0x Protocol can be accessed on the Goerli testnet, or by forking Ethereum mainnet into your own testnet.
+Swap API and 0x Protocol can be accessed on the Goerli testnet, or by forking Ethereum mainnet into your own testnet.
 
-### Using Goerli
-
-#### Swapping tokens with 0x API
+### Using Swap API on Goerli
 
 A hosted 0x API for the Goerli testnet is available at [https://goerli.api.0x.org/](https://goerli.api.0x.org/) which offers a subset of DEX sources available on Ethereum mainnet.
-
 
 To view the currently supported sources on Goerli refer to [https://goerli.api.0x.org/swap/v1/sources](https://goerli.api.0x.org/swap/v1/sources). At the time of writing this guide the following liquidity sources are supported on Goerli: `0x`, `MultiHop`, `SushiSwap`, `Uniswap`, `Uniswap_V2` and `Uniswap_V3.` The token you want to use for testing must have liquidity on at least one of these sources.
 
@@ -27,20 +24,34 @@ Note that for some sources, we've noticed that only certain pairs are deployed. 
 | DAI    | [0xE68104D83e647b7c1C15a91a8D8aAD21a51B3B3E](https://goerli.etherscan.io/token/0xe68104d83e647b7c1c15a91a8d8aad21a51b3b3e) |
 | USDC   | [0x5FfbaC75EFc9547FBc822166feD19B05Cd5890bb](https://goerli.etherscan.io/token/0x5ffbac75efc9547fbc822166fed19b05cd5890bb) |
 
+
+### Getting Testnet Funds
+
+- [Goerli Faucet](https://goerlifaucet.com/)
+- [Goerli POW Faucet](https://goerli-faucet.pk910.de/)
+- [Paradigm MultiFaucet](https://faucet.paradigm.xyz/)
+    - Funds a wallet with ETH, WETH, DAI, and NFTS across 4 testnets
+
 #### Performing a swap on Goerli
 
-For general information about the /swap endpoints see [0x API Swap](broken-reference)\
-\
-The following is example code for swapping 0.1 ETH for DAI on Goerli using Metamask. \
-\
+For general information about the /swap endpoints see [Swap API](/0x-swap-api/introduction).
+
+The following is example code for swapping 0.1 ETH for DAI on Goerli using Metamask.
+
 _Instructions to use the CodePen:_
 
 * Click "TypeScript" to see the code. Click "Run Pen" to run the code demo.
-* You can either edit the code directly in the window below, or you can edit it on CodePen [here](https://codepen.io/0xProject/pen/abVJYra)
+* You can either edit the code directly in the window below, or you can [edit it on CodePen](https://codepen.io/0xProject/pen/abVJYra).
 
-{% embed url="https://codepen.io/0xProject/pen/abVJYra" %}
-Example code for swapping 0.1 ETH for DAI on Goerli using Metamask&#x20;
-{% endembed %}
+<div>
+<iframe height="300"
+  width="100%;"
+  scrolling="no" title="Example 0x API swap on the Goerli testnet" src="https://codepen.io/0xProject/embed/preview/abVJYra?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/0xProject/pen/abVJYra">
+  Example 0x API swap on the Goerli testnet</a> by 0xProject (<a href="https://codepen.io/0xProject">@0xProject</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+</div>
 
 #### Interacting with Limit Orders on Goerli
 

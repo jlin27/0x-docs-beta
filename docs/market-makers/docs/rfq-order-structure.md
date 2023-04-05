@@ -5,7 +5,7 @@ description: RFQ Order Structure
 ---
 # RFQ Order Structure
 
-RFQ orders are a stripped down version of standard [limit orders](../../limit-orders-advanced-traders/docs/limit-order-structure.md), supporting fewer fields and a leaner settlement process. These orders are fielded just-in-time, directly from market makers, during the construction of a swap quote on 0x API, and can be filled through the `fillRfqOrder()` function on the Exchange Proxy.\
+RFQ orders are a stripped down version of standard [limit orders](/0x-limit-orders/docs/limit-order-structure), supporting fewer fields and a leaner settlement process. These orders are fielded just-in-time, directly from market makers, during the construction of a swap quote on 0x API, and can be filled through the `fillRfqOrder()` function on the Exchange Proxy.
 
 
 Some notable differences from regular limit orders are:
@@ -19,8 +19,9 @@ Some notable differences from regular limit orders are:
 
 The `RFQOrder` struct has the following fields:
 
-| `makerToken`  | `address` | The ERC20 token the maker is selling and the maker is selling to the taker. \[required]                                                                                                                                                                        |
+| Field         | Type      | Description                                                                                                                                                                  |
 | ------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `makerToken`  | `address` | The ERC20 token the maker is selling and the maker is selling to the taker. [required]                                                                                                                                                                         |
 | `takerToken`  | `address` | The ERC20 token the taker is selling and the taker is selling to the maker. \[required]                                                                                                                                                                        |
 | `makerAmount` | `uint128` | The amount of makerToken being sold by the maker. \[required]                                                                                                                                                                                                  |
 | `takerAmount` | `uint128` | The amount of takerToken being sold by the taker. \[required]                                                                                                                                                                                                  |
@@ -30,4 +31,3 @@ The `RFQOrder` struct has the following fields:
 | `pool`        | `bytes32` | The staking pool to attribute the 0x protocol fee from this order. Set to zero to attribute to the default pool, not owned by anyone. \[optional; default 0]                                                                                                   |
 | `expiry`      | `uint64`  | The Unix timestamp in seconds when this order expires. \[required]                                                                                                                                                                                             |
 | `salt`        | `uint256` | Arbitrary number to enforce uniqueness of the order hash. \[required]                                                                                                                                                                                          |
-|               |           |                                                                                                                                                                                                                                                                |

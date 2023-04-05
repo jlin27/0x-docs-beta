@@ -1,9 +1,9 @@
 ---
-sidebar_label:  POST /orderbook/v1/order\_config
+sidebar_label:  POST /orderbook/v1/order_config
 sidebar_position: 7
-description: Learn how to use  POST /orderbook/v1/order\_config
+description: Learn how to use  POST /orderbook/v1/order_config
 ---
-# POST /orderbook/v1/order\_config
+# POST /orderbook/v1/order_config
 
 Send a partial [signed order](../../0x-swap-api/api-references/#signed-order) to this endpoint to receive the rest of configuration-oriented fields. This response is currently static.
 

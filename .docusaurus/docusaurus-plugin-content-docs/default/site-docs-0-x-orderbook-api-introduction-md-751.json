@@ -19,8 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Orderbook API",
-    "permalink": "/category/orderbook-api"
+    "title": "Orderbook API"
   },
   "next": {
     "title": "API References"

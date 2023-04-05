@@ -12,7 +12,7 @@ Used together, the 0x protocol and 0x API offer traders the opportunity to retai
 
 The 0x protocol currently serves two different kinds of orders: [0x Limit Orders](https://protocol.0x.org/en/latest/basics/orders.html#limit-orders) and [0x RFQ Orders](https://protocol.0x.org/en/latest/basics/orders.html#rfq-orders). This article focuses primarily on 0x Limit Orders, but both orders are essentially data packets that contain the [order's details](https://docs.0x.org/advanced-traders/guides/create-a-limit-order) and at least one [valid signature](https://protocol.0x.org/en/latest/basics/orders.html?highlight=signature#how-to-sign) (e.g. a valid elliptic curve signature generated from the trader’s blockchain address). When two entities agree on the terms of a trade, the 0x order is submitted to the respective blockchain and settled via the 0x protocol smart contracts.
 
-In order for the 0x smart contracts to move funds on the behalf of traders, the traders must first give the contracts explicit permission. This is done by setting an ["allowance"](https://tokenallowance.io/) for a certain number of assets the 0x protocol can transfer from the traders’ addresses, and then cryptographically agreeing to the terms of the trade by applying a valid signature to the order. These rules are all enforced by the 0x protocol’s open-source smart contracts, which are deployed to the respective blockchain. Read more about setting allowances here: [how-to-set-your-token-allowances.md](../../0x-swap-api/advanced-topics/how-to-set-your-token-allowances.md "mention").
+In order for the 0x smart contracts to move funds on the behalf of traders, the traders must first give the contracts explicit permission. This is done by setting an ["allowance"](https://tokenallowance.io/) for a certain number of assets the 0x protocol can transfer from the traders’ addresses, and then cryptographically agreeing to the terms of the trade by applying a valid signature to the order. These rules are all enforced by the 0x protocol’s open-source smart contracts, which are deployed to the respective blockchain. Read more about setting allowances here: [How to Set Your Token Allowances](/0x-swap-api/advanced-topics/how-to-set-your-token-allowances).
 
 ## Applications Supporting 0x Limit Orders
 
@@ -31,7 +31,7 @@ You can also trade with 0x Limit orders using the 0x API. 0x Limit Orders are su
 * Binance Smart Chain
 * Polygon
 
-We are deploying 0x Limit Orders to more chains, so please check [0x-cheat-sheet.md](../../introduction/0x-cheat-sheet.md "mention") for the most up-to-date list of availability.
+We are deploying 0x Limit Orders to more chains, so please check [0x Cheat Sheet](/introduction/0x-cheat-sheet) for the most up-to-date list of availability.
 
 ## Code Examples
 

@@ -21,8 +21,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "0x-limit-orders/docs/limit-order-structure copy",
-              "path": "/0x-limit-orders/docs/limit-order-structure copy",
+              "id": "0x-limit-orders/docs/monitoring-0x-limit-orders",
+              "path": "/0x-limit-orders/docs/monitoring-0x-limit-orders",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -71,8 +71,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "0x-orderbook-api/api-references/intro",
-              "path": "/0x-orderbook-api/api-references/intro",
+              "id": "0x-orderbook-api/api-references/overview",
+              "path": "/0x-orderbook-api/api-references/overview",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -333,26 +333,6 @@
             {
               "id": "tx-relay-api/tx-relay-faq",
               "path": "/tx-relay-api/tx-relay-faq",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/orderbook-api",
-              "path": "/category/orderbook-api",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/limit-order-advanced-traders",
-              "path": "/category/limit-order-advanced-traders",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/docs",
-              "path": "/category/docs",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/guides",
-              "path": "/category/guides",
               "sidebar": "tutorialSidebar"
             },
             {

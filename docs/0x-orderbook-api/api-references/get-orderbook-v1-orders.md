@@ -8,9 +8,9 @@ description: Learn how to use GET /orderbook/v1/orders
 
 Retrieves a list of orders given query parameters.
 
-{% hint style="warning" %}
-This endpoint is paginated. By default, a request returns page 1 with 20 orders. It is possible to change which page and how many records are returned per page via the query parameters. See[#pagination](./#pagination "mention")for more details.&#x20;
-{% endhint %}
+:::info
+This endpoint is paginated. By default, a request returns page 1 with 20 orders. It is possible to change which page and how many records are returned per page via the query parameters. See[#pagination](./#pagination "mention")for more details.
+:::
 
 ## Request
 

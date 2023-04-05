@@ -8,11 +8,11 @@ description:  In this guide, we discuss how to use @0x/protocol-utils or ethers.
 
 At the heart of 0x Orders are signatures that authorize the 0x smart contracts to perform swaps on behalf of signers.
 
-Whether you are posting Limit Orders to the [Broken link](broken-reference "mention") and[providing-rfq-liquidity-to-0x-api.md](../docs/providing-rfq-liquidity-to-0x-api.md "mention")- you will need to sign a 0x order.
+Whether you are posting Limit Orders to the [Orderbook API](/0x-orderbook-api/introduction) and [Providing RFQ Liquidity to the 0x API ](/market-makers/docs/providing-rfq-liquidity-to-0x-api)- you will need to sign a 0x order.
 
 ### What am I signing?
 
-When you sign a 0x Order, you are signing the Order Hash. See [generating-0x-order-hashes.md](generating-0x-order-hashes.md "mention") on how to derive your order's hash.&#x20;
+When you sign a 0x Order, you are signing the Order Hash. See [Generating 0x Order Hash](/market-makers/guides/generating-0x-order-hashes) on how to derive your order's hash.
 
 Because the hash is generated over all the fields of the order (as well as the chain ID and verifying contract), signing the hash is as good as signing all the fields of the order itself.
 

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "0x-orderbook-api/api-references/get-orderbook-v1-order",
+  "id": "0x-orderbook-api/api-references/get-orderbook-v1-order",
+  "title": "GET /orderbook/v1/orders",
+  "description": "Learn how to use GET /orderbook/v1/",
+  "source": "@site/docs/0x-orderbook-api/api-references/get-orderbook-v1-order.md",
+  "sourceDirName": "0x-orderbook-api/api-references",
+  "slug": "/0x-orderbook-api/api-references/get-orderbook-v1-order",
+  "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-order",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-orderbook-api/api-references/get-orderbook-v1-order.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "GET /orderbook/v1/orders",
+    "sidebar_position": 2,
+    "description": "Learn how to use GET /orderbook/v1/"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/0x-orderbook-api/api-references/overview"
+  },
+  "next": {
+    "title": "GET /orderbook/v1/orders",
+    "permalink": "/0x-orderbook-api/api-references/get-orderbook-v1-orders"
+  }
+}

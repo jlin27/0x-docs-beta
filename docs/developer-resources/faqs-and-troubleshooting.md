@@ -73,6 +73,18 @@ Developers may note when analyzing their transactions that some subset of 0x ord
 
 ## 🔄 **0x API Swap**
 
+<details>
+
+<summary>Where can I get testnet funds? </summary>
+
+- [Goerli Faucet](https://goerlifaucet.com/)
+- [Goerli POW Faucet](https://goerli-faucet.pk910.de/)
+- [Paradigm MultiFaucet](https://faucet.paradigm.xyz/)
+    - Funds a wallet with ETH, WETH, DAI, and NFTS across 4 testnets
+- Also see our [Working in Testnet Guide](/0x-limit-orders/guides/working-in-the-testnet)
+
+</details>
+
 ### 📜 **About 0x API**
 
 <details>
@@ -175,6 +187,7 @@ This model ensures that we can continue to invest into long-term growth of our p
 If you would like to trade a custom token, you will need to create the liquidity either by using 0x limit orders or by creating a Liquidity Pool for your token on one of the various AMM sources that the API sources from, such as Uniswap, SushiSwap, or Curve. Learn more about creating limit order: [https://docs.0x.org/protocol/docs/exchange-proxy/features/nativeorders#limit-orders](https://docs.0x.org/protocol/docs/exchange-proxy/features/nativeorders#limit-orders)
 
 </details>
+
 
 ### 💻 **Parameter Questions**
 
