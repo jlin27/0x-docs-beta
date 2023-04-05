@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Repositories",
-    "permalink": "/developer-resources/repositories"
+    "title": "Contract Addresses",
+    "permalink": "/developer-resources/contract-addresses"
   },
   "next": {
     "title": "Audits",

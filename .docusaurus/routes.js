@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '8ca'),
+    component: ComponentCreator('/', 'f35'),
     routes: [
       {
         path: '/',
@@ -209,8 +209,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/0x-swap-api/api-references/get-swap-v1-source',
-        component: ComponentCreator('/0x-swap-api/api-references/get-swap-v1-source', '3d4'),
+        path: '/0x-swap-api/api-references/get-swap-v1-sources',
+        component: ComponentCreator('/0x-swap-api/api-references/get-swap-v1-sources', 'b0a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -239,8 +239,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/0x-swap-api/guides/troubleshooting-0x-api-swaps',
-        component: ComponentCreator('/0x-swap-api/guides/troubleshooting-0x-api-swaps', '52b'),
+        path: '/0x-swap-api/guides/troubleshooting-swap-api',
+        component: ComponentCreator('/0x-swap-api/guides/troubleshooting-swap-api', '3c9'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -305,12 +305,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/developer-resources/repositories',
-        component: ComponentCreator('/developer-resources/repositories', '706'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/developer-resources/white-paper',
         component: ComponentCreator('/developer-resources/white-paper', '0b5'),
         exact: true,
@@ -353,14 +347,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/market-makers/docs/providing-amm-liquidity-to-0x-api',
-        component: ComponentCreator('/market-makers/docs/providing-amm-liquidity-to-0x-api', 'c72'),
+        path: '/market-makers/docs/providing-amm-liquidity-to-swap-api',
+        component: ComponentCreator('/market-makers/docs/providing-amm-liquidity-to-swap-api', '111'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/market-makers/docs/providing-rfq-liquidity-to-0x-api',
-        component: ComponentCreator('/market-makers/docs/providing-rfq-liquidity-to-0x-api', '11a'),
+        path: '/market-makers/docs/providing-rfq-liquidity-to-swap-api',
+        component: ComponentCreator('/market-makers/docs/providing-rfq-liquidity-to-swap-api', '9b3'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -377,8 +371,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/market-makers/guides/rfq-orders-code-examples-with-python',
-        component: ComponentCreator('/market-makers/guides/rfq-orders-code-examples-with-python', '5b2'),
+        path: '/market-makers/guides/python-rfq-orders-code-examples',
+        component: ComponentCreator('/market-makers/guides/python-rfq-orders-code-examples', '4d9'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -1,7 +1,7 @@
 ---
 sidebar_label: Glossary
 sidebar_position: 1
-description: Glossary
+description: A list of commonly encountered terms when developing with 0x
 ---
 # 📘 Glossary
 
@@ -47,7 +47,7 @@ This is the first 4 bytes of the **call data** (see above) that determine which 
 
 ### **Impermanent Loss (IL)**
 
-When **** the two assets in a pool start to diverge drastically in price (one becomes relatively expensive compared to the other), liquidity pools incur an opportunity cost where they would be better off simply holding each asset, as opposed to providing liquidity to the pool. This is also known as **Divergence Loss**.
+When the two assets in a pool start to diverge drastically in price (one becomes relatively expensive compared to the other), liquidity pools incur an opportunity cost where they would be better off simply holding each asset, as opposed to providing liquidity to the pool. This is also known as **Divergence Loss**.
 
 ### Maker
 
@@ -59,7 +59,7 @@ Unlike other decentralized exchanges that function entirely on-chain, 0x does no
 
 ### **0x API**
 
-The **** 0x API is a collection of services and endpoints that sit on top of the 0x Protocol. It allows users to access aggregated liquidity from dozens of on-chain and off-chain decentralized exchange networks and across multiple blockchains. It comes with many parameters to customize your requests for your application and your users.
+The 0x API is a collection of services and endpoints that sit on top of the 0x Protocol. It allows users to access aggregated liquidity from dozens of on-chain and off-chain decentralized exchange networks and across multiple blockchains. It comes with many parameters to customize your requests for your application and your users.
 
 ### **0x DAO**
 
@@ -85,22 +85,19 @@ RFQT stands for "RFQ - Taker", which means it is the taker's responsibility to s
 
 #### RFQM
 
-Previously stood for "RFQ - Maker", but now RFQM stands for "RFQ - Metatransaction". In the case of Metatransactions, 0x will submit the transaction to chain, paying the gas cost.&#x20;
+Previously stood for "RFQ - Maker", but now RFQM stands for "RFQ - Metatransaction". In the case of Metatransactions, 0x will submit the transaction to chain, paying the gas cost.
 
 ### Slippage
 
 The price difference between when a transaction is submitted and when the transaction is confirmed on the blockchain.
 
-This occurs because AMMs price their assets along bonding curves that are a function of the size of the relative amounts of each asset, and this price can change if the relative trade size is large. \
+This occurs because AMMs price their assets along bonding curves that are a function of the size of the relative amounts of each asset, and this price can change if the relative trade size is large. 
 
 
 ### Smart Order Routing
 
-The 0x API helps users get the best price on their swap via Smart Order Routing splits a fill up up across the different sources to maximize the overall return on your swap. Checkout [this article ](https://blog.0xproject.com/0x-apis-smart-order-routing-7af0195515e5)for details on how it works.&#x20;
+The 0x API helps users get the best price on their swap via Smart Order Routing splits a fill up up across the different sources to maximize the overall return on your swap. Checkout [this article ](https://blog.0xproject.com/0x-apis-smart-order-routing-7af0195515e5)for details on how it works.
 
 ### Taker
 
-This is the Demand side of the the ecosystem. Takers fill 0x orders by agreeing to trade their asset for the Maker's asset; in other words, _consume the 0x liquidity_. Examples of Takers include Metamask, Coinbase, Zapper, dydx, Matcha, etc. &#x20;
-
-
-****
+This is the Demand side of the the ecosystem. Takers fill 0x orders by agreeing to trade their asset for the Maker's asset; in other words, _consume the 0x liquidity_. Examples of Takers include Metamask, Coinbase, Zapper, dydx, Matcha, etc. 

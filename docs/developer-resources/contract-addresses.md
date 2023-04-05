@@ -6,8 +6,8 @@ description: A list of commonly used 0x protocol contract addresses
 
 # 📃 Contract Addresses
 
-For JavaScript/TypeScript developers, we publish the [@0x/contract-addresses](https://www.npmjs.com/package/@0x/contract-addresses) package to NPM with all these addresses.\
-\
+For JavaScript/TypeScript developers, we publish the [@0x/contract-addresses](https://www.npmjs.com/package/@0x/contract-addresses) package to NPM with all these addresses.
+
 You can find the full list of addresses here: [https://github.com/0xProject/protocol/blob/development/packages/contract-addresses/addresses.json](https://github.com/0xProject/protocol/blob/development/packages/contract-addresses/addresses.json)
 
 ## 0x v4

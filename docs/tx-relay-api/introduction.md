@@ -31,9 +31,8 @@ The Tx Relay API abstracts away the complexities related to approvals, allowance
 
 ### Gasless Approval + Tx Relay Happy Path
 
-[![Click here to expand the image]](/img/tx-relay-api/gasless-approval-tx-relay.png)
-[Click here to expand the image:]: /img/tx-relay-api/gasless-approval-tx-relay.png
- <img src="/img/tx-relay-api/gasless-approval-tx-relay.png" alt="" data-size="original"></img>
+Below is an image showing the ideal path when implementing both gasless approvals and Tx Relay. 
+[![Click here to expand the image]](/img/tx-relay-api/gasless-approval-tx-relay.png)<img src="/img/tx-relay-api/gasless-approval-tx-relay.png" alt="" data-size="original"></img>
 
  ### Learn More
 

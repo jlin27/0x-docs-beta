@@ -24,6 +24,6 @@
   },
   "next": {
     "title": "GET /swap/v1/sources",
-    "permalink": "/0x-swap-api/api-references/get-swap-v1-source"
+    "permalink": "/0x-swap-api/api-references/get-swap-v1-sources"
   }
 }

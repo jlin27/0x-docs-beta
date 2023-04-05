@@ -92,8 +92,8 @@
               {
                 "type": "link",
                 "label": "GET /swap/v1/sources",
-                "href": "/0x-swap-api/api-references/get-swap-v1-source",
-                "docId": "0x-swap-api/api-references/get-swap-v1-source"
+                "href": "/0x-swap-api/api-references/get-swap-v1-sources",
+                "docId": "0x-swap-api/api-references/get-swap-v1-sources"
               }
             ]
           },
@@ -130,8 +130,8 @@
               {
                 "type": "link",
                 "label": "Troubleshooting Swap API",
-                "href": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
-                "docId": "0x-swap-api/guides/troubleshooting-0x-api-swaps"
+                "href": "/0x-swap-api/guides/troubleshooting-swap-api",
+                "docId": "0x-swap-api/guides/troubleshooting-swap-api"
               }
             ]
           },
@@ -425,15 +425,15 @@
               },
               {
                 "type": "link",
-                "label": "Providing RFQ liquidity to 0x API",
-                "href": "/market-makers/docs/providing-rfq-liquidity-to-0x-api",
-                "docId": "market-makers/docs/providing-rfq-liquidity-to-0x-api"
+                "label": "Providing RFQ liquidity to Swap API",
+                "href": "/market-makers/docs/providing-rfq-liquidity-to-swap-api",
+                "docId": "market-makers/docs/providing-rfq-liquidity-to-swap-api"
               },
               {
                 "type": "link",
                 "label": "Providing AMM Liquidity to 0x API",
-                "href": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
-                "docId": "market-makers/docs/providing-amm-liquidity-to-0x-api"
+                "href": "/market-makers/docs/providing-amm-liquidity-to-swap-api",
+                "docId": "market-makers/docs/providing-amm-liquidity-to-swap-api"
               }
             ]
           },
@@ -457,9 +457,9 @@
               },
               {
                 "type": "link",
-                "label": "0x v4 RFQ Orders Code Examples with Python",
-                "href": "/market-makers/guides/rfq-orders-code-examples-with-python",
-                "docId": "market-makers/guides/rfq-orders-code-examples-with-python"
+                "label": "Python RFQ Orders Code Examples",
+                "href": "/market-makers/guides/python-rfq-orders-code-examples",
+                "docId": "market-makers/guides/python-rfq-orders-code-examples"
               }
             ]
           }
@@ -488,12 +488,6 @@
             "label": "Contract Addresses",
             "href": "/developer-resources/contract-addresses",
             "docId": "developer-resources/contract-addresses"
-          },
-          {
-            "type": "link",
-            "label": "Repositories",
-            "href": "/developer-resources/repositories",
-            "docId": "developer-resources/repositories"
           },
           {
             "type": "link",
@@ -687,8 +681,8 @@
       "description": "Learn how to use GET /swap/v1/quote",
       "sidebar": "tutorialSidebar"
     },
-    "0x-swap-api/api-references/get-swap-v1-source": {
-      "id": "0x-swap-api/api-references/get-swap-v1-source",
+    "0x-swap-api/api-references/get-swap-v1-sources": {
+      "id": "0x-swap-api/api-references/get-swap-v1-sources",
       "title": "GET /swap/v1/sources",
       "description": "Learn how to use GET /swap/v1/sources",
       "sidebar": "tutorialSidebar"
@@ -717,8 +711,8 @@
       "description": "This article will guide you through plugging into Swap API and programmatically executing a trade.",
       "sidebar": "tutorialSidebar"
     },
-    "0x-swap-api/guides/troubleshooting-0x-api-swaps": {
-      "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
+    "0x-swap-api/guides/troubleshooting-swap-api": {
+      "id": "0x-swap-api/guides/troubleshooting-swap-api",
       "title": "Troubleshooting Swap API",
       "description": "Addressing common issues that come up with Swap API.",
       "sidebar": "tutorialSidebar"
@@ -768,19 +762,13 @@
     "developer-resources/glossary": {
       "id": "developer-resources/glossary",
       "title": "📘 Glossary",
-      "description": "Glossary",
+      "description": "A list of commonly encountered terms when developing with 0x",
       "sidebar": "tutorialSidebar"
     },
     "developer-resources/how-to-get-0x-and-matcha-data": {
       "id": "developer-resources/how-to-get-0x-and-matcha-data",
       "title": "📊 How to Get 0x and Matcha Data",
       "description": "With Existing Tools and Resources",
-      "sidebar": "tutorialSidebar"
-    },
-    "developer-resources/repositories": {
-      "id": "developer-resources/repositories",
-      "title": "🐙 Repositories",
-      "description": "Repositories",
       "sidebar": "tutorialSidebar"
     },
     "developer-resources/white-paper": {
@@ -831,16 +819,16 @@
       "description": "This section is for (i) Professional Market-makers interested in supplying liquidity via the 0x RFQ system, and (ii) Integrators who would like to access RFQ liquidity, via /swap",
       "sidebar": "tutorialSidebar"
     },
-    "market-makers/docs/providing-amm-liquidity-to-0x-api": {
-      "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
+    "market-makers/docs/providing-amm-liquidity-to-swap-api": {
+      "id": "market-makers/docs/providing-amm-liquidity-to-swap-api",
       "title": "Providing AMM liquidity to 0x API",
       "description": "Providing AMM Liquidity to 0x API",
       "sidebar": "tutorialSidebar"
     },
-    "market-makers/docs/providing-rfq-liquidity-to-0x-api": {
-      "id": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
-      "title": "Providing RFQ liquidity to 0x API",
-      "description": "Providing RFQ liquidity to 0x API",
+    "market-makers/docs/providing-rfq-liquidity-to-swap-api": {
+      "id": "market-makers/docs/providing-rfq-liquidity-to-swap-api",
+      "title": "Providing RFQ liquidity to Swap API",
+      "description": "Providing RFQ liquidity to Swap API",
       "sidebar": "tutorialSidebar"
     },
     "market-makers/docs/rfq-order-structure": {
@@ -855,10 +843,10 @@
       "description": "In this guide, we cover how to use @0x/protocol-utils to generate 0x Order Hashes",
       "sidebar": "tutorialSidebar"
     },
-    "market-makers/guides/rfq-orders-code-examples-with-python": {
-      "id": "market-makers/guides/rfq-orders-code-examples-with-python",
+    "market-makers/guides/python-rfq-orders-code-examples": {
+      "id": "market-makers/guides/python-rfq-orders-code-examples",
       "title": "Python RFQ Orders Code Examples",
-      "description": "0x v4 RFQ Orders Code Examples with Python",
+      "description": "Python RFQ Orders Code Examples",
       "sidebar": "tutorialSidebar"
     },
     "market-makers/guides/signing-0x-orders": {

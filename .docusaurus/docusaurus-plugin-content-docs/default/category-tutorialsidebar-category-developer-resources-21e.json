@@ -5,8 +5,8 @@
   "permalink": "/category/developer-resources",
   "navigation": {
     "previous": {
-      "title": "0x v4 RFQ Orders Code Examples with Python",
-      "permalink": "/market-makers/guides/rfq-orders-code-examples-with-python"
+      "title": "Python RFQ Orders Code Examples",
+      "permalink": "/market-makers/guides/python-rfq-orders-code-examples"
     },
     "next": {
       "title": "Glossary",

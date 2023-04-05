@@ -23,7 +23,7 @@
     "permalink": "/market-makers/docs/introduction"
   },
   "next": {
-    "title": "Providing RFQ liquidity to 0x API",
-    "permalink": "/market-makers/docs/providing-rfq-liquidity-to-0x-api"
+    "title": "Providing RFQ liquidity to Swap API",
+    "permalink": "/market-makers/docs/providing-rfq-liquidity-to-swap-api"
   }
 }

@@ -2,7 +2,7 @@
   "unversionedId": "developer-resources/glossary",
   "id": "developer-resources/glossary",
   "title": "📘 Glossary",
-  "description": "Glossary",
+  "description": "A list of commonly encountered terms when developing with 0x",
   "source": "@site/docs/developer-resources/glossary.md",
   "sourceDirName": "developer-resources",
   "slug": "/developer-resources/glossary",
@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_label": "Glossary",
     "sidebar_position": 1,
-    "description": "Glossary"
+    "description": "A list of commonly encountered terms when developing with 0x"
   },
   "sidebar": "tutorialSidebar",
   "previous": {

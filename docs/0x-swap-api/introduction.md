@@ -67,7 +67,7 @@ This section contains the following docs and guides
 
 #### API References
 
-* [API References Overview](/0x-swap-api/api-references/intro)
+* [API References Overview](/0x-swap-api/api-references/overview)
 * [GET /swap/v1/quote](/0x-swap-api/api-references/get-swap-v1-quote)
 * [GET /swap/v1/price](/0x-swap-api/api-references/get-swap-v1-price)
 * [GET /swap/v1/source](/0x-swap-api/api-references/get-swap-v1-source)

@@ -731,7 +731,7 @@
               },
               "next": {
                 "title": "GET /swap/v1/sources",
-                "permalink": "/0x-swap-api/api-references/get-swap-v1-source"
+                "permalink": "/0x-swap-api/api-references/get-swap-v1-sources"
               }
             },
             {
@@ -764,16 +764,16 @@
               }
             },
             {
-              "unversionedId": "0x-swap-api/api-references/get-swap-v1-source",
-              "id": "0x-swap-api/api-references/get-swap-v1-source",
+              "unversionedId": "0x-swap-api/api-references/get-swap-v1-sources",
+              "id": "0x-swap-api/api-references/get-swap-v1-sources",
               "title": "GET /swap/v1/sources",
               "description": "Learn how to use GET /swap/v1/sources",
-              "source": "@site/docs/0x-swap-api/api-references/get-swap-v1-source.md",
+              "source": "@site/docs/0x-swap-api/api-references/get-swap-v1-sources.md",
               "sourceDirName": "0x-swap-api/api-references",
-              "slug": "/0x-swap-api/api-references/get-swap-v1-source",
-              "permalink": "/0x-swap-api/api-references/get-swap-v1-source",
+              "slug": "/0x-swap-api/api-references/get-swap-v1-sources",
+              "permalink": "/0x-swap-api/api-references/get-swap-v1-sources",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/get-swap-v1-source.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/api-references/get-swap-v1-sources.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -845,7 +845,7 @@
               },
               "next": {
                 "title": "Troubleshooting Swap API",
-                "permalink": "/0x-swap-api/guides/troubleshooting-0x-api-swaps"
+                "permalink": "/0x-swap-api/guides/troubleshooting-swap-api"
               }
             },
             {
@@ -906,16 +906,16 @@
               }
             },
             {
-              "unversionedId": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
-              "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
+              "unversionedId": "0x-swap-api/guides/troubleshooting-swap-api",
+              "id": "0x-swap-api/guides/troubleshooting-swap-api",
               "title": "Troubleshooting Swap API",
               "description": "Addressing common issues that come up with Swap API.",
-              "source": "@site/docs/0x-swap-api/guides/troubleshooting-0x-api-swaps.md",
+              "source": "@site/docs/0x-swap-api/guides/troubleshooting-swap-api.md",
               "sourceDirName": "0x-swap-api/guides",
-              "slug": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
-              "permalink": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
+              "slug": "/0x-swap-api/guides/troubleshooting-swap-api",
+              "permalink": "/0x-swap-api/guides/troubleshooting-swap-api",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/troubleshooting-0x-api-swaps.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/troubleshooting-swap-api.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -1101,8 +1101,8 @@
                 "permalink": "/developer-resources/faqs-and-troubleshooting"
               },
               "next": {
-                "title": "Repositories",
-                "permalink": "/developer-resources/repositories"
+                "title": "How to Get 0x and Matcha Data",
+                "permalink": "/developer-resources/how-to-get-0x-and-matcha-data"
               }
             },
             {
@@ -1138,7 +1138,7 @@
               "unversionedId": "developer-resources/glossary",
               "id": "developer-resources/glossary",
               "title": "📘 Glossary",
-              "description": "Glossary",
+              "description": "A list of commonly encountered terms when developing with 0x",
               "source": "@site/docs/developer-resources/glossary.md",
               "sourceDirName": "developer-resources",
               "slug": "/developer-resources/glossary",
@@ -1151,7 +1151,7 @@
               "frontMatter": {
                 "sidebar_label": "Glossary",
                 "sidebar_position": 1,
-                "description": "Glossary"
+                "description": "A list of commonly encountered terms when developing with 0x"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -1184,41 +1184,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Repositories",
-                "permalink": "/developer-resources/repositories"
-              },
-              "next": {
-                "title": "Audits",
-                "permalink": "/developer-resources/audits"
-              }
-            },
-            {
-              "unversionedId": "developer-resources/repositories",
-              "id": "developer-resources/repositories",
-              "title": "🐙 Repositories",
-              "description": "Repositories",
-              "source": "@site/docs/developer-resources/repositories.md",
-              "sourceDirName": "developer-resources",
-              "slug": "/developer-resources/repositories",
-              "permalink": "/developer-resources/repositories",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer-resources/repositories.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_label": "Repositories",
-                "sidebar_position": 4,
-                "description": "Repositories"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
                 "title": "Contract Addresses",
                 "permalink": "/developer-resources/contract-addresses"
               },
               "next": {
-                "title": "How to Get 0x and Matcha Data",
-                "permalink": "/developer-resources/how-to-get-0x-and-matcha-data"
+                "title": "Audits",
+                "permalink": "/developer-resources/audits"
               }
             },
             {
@@ -1448,16 +1419,16 @@
               }
             },
             {
-              "unversionedId": "market-makers/docs/providing-amm-liquidity-to-0x-api",
-              "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
+              "unversionedId": "market-makers/docs/providing-amm-liquidity-to-swap-api",
+              "id": "market-makers/docs/providing-amm-liquidity-to-swap-api",
               "title": "Providing AMM liquidity to 0x API",
               "description": "Providing AMM Liquidity to 0x API",
-              "source": "@site/docs/market-makers/docs/providing-amm-liquidity-to-0x-api.md",
+              "source": "@site/docs/market-makers/docs/providing-amm-liquidity-to-swap-api.md",
               "sourceDirName": "market-makers/docs",
-              "slug": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
-              "permalink": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
+              "slug": "/market-makers/docs/providing-amm-liquidity-to-swap-api",
+              "permalink": "/market-makers/docs/providing-amm-liquidity-to-swap-api",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/docs/providing-amm-liquidity-to-0x-api.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/docs/providing-amm-liquidity-to-swap-api.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -1468,31 +1439,31 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Providing RFQ liquidity to 0x API",
-                "permalink": "/market-makers/docs/providing-rfq-liquidity-to-0x-api"
+                "title": "Providing RFQ liquidity to Swap API",
+                "permalink": "/market-makers/docs/providing-rfq-liquidity-to-swap-api"
               },
               "next": {
                 "title": "Guides"
               }
             },
             {
-              "unversionedId": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
-              "id": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
-              "title": "Providing RFQ liquidity to 0x API",
-              "description": "Providing RFQ liquidity to 0x API",
-              "source": "@site/docs/market-makers/docs/providing-rfq-liquidity-to-0x-api.md",
+              "unversionedId": "market-makers/docs/providing-rfq-liquidity-to-swap-api",
+              "id": "market-makers/docs/providing-rfq-liquidity-to-swap-api",
+              "title": "Providing RFQ liquidity to Swap API",
+              "description": "Providing RFQ liquidity to Swap API",
+              "source": "@site/docs/market-makers/docs/providing-rfq-liquidity-to-swap-api.md",
               "sourceDirName": "market-makers/docs",
-              "slug": "/market-makers/docs/providing-rfq-liquidity-to-0x-api",
-              "permalink": "/market-makers/docs/providing-rfq-liquidity-to-0x-api",
+              "slug": "/market-makers/docs/providing-rfq-liquidity-to-swap-api",
+              "permalink": "/market-makers/docs/providing-rfq-liquidity-to-swap-api",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/docs/providing-rfq-liquidity-to-0x-api.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/docs/providing-rfq-liquidity-to-swap-api.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_label": "Providing RFQ liquidity to 0x API",
+                "sidebar_label": "Providing RFQ liquidity to Swap API",
                 "sidebar_position": 3,
-                "description": "Providing RFQ liquidity to 0x API"
+                "description": "Providing RFQ liquidity to Swap API"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -1501,7 +1472,7 @@
               },
               "next": {
                 "title": "Providing AMM Liquidity to 0x API",
-                "permalink": "/market-makers/docs/providing-amm-liquidity-to-0x-api"
+                "permalink": "/market-makers/docs/providing-amm-liquidity-to-swap-api"
               }
             },
             {
@@ -1529,8 +1500,8 @@
                 "permalink": "/market-makers/docs/introduction"
               },
               "next": {
-                "title": "Providing RFQ liquidity to 0x API",
-                "permalink": "/market-makers/docs/providing-rfq-liquidity-to-0x-api"
+                "title": "Providing RFQ liquidity to Swap API",
+                "permalink": "/market-makers/docs/providing-rfq-liquidity-to-swap-api"
               }
             },
             {
@@ -1562,23 +1533,23 @@
               }
             },
             {
-              "unversionedId": "market-makers/guides/rfq-orders-code-examples-with-python",
-              "id": "market-makers/guides/rfq-orders-code-examples-with-python",
+              "unversionedId": "market-makers/guides/python-rfq-orders-code-examples",
+              "id": "market-makers/guides/python-rfq-orders-code-examples",
               "title": "Python RFQ Orders Code Examples",
-              "description": "0x v4 RFQ Orders Code Examples with Python",
-              "source": "@site/docs/market-makers/guides/rfq-orders-code-examples-with-python.md",
+              "description": "Python RFQ Orders Code Examples",
+              "source": "@site/docs/market-makers/guides/python-rfq-orders-code-examples.md",
               "sourceDirName": "market-makers/guides",
-              "slug": "/market-makers/guides/rfq-orders-code-examples-with-python",
-              "permalink": "/market-makers/guides/rfq-orders-code-examples-with-python",
+              "slug": "/market-makers/guides/python-rfq-orders-code-examples",
+              "permalink": "/market-makers/guides/python-rfq-orders-code-examples",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/guides/rfq-orders-code-examples-with-python.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/market-makers/guides/python-rfq-orders-code-examples.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_label": "0x v4 RFQ Orders Code Examples with Python",
+                "sidebar_label": "Python RFQ Orders Code Examples",
                 "sidebar_position": 3,
-                "description": "0x v4 RFQ Orders Code Examples with Python"
+                "description": "Python RFQ Orders Code Examples"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -1615,8 +1586,8 @@
                 "permalink": "/market-makers/guides/generating-0x-order-hashes"
               },
               "next": {
-                "title": "0x v4 RFQ Orders Code Examples with Python",
-                "permalink": "/market-makers/guides/rfq-orders-code-examples-with-python"
+                "title": "Python RFQ Orders Code Examples",
+                "permalink": "/market-makers/guides/python-rfq-orders-code-examples"
               }
             },
             {
@@ -1955,7 +1926,7 @@
                       },
                       {
                         "type": "doc",
-                        "id": "0x-swap-api/api-references/get-swap-v1-source",
+                        "id": "0x-swap-api/api-references/get-swap-v1-sources",
                         "label": "GET /swap/v1/sources"
                       }
                     ],
@@ -1991,7 +1962,7 @@
                       },
                       {
                         "type": "doc",
-                        "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
+                        "id": "0x-swap-api/guides/troubleshooting-swap-api",
                         "label": "Troubleshooting Swap API"
                       }
                     ],
@@ -2281,12 +2252,12 @@
                       },
                       {
                         "type": "doc",
-                        "id": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
-                        "label": "Providing RFQ liquidity to 0x API"
+                        "id": "market-makers/docs/providing-rfq-liquidity-to-swap-api",
+                        "label": "Providing RFQ liquidity to Swap API"
                       },
                       {
                         "type": "doc",
-                        "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
+                        "id": "market-makers/docs/providing-amm-liquidity-to-swap-api",
                         "label": "Providing AMM Liquidity to 0x API"
                       }
                     ],
@@ -2312,8 +2283,8 @@
                       },
                       {
                         "type": "doc",
-                        "id": "market-makers/guides/rfq-orders-code-examples-with-python",
-                        "label": "0x v4 RFQ Orders Code Examples with Python"
+                        "id": "market-makers/guides/python-rfq-orders-code-examples",
+                        "label": "Python RFQ Orders Code Examples"
                       }
                     ],
                     "link": {
@@ -2345,11 +2316,6 @@
                     "type": "doc",
                     "id": "developer-resources/contract-addresses",
                     "label": "Contract Addresses"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "developer-resources/repositories",
-                    "label": "Repositories"
                   },
                   {
                     "type": "doc",

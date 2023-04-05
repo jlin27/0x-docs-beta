@@ -141,8 +141,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "0x-swap-api/api-references/get-swap-v1-source",
-              "path": "/0x-swap-api/api-references/get-swap-v1-source",
+              "id": "0x-swap-api/api-references/get-swap-v1-sources",
+              "path": "/0x-swap-api/api-references/get-swap-v1-sources",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -166,8 +166,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "0x-swap-api/guides/troubleshooting-0x-api-swaps",
-              "path": "/0x-swap-api/guides/troubleshooting-0x-api-swaps",
+              "id": "0x-swap-api/guides/troubleshooting-swap-api",
+              "path": "/0x-swap-api/guides/troubleshooting-swap-api",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -216,11 +216,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "developer-resources/repositories",
-              "path": "/developer-resources/repositories",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "developer-resources/white-paper",
               "path": "/developer-resources/white-paper",
               "sidebar": "tutorialSidebar"
@@ -261,13 +256,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "market-makers/docs/providing-amm-liquidity-to-0x-api",
-              "path": "/market-makers/docs/providing-amm-liquidity-to-0x-api",
+              "id": "market-makers/docs/providing-amm-liquidity-to-swap-api",
+              "path": "/market-makers/docs/providing-amm-liquidity-to-swap-api",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "market-makers/docs/providing-rfq-liquidity-to-0x-api",
-              "path": "/market-makers/docs/providing-rfq-liquidity-to-0x-api",
+              "id": "market-makers/docs/providing-rfq-liquidity-to-swap-api",
+              "path": "/market-makers/docs/providing-rfq-liquidity-to-swap-api",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -281,8 +276,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "market-makers/guides/rfq-orders-code-examples-with-python",
-              "path": "/market-makers/guides/rfq-orders-code-examples-with-python",
+              "id": "market-makers/guides/python-rfq-orders-code-examples",
+              "path": "/market-makers/guides/python-rfq-orders-code-examples",
               "sidebar": "tutorialSidebar"
             },
             {

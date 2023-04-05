@@ -8,7 +8,7 @@ description:  In this guide, we discuss how to use @0x/protocol-utils or ethers.
 
 At the heart of 0x Orders are signatures that authorize the 0x smart contracts to perform swaps on behalf of signers.
 
-Whether you are posting Limit Orders to the [Orderbook API](/0x-orderbook-api/introduction) and [Providing RFQ Liquidity to the 0x API ](/market-makers/docs/providing-rfq-liquidity-to-0x-api)- you will need to sign a 0x order.
+Whether you are posting Limit Orders to the [Orderbook API](/0x-orderbook-api/introduction) and [Providing RFQ Liquidity to the 0x API ](/market-makers/docs/providing-rfq-liquidity-to-swap-api)- you will need to sign a 0x order.
 
 ### What am I signing?
 
@@ -62,7 +62,7 @@ const signature = await order.getSignatureWithKey(
 
 ### Signing 0x Orders with Ethers.js
 
-Ethers.js is a popular open source library that makes it easy to interact with EVM based chains. We can also use Ethers.js to sign orders.&#x20;
+Ethers.js is a popular open source library that makes it easy to interact with EVM based chains. We can also use Ethers.js to sign orders.
 
 Assuming you have the order hash, you may do the following:
 
