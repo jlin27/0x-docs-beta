@@ -14,14 +14,22 @@ slug: /
 
 We offer a fully integrated suite of APIs that help you quickly build, launch, and scale your financial products. 
 
-#### New to 0x?
+## New to 0x?
 
 We recommend starting off with an [Introduction to 0x](/introduction/introduction-to-0x). 
 
-#### Get Started building
+## Get Started building
+
 - [Swap API](/0x-swap-api/introduction)
-- Tx Relay API
+    - Access efficient liquidty for powering token swaps
+- [Tx Relay API](/tx-relay-api/introduction)
+    - Power seamless UX with gasless trades
 - [Orderbook API](0x-orderbook-api/introduction)
-- [Limit Orders (Advanced Traders)](/0x-limit-orders/docs/introduction)
+    - Power limit orders in your applications
+- [0x Limit Orders (Advanced Traders)](/0x-limit-orders/docs/introduction)
+    - Learn how to fill and manage 0x Limit Orders
 - [Market Makers](/market-makers/docs/introduction)
+    - Resources for Professional Market Makers providing RFQ and AMM liquidity
 - [Dev Resources](/category/developer-resources)
+    - Glossary, FAQs & Troubleshooting, Audits, Bounties, Legal Guide, White Paper
+

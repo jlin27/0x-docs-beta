@@ -30,6 +30,9 @@ The best executed price is the price users receive that’s inclusive of gas fee
 
 Without Slippage Protection, the user is routed to Liquidity Source A because it offers the best quoted price. However, if Slippage Protection is enabled, 0x API’s smart order routing instead attempts to maximize the executed price, so the user is routed to Liquidity Source B instead.
 
+![best executed price](/img/0x-swap-api/slippage-protection-executed-price.png)
+*Without Slippage Protection, the user is routed to Liquidity Source A because it offers the best quoted price. However, if Slippage Protection is enabled, 0x API’s smart order routing instead attempts to maximize the executed price, so the user is routed to Liquidity Source B instead.*
+
 ## Why did we launch Slippage Protection ?
 
 Over the past couple of years, we’ve seen significant growth in adoption of DeFi products. In 2021 alone, DEXes reported more than $1 trillion in trading volume. While this volume growth has been incredible, we’ve also seen millions of dollars lost to MEV. Since 2020, bots have extracted [over $650M](https://explore.flashbots.net/) from DEX users. These losses typically manifest as slippage, which is only visible after trade settlement (i.e. after the trade has been mined into a block). Slippage is typically left unreported to the afflicted user.
@@ -38,6 +41,7 @@ Over the past couple of years, we’ve seen significant growth in adoption of De
 
 Slippage Protection ingests slippage measurements and their statistical properties to model and predict slippage outcomes for different liquidity sources, trading pairs, and trade sizes. These model predictions are then incorporated into 0x API’s smart order routing to identify the route(s) expected to yield the best executed price. The result is a more transparent and consistently better executed price than what users encounter today in wallets and DeFi applications.
 
+![how slippage protection works](/img/0x-swap-api/how-slippage-protection-works.png)
 
 In April 2022, we published a [research piece](https://blog.0x.org/measuring-the-impact-of-hidden-dex-costs/) that shows the extent of slippage experienced by DEX users and in which circumstances slippage is more likely to occur. We leveraged this research to develop Slippage Protection and protect users against slippage. The data we collected gives us the ability to measure and predict slippage from different liquidity sources, we then incorporate those predictions into our smart order routing. Over time, Slippage Protection will continue to evolve with more data sets and the algorithm will improve.
 

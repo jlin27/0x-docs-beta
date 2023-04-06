@@ -11,10 +11,10 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/troubleshooting-swap-api.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_label": "Troubleshooting Swap API",
-    "sidebar_position": 4,
+    "sidebar_position": 5,
     "description": "Addressing common issues that come up with Swap API."
   },
   "sidebar": "tutorialSidebar",
@@ -23,6 +23,7 @@
     "permalink": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api"
   },
   "next": {
-    "title": "Advanced Topics"
+    "title": "Working in the Testnet",
+    "permalink": "/0x-swap-api/guides/working-in-the-testnet"
   }
 }

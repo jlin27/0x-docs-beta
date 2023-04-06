@@ -132,6 +132,12 @@
                 "label": "Troubleshooting Swap API",
                 "href": "/0x-swap-api/guides/troubleshooting-swap-api",
                 "docId": "0x-swap-api/guides/troubleshooting-swap-api"
+              },
+              {
+                "type": "link",
+                "label": "Working in the Testnet",
+                "href": "/0x-swap-api/guides/working-in-the-testnet",
+                "docId": "0x-swap-api/guides/working-in-the-testnet"
               }
             ]
           },
@@ -721,6 +727,12 @@
       "id": "0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts",
       "title": "Use 0x API Liquidity in Your Smart Contracts",
       "description": "Use 0x API Liquidity in Your Smart Contracts",
+      "sidebar": "tutorialSidebar"
+    },
+    "0x-swap-api/guides/working-in-the-testnet": {
+      "id": "0x-swap-api/guides/working-in-the-testnet",
+      "title": "Working in the Testnet",
+      "description": "Learn about working in the testnet",
       "sidebar": "tutorialSidebar"
     },
     "0x-swap-api/introduction": {

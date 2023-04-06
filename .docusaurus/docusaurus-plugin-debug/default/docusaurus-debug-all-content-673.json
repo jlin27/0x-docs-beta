@@ -918,10 +918,10 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/troubleshooting-swap-api.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_label": "Troubleshooting Swap API",
-                "sidebar_position": 4,
+                "sidebar_position": 5,
                 "description": "Addressing common issues that come up with Swap API."
               },
               "sidebar": "tutorialSidebar",
@@ -930,7 +930,8 @@
                 "permalink": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api"
               },
               "next": {
-                "title": "Advanced Topics"
+                "title": "Working in the Testnet",
+                "permalink": "/0x-swap-api/guides/working-in-the-testnet"
               }
             },
             {
@@ -960,6 +961,34 @@
               "next": {
                 "title": "Accessing RFQ liquidity on 0x API",
                 "permalink": "/0x-swap-api/guides/accessing-rfq-liquidity-on-0x-api"
+              }
+            },
+            {
+              "unversionedId": "0x-swap-api/guides/working-in-the-testnet",
+              "id": "0x-swap-api/guides/working-in-the-testnet",
+              "title": "Working in the Testnet",
+              "description": "Learn about working in the testnet",
+              "source": "@site/docs/0x-swap-api/guides/working-in-the-testnet.md",
+              "sourceDirName": "0x-swap-api/guides",
+              "slug": "/0x-swap-api/guides/working-in-the-testnet",
+              "permalink": "/0x-swap-api/guides/working-in-the-testnet",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/0x-swap-api/guides/working-in-the-testnet.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_label": "Working in the Testnet",
+                "sidebar_position": 6,
+                "description": "Learn about working in the testnet"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Troubleshooting Swap API",
+                "permalink": "/0x-swap-api/guides/troubleshooting-swap-api"
+              },
+              "next": {
+                "title": "Advanced Topics"
               }
             },
             {
@@ -1964,6 +1993,11 @@
                         "type": "doc",
                         "id": "0x-swap-api/guides/troubleshooting-swap-api",
                         "label": "Troubleshooting Swap API"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "0x-swap-api/guides/working-in-the-testnet",
+                        "label": "Working in the Testnet"
                       }
                     ],
                     "link": {

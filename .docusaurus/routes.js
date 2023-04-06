@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f35'),
+    component: ComponentCreator('/', '899'),
     routes: [
       {
         path: '/',
@@ -247,6 +247,12 @@ export default [
       {
         path: '/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts',
         component: ComponentCreator('/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts', '006'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/0x-swap-api/guides/working-in-the-testnet',
+        component: ComponentCreator('/0x-swap-api/guides/working-in-the-testnet', '12a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

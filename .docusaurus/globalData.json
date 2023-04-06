@@ -176,6 +176,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "0x-swap-api/guides/working-in-the-testnet",
+              "path": "/0x-swap-api/guides/working-in-the-testnet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "0x-swap-api/introduction",
               "path": "/0x-swap-api/introduction",
               "sidebar": "tutorialSidebar"

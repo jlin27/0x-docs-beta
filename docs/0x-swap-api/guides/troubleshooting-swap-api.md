@@ -1,6 +1,6 @@
 ---
 sidebar_label: Troubleshooting Swap API
-sidebar_position: 4
+sidebar_position: 5
 description: Addressing common issues that come up with Swap API.
 ---
 

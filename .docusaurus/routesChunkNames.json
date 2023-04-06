@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-f35": {
+  "/-899": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---88-e-ce4"
@@ -191,6 +191,10 @@
   "/0x-swap-api/guides/use-0x-api-liquidity-in-your-smart-contracts-006": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---0-x-swap-api-guides-use-0-x-api-liquidity-in-your-smart-contracts-659-baa"
+  },
+  "/0x-swap-api/guides/working-in-the-testnet-12a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---0-x-swap-api-guides-working-in-the-testnetb-53-eac"
   },
   "/0x-swap-api/introduction-827": {
     "__comp": "__comp---theme-doc-item-178-a40",

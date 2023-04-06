@@ -8,6 +8,14 @@ description: Learn about working in the testnet
 
 Swap API and 0x Protocol can be accessed on the Goerli testnet, or by forking Ethereum mainnet into your own testnet.
 
+This page includes:
+
+* [API and tokens available on Goerli](/0x-swap-api/guides/working-in-the-testnet#using-swap-api-on-)
+* [Getting Testnet Funds](/0x-swap-api/guides/working-in-the-testnet#getting-testnet-funds)
+* [Code Example - Performing a Swap on Goerli](/0x-swap-api/guides/working-in-the-testnet#code-example---performing-a-swap-on-)
+* [Forking Mainnet Ethereum](/0x-swap-api/guides/working-in-the-testnet#forking-mainnet-ethereum)
+
+
 ### Using Swap API on Goerli
 
 A hosted 0x API for the Goerli testnet is available at [https://goerli.api.0x.org/](https://goerli.api.0x.org/) which offers a subset of DEX sources available on Ethereum mainnet.
@@ -32,7 +40,7 @@ Note that for some sources, we've noticed that only certain pairs are deployed. 
 - [Paradigm MultiFaucet](https://faucet.paradigm.xyz/)
     - Funds a wallet with ETH, WETH, DAI, and NFTS across 4 testnets
 
-#### Performing a swap on Goerli
+### Code Example - Performing a Swap on Goerli
 
 For general information about the /swap endpoints see [Swap API](/0x-swap-api/introduction).
 
@@ -52,6 +60,7 @@ _Instructions to use the CodePen:_
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 </div>
+
 
 #### Interacting with Limit Orders on Goerli
 
