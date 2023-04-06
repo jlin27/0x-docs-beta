@@ -44,11 +44,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '899'),
+    component: ComponentCreator('/', 'bce'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '212'),
+        component: ComponentCreator('/', 'a94'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
